@@ -1,0 +1,267 @@
+/**
+colors:
+    dark        petrol new:                old: dark #666666
+    Zustimmung  green new:                 old: #7AB51D
+    Ablehnung   red new: #E8412E           old: #e7402d
+    neutral     petrol new:                old: gelb: #FDC400
+ */
+html {
+    height: 100%;
+}
+
+body {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.flex-fill {
+    flex: 1 1 auto;
+}
+
+.container {
+    padding-bottom: 1em;
+}
+
+.jumbotron {
+    background: transparent;
+    border: 1px solid;
+}
+
+#pagination {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.result-detail-header,
+.result-detail-footer {
+    cursor: pointer;
+}
+
+.progress-bar {
+    background-color: #dddddd;
+    font-weight: bold;
+    padding-right: 0.5em;
+    text-align: right;
+    transition: width .6s ease;
+}
+
+.progress-bar.main-progress-bar {
+    background-color: #07262d;
+}
+
+.progress-bar.remaining-progress-bar {
+    background-color: #FFFFFF;
+
+}
+
+.result-summary-row {
+    margin-bottom: 0.2em;
+}
+
+.card,
+.card-header,
+.card-footer {
+    background-color: transparent;
+}
+
+.card {
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0.5em;
+}
+
+.card-header {
+    border-bottom: 0;
+}
+
+.card-footer {
+    border-top: 0;
+}
+
+#thesis-card {
+    min-height: 14em;
+    margin-bottom: 2em;
+}
+
+#thesis-more {
+    margin-top: 0.5em;
+}
+
+@media (max-width: 767px) {
+    .left-answer-row {
+        margin-right: -25px;
+    }
+
+    .right-answer-row {
+        margin-left: -25px;
+    }
+}
+
+.emaining-progress-bar {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#bitkomat,
+#result {
+    display: none;
+}
+
+/** sw<pe **/
+#swype-info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 500;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+#swype-info-content {
+    width: 80%;
+    height: 50%;
+    padding: 1em;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#swype-info-message {
+    width: 80%;
+    padding: 1em;
+    position: relative;
+    float: left;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/** button badge **/
+.jumbotron,
+.btn,
+.badge {
+    border-radius: 0;
+    white-space: normal;
+}
+
+.badge {
+    color: #FFFFFF;
+}
+
+.badge-secondary {
+    background-color: #666;
+}
+
+.btn {
+    /** **/
+}
+
+.btn-select {
+    margin-bottom: 0.5em;
+}
+
+.btn-light {
+    color: #212529;
+    background-color: #f8f8f8;
+    border-color: #f8f8f8;
+}
+
+/** zustimmung **/
+.btn-success {
+    color: #FFFFFF;
+    background-color: #7AB51D;
+    border-color: #7AB51D;
+}
+
+/** neutral **/
+.btn-warning {
+    color: #FFFFFF;
+    background-color: #07262d;
+    border-color: #07262d;
+}
+
+/** ablehnung **/
+.btn-danger {
+    color: #FFFFFF;
+    background-color: #E8412E;
+    border-color: #E8412E;
+}
+
+/** überspringen **/
+.btn-secondary {
+    color: #000;
+    background-color: #dddddd;
+    border-color: #dddddd;
+}
+
+.btn-success:hover,
+.btn-warning:hover,
+.btn-danger:hover,
+.btn-secondary:hover {
+    border-color: transparent;
+    color: #FFFFFF;
+}
+
+.btn-warning:hover {
+    background-color: #666666;
+    border-color: #666666;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.btn-dark {
+    color: #FFFFFF;
+    background-color: #07262d;
+    border-color: #07262d;
+}
+
+.text-dark {
+    color: #FFFFFF !important;
+}
+
+/** links **/
+.page-link {
+    background-color: #FFFFFF;
+    border: 1px solid #dee2e6;
+    color: #007EB4;
+}
+
+.bg-success {
+    background-color: #7AB51D !important;
+}
+
+.bg-danger {
+    background-color: #E8412E !important;
+}
+
+.bg-warning {
+    background-color: #07262d !important;
+}
+
+.badge {
+    padding: 6px 8px;
+}
+
+/** list **/
+
+.list-group-item .list-item {
+    display: inline-block;
+    min-width: 130px;
+    position: relative;
+}
+
+.list-group-item .list-item:after {
+    content: '|';
+    position: absolute;
+    left: 120px;
+
+}

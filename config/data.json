@@ -1,334 +1,545 @@
 {
-	"theses": {
-		"0": {
-			"l": "These 1 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
-			"s": "These 1",
-			"x": "Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam er"
-		},
-		"1": {
-			"l": "These 2 m dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ",
-			"s": "These 2",
-			"x": ""
-		},
-		"2": {
-			"l": "These 3 ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lore",
-			"s": "These 3",
-			"x": "takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
-		},
-		"3": {
-			"l": "These 4 sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et ",
-			"s": "These 4",
-			"x": "tetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eo"
-		},
-		"4": {
-			"l": "These 5 elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et just",
-			"s": "These 5",
-			"x": ""
-		},
-		"5": {
-			"l": "These 6 Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel i",
-			"s": "These 6",
-			"x": ""
-		},
-		"6": {
-			"l": "These 7 tatum zzril delenit augue duis dolore te feugait nulla facilisi",
-			"s": "These 7",
-			"x": ""
-		},
-		"7": {
-			"l": "These 8 invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eo",
-			"s": "These 8",
-			"x": "ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit a"
-		},
-		"8": {
-			"l": "These 9 imata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos",
-			"s": "These 9",
-			"x": ""
-		},
-		"9": {
-			"l": "These 10 ergren, no sea takimata sanctus est Lorem ipsum dolor",
-			"s": "These 10",
-			"x": ""
-		}
-	},
-	"lists": {
-		"0": {
-			"name": "Liste X",
-			"name_x": "Liste X"
-		},
-		"1": {
-			"name": "Kugelschreibär",
-			"name_x": "STIFT"
-		},
-		"2": {
-			"name": "Liste Oben",
-			"name_x": "Liste Oben"
-		},
-		"3": {
-			"name": "The ACKERdemikerliste",
-			"name_x": "TACKER"
-		},
-		"4": {
-			"name": "Vitamin B",
-			"name_x": "Vitamin B"
-		},
-		"5": {
-			"name": "Niemals nicht",
-			"name_x": "NEIN"
-		}
-	},
-	"answers": {
-		"0": {
-			"0": {
-				"selection": "a",
-				"statement": "Juche!"
-			},
-			"1": {
-				"selection": "a",
-				"statement": "Noe."
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "b",
-				"statement": ""
-			},
-			"4": {
-				"selection": "a",
-				"statement": ""
-			},
-			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
-				"selection": "b",
-				"statement": ""
-			},
-			"7": {
-				"selection": "b",
-				"statement": ""
-			},
-			"8": {
-				"selection": "a",
-				"statement": ""
-			},
-			"9": {
-				"selection": "a",
-				"statement": ""
-			}
-		},
-		"1": {
-			"0": {
-				"selection": "c",
-				"statement": "Moep"
-			},
-			"1": {
-				"selection": "b",
-				"statement": "Yay"
-			},
-			"2": {
-				"selection": "a",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "a",
-				"statement": ""
-			},
-			"5": {
-				"selection": "b",
-				"statement": ""
-			},
-			"6": {
-				"selection": "a",
-				"statement": ""
-			},
-			"7": {
-				"selection": "c",
-				"statement": ""
-			},
-			"8": {
-				"selection": "c",
-				"statement": ""
-			},
-			"9": {
-				"selection": "a",
-				"statement": ""
-			}
-		},
-		"2": {
-			"0": {
-				"selection": "a",
-				"statement": ""
-			},
-			"1": {
-				"selection": "c",
-				"statement": ""
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "d",
-				"statement": ""
-			},
-			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
-				"selection": "c",
-				"statement": ""
-			},
-			"7": {
-				"selection": "a",
-				"statement": ""
-			},
-			"8": {
-				"selection": "a",
-				"statement": ""
-			},
-			"9": {
-				"selection": "a",
-				"statement": ""
-			}
-		},
-		"3": {
-			"0": {
-				"selection": "c",
-				"statement": ""
-			},
-			"1": {
-				"selection": "a",
-				"statement": ""
-			},
-			"2": {
-				"selection": "a",
-				"statement": ""
-			},
-			"3": {
-				"selection": "a",
-				"statement": ""
-			},
-			"4": {
-				"selection": "a",
-				"statement": ""
-			},
-			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
-				"selection": "a",
-				"statement": ""
-			},
-			"7": {
-				"selection": "c",
-				"statement": ""
-			},
-			"8": {
-				"selection": "b",
-				"statement": ""
-			},
-			"9": {
-				"selection": "c",
-				"statement": ""
-			}
-		},
-		"4": {
-			"0": {
-				"selection": "a",
-				"statement": ""
-			},
-			"1": {
-				"selection": "c",
-				"statement": ""
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "c",
-				"statement": ""
-			},
-			"4": {
-				"selection": "c",
-				"statement": ""
-			},
-			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
-				"selection": "c",
-				"statement": ""
-			},
-			"7": {
-				"selection": "a",
-				"statement": ""
-			},
-			"8": {
-				"selection": "a",
-				"statement": ""
-			},
-			"9": {
-				"selection": "a",
-				"statement": ""
-			}
-		},
-		"5": {
-			"0": {
-				"selection": "a",
-				"statement": ""
-			},
-			"1": {
-				"selection": "a",
-				"statement": ""
-			},
-			"2": {
-				"selection": "c",
-				"statement": ""
-			},
-			"3": {
-				"selection": "b",
-				"statement": ""
-			},
-			"4": {
-				"selection": "c",
-				"statement": ""
-			},
-			"5": {
-				"selection": "c",
-				"statement": ""
-			},
-			"6": {
-				"selection": "c",
-				"statement": ""
-			},
-			"7": {
-				"selection": "c",
-				"statement": ""
-			},
-			"8": {
-				"selection": "a",
-				"statement": ""
-			},
-			"9": {
-				"selection": "a",
-				"statement": ""
-			}
-		}
-	}
+  "theses": {
+    "0": {
+      "l": "Soziale Netzwerke sollten zur Ausleitung von strafrechtlich relevanten Nutzerbeiträgen an Strafbehörden verpflichtet werden.",
+      "s": "These 1",
+      "x": "Soziale Netzwerke sollten zur Ausleitung von strafrechtlich relevanten Nutzerbeiträgen an Strafbehörden verpflichtet werden."
+    },
+    "1": {
+      "l": "Um digital erfolgreich sein zu können, braucht Deutschland ein Digitalministerium.",
+      "s": "These 2",
+      "x": "Erläuterung"
+    },
+    "2": {
+      "l": "Der Staat sollte weitere Befugnisse bei der online Durchsuchung erhalten.",
+      "s": "These 3",
+      "x": "Erläuterung"
+    },
+    "3": {
+      "l": "Die Online-Sprechstunde sollte mit dem Arztbesuch vor Ort gesetzlich gleichgestellt werden.",
+      "s": "These 4",
+      "x": "Erläuterung"
+    },
+    "4": {
+      "l": "Digitale Plattformen sollten zum Einsatz von Upload-Filtern verpflichtet werden.",
+      "s": "These 5",
+      "x": "Erläuterung"
+    },
+    "5": {
+      "l": "Digitale Technologien helfen das Alltagsleben nachhaltiger zu machen.",
+      "s": "These 6",
+      "x": "Erläuterung"
+    },
+    "6": {
+      "l": "Datenschutz darf Innovationen nicht ausbremsen und muss zum Beispiel im Gesundheitsbereich gelockert werden.",
+      "s": "These 7",
+      "x": "Erläuterung"
+    },
+    "7": {
+      "l": "Für ein besseres Datenmanagement sollt die öffentliche Verwaltung flächendeckend auf Cloud-Infrastrukturen setzen.",
+      "s": "These 8",
+      "x": "Erläuterung"
+    },
+    "8": {
+      "l": "Eine Digitalsteuer würde in der aktuellen Krise Unternehmen noch stärker belasten.",
+      "s": "These 9",
+      "x": "Erläuterung"
+    },
+    "9": {
+      "l": "Startups sollten unmittelbar nach ihrer Gründung zwei Jahre lang von der Umsatzsteuer befreit sein.",
+      "s": "These 10",
+      "x": "Erläuterung"
+    },
+    "10": {
+      "l": "Institutionelle Anleger sollten stärker in Startups investieren dürfen.",
+      "s": "These 11",
+      "x": "Erläuterung"
+    },
+    "11": {
+      "l": "These 12",
+      "s": "These 12",
+      "x": "Erläuterung"
+    },
+    "12": {
+      "l": "These 13",
+      "s": "These 13",
+      "x": "Erläuterung"
+    },
+    "13": {
+      "l": "These 14",
+      "s": "These 14",
+      "x": "Erläuterung"
+    },
+    "14": {
+      "l": "These 15",
+      "s": "These 15",
+      "x": "Erläuterung"
+    }
+  },
+  "lists": {
+    "0": {
+      "name": "CDU/CSU",
+      "name_x": "CDU/CSU"
+    },
+    "1": {
+      "name": "FDP",
+      "name_x": "FDP"
+    },
+    "2": {
+      "name": "SPD",
+      "name_x": "SPD"
+    },
+    "3": {
+      "name": "B90/Die Grünen",
+      "name_x": "B90/Die Grünen"
+    },
+    "4": {
+      "name": "Die Linke",
+      "name_x": "Die Linke"
+    },
+    "5": {
+      "name": "AfD",
+      "name_x": "AfD"
+    },
+    "6": {
+      "name": "Bitkom e.V.",
+      "name_x": "Bitkom"
+    }
+  },
+  "answers": {
+    "0": {
+      "0": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "1": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "2": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "3": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "4": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "5": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "6": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "7": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "8": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "9": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "10": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "11": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "12": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "13": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "14": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      }
+    },
+    "1": {
+      "0": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "1": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "2": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "3": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "4": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "5": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "6": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "7": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "8": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "9": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "10": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "11": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "12": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "13": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "14": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      }
+    },
+    "2": {
+      "0": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "1": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "2": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "3": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "4": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "5": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "6": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "7": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "8": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "9": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "10": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "11": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "12": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "13": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "14": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      }
+    },
+    "3": {
+      "0": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "1": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "2": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "3": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "4": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "5": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "6": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "7": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "8": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "9": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "10": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "11": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "12": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "13": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "14": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      }
+    },
+    "4": {
+      "0": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "1": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "2": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "3": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "4": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "5": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "6": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "7": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "8": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "9": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "10": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "11": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "12": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "13": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "14": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      }
+    },
+    "5": {
+      "0": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "1": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "2": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "3": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "4": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "5": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "6": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "7": {
+        "selection": "b",
+        "statement": "Neutral"
+      },
+      "8": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "9": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "10": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "11": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "12": {
+        "selection": "a",
+        "statement": "Stimmt voll zu"
+      },
+      "13": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      },
+      "14": {
+        "selection": "c",
+        "statement": "Keine Übereinstimmung"
+      }
+    },
+    "6": {
+      "0": {
+        "selection": "a",
+        "statement": "Das ist unsere volle Überzeugung"
+      },
+      "1": {
+        "selection": "a",
+        "statement": "Anders geht es nicht"
+      },
+      "2": {
+        "selection": "a",
+        "statement": "Das ist unsere volle Überzeugung"
+      },
+      "3": {
+        "selection": "a",
+        "statement": "Anders geht es nicht"
+      },
+      "4": {
+        "selection": "a",
+        "statement": "Das ist unsere volle Überzeugung"
+      },
+      "5": {
+        "selection": "a",
+        "statement": "Anders geht es nicht"
+      },
+      "6": {
+        "selection": "a",
+        "statement": "Wie sollte es sonst gehen?"
+      },
+      "7": {
+        "selection": "a",
+        "statement": "Anders geht es nicht"
+      },
+      "8": {
+        "selection": "a",
+        "statement": "Wie sollte es sonst gehen?"
+      },
+      "9": {
+        "selection": "a",
+        "statement": "Anders geht es nicht"
+      },
+      "10": {
+        "selection": "a",
+        "statement": "Wie sollte es sonst gehen?"
+      },
+      "11": {
+        "selection": "a",
+        "statement": "Anders geht es nicht"
+      },
+      "12": {
+        "selection": "a",
+        "statement": "Wie sollte es sonst gehen?"
+      },
+      "13": {
+        "selection": "a",
+        "statement": "Anders geht es nicht"
+      },
+      "14": {
+        "selection": "a",
+        "statement": "Wie sollte es sonst gehen?"
+      }
+    }
+  }
 }
