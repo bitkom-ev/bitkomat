@@ -1,9 +1,16 @@
 /**
 colors:
-    dark        petrol new:                old: dark #666666
-    Zustimmung  green new:                 old: #7AB51D
-    Ablehnung   red new: #E8412E           old: #e7402d
-    neutral     petrol new:                old: gelb: #FDC400
+    dark        petrol new: #07262d        old: dark #666666
+    Zustimmung  green new:  #7AB51D        old: #7AB51D
+    Ablehnung   red new:    #E8412E        old: #e7402d
+    neutral     petrol new: #07262d        old: gelb: #009FE3
+    web cyan:  (0,126,180)  #007EB4
+    Grautöne:
+        C 80% (87,87,87)    #575757
+        C 60% (135,135,135) #878787
+        C 40% (178,178,178) #B2B2B2
+        C 20% (218,218,218) #DADADA
+        C 10% (237,237,237) #EDEDED
  */
 html {
     height: 100%;
@@ -15,6 +22,17 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+}
+
+header,
+footer {
+    display: inline-block;
+    background-color: transparent;
+    margin: 2em auto;
+}
+header .logo {
+    width: 200px;
+    height: auto;
 }
 
 .flex-fill {
@@ -173,6 +191,13 @@ body {
     border-color: #f8f8f8;
 }
 
+/** erläuterung **/
+.btn-info {
+    color: #FFFFFF;
+    background-color: #07262d; // #009FE3;
+    border-color: #07262d; // #009FE3;
+}
+
 /** zustimmung **/
 .btn-success {
     color: #FFFFFF;
@@ -201,6 +226,7 @@ body {
     border-color: #dddddd;
 }
 
+.btn-info:hover,
 .btn-success:hover,
 .btn-warning:hover,
 .btn-danger:hover,
@@ -209,6 +235,7 @@ body {
     color: #FFFFFF;
 }
 
+.btn-info:hover,
 .btn-warning:hover {
     background-color: #666666;
     border-color: #666666;
