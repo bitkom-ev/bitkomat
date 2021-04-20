@@ -1,79 +1,29 @@
 {
   "theses": {
     "0": {
-      "l": "Soziale Netzwerke sollten zur Ausleitung von strafrechtlich relevanten Nutzerbeiträgen an Strafbehörden verpflichtet werden.",
-      "s": "These 1",
-      "x": "Soziale Netzwerke sollten zur Ausleitung von strafrechtlich relevanten Nutzerbeiträgen an Strafbehörden verpflichtet werden."
+      "s": "Ein Digitalministerium für Deutschland",
+      "l": "Die Bundesregierung sollte ein eigenständiges und starkes Digitalministerium schaffen.",
+      "x": "Um der Digitalpolitik in Deutschland zu mehr Durchschlagskraft zu verhelfen, wird derzeit verstärkt über die Einrichtung eines Digitalministeriums auf Bundesebene diskutiert. Befürworter betonen, dass eine institutionelle Aufwertung der Digitalpolitik für eine erfolgreiche und gut koordinierte Digitalisierung unerlässlich sei."
     },
     "1": {
-      "l": "Um digital erfolgreich sein zu können, braucht Deutschland ein Digitalministerium.",
-      "s": "These 2",
-      "x": "Erläuterung"
+      "s": "Arbeitszeitflexibilisierung",
+      "l": "Mit Blick auf die zunehmende Verbreitung von Homeoffice sollte die tägliche durch eine wöchentlich Höchstarbeitszeit ersetzt werden.",
+      "x": "Heute arbeiten mehr Menschen denn je im Home Office. Arbeitnehmerinnen und Arbeitnehmer gestalten dabei ihre Arbeitszeit eigenverantwortlich und entsprechend der persönlichen und betrieblichen Bedarfe. Die wachsende Bedeutung von neuen Formen der Arbeitszeitgestaltung wirft dabei auch die Frage nach Anpassungen des gesetzlichen Rahmens auf."
     },
     "2": {
-      "l": "Der Staat sollte weitere Befugnisse bei der online Durchsuchung erhalten.",
-      "s": "These 3",
-      "x": "Erläuterung"
+      "s": "Recht auf digitale Bildung",
+      "l": "Die Bürgerinnen und Bürger sollten ein gesetzlich garantiertes Recht auf digitale Bildung haben.",
+      "x": "In vielen Lehrstätten fehlt es an digitalen Technologien und den notwendigen digitalen Kompetenzen des Lehrpersonals, um digitale Bildungsangebote erfolgreich umzusetzen. Vor diesem Hintergrund engagiert sich eine breite gesellschaftliche Allianz für die gesetzliche Festschreibung eines Rechts auf digitale Bildung."
     },
     "3": {
-      "l": "Die Online-Sprechstunde sollte mit dem Arztbesuch vor Ort gesetzlich gleichgestellt werden.",
-      "s": "These 4",
-      "x": "Erläuterung"
+      "s": "Digitalisierung der Verwaltung",
+      "l": "Die Bürgerinnen und Bürger sollten eine einheitliche individuelle Identifikationsnummer für alle digitalen Behördengänge erhalten.",
+      "x": "Derzeit müssen Bürgerinnen und Bürger gegenüber der Verwaltung immer wieder die gleichen Daten angeben, obwohl diese bei einer anderen Stelle in der Verwaltung bereits bekannt sind. Durch die Einführung einer einheitlichen individuellen Identifikationsnummer für alle Bürgerservices hoffen Teile der Gesellschaft, den bürokratischen Aufwand zu senken und den Zugang zu Verwaltungsleistungen zu erleichtern."
     },
     "4": {
-      "l": "Digitale Plattformen sollten zum Einsatz von Upload-Filtern verpflichtet werden.",
-      "s": "These 5",
-      "x": "Erläuterung"
-    },
-    "5": {
-      "l": "Digitale Technologien helfen das Alltagsleben nachhaltiger zu machen.",
-      "s": "These 6",
-      "x": "Erläuterung"
-    },
-    "6": {
-      "l": "Datenschutz darf Innovationen nicht ausbremsen und muss zum Beispiel im Gesundheitsbereich gelockert werden.",
-      "s": "These 7",
-      "x": "Erläuterung"
-    },
-    "7": {
-      "l": "Für ein besseres Datenmanagement sollt die öffentliche Verwaltung flächendeckend auf Cloud-Infrastrukturen setzen.",
-      "s": "These 8",
-      "x": "Erläuterung"
-    },
-    "8": {
-      "l": "Eine Digitalsteuer würde in der aktuellen Krise Unternehmen noch stärker belasten.",
-      "s": "These 9",
-      "x": "Erläuterung"
-    },
-    "9": {
-      "l": "Startups sollten unmittelbar nach ihrer Gründung zwei Jahre lang von der Umsatzsteuer befreit sein.",
-      "s": "These 10",
-      "x": "Erläuterung"
-    },
-    "10": {
-      "l": "Institutionelle Anleger sollten stärker in Startups investieren dürfen.",
-      "s": "These 11",
-      "x": "Erläuterung"
-    },
-    "11": {
-      "l": "These 12",
-      "s": "These 12",
-      "x": "Erläuterung"
-    },
-    "12": {
-      "l": "These 13",
-      "s": "These 13",
-      "x": "Erläuterung"
-    },
-    "13": {
-      "l": "These 14",
-      "s": "These 14",
-      "x": "Erläuterung"
-    },
-    "14": {
-      "l": "These 15",
-      "s": "These 15",
-      "x": "Erläuterung"
+      "s": "Erleichterungen beim Datenschutz",
+      "l": "Die Datenschutz-Grundverordnung soll entschärft werden.",
+      "x": "Datenschutz ist ein hohes Gut. Manchmal kann das Recht auf informationelle Selbstbestimmung aber in einem Spannungsverhältnis zu anderen Grundrechten – wie z.B. dem Recht auf Bildung oder körperliche Unversehrtheit – stehen. Vor diesem Hintergrund wird aktuell über Erleichterungen beim Datenschutz, d.h. die stärkere Abwägung gegenüber anderen Grundrechten diskutiert."
     }
   },
   "lists": {
@@ -110,73 +60,33 @@
     "0": {
       "0": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "1": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "2": {
-        "selection": "b",
-        "statement": "Neutral"
+        "selection": "a",
+        "statement": "Stimme zu"
       },
       "3": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "selection": "a",
+        "statement": "Stimme zu"
       },
       "4": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "5": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "6": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "7": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "8": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "9": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "10": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "11": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "12": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "13": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "14": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "statement": "Stimme zu"
       }
     },
     "1": {
       "0": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "1": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "2": {
         "selection": "b",
@@ -184,61 +94,21 @@
       },
       "3": {
         "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "statement": "Stimme nicht zu"
       },
       "4": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "5": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "6": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "7": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "8": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "9": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "10": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "11": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "12": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "13": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "14": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "statement": "Stimme zu"
       }
     },
     "2": {
       "0": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "1": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "2": {
         "selection": "b",
@@ -246,61 +116,21 @@
       },
       "3": {
         "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "statement": "Stimme nicht zu"
       },
       "4": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "5": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "6": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "7": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "8": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "9": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "10": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "11": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "12": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "13": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "14": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "statement": "Stimme zu"
       }
     },
     "3": {
       "0": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "1": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "2": {
         "selection": "b",
@@ -308,61 +138,21 @@
       },
       "3": {
         "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "statement": "Stimme nicht zu"
       },
       "4": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "5": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "6": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "7": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "8": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "9": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "10": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "11": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "12": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "13": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "14": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "statement": "Stimme zu"
       }
     },
     "4": {
       "0": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "1": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "2": {
         "selection": "b",
@@ -370,61 +160,21 @@
       },
       "3": {
         "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "statement": "Stimme nicht zu"
       },
       "4": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "5": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "6": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "7": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "8": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "9": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "10": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "11": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "12": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "13": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "14": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "statement": "Stimme zu"
       }
     },
     "5": {
       "0": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "1": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
+        "statement": "Stimme zu"
       },
       "2": {
         "selection": "b",
@@ -432,113 +182,33 @@
       },
       "3": {
         "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "statement": "Stimme nicht zu"
       },
       "4": {
         "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "5": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "6": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "7": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "8": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "9": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "10": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "11": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "12": {
-        "selection": "a",
-        "statement": "Stimmt voll zu"
-      },
-      "13": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
-      },
-      "14": {
-        "selection": "c",
-        "statement": "Keine Übereinstimmung"
+        "statement": "Stimme zu"
       }
     },
     "6": {
       "0": {
         "selection": "a",
-        "statement": "Das ist unsere volle Überzeugung"
+        "statement": "Stimme zu"
       },
       "1": {
         "selection": "a",
-        "statement": "Anders geht es nicht"
+        "statement": "Stimme zu"
       },
       "2": {
         "selection": "a",
-        "statement": "Das ist unsere volle Überzeugung"
+        "statement": "Stimme zu"
       },
       "3": {
         "selection": "a",
-        "statement": "Anders geht es nicht"
+        "statement": "Stimme zu"
       },
       "4": {
         "selection": "a",
-        "statement": "Das ist unsere volle Überzeugung"
-      },
-      "5": {
-        "selection": "a",
-        "statement": "Anders geht es nicht"
-      },
-      "6": {
-        "selection": "a",
-        "statement": "Wie sollte es sonst gehen?"
-      },
-      "7": {
-        "selection": "a",
-        "statement": "Anders geht es nicht"
-      },
-      "8": {
-        "selection": "a",
-        "statement": "Wie sollte es sonst gehen?"
-      },
-      "9": {
-        "selection": "a",
-        "statement": "Anders geht es nicht"
-      },
-      "10": {
-        "selection": "a",
-        "statement": "Wie sollte es sonst gehen?"
-      },
-      "11": {
-        "selection": "a",
-        "statement": "Anders geht es nicht"
-      },
-      "12": {
-        "selection": "a",
-        "statement": "Wie sollte es sonst gehen?"
-      },
-      "13": {
-        "selection": "a",
-        "statement": "Anders geht es nicht"
-      },
-      "14": {
-        "selection": "a",
-        "statement": "Wie sollte es sonst gehen?"
+        "statement": "Stimme zu"
       }
     }
   }
