@@ -71,7 +71,7 @@ var T =
 
 <h4>Ich habe einen inhaltlichen Fehler gefunden!</h4>
 <p>Gib uns sehr gerne dein
-  <a href="//stage.bitkom.org/formular/contact?subject=Bitkomat inhaltliche Frage" title="inhaltliche Frage"
+  <a href="//www.bitkom.org/formular/contact?subject=Bitkomat inhaltliche Frage" title="inhaltliche Frage"
      target="_blank">Feedback</a>
   Wir werden uns das ansehen.
 </p>
@@ -82,12 +82,12 @@ var T =
 <p>Unser Web-Entwickler hat den Mahlowat als Bitkomat für Bitkom adaptiert.</p>
 
 <h4>Ich habe einen Programmierfehler gefunden!</h4>
-<p>wir freuen uns über jedes <a href="//stage.bitkom.org/formular/contact?subject=Bitkomat Bug Report" title="Feedback" target="_blank">Feedback</a> zum Bitkomat.</p>`;
+<p>wir freuen uns über jedes <a href="//www.bitkom.org/formular/contact?subject=Bitkomat Bug Report" title="Feedback" target="_blank">Feedback</a> zum Bitkomat.</p>`;
       this.btn_qa_modal_close = "Schließen";
       this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
       this.btn_swype_info_ok = "OK";
-      this.start_subtitle = "Der Bitkomat ist ein Wahlpositions&shy;vergleichswerkzeug.";
-      this.start_explanatory_text = `<p class="text-center">Der Bitkomat ermöglicht es dir, deine Meinung zu ausgewählten Thesen mit denen der Gruppen zu vergleichen, die zur Bundestagswahl 2021 antreten. Für ihre Stellungnahmen zu den Thesen sind die Gruppen selbst verantwortlich.</p>`;
+      this.start_subtitle = "Digitalpolitischer Parteiencheck zur Bundestagswahl 2021";
+      this.start_explanatory_text = `<p class="text-center">Der Bitkomat ermöglicht es Ihnen, Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien abzugleichen.</p>`;
       this.btn_start = "Bitkomat starten";
       this.btn_start_show_qa = "FAQ";
       this.btn_toggle_thesis_more_text = "Erläuterung";
@@ -101,7 +101,7 @@ var T =
       this.btn_bitkomat_skip_remaining_theses = "Aktuellen Stand auswerten";
       this.title_results = "Ergebnisse";
       this.title_results_summary = "Parteien"; // Zusammenfassung
-      this.text_result_below_summary = '<button class="btn " onclick="showBitkomatFirstThesis()">Bewertung ändern</button>';
+      this.text_result_below_summary = '<span onclick="showBitkomatFirstThesis()">Bewertung ändern</span>';
       this.title_results_details = "Thesen"; // Details Übersicht
       this.btn_results_show_start = '<i class="fas fa-home fa-1x"></i>';
       this.btn_results_show_qa = "FAQ";

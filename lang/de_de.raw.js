@@ -65,7 +65,7 @@ class T {
     this.btn_bitkomat_skip_remaining_theses = "Aktuellen Stand auswerten";
     this.title_results = "Ergebnis";
     this.title_results_summary = "Zusammenfassung";
-    this.text_result_below_summary = '<button class="btn btn-sm btn-light" onclick="showBitkomatFirstThesis()">Übersicht</button>';
+    this.text_result_below_summary = '<span onclick="showBitkomatFirstThesis()">Übersicht</span>';
     this.title_results_details = "";
     this.btn_results_show_start = "Home";
     this.btn_results_show_qa = "FAQ";
