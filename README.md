@@ -118,7 +118,7 @@ The points for the groups in the results at the end are calculated as follows:
 Demo
 ----
 
-[Deutsch :de:](https://hscmi.de/bitkomat/de/) [English :uk:](https://hscmi.de/bitkomat/en/) [Français :fr:](https://hscmi.de/bitkomat/fr/)
+[Deutsch :de:](https://hscmi.de/mahlowat/de/) [English :uk:](https://hscmi.de/mahlowat/en/) [Français :fr:](https://hscmi.de/mahlowat/fr/)
 
 
 Troubleshooting

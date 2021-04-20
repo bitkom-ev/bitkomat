@@ -2,10 +2,9 @@
 
 [English Version](README.md)
 
-Bitkomat ist eine Implementierung eines Wahlpositionsvergleichswerkzeugs (voting advice application, VAA).
+Digitalpolitischer Parteiencheck zur Bundestagswahl 2021
 
-Bitkomat ermöglicht es, die eigenen Positionen zu Thesen mit den Positionen von Gruppen oder Personen zu vergleichen,
-die zu einer Wahl kandidieren.
+Der Bitkomat ermöglicht es Ihnen, Ihre digitalpolitische Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien abzugleichen.
 
 
 Allgemeine Vorgehensweise
