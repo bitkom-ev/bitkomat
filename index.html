@@ -15,9 +15,19 @@
 
 <body class="d-flex flex-column">
 
-<header class="text-right container">
-    <!-- bitkom Menü? -->
-    <a class="bitkom" href="//www.bitkom.org" title="Bitkom e.V." target="_blank"><img class="logo" src="img/logo.svg" alt="bitkom Logo"/></a>
+<header class="container">
+    <div class="row">
+        <div class="col-6 text-left">
+            <button class="btn btn-lg btn-light" id="btn-show-start" title="Start Bitkomat"><i class="fas fa-home fa-2x"></i></button>
+
+        </div>
+        <div class="col-6 text-right">
+            <!-- bitkom Menü? -->
+            <img class="logo" src="img/logo.svg" alt="Logo Bitkom e.V."/>
+            <a class="bitkom" href="//www.bitkom.org" title="Bitkom e.V." target="_blank"></a>
+        </div>
+    </div>
+
 </header>
 
 <main class="container-fluid flex-fill">
@@ -61,16 +71,16 @@
         <div class="jumbotron">
             <h1 class="display-4 text-center">
                 Bitkomat
-            </h1>
-            <p class="lead text-center" id="start-subtitle">start-subtitle</p>
+            </h1><!-- lead -->
+            <p class="text-center" id="start-subtitle">start-subtitle</p>
             <hr class="my-4"/>
             <div id="start-explanatory-text">
                 start-explanatory-text
-            </div>
-            <p class="lead text-center">
+            </div><!-- lead -->
+            <p class="text-center">
                 <button class="btn btn-dark btn-lg" id="btn-start">btn-start</button>
-            </p>
-            <p class="lead text-center">
+            </p><!-- lead -->
+            <p class="text-center">
                 <button class="btn btn-outline-dark" id="btn-start-show-qa">btn-start-show-qa</button>
             </p>
             <div id="error-msg" class="text-center"></div>
@@ -86,7 +96,7 @@
                 </nav>
             </div>
             <div class="col-auto">
-                <img src="img/logo.svg" alt="Logo" />
+                <img src="img/logo.svg" alt="Logo"/>
             </div>
         </div>
 
@@ -97,7 +107,8 @@
         <div class="card" id="thesis-card">
             <div class="card-body">
                 <h5 class="card-title" id="thesis-number">thesis-number</h5>
-                <p class="card-text lead" id="thesis-text">thesis-text</p>
+                <!-- lead -->
+                <p class="card-text " id="thesis-text">thesis-text</p>
                 <!--
                                     <i class="fas fa-info-circle"></i>
                 -->
@@ -188,12 +199,13 @@
         <div class="row">
             <div class="text-left col-6">
                 <!-- btn_results_show_start -->
-                <button class="btn btn-sm btn-outline-dark" id="btn-bitkomat-show-start">btn-results-show-start
-                </button>
+                <button class="btn btn-sm btn-outline-dark" id="btn-bitkomat-show-start">btn-results-show-start</button>
                 <button class="btn btn-sm btn-outline-dark" id="btn-bitkomat-show-qa">btn-bitkomat-show-qa</button>
             </div>
             <div class="text-right col-6">
-                <button class="btn btn-sm btn-outline-dark" id="btn-bitkomat-skip-remaining-theses">btn-bitkomat-skip-remainng-theses</button>
+                <button class="btn btn-sm btn-outline-dark" id="btn-bitkomat-skip-remaining-theses">
+                    btn-bitkomat-skip-remainng-theses
+                </button>
             </div>
         </div>
     </div>
@@ -204,10 +216,9 @@
         <h4 id="title-results">title-results</h4>
 
         <div class="row" id="text-left result-summary-row">
-            <div class="border card col-sm-12 offset-sm-0" id="card">
+            <div class="border-bottom card col-sm-12 offset-sm-0" id="card">
                 <div class="card-body">
                     <h5 class="card-title" id="title-results-summary">title-results-summary</h5>
-                    <hr/>
                     <div id="result-summary">
                     </div>
                 </div>
@@ -219,7 +230,6 @@
         <div class="card col-sm-12 offset-sm-0" id="result-detail">
             <div class="card-body"></div>
         </div>
-        <hr/>
 
         <!-- footer: buttons home -->
         <p class="text-left">
@@ -235,7 +245,8 @@
     <!-- Footer ?? -->
     <a class="bitkom" href="#" title="Start Bitkomat" target="_self">Start</a> |
     <a class="bitkom" href="//www.bitkom.org/impressum" title="Impressum Bitkom e.V." target="_blank">Impressum</a> |
-    <a class="bitkom" href="//www.bitkom.org/Metanavigation/Datenschutz" title="Datenschutz Bitkom e.V." target="_blank">Datenschutz</a> |
+    <a class="bitkom" href="//www.bitkom.org/Metanavigation/Datenschutz" title="Datenschutz Bitkom e.V."
+       target="_blank">Datenschutz</a> |
     <a class="bitkom" href="//www.bitkom.org" title="Impressum Bitkom e.V." target="_blank">Bitkom</a> |
 </footer>
 
