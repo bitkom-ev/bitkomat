@@ -440,9 +440,9 @@ function initResultDetails() {
   for (var thesis_id in data.theses) {
     var thesisNumber = parseInt(thesis_id) + 1;
 // <small>' + t.thesis_number(thesisNumber) + '</small>\
-    var text = '<div class="border card result-detail-card text-left"><div class="card-header result-detail-header">' + data.theses[thesis_id].s + '\
+    var text = '<div class="border-bottom card result-detail-card text-left"><div class="card-header result-detail-header">' + data.theses[thesis_id].s + '\
 <span class="float-right"><i class="fa fa-chevron-down"></i></span>\
-</div><div class="result-details text-left"><div class="card-body"><p class="card-text lead">' + data.theses[thesis_id].l + '</p>\
+</div><div class="result-details text-left"><div class="card-body"><!-- lead --><p class="card-text ">' + data.theses[thesis_id].l + '</p>\
 </div><ul class="list-group list-group-flush">';
 
     for (var list_id in data.lists) {
@@ -450,7 +450,7 @@ text += '<li class="border-bottom list-group-item">' + getSelectionMarker(data.l
   <span class="list-item-two">' + statementOrDefault(data.answers[list_id][thesis_id].statement) + '</span></li>';
 }
 text += '</ul></div><div class="card-footer result-detail-footer">\
-<span class="badge badge-secondary" id="placeholder-your-choice-' + thesis_id + '">PLACEHOLDER</span> | ';
+<span class="badge badge-secondary" id="placeholder-your-choice-' + thesis_id + '">PLACEHOLDER</span>';
     for (list_id in data.lists) {
       text += getSelectionMarker(data.lists[list_id].name_x, data.answers[list_id][thesis_id].selection);
     }
@@ -471,16 +471,16 @@ function statementOrDefault(statement) {
 
 function getSelectionMarker(list, selection) {
   if (selection === "a" || selection === "e") {
-    return '<span class="list-item"><span class="badge badge-success">' + list + '</span> </span> ';
+    return '<span class="list-item"><span class="badge badge-success" title="stimme zu" data-text="Stimme dieser These zu">' + list + '</span></span>';
   }
   if (selection === "b" || selection === "f") {
-    return '<span class="list-item"><span class="badge badge-warning">' + list + '</span></span>  ';
+    return '<span class="list-item"><span class="badge badge-warning" title="neutral" data-text="stehe dieser These neutral gegenüber">' + list + '</span></span>';
   }
   if (selection === "c" || selection === "g") {
-    return '<span class="list-item"><span class="badge badge-danger">' + list + '</span></span>  ';
+    return '<span class="list-item"><span class="badge badge-danger" title="stimme nicht zu" data-text="Stimme dieser These nicht zu">' + list + '</span></span>';
   }
   if (selection === "d" || selection === "h") {
-    return '<span class="list-item"><span class="badge badge-secondary">' + list + '</span></span>  ';
+    return '<span class="list-item"><span class="badge badge-secondary" title="übersprungen" data-text="These übersprungen">' + list + '</span></span>';
   }
   return 'ERROR';
 }

@@ -100,7 +100,7 @@ var T =
       this.btn_bitkomat_show_qa = "FAQ";
       this.btn_bitkomat_skip_remaining_theses = "Aktuellen Stand auswerten";
       this.title_results = "Ergebnisse";
-      this.title_results_summary = "Parteien"; // Zusammenfassung
+      this.title_results_summary = "Übereinstimmung mit den Parteien"; // Zusammenfassung
       this.text_result_below_summary = '<span onclick="showBitkomatFirstThesis()">Bewertung ändern</span>';
       this.title_results_details = "Thesen"; // Details Übersicht
       this.btn_results_show_start = '<i class="fas fa-home fa-1x"></i>';
@@ -115,7 +115,8 @@ var T =
     }, {
       key: "achieved_points_text",
       value: function achieved_points_text(pointsForList, maxAchievablePoints) {
-        return '' + pointsForList + '/' + maxAchievablePoints + ' Punkte';
+        var prozent = (pointsForList / maxAchievablePoints) * 100 ;
+        return Math.round(prozent) + '% ';  // + pointsForList + '/' + maxAchievablePoints + ' Punkte';
       }
     }, {
       key: "btn_make_thesis_double_weight",
