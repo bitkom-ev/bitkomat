@@ -50,33 +50,29 @@
     "5": {
       "name": "AfD",
       "name_x": "AfD"
-    },
-    "6": {
-      "name": "Bitkom e.V.",
-      "name_x": "Bitkom"
     }
   },
   "answers": {
     "0": {
       "0": {
         "selection": "a",
-        "statement": "Stimme zu"
+        "statement": "Stimme zu<br>Test mit Absatz"
       },
       "1": {
         "selection": "a",
-        "statement": "Stimme zu"
+        "statement": "Stimme zu - bin aber auch anderer Meinung, falls gewünscht"
       },
       "2": {
         "selection": "a",
-        "statement": "Stimme zu"
+        "statement": "Stimme zu - kann mich aber nicht so richtig entscheiden, vielleicht doch dagegen?"
       },
       "3": {
         "selection": "a",
-        "statement": "Stimme zu"
+        "statement": "Stimme zu <br>muss mich aber intern noch abstimmen.<br>Oder irgendeine andere Ausrede, falls notwendig."
       },
       "4": {
         "selection": "a",
-        "statement": "Stimme zu"
+        "statement": "Stimme zu: <br>aber nur mit Einschränkungen, die ich mir noch ausdenken werde."
       }
     },
     "1": {
@@ -85,8 +81,8 @@
         "statement": "Stimme zu"
       },
       "1": {
-        "selection": "a",
-        "statement": "Stimme zu"
+        "selection": "c",
+        "statement": "Stimme nicht zu"
       },
       "2": {
         "selection": "b",
@@ -107,8 +103,8 @@
         "statement": "Stimme zu"
       },
       "1": {
-        "selection": "a",
-        "statement": "Stimme zu"
+        "selection": "c",
+        "statement": "Stimme nicht zu"
       },
       "2": {
         "selection": "b",
@@ -125,8 +121,8 @@
     },
     "3": {
       "0": {
-        "selection": "a",
-        "statement": "Stimme zu"
+        "selection": "c",
+        "statement": "Stimme nicht zu"
       },
       "1": {
         "selection": "a",
@@ -151,8 +147,8 @@
         "statement": "Stimme zu"
       },
       "1": {
-        "selection": "a",
-        "statement": "Stimme zu"
+        "selection": "c",
+        "statement": "Stimme nicht zu"
       },
       "2": {
         "selection": "b",
@@ -169,8 +165,8 @@
     },
     "5": {
       "0": {
-        "selection": "a",
-        "statement": "Stimme zu"
+        "selection": "c",
+        "statement": "Stimme nicht zu"
       },
       "1": {
         "selection": "a",
@@ -188,28 +184,7 @@
         "selection": "a",
         "statement": "Stimme zu"
       }
-    },
-    "6": {
-      "0": {
-        "selection": "a",
-        "statement": "Stimme zu"
-      },
-      "1": {
-        "selection": "a",
-        "statement": "Stimme zu"
-      },
-      "2": {
-        "selection": "a",
-        "statement": "Stimme zu"
-      },
-      "3": {
-        "selection": "a",
-        "statement": "Stimme zu"
-      },
-      "4": {
-        "selection": "a",
-        "statement": "Stimme zu"
-      }
     }
   }
 }
+
