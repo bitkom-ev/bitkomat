@@ -17,9 +17,9 @@ html {
 }
 
 body {
-    margin-top: 1em;
-    display: flex;
     align-items: center;
+    display: flex;
+    margin-top: 1em;
     justify-content: center;
     min-height: 100vh;
 }
@@ -30,6 +30,7 @@ footer {
     background-color: transparent;
     margin: 2em auto;
 }
+
 header .logo {
     width: 200px;
     height: auto;
@@ -40,6 +41,7 @@ header .logo {
 }
 
 .container {
+    padding: 0;
     padding-bottom: 1em;
 }
 
@@ -51,11 +53,6 @@ header .logo {
 #pagination {
     display: flex;
     flex-flow: row wrap;
-}
-
-.result-detail-header,
-.result-detail-footer {
-    cursor: pointer;
 }
 
 .progress-bar {
@@ -89,10 +86,27 @@ header .logo {
     border: 0;
     border-radius: 0;
     margin-bottom: 0.5em;
+    padding: 0;
+}
+
+.card-header.result-detail-header,
+.card-footer.result-detail-footer {
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+
+.card-header,
+.card-body,
+.card-footer {
+    padding: .4em;
 }
 
 .card-header {
     border-bottom: 0;
+}
+
+.card-header:first-child {
+    border-radius: 0;
 }
 
 .card-footer {
@@ -194,8 +208,10 @@ header .logo {
 /** erläuterung **/
 .btn-info {
     color: #FFFFFF;
-    background-color: #07262d; // #009FE3;
-    border-color: #07262d; // #009FE3;
+    background-color: #07262d;
+/ / #009FE3;
+    border-color: #07262d;
+/ / #009FE3;
 }
 
 /** zustimmung **/
@@ -221,7 +237,7 @@ header .logo {
 
 /** überspringen **/
 .btn-secondary {
-    color: #000;
+    color: #000000;
     background-color: #dddddd;
     border-color: #dddddd;
 }
@@ -279,16 +295,69 @@ header .logo {
 }
 
 /** list **/
+.card-footer .list-item {
+    padding-left: 6px;
+}
+.card-footer .list-item:first-child {
+    border-right: 1px solid #07262d;
+    padding: 1px 6px 3px 0px;
+}
+
+.card-footer .list-item:first-child span.badge {
+    padding: 5px 7px;
+    border: 1px solid #07262d;
+}
+
+.card-footer .list-item .badge {
+    position: relative;
+    z-index: 1;
+}
+
+.card-footer .list-item:first-child .badge:before {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    color: #07262d;
+    content: attr(data-text); /* here's the magic */
+    display: none;
+    left: 50%;
+    position: absolute;
+    top: -100%;
+    transform: translateY(-50%);
+    min-width: 200px;
+    padding: 1em;
+    z-index: 2;
+}
+
+.card-footer .list-item:first-child .badge:hover:before,
+.card-footer .list-item:first-child .badge:hover:after {
+    display: block ruby;
+}
+
+.list-group-item {
+    display: inline-block;
+    padding: .4em;
+    vertical-align: top;
+}
 
 .list-group-item .list-item {
+    min-width: 120px;
+}
+
+.list-group-item .list-item,
+.list-group-item .list-item-two {
     display: inline-block;
-    min-width: 130px;
+}
+
+.list-group-item .list-item-two {
+    border-left: 1px solid #07262d;
+    max-width: calc(100% - 140px);
+    padding-left: 6px;
+}
+
+.list-group-item .list-item {
     position: relative;
+    min-width: 130px;
+    vertical-align: inherit;
 }
 
-.list-group-item .list-item:after {
-    content: '|';
-    position: absolute;
-    left: 120px;
-
-}
