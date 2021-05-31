@@ -88,29 +88,33 @@ var T =
       this.btn_swype_info_ok = "OK";
       this.start_subtitle = "Digitalpolitischer Parteiencheck zur Bundestagswahl 2021";
       this.start_explanatory_text = `<p class="text-center">Der Bitkomat ermöglicht es Ihnen, Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien abzugleichen.</p>`;
-      this.btn_start = "Bitkomat starten";
+      this.btn_start = "<i class=\"fas fa-caret-right\"></i><span >Bitkomat<br>starten</span>";
       this.btn_start_show_qa = "FAQ";
-      this.btn_toggle_thesis_more_text = "Erläuterung";
-      this.btn_important = "These doppelt gewichten";
-      this.btn_yes_text = "Stimme zu";
-      this.btn_neutral_text = "Neutral";
-      this.btn_no_text = "Stimme nicht zu";
-      this.btn_skip_text = "Überspringen";
-      this.btn_bitkomat_show_start = '<i class="fas fa-home fa-1x"></i>';
+      this.btn_start_show_qa_2 = "FAQ";
+      this.btn_start_show_qa_3 = "FAQ";
+      this.btn_results_show_qa = "FAQ";
       this.btn_bitkomat_show_qa = "FAQ";
-      this.btn_bitkomat_skip_remaining_theses = "Aktuellen Stand auswerten";
+      this.btn_bitkomat_show_qa_t = "FAQ";
+      this.btn_bitkomat_show_qa_3 = "FAQ";
+      this.btn_toggle_thesis_more_text = "Erläuterung";
+      this.btn_important = "<i class=\"fas fa-check-double\"></i>These doppelt gewichten";
+      this.btn_yes_text = "<i class=\"fa fa-smile-beam\"></i>Stimme zu";
+      this.btn_neutral_text = "<i class=\"fas fa-meh-blank\"></i>Neutral";
+      this.btn_no_text = "<i class=\"fas fa-frown\"></i>Stimme nicht zu";
+      this.btn_skip_text = "<i class=\"fas fa-angle-double-right\"></i>Überspringen";
+      this.btn_bitkomat_show_start = '<i class="fas fa-home fa-1x"></i>';
+      this.btn_bitkomat_skip_remaining_theses = "Auswerten";
       this.title_results = "Ergebnisse";
       this.title_results_summary = "Übereinstimmung mit den Parteien"; // Zusammenfassung
       this.text_result_below_summary = '<span onclick="showBitkomatFirstThesis()">Bewertung ändern</span>';
       this.title_results_details = "Thesen"; // Details Übersicht
       this.btn_results_show_start = '<i class="fas fa-home fa-1x"></i>';
-      this.btn_results_show_qa = "FAQ";
     }
 
     _createClass(T, [{
       key: "thesis_number",
       value: function thesis_number(number) {
-        return "These " + number;
+         return number ; // <!-- + . These: -->
       }
     }, {
       key: "achieved_points_text",

@@ -32,6 +32,14 @@ Um eine Bitkomat aufzusetzen sind drei Schritte notwendig:
  - Festlegen der Sprache und Anpassen der Texte
  - Hochladen der Dateien auf einen Webserver, wo sie alle sehen können :see_no_evil:
 
+Libraries
+-----
+
+FontAweSome
+ - https://cdnjs.com/libraries/font-awesome
+ - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.jshttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css
+
+
 ### Konfiguration
 
 Bitkomat bezieht seine Informationen aus einer einzigen Konfigurationsdatei, `config/data.json`. Diese Datei enthält die

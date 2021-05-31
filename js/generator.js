@@ -36,7 +36,9 @@ function movedown(self) {
 
 function readData() {
 	Singleton.instance.theses = {};
-
+	$('.input_thema').each(function (index, value) {
+		Singleton.instance.theses[index].t = $(value).val();
+	});
 	$('.input_thesis').each(function (index, value) {
 		Singleton.instance.theses[index] = {};
 		Singleton.instance.theses[index].l = $(value).val();
@@ -47,7 +49,6 @@ function readData() {
 	$('.input_explanation').each(function (index, value) {
 		Singleton.instance.theses[index].x = $(value).val();
 	});
-
 
 	Singleton.instance.lists = {};
 
@@ -93,13 +94,13 @@ function readData() {
 
 function generateTheses() {
 	for (key in Object.keys(Singleton.instance.theses)) {
-		generateThesis(Singleton.instance.theses[key].l, Singleton.instance.theses[key].s, Singleton.instance.theses[key].x);
+		generateThesis(Singleton.instance.theses[key].t, Singleton.instance.theses[key].l, Singleton.instance.theses[key].s, Singleton.instance.theses[key].x );
 	}
 }
 
 function generateLists() {
 	for (key in Object.keys(Singleton.instance.lists)) {
-		generateList(Singleton.instance.lists[key].name, Singleton.instance.lists[key].name_x);
+		generateList(Singleton.instance.lists[key].thema, Singleton.instance.lists[key].name, Singleton.instance.lists[key].name_x);
 	}
 }
 
@@ -107,8 +108,12 @@ function generateEmptyThesis() {
 	generateThesis("", "", "");
 }
 
-function generateThesis(name, shortname, explanation) {
+function generateThesis(thema, name, shortname, explanation) {
 	var thesisdiv = '<div class="singlethesis">' +
+		'	<div class="form-group">' +
+		'		<label>Thema</label>' +
+		'		<input type="text" class="form-control input_thema" placeholder="Thema" value="' + thema + '">' +
+		'	</div>' +
 		'	<div class="form-group">' +
 		'		<label>These</label>' +
 		'		<input type="text" class="form-control input_thesis" placeholder="These" value="' + name + '">' +
@@ -132,11 +137,15 @@ function generateThesis(name, shortname, explanation) {
 }
 
 function generateEmptyList() {
-	generateList("", "");
+	generateList("", "", "");
 }
 
-function generateList(name, shortname) {
+function generateList(thema, name, shortname) {
 	var listdiv = '<div class="singlelist">' +
+		'	<div class="form-group">' +
+		'		<label>thema</label>' +
+		'		<input type="text" class="form-control input_list" placeholder="Listenthema" value="' + thema + '">' +
+		'	</div>' +
 		'	<div class="form-group">' +
 		'		<label>Listenname</label>' +
 		'		<input type="text" class="form-control input_list" placeholder="Listenname" value="' + name + '">' +
@@ -162,7 +171,6 @@ $(function () {
 		data.activeThesis = 0;
 		data.activeList = 0;
 		Singleton.instance = data;
-
 
 		generateTheses();
 		generateLists();
@@ -382,7 +390,6 @@ function setPaginationColors() {
 
 function makeListSelect(lists) {
 	str = '<ul class="nav nav-tabs">';
-
 	for (var i = 0; i < (Object.keys(lists).length); i = i + 1) {
 		str += "<li class='nav-item listselector'><a class='nav-link' href='#' onclick='loadList(" + i + ")'>" + lists[i].name_x + "</a></li>";
 	}
@@ -418,25 +425,21 @@ function makeThesesBox() {
 	for (q_id = 0; q_id < Object.keys(theses).length; q_id++) {
 		str = "<div id='thesis" + q_id + "' class='thesis'>";
 		str += "<h1>These " + (q_id + 1) + "</h1>";
+		str += "<h2>Thema " + theses[q_id].t + "</h2>";
 		str += "<div class='well well-large statement'>";
 		str += "<p style='margin-bottom: 0px;' class='lead'>";
-
 		str += theses[q_id].l;
-
 		str += "</p>";
 		if (theses[q_id].x != "") {
 			str += "<button class='btn btn-link explanationbutton'>Erklärung</button>\n";
 			str += "<div class='explic'>" + theses[q_id].x + "</div>";
 		}
-
 		str += "</div>";
-
 		str += "<div class='row'>";
 		str += "<div class='col-xs-12 col-sm-12 col-md-8 col-md-offset-2'>";
 		str += "<textarea id='input-" + q_id + "' name='comments[" + q_id + "]' class='form-control' rows='3' placeholder='Hier die Begründung eingeben...'></textarea>";
 		str += "</div>";
 		str += "</div>";
-
 		str += "</div>";
 		$('#thesesbox').append(str);
 	}

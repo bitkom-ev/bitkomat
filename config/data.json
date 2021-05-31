@@ -1,26 +1,31 @@
 {
   "theses": {
     "0": {
+      "t": "Thema1",
       "s": "Ein Digitalministerium für Deutschland",
       "l": "Die Bundesregierung sollte ein eigenständiges und starkes Digitalministerium schaffen.",
       "x": "Um der Digitalpolitik in Deutschland zu mehr Durchschlagskraft zu verhelfen, wird derzeit verstärkt über die Einrichtung eines Digitalministeriums auf Bundesebene diskutiert. Befürworter betonen, dass eine institutionelle Aufwertung der Digitalpolitik für eine erfolgreiche und gut koordinierte Digitalisierung unerlässlich sei."
     },
     "1": {
+      "t": "Thema1",
       "s": "Arbeitszeitflexibilisierung",
       "l": "Mit Blick auf die zunehmende Verbreitung von Homeoffice sollte die tägliche durch eine wöchentlich Höchstarbeitszeit ersetzt werden.",
       "x": "Heute arbeiten mehr Menschen denn je im Home Office. Arbeitnehmerinnen und Arbeitnehmer gestalten dabei ihre Arbeitszeit eigenverantwortlich und entsprechend der persönlichen und betrieblichen Bedarfe. Die wachsende Bedeutung von neuen Formen der Arbeitszeitgestaltung wirft dabei auch die Frage nach Anpassungen des gesetzlichen Rahmens auf."
     },
     "2": {
+      "t": "Thema3",
       "s": "Recht auf digitale Bildung",
       "l": "Die Bürgerinnen und Bürger sollten ein gesetzlich garantiertes Recht auf digitale Bildung haben.",
       "x": "In vielen Lehrstätten fehlt es an digitalen Technologien und den notwendigen digitalen Kompetenzen des Lehrpersonals, um digitale Bildungsangebote erfolgreich umzusetzen. Vor diesem Hintergrund engagiert sich eine breite gesellschaftliche Allianz für die gesetzliche Festschreibung eines Rechts auf digitale Bildung."
     },
     "3": {
+      "t": "Thema2",
       "s": "Digitalisierung der Verwaltung",
       "l": "Die Bürgerinnen und Bürger sollten eine einheitliche individuelle Identifikationsnummer für alle digitalen Behördengänge erhalten.",
       "x": "Derzeit müssen Bürgerinnen und Bürger gegenüber der Verwaltung immer wieder die gleichen Daten angeben, obwohl diese bei einer anderen Stelle in der Verwaltung bereits bekannt sind. Durch die Einführung einer einheitlichen individuellen Identifikationsnummer für alle Bürgerservices hoffen Teile der Gesellschaft, den bürokratischen Aufwand zu senken und den Zugang zu Verwaltungsleistungen zu erleichtern."
     },
     "4": {
+      "t": "Thema2",
       "s": "Erleichterungen beim Datenschutz",
       "l": "Die Datenschutz-Grundverordnung soll entschärft werden.",
       "x": "Datenschutz ist ein hohes Gut. Manchmal kann das Recht auf informationelle Selbstbestimmung aber in einem Spannungsverhältnis zu anderen Grundrechten – wie z.B. dem Recht auf Bildung oder körperliche Unversehrtheit – stehen. Vor diesem Hintergrund wird aktuell über Erleichterungen beim Datenschutz, d.h. die stärkere Abwägung gegenüber anderen Grundrechten diskutiert."
@@ -29,122 +34,122 @@
   "lists": {
     "0": {
       "name": "CDU/CSU",
-      "name_x": "CDU/CSU"
+      "name_x": "Christlich Demokratische Union Deutschlands/Christlich-Soziale Union in Bayern e. V."
     },
     "1": {
       "name": "FDP",
-      "name_x": "FDP"
+      "name_x": "Freie Demokratische Partei"
     },
     "2": {
       "name": "SPD",
-      "name_x": "SPD"
+      "name_x": "Sozialdemokratische Partei Deutschlands"
     },
     "3": {
-      "name": "B90/Die Grünen",
-      "name_x": "B90/Die Grünen"
+      "name": "B’90/Grüne",
+      "name_x": "Bündnis 90/Die Grünen"
     },
     "4": {
       "name": "Die Linke",
-      "name_x": "Die Linke"
+      "name_x": "Die Linken"
     },
     "5": {
       "name": "AfD",
-      "name_x": "AfD"
+      "name_x": "Alternative für Deutschland"
     }
   },
   "answers": {
     "0": {
       "0": {
         "selection": "a",
-        "statement": "Stimme zu<br>Test mit Absatz"
+        "statement": "<a href=\"https://www.bitkom.org/politik/bitkomat#test1\" title=\"Testlink\" target=\"_blank\">Testlink</a> Stimme zu Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elit"
       },
       "1": {
         "selection": "a",
-        "statement": "Stimme zu - bin aber auch anderer Meinung, falls gewünscht"
+        "statement": "Stimme zu"
       },
       "2": {
         "selection": "a",
-        "statement": "Stimme zu - kann mich aber nicht so richtig entscheiden, vielleicht doch dagegen?"
+        "statement": "Stimme zu"
       },
       "3": {
         "selection": "a",
-        "statement": "Stimme zu <br>muss mich aber intern noch abstimmen.<br>Oder irgendeine andere Ausrede, falls notwendig."
+        "statement": "Stimme zu"
       },
       "4": {
         "selection": "a",
-        "statement": "Stimme zu: <br>aber nur mit Einschränkungen, die ich mir noch ausdenken werde."
+        "statement": "Stimme zu"
       }
     },
     "1": {
       "0": {
         "selection": "a",
-        "statement": "Stimme zu"
+        "statement": "Stimme zu Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elit"
       },
       "1": {
-        "selection": "c",
-        "statement": "Stimme nicht zu"
-      },
-      "2": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "3": {
-        "selection": "c",
-        "statement": "Stimme nicht zu"
-      },
-      "4": {
         "selection": "a",
         "statement": "Stimme zu"
+      },
+      "2": {
+        "selection": "a",
+        "statement": "Stimme zu"
+      },
+      "3": {
+        "selection": "a",
+        "statement": "Stimme zu"
+      },
+      "4": {
+        "selection": "b",
+        "statement": "Neutral"
       }
     },
     "2": {
       "0": {
-        "selection": "a",
-        "statement": "Stimme zu"
+        "selection": "b",
+        "statement": "Neutral Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elit"
       },
       "1": {
         "selection": "c",
         "statement": "Stimme nicht zu"
       },
       "2": {
-        "selection": "b",
-        "statement": "Neutral"
-      },
-      "3": {
-        "selection": "c",
-        "statement": "Stimme nicht zu"
-      },
-      "4": {
         "selection": "a",
         "statement": "Stimme zu"
+      },
+      "3": {
+        "selection": "a",
+        "statement": "Stimme zu"
+      },
+      "4": {
+        "selection": "c",
+        "statement": "Stimme nicht zu"
       }
     },
     "3": {
       "0": {
         "selection": "c",
-        "statement": "Stimme nicht zu"
+        "statement": "Stimme nicht zu Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elit"
       },
       "1": {
-        "selection": "a",
-        "statement": "Stimme zu"
-      },
-      "2": {
         "selection": "b",
         "statement": "Neutral"
       },
-      "3": {
-        "selection": "c",
-        "statement": "Stimme nicht zu"
-      },
-      "4": {
+      "2": {
         "selection": "a",
         "statement": "Stimme zu"
+      },
+      "3": {
+        "selection": "a",
+        "statement": "Stimme zu"
+      },
+      "4": {
+        "selection": "c",
+        "statement": "Stimme nicht zu"
       }
     },
     "4": {
       "0": {
-        "selection": "a",
-        "statement": "Stimme zu"
+        "selection": "c",
+        "statement": "Stimme nicht zu Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elit"
       },
       "1": {
         "selection": "c",
@@ -159,30 +164,30 @@
         "statement": "Stimme nicht zu"
       },
       "4": {
-        "selection": "a",
-        "statement": "Stimme zu"
+        "selection": "c",
+        "statement": "Stimme nicht zu"
       }
     },
     "5": {
       "0": {
         "selection": "c",
-        "statement": "Stimme nicht zu"
+        "statement": "Stimme nicht zu Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elit"
       },
       "1": {
-        "selection": "a",
-        "statement": "Stimme zu"
+        "selection": "c",
+        "statement": "Stimme nicht zu"
       },
       "2": {
-        "selection": "b",
-        "statement": "Neutral"
+        "selection": "c",
+        "statement": "Stimme nicht zu"
       },
       "3": {
         "selection": "c",
         "statement": "Stimme nicht zu"
       },
       "4": {
-        "selection": "a",
-        "statement": "Stimme zu"
+        "selection": "c",
+        "statement": "Stimme nicht zu"
       }
     }
   }
