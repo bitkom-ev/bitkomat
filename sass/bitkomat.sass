@@ -1,0 +1,762 @@
+// Generator from bitkomat.css: https://sebastianpontow.de/css2compass/
+
+@import "colors"
+
+//@extend-elements
+//original selectors
+//.page-link:hover.page-link:after, .page-link:focus.page-link:after
+%extend_1
+  background-color: $petrol
+  border-right: 1px solid $petrol
+  border-bottom: 1px solid $petrol
+  border-left: 1px solid $petrol
+  color: $white
+  height: 20px
+  bottom: -3px
+  left: -1px
+  right: -1px
+  z-index: -1
+
+html
+  height: 100%
+
+body
+  align-items: center
+  display: flex
+  margin-top: 1em
+  justify-content: center
+  min-height: 100vh
+
+header
+  display: inline-block
+  background-color: transparent
+  margin: 2em auto
+
+footer
+  display: inline-block
+  background-color: transparent
+  margin: 2em auto
+
+.logo
+  width: 200px
+  height: auto
+
+.flex-fill
+  flex: 1 1 auto
+
+.container
+  padding: 0
+  padding-bottom: 1em
+  position: relative
+
+.jumbotron
+  background: $petrol
+  border-radius: 0
+  border: none
+  color: $white
+  margin-bottom: 2em
+  min-width: 110px
+  padding: 4em 2em 6em
+  white-space: normal
+
+  hr
+    background-color: $white
+    height: 2px
+
+
+#pagination
+  display: inline-flex
+  flex-flow: row wrap
+
+  li.page-item
+    margin-right: 4px
+
+    .page-link
+      line-height: 1
+      font-size: initial
+
+
+.page-item
+  &:first-child .page-link
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+    border-top-right-radius: 0
+    border-bottom-right-radius: 0
+
+  &:last-child .page-link
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+    border-top-right-radius: 0
+    border-bottom-right-radius: 0
+
+
+.page-link
+  background-color: $white
+  border: 1px solid $petrol
+  color: $petrol
+  position: relative
+  width: 25px
+
+  &:hover
+    background-color: $petrol
+    border-color: $petrol
+    color: $white
+
+    &.page-link:after
+      @extend %extend_1
+      content: ""
+      position: absolute
+      transform: skew(-180deg, -4.5deg)
+
+
+  &.text-light
+    background-color: transparent !important
+    color: $petrol !important
+
+  &:focus
+    background-color: $petrol
+    border-top: 1px solid $petrol
+    border-left: 1px solid $petrol
+    border-right: 1px solid $petrol
+    border-bottom: none
+    color: $white
+    box-shadow: none
+    outline: initial
+    z-index: 2
+
+    &.page-link:after
+      @extend %extend_1
+      content: ""
+      position: absolute
+      transform: skew(-180deg, -4.5deg)
+
+
+.progress
+  background-color: transparent
+  border-radius: .25em
+
+.progress-bar
+  font-weight: bold
+  padding-right: 0.5em
+  text-align: right
+  transition: width .6s ease
+
+  &.main-progress-bar
+    background-color: $white
+    color: $petrol
+
+  &.remaining-progress-bar
+    background-color: $petrol
+
+
+.result-summary-row
+  margin-bottom: 0.2em
+
+.card
+  background-color: transparent
+  border: 0
+  //If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
+  border-radius: 0
+  margin-bottom: 0.5em
+  padding: 0
+
+  .card-header
+    border: 1px solid $petrol
+    background-color: $nebelgray
+    padding: .4em
+    border-bottom: 0
+
+
+    &.result-detail-header
+      background-color: $lightgrey
+      cursor: pointer
+      padding-top: 1em
+
+    &:first-child
+      border-radius: 0
+
+  .card-footer
+    background-color: transparent
+    padding: .4em
+    border-top: 0
+
+    &.result-detail-footer
+      background-color: $lightgrey
+      cursor: pointer
+
+    .list-item
+      padding-left: 6px
+
+      &:first-child
+        border-right: 1px solid $petrol
+        padding: 1px 6px 3px 0
+
+        .badge
+          &:before
+            background: $white
+            border: 1px solid $altogray
+            //If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
+            border-radius: 0
+            color: $petrol
+            content: attr(data-text)
+            display: none
+            left: 50%
+            position: absolute
+            top: -100%
+            //If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
+            transform: translateY(-50%)
+            min-width: 200px
+            padding: 1em
+            z-index: 2
+
+          &:hover
+            &:before
+              display: block ruby
+
+            &:after
+              display: block ruby
+
+        span.badge
+          padding: 5px 7px
+
+      .badge
+        position: relative
+        z-index: 1
+
+
+  .card-body
+    padding: .4em
+    background-color: $petrol
+    color: $white
+    margin: 1em
+    padding: 1em
+
+
+.text-sm-center
+  .card-body
+    padding-top: 3em
+    padding-bottom: 4em
+
+  #btn-bitkomat-show-qa
+    margin-top: 9em
+
+  .btn-start
+    top: -9em
+
+#thesis-number, span[class^="thesis-number-"]
+  background-color: $white
+  border-top: 2px solid $petrol
+  border-left: 2px solid $petrol
+  border-right: 2px solid $petrol
+  border-bottom: none
+  color: $petrol
+  font-size: 2em
+  left: 45%
+  width: 1.6em
+  top: -0.4em
+  position: absolute
+
+  &:after
+    background-color: $white
+    border-right: 2px solid $petrol
+    border-bottom: 2px solid $petrol
+    border-left: 2px solid $petrol
+    height: 7px
+    bottom: -4px
+    left: -2px
+    right: -2px
+    z-index: 2
+    content: ""
+    position: absolute
+    transform: skew(-180deg, -4.5deg)
+
+span[class^="thesis-number-"]
+  font-size: 1.25em
+  top: -1em
+
+@media(min-width: 768px)
+  #thesis-number, span[class^="thesis-number-"]
+    left: 0
+
+  .btn .svg-inline--fa.fa-check-circle
+    left: initial
+    right: -30px
+
+
+#thesis-card
+  min-height: 14em
+  margin: 2em 0 4em 0
+  padding: 0
+  position: relative
+
+@media(max-width: 767px)
+  #thesis-card
+    margin-bottom: 4em
+
+  .left-answer-row
+    margin-right: -25px
+
+  .right-answer-row
+    margin-left: -25px
+
+
+#thesis-more
+  margin-top: 0.5em
+
+.emaining-progress-bar
+  background-color: rgba(255, 255, 255, 0)
+
+#bitkomat
+  display: none
+
+#result
+  display: none
+
+#swype-info
+  position: fixed
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+  z-index: 500
+  width: 100%
+  height: 100%
+  display: none
+
+#swype-info-content
+  width: 80%
+  height: 50%
+  padding: 1em
+  position: relative
+  float: left
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+#swype-info-message
+  width: 80%
+  padding: 1em
+  position: relative
+  float: left
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+
+.btn
+  border-radius: 0
+  white-space: normal
+  padding: 6px 0
+  min-width: 110px
+
+  &.focus
+    box-shadow: 0 0 0 0
+
+  &:focus
+    box-shadow: 0 0 0 0
+
+  .svg-inline--fa.fa-check-circle
+    border-radius: 40px
+    border: 4px solid $white
+    width: 80px
+    height: 80px
+    position: absolute
+    top: -42px
+    z-index: 6
+    background-color: $white
+    border: 2px solid $white
+    bottom: -16px
+    left: 45%
+    top: initial
+
+
+.badge
+  border-radius: 0
+  white-space: normal
+  padding: 6px 0
+  min-width: 110px
+  color: $white
+
+btn-bitkomat-show-2
+  min-width: initial
+
+btn-bitkomat-show-t
+  min-width: initial
+
+btn-bitkomat-show-3
+  min-width: initial
+
+.badge-secondary
+  background-color: $petrol
+  border-bottom-width: 3px
+  border-bottom-style: solid
+  color: $white
+  border-bottom-color: $docegrey
+
+.badge-danger
+  background-color: $petrol
+  border-bottom-width: 3px
+  border-bottom-style: solid
+  color: $white
+  border-bottom-color: $red
+
+.badge-warning
+  background-color: $petrol
+  border-bottom-width: 3px
+  border-bottom-style: solid
+  color: $white
+  border-bottom-color: $blue
+
+.badge-success
+  background-color: $petrol
+  border-bottom-width: 3px
+  border-bottom-style: solid
+  color: $white
+  border-bottom-color: $green
+
+.btn-select
+  margin-bottom: 0.5em
+
+.btn-light
+  background-color: $white
+  border-color: $lightgrey
+  color: $petrol
+
+  &:hover
+    border-color: $petrol
+    color: $white
+    background-color: $gray
+
+
+.btn-info
+  background-color: $white
+  border-color: $petrol
+  color: $petrol
+  min-width: auto
+  padding: 6px 8px
+
+  &:hover
+    border-color: $petrol
+    color: $white
+    background-color: $gray
+
+
+.btn-success
+  background-color: $green
+  border-color: $green
+  border: none
+  color: $white
+
+  &:hover
+    border-color: $petrol
+    color: $white
+    background-color: $green
+
+
+.btn-warning
+  background-color: $gray
+  border-color: $gray
+  color: $petrol
+
+  &:hover
+    border-color: $petrol
+    color: $white
+    background-color: $gray
+    background-color: $gray
+
+
+.btn-danger
+  background-color: $red
+  border-color: $red
+  color: $white
+
+  &:hover
+    border-color: $petrol
+    color: $white
+    background-color: $red
+
+
+#btn-neutral
+  background-color: $white !important
+  border-color: $petrol
+  color: $petrol
+
+#btn-no
+  background-color: $white !important
+  border-color: $petrol
+  color: $petrol
+
+.btn-secondary
+  background-color: $gray
+  border-color: $gray
+  color: $petrol
+
+  &:hover
+    border-color: $petrol
+    color: $white
+    background-color: $gray
+
+
+.btn-dark
+  background-color: $petrol
+  border-color: $petrol
+  color: $white
+
+  &:hover
+    background-color: $black
+
+
+#btn-bitkomat-show-qa
+  min-width: 207px
+  padding: 0 -15px
+
+.btn-start, .btn-overview
+  background-color: $white
+  border-top: 4px solid $petrol
+  border-left: 4px solid $petrol
+  border-right: 4px solid $petrol
+  border-bottom: none
+  color: $petrol
+  font-size: 2em
+  padding: 0 -15px
+  padding-top: 60px
+  padding-bottom: 10px
+  position: relative
+  width: 210px
+
+  &:after
+    background-color: transparent
+    border-right: 4px solid $petrol
+    border-bottom: 4px solid $petrol
+    border-left: 4px solid $petrol
+    bottom: -15px
+    height: 30px
+    left: -4px
+    right: -4px
+    content: ""
+    position: absolute
+    transform: skew(-180deg, -4.5deg)
+
+.btn-judge
+  border: 4px solid $petrol
+  color: $white
+  min-width: 210px
+  font-size: 1.25em
+  margin-right: 1em
+  margin-bottom: 2em
+  position: relative
+  padding: 40px 0 20px
+  z-index: 0
+
+.svg-inline--fa
+  z-index: 6
+  &.fa-caret-right,
+  &.fa-pencil-alt,
+  &.fa-share-alt,
+  &.fa-angle-double-right,
+  &.fa-smile,
+  &.fa-smile-beam,
+  &.fa-meh-blank,
+  &.fa-frown,
+  &.fa-check-double
+    background-color: $white
+    border: 4px solid $white
+    border-radius: 40px
+    color: $white
+    width: 80px
+    height: 80px
+    position: absolute
+    top: -42px
+    left: 31%
+
+  &.fa-caret-right
+    background-color: $green
+    left: 62px
+
+  &.fa-angle-double-right,
+  &.fa-meh-blank
+    color: $gray
+
+  &.fa-smile,
+  &.fa-smile-beam
+    color: $green
+
+  &.fa-frown
+    color: $red
+
+  &.fa-check-double
+    left: 31%
+
+  &.btn-success
+    border: none
+
+#result-overview
+  border: 1px solid $petrol
+  margin: 150px 0 40px 0
+  padding: 1em 0
+  position: relative
+
+  p.text-center
+    height: 80px
+
+  .btn-overview
+    background-color: $petrol
+    color: $white
+    margin: 1em 0
+    left: 0
+    padding-top: 60px
+    position: relative
+    top: -130px
+    width: 210px
+
+    span
+      position: relative
+
+    &:after
+      background-color: $petrol
+      bottom: -15px
+      height: 30px
+      content: ""
+      position: absolute
+      transform: skew(-180deg, -4.5deg)
+
+    .svg-inline--fa
+
+      &.fa-smile-beam
+        left: -42px
+      &.fa-meh-blank
+        left: 62px
+      &.fa-frown
+        left: initial
+        right: -42px
+
+.btn-edit, .btn-share
+  background-color: $white
+  border: 2px solid $petrol
+  color: $petrol
+  font-size: 1.25em
+  padding: 1em 0
+  margin-right: 1em
+  position: relative
+  min-width: 140px
+  .fa
+    font-size: 1em
+  &:hover
+    background-color: transparent
+    color: $black
+
+  .svg-inline--fa
+
+    &.fa-pencil-alt,
+    &.fa-share-alt
+    background-color: $petrol
+    border: 2px solid $white
+    border-radius: 20px
+    color: $white
+    width: 40px
+    height: 40px
+    top: -21px
+    left: 48px
+
+.btn-judge-2
+  border: 4px solid $petrol
+  color: $white
+  font-size: 1.25em
+  padding: 40px 0 20px
+  position: relative
+  min-width: 210px
+  margin-right: 1em
+  margin-bottom: 2em
+  z-index: 0
+  color: $petrol
+  min-width: 300px
+
+  .svg-inline--fa
+
+    &.fa-check-double
+      background-color: $white
+      color: $gray
+
+.text-dark
+  color: $white !important
+
+.bg-info
+  background-color: $nebelgray !important
+
+.bg-success
+  background-color: $green !important
+
+.bg-danger
+  background-color: $red !important
+
+.bg-warning
+  background-color: $petrol !important
+
+.list-group-item
+  display: inline-block
+  padding: .4em
+  vertical-align: top
+
+  .list-item
+    position: relative
+    min-width: 130px
+    vertical-align: inherit
+    display: inline-block
+
+  .list-item-two
+    display: inline-block
+    border-left: 1px solid $petrol
+    max-width: calc(100% - 140px)
+    padding-left: 6px
+
+
+.gewichten
+  background-color: transparent
+
+hr.result
+  background-color: $white
+  height: 2px
+
+.pagination-sm .page-item
+  &:first-child .page-link
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+    border-top-right-radius: 0
+    border-bottom-right-radius: 0
+
+  &:last-child .page-link
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+    border-top-right-radius: 0
+    border-bottom-right-radius: 0
+
+.btn-neural:hover
+  background-color: $gray
+
+.text-lg-left #btn-bitkomat-show-qa
+  margin-top: 0
+  padding: 0 -15px
+
+.text-lg-center .btn-start
+  top: -3em
+
+.text-md-left #btn-bitkomat-show-qa
+  margin-top: 0
+  padding: 0 -15px
+
+.text-md-center .btn-start
+  top: -3em
+
+.text-center
+  #btn-bitkomat-show-qa
+    margin-top: 9em
+    padding: 1em 0
+
+  .btn-start
+    top: -9em
+
+
+a.fa
+  color: $white
+
+.fa:hover
+  color: $white

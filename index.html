@@ -57,7 +57,7 @@
     </div>
 -->
 
-    <!-- 1. Seite Start -->
+    <!-- 1. Seite id="start" -->
     <div id="start" class="container">
         <div class="row">
             <!-- header -->
@@ -92,7 +92,7 @@
     </div>
 
 
-    <!-- 2. Seite bewerten -->
+    <!-- 2. Seite bewerten id="bitkomat" -->
     <div id="bitkomat" class="container">
         <!-- header -->
         <div class="row mb-3 my-3">
@@ -153,8 +153,8 @@
                         id="btn-no-text">btn-no-text</span></button>
             </div>
             <div class="gewichten col-12 col-lg-12 col-md-12 col-sm-12">
-                <button class="btn btn-judge btn-judge-2 btn-success btn-select" id="btn-important">btn-important</button>
-                <button class="btn btn-judge btn-judge-2 btn-secondary btn-select" id="btn-skip"><span id="btn-skip-text">btn-skip-text</span>
+                <button class="btn btn-judge btn-secondary btn-select" id="btn-skip"><span id="btn-skip-text">btn-skip-text</span>
+                    <button class="btn btn-judge btn-judge-2 btn-success btn-select" id="btn-important">btn-important</button>
                 </button>
             </div>
         </div>
@@ -171,11 +171,14 @@
                 <button class="btn btn-info font-weight-bold" id="btn-bitkomat-show-start">btn-results-show-start</button>
                  -->
                 <!-- faq -->
-                <button class="btn btn-dark font-weight-bold" id="btn-bitkomat-show-qa-t">btn-bitkomat-show-qa-t</button>
+                <button class="btn btn-dark font-weight-bold" id="btn-bitkomat-show-qa-t">btn-bitkomat-show-qa-t
+                </button>
             </div>
             <!-- faq -->
             <div class="text-right col-6">
-                <button class="btn btn-info font-weight-bold" id="btn-bitkomat-skip-remaining-theses">btn-bitkomat-skip-remainng-theses</button>
+                <button class="btn btn-dark font-weight-bold" id="btn-bitkomat-skip-remaining-theses">
+                    btn-bitkomat-skip-remainng-theses
+                </button>
             </div>
         </div>
 
@@ -183,11 +186,11 @@
     </div>
 
 
-    <!-- Seite 3 letzte Seite Ergebnisse Auswertung -->
+    <!-- Seite 3 letzte Seite Ergebnisse Auswertung id="result"  -->
     <div id="result" class="text-left container">
 
         <div class="row text-left " id="result-summary-row">
-            <div class="border-bottom card col-sm-12 offset-sm-0" id="card">
+            <div class="card col-sm-12 offset-sm-0" id="card">
                 <div class="card-body text-center text-sm-center text-md-left text-lg-left">
                     <h4 id="title-results">title-results</h4>
                     <h5 class="card-title" id="title-results-summary">title-results-summary</h5>
@@ -196,24 +199,27 @@
                 </div>
             </div>
         </div>
-        <div>
-            <button data-toimg="">SVG erzeugen</button>
+
+        <div class="text-center" id="result-overview">
+            <!-- lead -->
+            <p class="text-center text-sm-center text-md-center text-lg-center">
+                <button class="btn btn-overview  text-center font-weight-bold" id="btn-overview">btn-overview</button>
+            </p>
+            <p class="text-center text-sm-center text-md-center text-lg-center">
+                <button class="btn btn-edit btn-light" id="text-result-below-summary">text-result-below-summary</button>
+                <button class="btn btn-share btn-light" data-toimg="" id="text-result-share">text-result-share</button>
+            </p>
         </div>
 
-        <h5 id="title-results-details">title-results-details</h5>
-        <hr/>
         <div class="card col-sm-12 offset-sm-0" id="result-detail">
             <div class="card-body"></div>
         </div>
-
-        <!-- footer: buttons home -->
-        <p class="text-left">
-            <button class="btn btn-sm btn-light" id="btn-results-show-start">btn-results-show-start</button>
-            <button class="btn btn-sm btn-light" id="btn-results-show-qa">btn-results-show-qa</button>
-            <button class="btn btn-sm btn-light" id="text-result-below-summary">text-result-below-summary</button>
-
-        </p>
+        <div class="text-left">
+            <button class="btn btn-dark" id="btn-results-show-start">btn-results-show-start</button>
+            <button class="btn btn-dark" id="btn-results-show-qa">btn-results-show-qa</button>
+        </div>
     </div>
+
 </main>
 
 <footer class="text-left container">
@@ -240,7 +246,7 @@
 
 </script>
 <script src="js/bitkomat.js?v=1"></script>
-<script>
+<script about="render html to image">
     /**
      * I follow: https://ronvalstar.nl/render-html-to-an-image
      * https://ronvalstar.nl/render-html-to-an-image
@@ -357,5 +363,6 @@
 
     });
 </script>
+
 </body>
 </html>
