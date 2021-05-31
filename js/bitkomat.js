@@ -185,13 +185,13 @@ function toggleImportant() {
 function unsetImportant() {
     $('#btn-important').addClass('btn-light');
     $('#btn-important').removeClass('btn-success');
-    $('#btn-important').text(t.btn_make_thesis_double_weight);
+    //$('#btn-important').text(t.btn_make_thesis_double_weight);
 }
 
 function setImportant() {
     $('#btn-important').removeClass('btn-light');
     $('#btn-important').addClass('btn-success');
-    $('#btn-important').text(t.btn_thesis_has_double_weight);
+    //$('#btn-important').text(t.btn_thesis_has_double_weight);
 }
 
 function isThesisMarkedImportant() {
@@ -232,23 +232,20 @@ function styleAnswerButtons() {
     unsetImportant();
 
     switch (answers[currentThesis]) {
-        case "e":
-            setImportant();
         case "a":
             $('#btn-yes').addClass('btn-success');
             break;
+        case "e":
         case "f":
+        case "g":
+        case "h":
             setImportant();
         case "b":
             $('#btn-neutral').addClass('btn-warning');
             break;
-        case "g":
-            setImportant();
         case "c":
             $('#btn-no').addClass('btn-danger');
             break;
-        case "h":
-            setImportant();
         case "d":
             $('#btn-yes').addClass('btn-success');
             $('#btn-neutral').addClass('btn-warning');
@@ -449,8 +446,10 @@ function initResultDetails() {
         var text = `
     <div class="border-bottom card result-detail-card text-left">
 <!-- These: -->        
-        <div class="card-header result-detail-header">${thesisNumber}. ${data.theses[thesis_id].s}
-        <span class="float-right"><i class="fa fa-chevron-down"></i></span>
+        <div class="card-header result-detail-header position-relative">
+            <span class="text-center thesis-number-${thesisNumber}">${thesisNumber}</span>
+            <span class="card-text" >${data.theses[thesis_id].s}</span>
+            <span class="float-right"><i class="fa fa-chevron-down"></i></span>
     </div>
     <div class="result-details text-left">
         <div class="card-body">
