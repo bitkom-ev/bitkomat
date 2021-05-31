@@ -1,5 +1,7 @@
 /docs/*
 /.idea/*
 /config/2021*
-/05
+/04
 /06
+/05
+/node_modules
