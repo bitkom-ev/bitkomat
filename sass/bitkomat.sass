@@ -2,21 +2,6 @@
 
 @import "colors"
 
-//@extend-elements
-//original selectors
-//.page-link:hover.page-link:after, .page-link:focus.page-link:after
-%extend_1
-  background-color: $petrol
-  border-right: 1px solid $petrol
-  border-bottom: 1px solid $petrol
-  border-left: 1px solid $petrol
-  color: $white
-  height: 20px
-  bottom: -3px
-  left: -1px
-  right: -1px
-  z-index: -1
-
 html
   height: 100%
 
@@ -63,72 +48,64 @@ footer
     background-color: $white
     height: 2px
 
-
-#pagination
+ul#pagination
   display: inline-flex
   flex-flow: row wrap
 
   li.page-item
+    background-color: transparent
     margin-right: 4px
 
-    .page-link
-      line-height: 1
+    &:first-child .page-link,
+    &:last-child .page-link
+      border-radius: 0
+
+    &:hover, &:focus, &:active
+      background-color: $petrol
+      border-color: $petrol
+      color: $white
+    // overwrite bootstrap !important text-light!
+    button.text-light
+      background-color: transparent !important
+      color: $petrol !important
+
+      &:hover, &:focus, &:active
+        background-color: $petrol !important
+        box-shadow: none
+        color: $white !important
+        outline: initial
+
+    button.page-link
+      background-color: $white
+      border: 1px solid $petrol
       font-size: initial
+      line-height: 1
+      position: relative
+      width: 25px
 
+      &:hover, &:focus, &:active
+        background-color: $petrol
+        border-top: 1px solid $petrol
+        border-right: 1px solid $petrol
+        border-left: 1px solid $petrol
+        border-bottom: none
+        color: $white
 
-.page-item
-  &:first-child .page-link
-    border-top-left-radius: 0
-    border-bottom-left-radius: 0
-    border-top-right-radius: 0
-    border-bottom-right-radius: 0
+      &:focus:after, &:active:after, &:hover:after
+        background-color: $petrol
+        border-right: 1px solid $petrol
+        border-bottom: 1px solid $petrol
+        border-left: 1px solid $petrol
+        color: $white
+        height: 20px
+        bottom: -3px
+        left: -1px
+        right: -1px
+        z-index: -1
+        content: ""
+        position: absolute
+        transform: skew(-180deg, -4.5deg)
 
-  &:last-child .page-link
-    border-top-left-radius: 0
-    border-bottom-left-radius: 0
-    border-top-right-radius: 0
-    border-bottom-right-radius: 0
-
-
-.page-link
-  background-color: $white
-  border: 1px solid $petrol
-  color: $petrol
-  position: relative
-  width: 25px
-
-  &:hover
-    background-color: $petrol
-    border-color: $petrol
-    color: $white
-
-    &.page-link:after
-      @extend %extend_1
-      content: ""
-      position: absolute
-      transform: skew(-180deg, -4.5deg)
-
-
-  &.text-light
-    background-color: transparent !important
-    color: $petrol !important
-
-  &:focus
-    background-color: $petrol
-    border-top: 1px solid $petrol
-    border-left: 1px solid $petrol
-    border-right: 1px solid $petrol
-    border-bottom: none
-    color: $white
-    box-shadow: none
-    outline: initial
-    z-index: 2
-
-    &.page-link:after
-      @extend %extend_1
-      content: ""
-      position: absolute
-      transform: skew(-180deg, -4.5deg)
 
 
 .progress
@@ -168,7 +145,7 @@ footer
 
 
     &.result-detail-header
-      background-color: $lightgrey
+      background-color: $lightgray
       cursor: pointer
       padding-top: 1em
 
@@ -181,7 +158,7 @@ footer
     border-top: 0
 
     &.result-detail-footer
-      background-color: $lightgrey
+      background-color: $lightgray
       cursor: pointer
 
     .list-item
@@ -195,18 +172,16 @@ footer
           &:before
             background: $white
             border: 1px solid $altogray
-            //If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
             border-radius: 0
             color: $petrol
             content: attr(data-text)
             display: none
-            left: 50%
+            min-width: 200px
+            left: calc(50% - 200px)
+            padding: 1em
             position: absolute
             top: -100%
-            //If you use compass, instead of the line below you could use + transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)
             transform: translateY(-50%)
-            min-width: 200px
-            padding: 1em
             z-index: 2
 
           &:hover
@@ -251,8 +226,8 @@ footer
   border-bottom: none
   color: $petrol
   font-size: 2em
-  left: 45%
-  width: 1.6em
+  left: calc(50% - 22px)
+  width: 44px
   top: -0.4em
   position: absolute
 
@@ -277,11 +252,6 @@ span[class^="thesis-number-"]
 @media(min-width: 768px)
   #thesis-number, span[class^="thesis-number-"]
     left: 0
-
-  .btn .svg-inline--fa.fa-check-circle
-    left: initial
-    right: -30px
-
 
 #thesis-card
   min-height: 14em
@@ -347,27 +317,13 @@ span[class^="thesis-number-"]
   white-space: normal
   padding: 6px 0
   min-width: 110px
-
+  &.disabled
+    opacity: 1
   &.focus
     box-shadow: 0 0 0 0
 
   &:focus
     box-shadow: 0 0 0 0
-
-  .svg-inline--fa.fa-check-circle
-    border-radius: 40px
-    border: 4px solid $white
-    width: 80px
-    height: 80px
-    position: absolute
-    top: -42px
-    z-index: 6
-    background-color: $white
-    border: 2px solid $white
-    bottom: -16px
-    left: 45%
-    top: initial
-
 
 .badge
   border-radius: 0
@@ -416,15 +372,14 @@ btn-bitkomat-show-3
 .btn-select
   margin-bottom: 0.5em
 
-.btn-light
+.btn-light, .btn-secondary
   background-color: $white
-  border-color: $lightgrey
+  border-color: $gray
   color: $petrol
-
   &:hover
-    border-color: $petrol
-    color: $white
-    background-color: $gray
+    background-color: $white
+    border-color: $gray
+    color: $petrol
 
 
 .btn-info
@@ -433,30 +388,25 @@ btn-bitkomat-show-3
   color: $petrol
   min-width: auto
   padding: 6px 8px
-
   &:hover
     border-color: $petrol
     color: $white
     background-color: $gray
-
 
 .btn-success
   background-color: $green
   border-color: $green
   border: none
   color: $white
-
   &:hover
     border-color: $petrol
     color: $white
     background-color: $green
 
-
 .btn-warning
   background-color: $gray
   border-color: $gray
   color: $petrol
-
   &:hover
     border-color: $petrol
     color: $white
@@ -474,7 +424,6 @@ btn-bitkomat-show-3
     color: $white
     background-color: $red
 
-
 #btn-neutral
   background-color: $white !important
   border-color: $petrol
@@ -485,25 +434,12 @@ btn-bitkomat-show-3
   border-color: $petrol
   color: $petrol
 
-.btn-secondary
-  background-color: $gray
-  border-color: $gray
-  color: $petrol
-
-  &:hover
-    border-color: $petrol
-    color: $white
-    background-color: $gray
-
-
 .btn-dark
   background-color: $petrol
   border-color: $petrol
   color: $white
-
   &:hover
     background-color: $black
-
 
 #btn-bitkomat-show-qa
   min-width: 207px
@@ -549,6 +485,8 @@ btn-bitkomat-show-3
 
 .svg-inline--fa
   z-index: 6
+
+  &.fa-check-circle,
   &.fa-caret-right,
   &.fa-pencil-alt,
   &.fa-share-alt,
@@ -566,7 +504,17 @@ btn-bitkomat-show-3
     height: 80px
     position: absolute
     top: -42px
-    left: 31%
+    left: calc(50% - 40px)
+
+  &.fa-check-circle
+    bottom: -2px
+    color: $petrol
+    left: calc(50% - 40px)
+    top: initial
+
+  @media(min-width: 768px)
+    &.fa-check-circle
+      left: initial
 
   &.fa-caret-right
     background-color: $green
@@ -584,7 +532,7 @@ btn-bitkomat-show-3
     color: $red
 
   &.fa-check-double
-    left: 31%
+    left: calc(50% - 40px)
 
   &.btn-success
     border: none
@@ -655,11 +603,11 @@ btn-bitkomat-show-3
     width: 40px
     height: 40px
     top: -21px
-    left: 48px
+    left: calc(50% - 20px)
 
 .btn-judge-2
-  border: 4px solid $petrol
-  color: $white
+  border: 4px solid $altogray
+  color: $docegrey
   font-size: 1.25em
   padding: 40px 0 20px
   position: relative
