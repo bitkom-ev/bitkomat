@@ -23,8 +23,9 @@ footer
   margin: 2em auto
 
 .logo
-  width: 200px
   height: auto
+  max-width: 100%
+  vertical-align: initial
 
 .flex-fill
   flex: 1 1 auto
@@ -60,10 +61,12 @@ ul#pagination
     &:last-child .page-link
       border-radius: 0
 
-    &:hover, &:focus, &:active
+    &.aktive, &:hover, &:focus, &:active
       background-color: $petrol
       border-color: $petrol
+      box-shadow: none
       color: $white
+
     // overwrite bootstrap !important text-light!
     button.text-light
       background-color: transparent !important
@@ -78,20 +81,22 @@ ul#pagination
     button.page-link
       background-color: $white
       border: 1px solid $petrol
+      box-shadow: none
       font-size: initial
       line-height: 1
       position: relative
       width: 25px
 
-      &:hover, &:focus, &:active
+      &.aktive, &:hover, &:focus, &:active
         background-color: $petrol
         border-top: 1px solid $petrol
         border-right: 1px solid $petrol
         border-left: 1px solid $petrol
         border-bottom: none
+        box-shadow: none
         color: $white
 
-      &:focus:after, &:active:after, &:hover:after
+      &.aktive:after, &:focus:after, &:active:after, &:hover:after
         background-color: $petrol
         border-right: 1px solid $petrol
         border-bottom: 1px solid $petrol
@@ -105,7 +110,6 @@ ul#pagination
         content: ""
         position: absolute
         transform: skew(-180deg, -4.5deg)
-
 
 
 .progress
@@ -128,6 +132,15 @@ ul#pagination
 
 .result-summary-row
   margin-bottom: 0.2em
+
+.card-head
+  background: transparent
+  height: 40px
+  line-height: 40px
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+
 
 .card
   background-color: transparent
@@ -227,7 +240,8 @@ ul#pagination
   color: $petrol
   font-size: 2em
   left: calc(50% - 22px)
-  width: 44px
+  height: 48px
+  width: 48px
   top: -0.4em
   position: absolute
 
@@ -244,6 +258,15 @@ ul#pagination
     content: ""
     position: absolute
     transform: skew(-180deg, -4.5deg)
+
+  &.bg-success, &.bg-success:after
+    background-color: $green !important
+
+  &.bg-warning, &.bg-warning:after
+    background-color: $gray !important
+
+  &.bg-danger, &.bg-danger:after
+    background-color: $red !important
 
 span[class^="thesis-number-"]
   font-size: 1.25em
@@ -317,8 +340,10 @@ span[class^="thesis-number-"]
   white-space: normal
   padding: 6px 0
   min-width: 110px
+
   &.disabled
     opacity: 1
+
   &.focus
     box-shadow: 0 0 0 0
 
@@ -376,6 +401,7 @@ btn-bitkomat-show-3
   background-color: $white
   border-color: $gray
   color: $petrol
+
   &:hover
     background-color: $white
     border-color: $gray
@@ -388,16 +414,18 @@ btn-bitkomat-show-3
   color: $petrol
   min-width: auto
   padding: 6px 8px
-  &:hover
-    border-color: $petrol
-    color: $white
-    background-color: $gray
+
+  &:hover, &:active, &:focus
+    background-color: $lightgray
+    border-color: transparent
+    color: $petrol
 
 .btn-success
   background-color: $green
   border-color: $green
   border: none
   color: $white
+
   &:hover
     border-color: $petrol
     color: $white
@@ -407,6 +435,7 @@ btn-bitkomat-show-3
   background-color: $gray
   border-color: $gray
   color: $petrol
+
   &:hover
     border-color: $petrol
     color: $white
@@ -434,10 +463,27 @@ btn-bitkomat-show-3
   border-color: $petrol
   color: $petrol
 
+#btn-yes
+  background-color: $white !important
+  border-color: $petrol
+  color: $petrol
+
+  &.btn-select
+  background-color: $green !important
+  border-color: $petrol
+  color: $petrol
+
+
+#btn-skip
+  background-color: $white !important
+  border-color: $nebelgray
+  color: $gray
+
 .btn-dark
   background-color: $petrol
   border-color: $petrol
   color: $white
+
   &:hover
     background-color: $black
 
@@ -484,6 +530,7 @@ btn-bitkomat-show-3
   z-index: 0
 
 .svg-inline--fa
+  font-size: 1em
   z-index: 6
 
   &.fa-check-circle,
@@ -571,8 +618,10 @@ btn-bitkomat-show-3
 
       &.fa-smile-beam
         left: -42px
+
       &.fa-meh-blank
         left: 62px
+
       &.fa-frown
         left: initial
         right: -42px
@@ -586,8 +635,10 @@ btn-bitkomat-show-3
   margin-right: 1em
   position: relative
   min-width: 140px
+
   .fa
     font-size: 1em
+
   &:hover
     background-color: transparent
     color: $black
@@ -600,6 +651,7 @@ btn-bitkomat-show-3
     border: 2px solid $white
     border-radius: 20px
     color: $white
+    font-size: 1em
     width: 40px
     height: 40px
     top: -21px
@@ -607,16 +659,20 @@ btn-bitkomat-show-3
 
 .btn-judge-2
   border: 4px solid $altogray
-  color: $docegrey
+  color: $petrol
   font-size: 1.25em
   padding: 40px 0 20px
   position: relative
-  min-width: 210px
+  min-width: 600px
   margin-right: 1em
   margin-bottom: 2em
   z-index: 0
-  color: $petrol
-  min-width: 300px
+  @media(max-width: 768px)
+    min-width: 420px
+    wiidth: 87%
+  @media(max-width: 640px)
+    min-width: 210px
+    width: 100%
 
   .svg-inline--fa
 

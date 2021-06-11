@@ -106,8 +106,8 @@ var T =
             this.btn_bitkomat_skip_remaining_theses = "Auswerten";
             this.title_results = "Ergebnisse";
             this.title_results_summary = "Übereinstimmung mit den Parteien"; // Zusammenfassung
-            this.text_result_below_summary = '<span onclick="showBitkomatFirstThesis()"><i class=\"fas fa-pencil-alt\"></i>Bearbeiten</span>';
-            this.text_result_share = '<i class="fas fa-share-alt"></i>Teilen</span>';
+            this.text_result_below_summary = '<span onclick="showBitkomatFirstThesis()"><i class=\"fas fa-pencil-alt fa-sm\"></i>Bearbeiten</span>';
+            this.text_result_share = '<i class="fas fa-share-alt fa-sm"></i>Teilen</span>';
             this.title_results_details = "Thesen"; // Details Übersicht
             this.btn_overview = "<i class=\"fa fa-smile-beam\"></i> <i class=\"fas fa-meh-blank\"></i> <i class=\"fas fa-frown\"></i><span >Übersicht</span>";
             this.btn_results_show_start = '<i class="fas fa-home fa-1x"></i>';
