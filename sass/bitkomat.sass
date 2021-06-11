@@ -5,12 +5,14 @@
 html
   height: 100%
 
-body
+body.flex
+  margin-top: 1em
+  min-height: 100vh
+
+body.flex
   align-items: center
   display: flex
-  margin-top: 1em
   justify-content: center
-  min-height: 100vh
 
 header
   display: inline-block
@@ -21,6 +23,9 @@ footer
   display: inline-block
   background-color: transparent
   margin: 2em auto
+  .btn
+    min-width: auto
+    padding: 6px 10px
 
 .logo
   height: auto
@@ -145,25 +150,51 @@ ul#pagination
 .card
   background-color: transparent
   border: 0
-  //If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
   border-radius: 0
   margin-bottom: 0.5em
   padding: 0
 
   .card-header
-    border: 1px solid $petrol
+    border: 0
+
     background-color: $nebelgray
     padding: .4em
-    border-bottom: 0
-
 
     &.result-detail-header
       background-color: $lightgray
+      border: 1px solid $petrol
       cursor: pointer
       padding-top: 1em
 
+      .float-right
+        &.closed
+          visibility: visible
+          display: block
+
+        &.opened
+          visibility: hidden
+          display: none
+
+      &.open
+        background: yellow
+        border-bottom: none
+        .float-right
+          &.closed
+            visibility: hidden
+            display: none
+
+          &.opened
+            visibility: visible
+            display: block
+
     &:first-child
       border-radius: 0
+
+    &.result-detail-card
+      margin-bottom: 2em
+
+      .result-details
+        border-color: $petrol
 
   .card-footer
     background-color: transparent
@@ -231,7 +262,7 @@ ul#pagination
   .btn-start
     top: -9em
 
-#thesis-number, span[class^="thesis-number-"]
+#thesis-number, span[class^="thesis-number-"], span.thesis-number
   background-color: $white
   border-top: 2px solid $petrol
   border-left: 2px solid $petrol
@@ -268,13 +299,21 @@ ul#pagination
   &.bg-danger, &.bg-danger:after
     background-color: $red !important
 
-span[class^="thesis-number-"]
+span[class^="thesis-number-"], span.thesis-number
   font-size: 1.25em
   top: -1em
+
+span.thesis-number
+  height: 28px
+  width: 28px
+
+
 
 @media(min-width: 768px)
   #thesis-number, span[class^="thesis-number-"]
     left: 0
+  span.thesis-number
+    left: -20px
 
 #thesis-card
   min-height: 14em
@@ -581,6 +620,11 @@ btn-bitkomat-show-3
   &.fa-check-double
     left: calc(50% - 40px)
 
+  &.fa-chevron-down
+    color: $petrol
+    width: 30px
+    height: 20px
+
   &.btn-success
     border: none
 
@@ -592,6 +636,10 @@ btn-bitkomat-show-3
 
   p.text-center
     height: 80px
+
+  .btn
+    background-color: transparent
+    min-height: 104px
 
   .btn-overview
     background-color: $petrol
@@ -651,7 +699,7 @@ btn-bitkomat-show-3
     border: 2px solid $white
     border-radius: 20px
     color: $white
-    font-size: 1em
+    font-size: 14px
     width: 40px
     height: 40px
     top: -21px
