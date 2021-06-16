@@ -6,6 +6,11 @@ body
   color-adjust: exact
   print-color-adjust: exact
   -webkit-print-color-adjust: exact
+  margin: 0
+
+/* remove stuff that should not be visible in the final print */
+header, footer, .meta, .modal.fade, #intro, #start, #bitkomat, #result-overview, #result-detail
+  display: none !important
 
 #result
   background: transparent

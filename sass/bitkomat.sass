@@ -23,6 +23,7 @@ footer
   display: inline-block
   background-color: transparent
   margin: 2em auto
+
   .btn
     min-width: auto
     padding: 6px 10px
@@ -151,7 +152,7 @@ ul#pagination
   background-color: transparent
   border: 0
   border-radius: 0
-  margin-bottom: 0.5em
+  margin-bottom: 2em
   padding: 0
 
   .card-header
@@ -176,8 +177,9 @@ ul#pagination
           display: none
 
       &.open
-        background: yellow
+        background: $lightgray
         border-bottom: none
+
         .float-right
           &.closed
             visibility: hidden
@@ -194,7 +196,7 @@ ul#pagination
       margin-bottom: 2em
 
       .result-details
-        border-color: $petrol
+        border: 1px solid $petrol
 
   .card-footer
     background-color: transparent
@@ -228,6 +230,7 @@ ul#pagination
             transform: translateY(-50%)
             z-index: 2
 
+
           &:hover
             &:before
               display: block ruby
@@ -243,12 +246,49 @@ ul#pagination
         z-index: 1
 
 
+  .result-details
+    border-left: 1px solid $petrol
+    border-right: 1px solid $petrol
+    border-bottom: 1px solid $petrol
+
   .card-body
-    padding: .4em
     background-color: $petrol
     color: $white
     margin: 1em
     padding: 1em
+
+  ul.list-group
+    margin: 1em
+    list-style-type: none
+
+    li.list-group-item
+      border-color: $petrol
+      display: inline-block
+      padding: .4em
+      vertical-align: top
+
+      &:last-child
+        border-bottom: none !important
+
+      .list-item
+        background-color: transparent
+        float: left
+        max-width: 130px
+        position: relative
+
+        @media(max-width: 768px)
+          background-color: yellow
+          width: 100%
+
+      .list-item-two
+        background-color: transparent
+        display: inline-block
+        padding-left: 6px
+        width: calc(100% - 130px)
+
+        @media(max-width: 768px)
+          background-color: pink
+          width: 100%
 
 
 .text-sm-center
@@ -306,7 +346,6 @@ span[class^="thesis-number-"], span.thesis-number
 span.thesis-number
   height: 28px
   width: 28px
-
 
 
 @media(min-width: 768px)
@@ -389,49 +428,77 @@ span.thesis-number
   &:focus
     box-shadow: 0 0 0 0
 
+.btn-bitkomat-show-2, .btn-bitkomat-show-t, .btn-bitkomat-show-3
+  min-width: initial
+
+.badge span.mychoice, .badge-secondary, .badge-danger, .badge-warning, .badge-success
+  background: transparent
+  color: $petrol
+  display: block
+  margin-top: 0
+  min-height: 60px
+  position: relative
+
+  @media(max-width: 767px)
+    margin-top: 18px
+
+  &:before
+    content: ''
+    position: absolute
+    left: 0
+    top: 0
+    height: 100%
+    width: 10px
+
+    @media(max-width: 767px)
+      height: 12px
+      top: 6px
+      width: 100%
+
 .badge
   border-radius: 0
-  white-space: normal
-  padding: 6px 0
+  color: $white
   min-width: 110px
-  color: $white
+  padding: 6px 0
+  white-space: normal
 
-btn-bitkomat-show-2
-  min-width: initial
+  span.mychoice
+    color: $petrol
+    display: inline-block
+    font-size: 1.4em
+    font-weight: bold
+    margin-left: 20px
+    @media(max-width: 767px)
+      margin-top: 20px
+      margin-left: 0
 
-btn-bitkomat-show-t
-  min-width: initial
+  img
+    background: $white
+    display: inline-block
+    height: auto
+    max-width: 100px
+    margin-left: 20px
 
-btn-bitkomat-show-3
-  min-width: initial
+    @media(max-width: 767px)
+      margin-top: 20px
+      margin-left: 0
 
-.badge-secondary
-  background-color: $petrol
-  border-bottom-width: 3px
-  border-bottom-style: solid
-  color: $white
-  border-bottom-color: $docegrey
 
-.badge-danger
-  background-color: $petrol
-  border-bottom-width: 3px
-  border-bottom-style: solid
-  color: $white
-  border-bottom-color: $red
+  &.badge-secondary
+    &:before
+      background-color: $gray
 
-.badge-warning
-  background-color: $petrol
-  border-bottom-width: 3px
-  border-bottom-style: solid
-  color: $white
-  border-bottom-color: $blue
+  &.badge-danger
+    &:before
+      background-color: $red
 
-.badge-success
-  background-color: $petrol
-  border-bottom-width: 3px
-  border-bottom-style: solid
-  color: $white
-  border-bottom-color: $green
+  &.badge-warning
+    &:before
+      background-color: $blue
+
+  &.badge-success
+    &:before
+      background-color: $green
 
 .btn-select
   margin-bottom: 0.5em
@@ -525,6 +592,16 @@ btn-bitkomat-show-3
 
   &:hover
     background-color: $black
+    color: $altogray
+
+  a
+    color: $white
+    text-decoration: none
+
+    &:hover
+      background-color: transparent
+      color: $altogray
+      text-decoration: none
 
 #btn-bitkomat-show-qa
   min-width: 207px
@@ -717,7 +794,8 @@ btn-bitkomat-show-3
   z-index: 0
   @media(max-width: 768px)
     min-width: 420px
-    wiidth: 87%
+    width: 87%
+
   @media(max-width: 640px)
     min-width: 210px
     width: 100%
@@ -742,23 +820,6 @@ btn-bitkomat-show-3
 
 .bg-warning
   background-color: $petrol !important
-
-.list-group-item
-  display: inline-block
-  padding: .4em
-  vertical-align: top
-
-  .list-item
-    position: relative
-    min-width: 130px
-    vertical-align: inherit
-    display: inline-block
-
-  .list-item-two
-    display: inline-block
-    border-left: 1px solid $petrol
-    max-width: calc(100% - 140px)
-    padding-left: 6px
 
 
 .gewichten
