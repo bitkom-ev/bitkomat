@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        window.twttr = (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+                t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+
+            t._e = [];
+            t.ready = function (f) {
+                t._e.push(f);
+            };
+
+            return t;
+        }(document, "script", "twitter-wjs"));
+        // facebook
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+
+    </script>
+
+</head>
+<body>
+<div id="fb-root"><!-- placeholder for facebook --></div>
+
+<ul>
+    <li>
+        <h3>Job #1</h3>
+        <div class="fb-share-button" data-href="https://example.com/post/1"
+             data-layout="button"></div>
+        <a href="https://twitter.com/share" class="twitter-share-button"
+           data-url="https://example.com/post/1">Tweet</a>
+    </li>
+    <li>
+        <h3>Job #2</h3>
+        <div class="fb-share-button" data-href="https://example.com/post/2"
+             data-layout="button"></div>
+        <a href="https://twitter.com/share" class="twitter-share-button"
+           data-url="https://example.com/post/2">Tweet</a>
+    </li>
+</ul>
+
+
+/*Facebook Share*/
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//yourpage.com">Share on Facebook</a>
+
+/*Twitter Share*/
+<a href="https://twitter.com/home?status=This%20is%20Awesome%20page!!%20http%3A//yourpage.com">Share on Twitter</a>
+
+/*Google Plus*/
+<a href="https://plus.google.com/share?url=http%3A//yourpage.com">Share on Google+</a>
+
+/*LinkedIn*/
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//yourpage.com&title=Title%20of%20your%20Page&summary=Optional%20Summary&source=http%3A//yoursource.com">Share
+    on LinkedIn</a>
+
+/*What's App from Mobile*/
+<a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">Share via Whatsapp</a>
+
+/*Email*/
+<a href="mailto:abc@xyz.com?&subject=Your Subject&body=your%20mail%20content">Send Email</a>
+
+</body>
+</html>
