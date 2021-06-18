@@ -1,6 +1,7 @@
 // Generator from bitkomat.css: https://sebastianpontow.de/css2compass/
 
 @import "colors"
+//@import "fonts"
 
 html
   height: 100%
@@ -23,6 +24,24 @@ footer
   display: inline-block
   background-color: transparent
   margin: 2em auto
+
+a:hover, a:visited, a:active
+  text-decoration: none
+a
+  color: $blue
+  // fas fa-external-link-square-alt
+  &:before
+    content: "\f360"
+    display: inline-block
+    color: $blue
+    font-size: 16px
+    display: inline-block
+    font-family: "Font Awesome 5 Free"
+    font-style: normal
+    font-variant: normal
+    line-height: 1
+    text-rendering: auto
+    -webkit-font-smoothing: antialiased
 
   .btn
     min-width: auto
@@ -273,11 +292,12 @@ ul#pagination
       .list-item
         background-color: transparent
         float: left
-        max-width: 130px
         position: relative
+        max-width: 130px
 
         @media(max-width: 768px)
-          background-color: yellow
+          background-color: transparent
+          max-width: 100%
           width: 100%
 
       .list-item-two
@@ -287,7 +307,7 @@ ul#pagination
         width: calc(100% - 130px)
 
         @media(max-width: 768px)
-          background-color: pink
+          background-color: transparent
           width: 100%
 
 
@@ -440,7 +460,7 @@ span.thesis-number
   position: relative
 
   @media(max-width: 767px)
-    margin-top: 18px
+    //margin-top: 18px
 
   &:before
     content: ''
@@ -452,7 +472,7 @@ span.thesis-number
 
     @media(max-width: 767px)
       height: 12px
-      top: 6px
+      top: 0
       width: 100%
 
 .badge
@@ -712,7 +732,8 @@ span.thesis-number
   position: relative
 
   p.text-center
-    height: 80px
+    &.overview
+      height: 80px
 
   .btn
     background-color: transparent
@@ -865,8 +886,7 @@ hr.result
     padding: 1em 0
 
   .btn-start
-    top: -9em
-
+//
 
 a.fa
   color: $white
