@@ -30,18 +30,18 @@ a:hover, a:visited, a:active
 a
   color: $blue
   // fas fa-external-link-square-alt
+a.external,
+.list-group a
   &:before
-    content: "\f360"
-    display: inline-block
+    background: transparent url("../icons/link-external.svg") left center no-repeat
+    background-size: 16px
+    content: ""
     color: $blue
-    font-size: 16px
     display: inline-block
-    font-family: "Font Awesome 5 Free"
-    font-style: normal
-    font-variant: normal
-    line-height: 1
-    text-rendering: auto
-    -webkit-font-smoothing: antialiased
+    height: 16px
+    margin: 0 4px
+    width: 16px
+    vertical-align: bottom
 
   .btn
     min-width: auto
@@ -160,11 +160,14 @@ ul#pagination
 
 .card-head
   background: transparent
-  height: 40px
+  height: auto
   line-height: 40px
   display: flex
   flex-direction: row
   flex-wrap: wrap
+
+  @media(max-width: 640px)
+    flex-direction: row
 
 
 .card
