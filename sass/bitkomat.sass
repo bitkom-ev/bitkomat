@@ -1,7 +1,6 @@
 // Generator from bitkomat.css: https://sebastianpontow.de/css2compass/
 
 @import "colors"
-//@import "fonts"
 
 html
   height: 100%
@@ -15,6 +14,10 @@ body.flex
   display: flex
   justify-content: center
 
+@font-face
+  font-family: 'fontawesome'
+  src: url('../webfonts/fa-solid-900.woff') format('woff')
+
 header
   display: inline-block
   background-color: transparent
@@ -23,13 +26,20 @@ header
 footer
   display: inline-block
   background-color: transparent
-  margin: 2em auto
+  margin: 1em auto
+
+  &.container
+    padding: 0 15px
+
+  .btn
+    margin: 0 0 6px 0
 
 a:hover, a:visited, a:active
   text-decoration: none
+
 a
   color: $blue
-  // fas fa-external-link-square-alt
+// fas fa-external-link-square-alt
 a.external,
 .list-group a
   &:before
@@ -45,7 +55,23 @@ a.external,
 
   .btn
     min-width: auto
-    padding: 6px 10px
+    padding: 6px 12px
+
+
+ul.nav
+  color: silver
+  li.nav-item
+    color: yellow
+
+    a.nav-link
+      color: transparent
+      color: red
+      height: 80px
+      width: 400px
+
+      @media(max-width: 768px)
+        height: 40px
+        width: 200px
 
 .logo
   height: auto
@@ -169,12 +195,14 @@ ul#pagination
   @media(max-width: 640px)
     flex-direction: row
 
+    div[class^="col-"]
+    padding-right: 0
+    padding-left: 0
 
 .card
   background-color: transparent
   border: 0
   border-radius: 0
-  margin-bottom: 2em
   padding: 0
 
   .card-header
@@ -276,8 +304,6 @@ ul#pagination
   .card-body
     background-color: $petrol
     color: $white
-    margin: 1em
-    padding: 1em
 
   ul.list-group
     margin: 1em
@@ -439,8 +465,8 @@ span.thesis-number
 .btn
   border-radius: 0
   white-space: normal
-  padding: 6px 0
-  min-width: 110px
+  padding: 6px 12px
+  min-width: auto
 
   &.disabled
     opacity: 1
@@ -461,9 +487,6 @@ span.thesis-number
   margin-top: 0
   min-height: 60px
   position: relative
-
-  @media(max-width: 767px)
-    //margin-top: 18px
 
   &:before
     content: ''
@@ -668,8 +691,8 @@ span.thesis-number
   padding: 40px 0 20px
   z-index: 0
 
+
 .svg-inline--fa
-  font-size: 1em
   z-index: 6
 
   &.fa-check-circle,
@@ -697,6 +720,7 @@ span.thesis-number
     color: $petrol
     left: calc(50% - 40px)
     top: initial
+    right: -30px
 
   @media(min-width: 768px)
     &.fa-check-circle
@@ -742,6 +766,9 @@ span.thesis-number
     background-color: transparent
     min-height: 104px
 
+    @media(max-width: 768px)
+      margin-bottom: 2em
+
   .btn-overview
     background-color: $petrol
     color: $white
@@ -775,7 +802,7 @@ span.thesis-number
         left: initial
         right: -42px
 
-.btn-edit, .btn-share
+.btn-edit, .btn-share, .btn-pdf
   background-color: $white
   border: 2px solid $petrol
   color: $petrol
@@ -795,7 +822,8 @@ span.thesis-number
   .svg-inline--fa
 
     &.fa-pencil-alt,
-    &.fa-share-alt
+    &.fa-share-alt,
+    &.fa-print
     background-color: $petrol
     border: 2px solid $white
     border-radius: 20px
@@ -896,3 +924,10 @@ a.fa
 
 .fa:hover
   color: $white
+
+.fa, .far, .fas
+  font-family: 'fontawesome' !important
+
+#result-detail
+  .card
+    margin-bottom: 2em

@@ -29,9 +29,13 @@ var T =
             _classCallCheck(this, T);
             this.page_title = "Bitkomat";
 
+            this.header_body = httpGet("./header.html");
+            this.intro_modal_body = httpGet("./intro.html");
+            this.positionen_modal_body = httpGet("./positionen.html");
+            //this.imprint_modal_body = httpGet("https://www.bitkom.org/Impressum", 'article');
             this.qa_modal_body = httpGet("./faq.html");
             this.data_modal_body = httpGet("./datenschutzhinweise.html");
-            //this.imprint_modal_body = httpGet("https://www.bitkom.org/Impressum", 'article');
+            this.share_modal_body = httpGet("./share.html");
 
             this.swype_info_message_text = "Wischen Sie, um manuell zwischen Thesen zu wechseln";
             this.btn_swype_info_ok = "OK";
@@ -44,15 +48,15 @@ var T =
             this.btn_neutral_text = "<i class=\"fas fa-meh-blank\"></i>Neutral";
             this.btn_no_text = "<i class=\"fas fa-frown\"></i>Stimme nicht zu";
             this.btn_skip_text = "<i class=\"fas fa-angle-double-right\"></i>Überspringen";
-            this.btn_bitkomat_show_start = '<i class="fas fa-home fa-1x"></i>';
             this.btn_bitkomat_skip_remaining_theses = "Auswerten";
             this.title_results = "Ergebnisse";
             this.title_results_summary = "Übereinstimmung mit den Parteien"; // Zusammenfassung
-            this.text_result_below_summary = '<span onclick="showBitkomatFirstThesis()"><i class="fas fa-pencil-alt fa-sm"></i>Antworten<br>bearbeiten</span>';
-            this.text_result_share = '<i class="fas fa-share-alt fa-sm"></i>Teilen</span>';
             this.title_results_details = "Thesen"; // Details Übersicht
             this.btn_overview = '<i class="fa fa-smile-beam"></i> <i class="fas fa-meh-blank"></i> <i class="fas fa-frown"></i><span >Übersicht</span>';
             this.btn_results_show_start = '<i class="fas fa-home fa-1x"></i>';
+            this.pdf_print_title = 'Hier sehen Sie Ihr Bitkomat Ergebnis.';
+            this.pdf_print_name = 'Wie heißen Sie?';
+            this.pdf_print_keywords = 'Bitkomat, Wahlomat, Bundestagswahl, Wahl, Partei, Parteiencheck, digitalpolitisch, Position';
         }
 
         _createClass(T, [{

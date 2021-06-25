@@ -1,79 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script>
+<div class="share col text-center">
 
-        window.twttr = (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0],
-                t = window.twttr || {};
-            if (d.getElementById(id)) return t;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "https://platform.twitter.com/widgets.js";
-            fjs.parentNode.insertBefore(js, fjs);
+<a href="https://twitter.com/share" class="twitter-share-button"
+  data-url="https://bitkomat.de/" title="Tweet Bitkomat" target="_blank"><i class="fab fa-twitter-square fa-4x"></i><!-- Tweet Bitkomat --></a>
+<!-- Facebook Share -->
+<a href="https://www.facebook.com/sharer/sharer.php?u=https://bitkomat.de/" title="Share on Facebook" target="_blank" >
+  <i class="fab fa-facebook-square fa-4x"></i><!-- Share on Facebook --></a>
+<!-- Twitter Share -->
+<a href="https://twitter.com/home?status=Herzlich willkommen beim Bitkomaten, Ihrer digitalpolitischen Entscheidungshilfe zur Bundestagswahl 2021!&https://bitkomat.de/" title="Share on Twitter" target="_blank">
+<i class="fab fa-twitter-square fa-4x"></i><!-- Share on Twitter --></a>
 
-            t._e = [];
-            t.ready = function (f) {
-                t._e.push(f);
-            };
+<a href="https://www.linkedin.com/shareArticle?mini=true&url=https://bitkomat.de/&title=Herzlich willkommen beim Bitkomaten, Ihrer digitalpolitischen Entscheidungshilfe zur Bundestagswahl 2021!&summary=&source=https://bitkomat.de/" title="Share on LinkedIn" target="_blank">
+  <i class="fab fa-linkedin fa-4x"></i><!-- Share on LinkedIn --></a>
+<!-- What's App from Mobile -->
+<a href="whatsapp://send?text=Herzlich willkommen beim Bitkomaten, Ihrer digitalpolitischen Entscheidungshilfe zur Bundestagswahl 2021!" data-action="share/whatsapp/share" title="Share via Whatsapp" target="_blank">
+  <i class="fab fa-whatsapp-square fa-4x"></i><!-- Share via Whatsapp --></a>
+<!-- Email -->
+<a href="mailto:?subject=Bitkomat, die digitalpolitische Entscheidungshilfe zur Bundestagswahl 2021!&body=Herzlich willkommen beim Bitkomaten, Ihrer digitalpolitischen Entscheidungshilfe zur Bundestagswahl 2021!<br>
+Ob digitale Bildung, Regeln im Netz, Verwaltungsdigitalisierung oder digitale Wirtschaft: Digitalpolitik ist in diesem Wahlkampf so wichtig wie nie zuvor. Kein Wunder, denn die nächsten vier Jahre werden entscheidend für die Digitalisierung in Deutschland.<br>Der Bitkomat kann Ihnen helfen, sich zu orientieren: Welche digitalpolitischen Themen sind besonders wichtig? Welche Position haben Sie dazu? Und vor allem: Wo stehen die Parteien im Vergleich zu Ihnen, wenn‘s ums Digitale geht?<br>Der Bitkomat bietet Ihnen die Möglichkeit, Ihre digitalpolitischen Positionen ganz einfach mit denen der aktuell im Deutschen Bundestag vertretenen Parteien zu vergleichen – anhand von 29 Thesen aus den Bereichen [noch zu ergänzen nach School-Clusterung]. Ganz wichtig: Der Bitkomat wird wissenschaftlich begleitet von der NRW School of Governance , einer Einrichtung der Universität Duisburg-Essen. Zusätzlich zu den Positionen der Parteien erhalten Sie also auch fundierte Einblicke zu den Hintergründen der jeweiligen Parteipositionen." target="_blank" title="Send Email">
+  <i class="fas fa-envelope-square fa-4x"></i><!-- Send Email --></a>
+</div>
 
-            return t;
-        }(document, "script", "twitter-wjs"));
-        // facebook
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-
-
-    </script>
-
-</head>
-<body>
 <div id="fb-root"><!-- placeholder for facebook --></div>
+<style>div.share a { margin-right: 1em; } div.share a i.fab, div.share a i.fas, div.share a i.far { font-size: 20px; }
+</style>
 
-<ul>
-    <li>
-        <h3>Job #1</h3>
-        <div class="fb-share-button" data-href="https://example.com/post/1"
-             data-layout="button"></div>
-        <a href="https://twitter.com/share" class="twitter-share-button"
-           data-url="https://example.com/post/1">Tweet</a>
-    </li>
-    <li>
-        <h3>Job #2</h3>
-        <div class="fb-share-button" data-href="https://example.com/post/2"
-             data-layout="button"></div>
-        <a href="https://twitter.com/share" class="twitter-share-button"
-           data-url="https://example.com/post/2">Tweet</a>
-    </li>
-</ul>
+<script>
+  window.twttr = (function (d, s, id) {
+    let js, fjs = d.getElementsByTagName(s)[0],
+      t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function (f) {
+      t._e.push(f);
+    };
+
+    return t;
+  }(document, "script", "twitter-wjs"));
+  // facebook
+  (function (d, s, id) {
+    let js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v2.3";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
 
 
-/*Facebook Share*/
-<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A//yourpage.com">Share on Facebook</a>
-
-/*Twitter Share*/
-<a href="https://twitter.com/home?status=This%20is%20Awesome%20page!!%20http%3A//yourpage.com">Share on Twitter</a>
-
-/*Google Plus*/
-<a href="https://plus.google.com/share?url=http%3A//yourpage.com">Share on Google+</a>
-
-/*LinkedIn*/
-<a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A//yourpage.com&title=Title%20of%20your%20Page&summary=Optional%20Summary&source=http%3A//yoursource.com">Share
-    on LinkedIn</a>
-
-/*What's App from Mobile*/
-<a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">Share via Whatsapp</a>
-
-/*Email*/
-<a href="mailto:abc@xyz.com?&subject=Your Subject&body=your%20mail%20content">Send Email</a>
-
-</body>
-</html>
+</script>
