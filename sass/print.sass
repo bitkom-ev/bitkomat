@@ -17,12 +17,15 @@ header, footer, .meta, .modal.fade, #intro, #start, #bitkomat, #result-overview,
     padding: 0
 
   #result-summary-row
-    background: transparent
+    background-color: yellow
     -webkit-print-color-adjust: exact
+    max-width: 600px !important
+    margin: 0
+    padding: 0
 
     .card-body
       background-color: $petrol !important
-      box-shadow: inset 0 0 0 1000px $petrol
+      box-shadow: inset 0 0 0 800px $petrol
       color: $white
       margin: 0
       padding: 0
@@ -67,7 +70,7 @@ header, footer, .meta, .modal.fade, #intro, #start, #bitkomat, #result-overview,
       flex-wrap: wrap
 
     .card
-      background-color: transparent
+      background-color: yellow
       border: 0
       //If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
       border-radius: 0
