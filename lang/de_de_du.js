@@ -31,12 +31,12 @@ var T =
 
             this.qa_modal_body = httpGet("./faq.html");
             this.data_modal_body = httpGet("./datenschutzhinweise.html");
-            this.imprint_modal_body = httpGet("https://www.bitkom.org/Impressum");
+            //this.imprint_modal_body = httpGet("https://www.bitkom.org/Impressum", 'article');
 
             this.swype_info_message_text = "Wische, um manuell zwischen Thesen zu wechseln";
             this.btn_swype_info_ok = "OK";
             this.start_subtitle = "Digitalpolitischer Parteiencheck zur Bundestagswahl 2021";
-            this.start_explanatory_text = `<p class="text-center">Der Bitkomat ermöglicht es Ihnen, Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien abzugleichen.</p>`;
+            this.start_explanatory_text = `<p class="text-center">Der Bitkomat ermöglicht es Dir, Deine digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien abzugleichen.</p>`;
             this.btn_start = "<i class=\"fas fa-caret-right\"></i><span >Bitkomat<br>starten</span>";
             this.btn_toggle_thesis_more_text = "Erläuterung";
             this.btn_important = "<i class=\"fas fa-check-double\"></i>These doppelt gewichten";
@@ -81,7 +81,7 @@ var T =
             {
                 key: "label_your_choice",
                 get: function get() {
-                    return "Deine Wahl";
+                    return "<span class=\"mychoice\">Ich habe gewählt</span>";
                 }
             }, {
                 key: "default_text_no_statement",
@@ -101,6 +101,12 @@ Existiert sie und enthält keine Syntaxfehler?`;
         return T;
     }();
 
+
+/**
+ *
+ * @param theUrl
+ * @returns {any}
+ */
 function httpGet(theUrl) {
     let xmlhttp;
 
