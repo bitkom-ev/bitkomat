@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="de">
+<head>
+
+    <title id="page-title">Der Bitkomat zur Bundestagswahl 2021 – Digitalpolitik leicht gemacht</title>
+
+    <meta name="description"
+          content="Am 26. September findet die Bundestagswahl 2021 statt. Mit dem Bitkomat können Sie Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien ganz einfach abgleichen."/>
+    <meta name="keywords"
+          content="Bitkomat, Wahlomat, Bundestagswahl, Wahl, Partei, Parteiencheck, digitalpolitisch, Position "/>
+    <meta name="author" content="Bitkom e.V."/>
+    <meta name="copyright" content="Bitkom e.V."/>
+    <meta name="robots" content="index,follow"/>
+
+    <!-- social media meta tags -->
+
+    <meta property="og:title" content="Der Bitkomat zur Bundestagswahl 2021 – Digitalpolitik leicht gemacht">
+    <meta property="og:description"
+          content="Am 26. September findet die Bundestagswahl 2021 statt. Mit dem Bitkomat können Sie Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien ganz einfach abgleichen.">
+    <meta property="og:image" content="https://bitkomat.de/img/2021-06-Btkomat.jpg">
+    <meta property="og:url" content="https://bitkomat.de/">
+
+    <meta property="twitter:title" content="Der Bitkomat zur Bundestagswahl 2021 – Digitalpolitik leicht gemacht">
+    <meta property="twitter:description"
+          content="Am 26. September findet die Bundestagswahl 2021 statt. Mit dem Bitkomat können Sie Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien ganz einfach abgleichen.">
+    <meta property="twitter:image" content="https://bitkomat.de/img/2021-06-Btkomat.jpg">
+    <meta name="twitter:image:alt" content="Bitkomat">
+    <meta name="twitter:card" content="summary_large_image">
+    <!-- data from bitkom.org -->
+    <meta property="fb:app_id" content="443245723182166"/>
+    <meta name="twitter:site" content="@bitkom">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link media="all" rel="stylesheet" type="text/css" href="css/bitkomat.css"/>
+    <link media="print" rel="stylesheet" type="text/css" href="css/print.css"/>
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body class="flex d-flex flex-column">
+
+<!-- Navigation -->
+<nav class="container mb-5 navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="./start.html" title="Bitkomat starten" target="_self"><img
+                    class="logo"
+                    src="./img/Bitkomat_RGB_DE.png"
+                    alt="Logo Bitkomat"/></a>
+
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="//www.bitkom.org" title="Bitkom e.V. Website" target="_blank"
+            ><img class="logo"
+                  src="./img/logo.svg"
+                  alt="Logo Bitkom e.V."/></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="//nrwschool.de" title="NRW School of Governance Website" target="_blank"
+            ><img
+                    class="logo"
+                    src="img/nrw-school-logo.jpg"
+                    alt="Logo NRW School of Governance"/></a>
+        </li>
+    </ul>
+</nav>
+
+<main class="container-fluid flex-fill">
+    <!-- 1. Thesen  bewerten id="bitkomat" -->
+    <div id="bitkomat" class="container">
+        <!-- pagination & logo -->
+        <div class="card-head">
+            <div class="col-12 text-center text-sm-center text-md-left text-lg-left">
+                <nav aria-label="pagination" class="d-sm-block">
+                    <ul class="pagination pagination-sm" id="pagination"></ul>
+                </nav>
+            </div>
+        </div>
+
+        <!-- card text -->
+        <div class="card text-sm-center text-md-left text-lg-left mb-2 mt-2" id="thesis-card">
+            <span class="card-number text-center" id="thesis-number">thesis-number</span>
+            <div class="card-body">
+                <div class="card-title">
+                    <h5 class="card-thema" id="thesis-thema">thesis-thema</h5>
+                    <h6 class="card-title" id="thesis-title">thesis-title</h6>
+                    <p class="card-text" id="thesis-text">thesis-text</p>
+                </div>
+                <button class="btn btn-info" id="btn-toggle-thesis-more">
+                    <span id="btn-toggle-thesis-more-text">btn-toggle-thesis-more-text</span>
+                </button>
+                <!-- -->
+                <div class="font-italic" id="thesis-more">thesis-more</div>
+            </div>
+            <div class="text-center text-sm-center text-md-right text-lg-right" id="thesis-ok">
+
+            </div>
+        </div>
+        <!-- progress bar deactivated 29.06.2021
+                <div class="progress" style="height: 8px; margin: 8px 0; ">
+                    <div id="overall-progress-bar" class="progress-bar" role="progressbar" style="width:0"></div>
+                </div>
+        -->
+
+        <!-- judgement -->
+        <div class="mt-5 row text-center">
+            <div class="gewichten col-12 col-lg-12 col-md-12 col-sm-12">
+                <button class="btn btn-judge btn-success btn-select" id="btn-yes"><span
+                        id="btn-yes-text">btn-yes-text</span></button>
+                <button class="btn btn-judge btn-warning btn-select" id="btn-neutral"><span id="btn-neutral-text">btn-neutral-text</span>
+                </button>
+                <button class="btn btn-judge btn-danger btn-select" id="btn-no"><span
+                        id="btn-no-text">btn-no-text</span></button>
+                <button class="btn btn-judge btn-light btn-select" id="btn-skip"><span
+                        id="btn-skip-text">btn-skip-text</span></button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Seite 3 letzte Seite Ergebnisse Auswertung id="result" -->
+    <div id="result" class="text-left container">
+        <div class="row text-left " id="result-summary-row">
+            <div class="card col-sm-12 offset-sm-0" id="card">
+                <div class="card-body text-center text-sm-center text-md-left text-lg-left">
+                    <h4 id="title-results">title-results</h4>
+                    <h5 class="card-title" id="title-results-summary">title-results-summary</h5>
+                    <hr class="result">
+                    <div id="result-summary"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center" id="result-overview">
+            <!-- lead -->
+            <p class="overview text-center text-sm-center text-md-center text-lg-center">
+                <button class="btn btn-overview disabled text-center font-weight-bold" id="btn-overview">btn-overview
+                </button>
+            </p>
+            <p class="edit text-center text-sm-center text-md-center text-lg-center">
+                <button class="btn btn-edit btn-light" id="text-result-below-summary" title="Anworten editieren">
+                    <span onclick="showBitkomatFirstThesis()"><i class="fas fa-pencil-alt fa-1x"></i>Antworten<br>bearbeiten</span>
+                </button>
+                <button class="btn btn-share btn-light" data-toimg="#result-summary-row" id="text-result-share"
+                        title="share Bitkomat teilen">
+                    <i class="fas fa-share-alt fa-1x"></i>Teilen
+                </button>
+                <button class="btn btn-pdf btn-light" id="pdf-image" onclick="printImageFrom('#result-summary-row')"
+                        title="Mein Ergebnis als Bild erstellen & auf meinem Rechner speichern">
+                    <i class="fas fa-print"></i> Ergebnis speichern
+                </button>
+            </p>
+        </div>
+
+        <div class="card col-sm-12 offset-sm-0" id="result-detail">
+            <div class="card-body"></div>
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer id="footer" class="pt-2 text-sm-left text-center text-md-center text-lg-center container">
+    <!-- buttons navigation -->
+    <div class="d-flex flex-row justify-content-center align-items-center text-sm-left text-center text-md-center text-lg-center">
+        <div class="mr-1">
+            <button class="btn btn-dark" id="btn-results-show-qa" title="FAQ">
+                <i class="fas fa-question-circle" title="FAQ"></i> FAQ
+            </button>
+        </div>
+        <!--
+        <div class="flex">
+                <button class="btn btn-dark" id="btn-results-show-share" title="Share">
+                    <i class="fas fa-share-square" title="Bitkomat teilen"></i> Teilen
+                </button>
+                </div>
+        -->
+        <div class="mr-1">
+            <button class="btn btn-dark" id="btn-bitkomat-show-data" title="Datenschutz">
+                <i class="fas fa-shield-alt" title="Datenschutz"></i> Datenschutz
+            </button>
+        </div>
+        <div class="mr-1">
+            <button class="btn btn-dark" id="btn-show-imprint" title="Impressum">
+                <a href="//www.bitkom.org/Impressum" title="Impressum" target="_blank">
+                    <i class="fas fa-stamp"></i> Impressum</a>
+            </button>
+        </div>
+        <div class="mr-1">
+            <!-- Ergebniss anzeigen -->
+            <button class="btn btn-dark" id="btn-bitkomat-skip-remaining-theses"><i class="fas fa-eye"></i> Ergebnisse
+                anzeigen
+            </button>
+        </div>
+    </div>
+
+</footer>
+
+
+<!-- datenschutzhinweise window -->
+<div class="modal fade" id="DATAModal" tabindex="-1" role="dialog" aria-labelledby="DataModalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="data-modal-title"><i class="fas fa-shield-alt" title="Datenschutz"></i>
+                    Datenschutzhinweise</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="data-modal-body">data-modal-body</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_data">schließen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- intro window -->
+<div class="modal fade" id="introModal" tabindex="-1" role="dialog" aria-labelledby="introModalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="intro-modal-title"><i class="fas fa-exclamation-circle"></i> Bitkomat
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="intro-modal-body">intro-modal-body</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_intro">
+                    schließen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- faq window -->
+<div class="modal fade" id="QAModal" tabindex="-1" role="dialog" aria-labelledby="QAModalTitle" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="qa-modal-title"><i class="fas fa-question-circle" title="FAQ"></i> FAQ
+                </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="card modal-body" id="qa-modal-body">
+                qa-modal-body
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_faq">schließen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- share window -->
+<div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="share-modal-title"><i class="fas fa-share-alt" title="Share"></i> Share
+                    Bitkomat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="share-modal-body">share-modal-body</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_share">schließen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="js/jquery-3.6.0.min.js">
+    // should be always the first! code.jquery.com/jquery-3.6.0.min.js
+</script>
+<script type="text/javascript" defer src="js/html2canvas.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="js/hammer.min.js"></script>
+<script type="text/javascript" src="lang/de_de_sie.js"></script>
+<script type="text/javascript" defer src="js/bitkomat.js"></script>
+<script type="text/javascript" defer src="js/fontawesome-all.min.js"></script>
+<script type="text/javascript" async src="js/matomo.js"></script>
+
+</body>
+</html>
