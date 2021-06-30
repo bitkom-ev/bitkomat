@@ -39,13 +39,13 @@ var T =
             this.start_explanatory_text = `<p class="text-center">Der Bitkomat ermöglicht es Dir, Deine digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien abzugleichen.</p>`;
             this.btn_start = "<i class=\"fas fa-caret-right\"></i><span >Bitkomat<br>starten</span>";
             this.btn_toggle_thesis_more_text = "Erläuterung";
-            this.btn_important = "<i class=\"fas fa-check-double\"></i>These doppelt gewichten";
+            // this.btn_important = "<i class=\"fas fa-check-double\"></i>These doppelt gewichten";
             this.btn_yes_text = "<i class=\"fa fa-smile-beam\"></i>Stimme zu";
             this.btn_neutral_text = "<i class=\"fas fa-meh-blank\"></i>Neutral";
             this.btn_no_text = "<i class=\"fas fa-frown\"></i>Stimme nicht zu";
             this.btn_skip_text = "<i class=\"fas fa-angle-double-right\"></i>Überspringen";
             this.btn_bitkomat_show_start = '<i class="fas fa-home fa-1x"></i>';
-            this.btn_bitkomat_skip_remaining_theses = "Auswerten";
+            this.btn_bitkomat_skip_remaining_theses = "Ergebnisse anzeigen";
             this.title_results = "Ergebnisse";
             this.title_results_summary = "Übereinstimmung mit den Parteien"; // Zusammenfassung
             this.text_result_below_summary = '<span onclick="showBitkomatFirstThesis()"><i class="fas fa-pencil-alt fa-sm"></i>Antworten<br>bearbeiten</span>';
