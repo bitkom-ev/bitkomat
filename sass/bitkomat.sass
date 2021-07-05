@@ -87,10 +87,14 @@ a.external,
       max-width: 25%
       padding: 0
       width: calc((100vw - 120px) / 2)
-      &.one
-
       &.two
         max-width: 45%
+      &.three
+        max-width: 30%
+        width: calc((100vw - 120px) / 3)
+      &.four
+        max-width: 20%
+        width: calc((100vw - 120px) / 4)
 
       a.nav-link
         background-color: transparent
@@ -273,7 +277,6 @@ ul#pagination
 
   .card-header
     border: 0
-
     background-color: $nebelgray
     padding: .4em
 
@@ -281,7 +284,8 @@ ul#pagination
       background-color: $lightgray
       border: 1px solid $petrol
       cursor: pointer
-      padding-top: 1em
+      padding-top: 1.25em
+      padding-left: 1.25em
 
       .float-right
         &.closed
@@ -415,9 +419,9 @@ ul#pagination
         &.fa-angle-double-right
           border-radius: 20px
           height: 40px
-          left: -22px
+          left: -42px
           position: absolute
-          top: -2px
+          top: calc(50% - 21px)
           width: 40px
 
 
