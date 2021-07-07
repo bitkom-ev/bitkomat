@@ -147,8 +147,11 @@ ul#pagination
 
   li.page-item
     background-color: transparent
-    margin-right: 4px
-    margin-bottom: 4px
+    margin-right: 3px
+    margin-bottom: 6px
+    &.item-3, &.item-9, &.item-15, &.item-19, &.item-24
+      margin-right: 10px
+
 
     &.bg-info, &.bg-warning
       background-color: $altogray !important
@@ -553,6 +556,7 @@ span.thesis-number
   min-width: auto
 
   &.disabled
+    cursor: default
     opacity: 1
 
   &.focus
@@ -891,6 +895,7 @@ span.thesis-number
   font-size: 1em
   padding: 1em 0
   margin-right: 1em
+  padding: 8px
   position: relative
   min-width: 140px
 
