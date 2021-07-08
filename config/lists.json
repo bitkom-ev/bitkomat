@@ -1,9 +1,24 @@
 {
   "lists": {
+    "afd": {
+      "name": "AfD",
+      "name_x": "Alternative für Deutschland",
+      "img": "<img src='./img/afd.svg' alt='AfD - Alternative für Deutschland' />"
+    },
+    "b90": {
+      "name": "B’90/Die Grünen",
+      "name_x": "Bündnis 90/Die Grünen",
+      "img": "<img src='./img/gruene.svg' alt='B’90/Die Grünen - Bündnis 90/Die Grünen' />"
+    },
     "cdu": {
       "name": "CDU/CSU",
       "name_x": "Christlich Demokratische Union Deutschlands/Christlich-Soziale Union in Bayern e. V.",
       "img": "<img src='./img/cdu-csu.svg' alt='CDU/CSU - Christlich Demokratische Union Deutschlands/Christlich-Soziale Union in Bayern e. V.' />"
+    },
+    "die": {
+      "name": "DIE LINKE",
+      "name_x": "Linke politische Partei in Deutschland",
+      "img": "<img src='./img/linke.svg' alt='DIE LINKE Linke politische Partei in Deutschland' />"
     },
     "fdp": {
       "name": "FDP",
@@ -14,21 +29,6 @@
       "name": "SPD",
       "name_x": "Sozialdemokratische Partei Deutschlands",
       "img": "<img src='./img/spd.svg' alt='SPD - Sozialdemokratische Partei Deutschlands' />"
-    },
-    "b90": {
-      "name": "B’90/ Die Grünen",
-      "name_x": "Bündnis 90/Die Grünen",
-      "img": "<img src='./img/gruene.svg' alt='B’90/Grüne - Bündnis 90/Die Grünen' />"
-    },
-    "die": {
-      "name": "Die Linke",
-      "name_x": "Die Linken",
-      "img": "<img src='./img/linke.svg' alt='Die Linke - Die Linken' />"
-    },
-    "afd": {
-      "name": "AfD",
-      "name_x": "Alternative für Deutschland",
-      "img": "<img src='./img/afd.svg' alt='AfD - Alternative für Deutschland' />"
     }
   }
 }
