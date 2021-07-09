@@ -45,42 +45,45 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <script type="text/javascript" async src="js/jquery-3.6.0.min.js">
-        // should be always the first! code.jquery.com/jquery-3.6.0.min.js
-    </script>
 </head>
 
-<body class="flex d-flex flex-column">
-
+<body id="body" name="body" class="flex d-flex flex-column">
 <!-- Navigation -->
-<nav class="container mb-5 navbar navbar-expand-sm navbar-expand-md navbar-expand-lg navbar-light">
-    <ul class="navbar-nav ml-auto">
-        <li class="nav-item one">
-            <a class="nav-link" href="./start.html" title="Bitkomat starten" target="_self"><img
-                    class="bitkomat logo"
-                    src="./icons/Bitkomat_RGB.svg"
-                    alt="Logo Bitkomat"/></a>
+<nav id="top" name="top" class="container mb-5 navbar navbar-expand-md navbar-expand-lg navbar-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-        </li>
-        <li class="nav-item two">
-            <a class="nav-link" href="//www.bitkom.org" title="Bitkom e.V. Website" target="_blank"
-            ><img class="bitkom logo"
-                  src="./icons/2021-06-bitkom-logo.svg"
-                  alt="Logo Bitkom e.V."/></a>
-            <a class=" nav-link" href="//nrwschool.de" title="NRW School of Governance Website" target="_blank"
-            ><img
-                    class="nrwschool logo"
-                    src="icons/nrw school_sw.svg"
-                    alt="Logo NRW School of Governance"/></a>
-        </li>
-    </ul>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item one">
+                <a class="nav-link nav-link-one" href="./start.html" title="Bitkomat starten" target="_self"><img
+                        class="bitkomat logo"
+                        src="./icons/Bitkomat_RGB.svg"
+                        alt="Logo Bitkomat"/></a>
+
+            </li>
+            <li class="nav-item two">
+                <a class="nav-link nav-link-two" href="//www.bitkom.org" title="Bitkom e.V. Website" target="_blank"
+                ><img class="bitkom logo"
+                      src="./icons/2021-06-bitkom-logo.svg"
+                      alt="Logo Bitkom e.V."/></a>
+                <a class=" nav-link nav-link-three" href="//nrwschool.de" title="NRW School of Governance Website" target="_blank"
+                ><img
+                        class="nrwschool logo"
+                        src="icons/nrw school_sw.svg"
+                        alt="Logo NRW School of Governance"/></a>
+            </li>
+        </ul>
+    </div>
 </nav>
 
 <main class="container-fluid flex-fill">
 
     <div id="spinner" class="container justify-content-center">
         <button class="btn btn-primary" type="button" disabled>
-            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            <span class="spinner-border " role="status" aria-hidden="true"></span>
             Lade Thesen, Fragen ...
         </button>
     </div>
@@ -97,7 +100,7 @@
         </div>
 
         <!-- card text -->
-        <div class="card text-sm-center text-md-left text-lg-left mb-2 mt-2" id="thesis-card">
+        <div class="card text-sm-center text-md-left text-lg-left " id="thesis-card">
             <span class="card-number text-center" id="thesis-number">thesis-number</span>
             <div class="card-body">
                 <div class="card-title">
@@ -124,11 +127,11 @@
         <!-- judgement -->
         <div class="mt-5 row text-center">
             <div class="gewichten col-12 col-lg-12 col-md-12 col-sm-12">
-                <button class="btn btn-judge btn-success btn-select" id="btn-yes"><span
+                <button class="btn btn-judge btn-select" id="btn-yes"><span
                         id="btn-yes-text">btn-yes-text</span></button>
-                <button class="btn btn-judge btn-warning btn-select" id="btn-neutral"><span id="btn-neutral-text">btn-neutral-text</span>
+                <button class="btn btn-judge btn-select" id="btn-neutral"><span id="btn-neutral-text">btn-neutral-text</span>
                 </button>
-                <button class="btn btn-judge btn-danger btn-select" id="btn-no"><span
+                <button class="btn btn-judge btn-select" id="btn-no"><span
                         id="btn-no-text">btn-no-text</span></button>
                 <button class="btn btn-judge btn-light btn-select" id="btn-skip"><span
                         id="btn-skip-text">btn-skip-text</span></button>
@@ -157,16 +160,16 @@
                 </button>
             </p>
             <p class="edit text-center text-sm-center text-md-center text-lg-center">
-                <button class="btn btn-edit btn-light" id="text-result-below-summary" title="Anworten editieren">
+                <button class="btn btn-edit btn-light" id="text-result-below-summary" title="Anworten bearbeiten">
                     <span onclick="showBitkomatFirstThesis()"><i class="fas fa-pencil-alt fa-1x"></i>Antworten<br>bearbeiten</span>
                 </button>
-                <button class="btn btn-share btn-light" data-toimg="#result-summary-row" id="text-result-share"
+                <button class="btn btn-share btn-light" data-toimg="#" id="text-result-share"
                         title="share Bitkomat teilen">
                     <i class="fas fa-share-alt fa-1x"></i>Teilen
                 </button>
-                <button class="btn btn-pdf btn-light" id="pdf-image" onclick="printImageFrom('#result-summary-row')"
+                <button class="btn btn-pdf btn-light" id="pdf-image" onclick="location.href='#top';printImageFrom('#result-summary-row')"
                         title="Mein Ergebnis als Bild erstellen & auf meinem Rechner speichern">
-                    <i class="fas fa-print"></i> Ergebnis speichern
+                    <i class="fas fa-print"></i> Ergebnis<br>speichern
                 </button>
             </p>
         </div>
@@ -205,8 +208,12 @@
             </button>
         </div>
         <div class="mr-1">
+            <!-- Parteien anzeigen -->
+            <button class="btn btn-dark" id="btn-bitkomat-parteien"><i class="fas fa-eye"></i> Parteien</button>
+        </div>
+        <div class="mr-1">
             <!-- Ergebniss anzeigen -->
-            <button class="btn btn-dark" id="btn-bitkomat-skip-remaining-theses"><i class="fas fa-eye"></i> Ergebnisse
+            <button class="btn btn-light" id="btn-bitkomat-skip-remaining-theses"><i class="fas fa-eye"></i> Ergebnisse
                 anzeigen
             </button>
         </div>
@@ -297,16 +304,167 @@
         </div>
     </div>
 </div>
+<!-- 2 spd window -->
+<div class="modal fade" id="spdModal" tabindex="-1" role="dialog" aria-labelledby="spdModalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="spd-modal-title"><i class="fas fa-share-alt" title="SPD"></i> SPD
+                    Bitkomat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="spd-modal-body">spd-modal-body</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_spd">schließen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 6 afd window -->
+<div class="modal fade" id="afdModal" tabindex="-1" role="dialog" aria-labelledby="afdModalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="afd-modal-title"><i class="fas fa-share-alt" title="AfD"></i> AfD
+                    Bitkomat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="afd-modal-body">afd-modal-body</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_afd">schließen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 5 die Linke window -->
+<div class="modal fade" id="dieModal" tabindex="-1" role="dialog" aria-labelledby="dieModalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="die-modal-title"><i class="fas fa-share-alt" title="Die Linke"></i> Die
+                    Linke
+                    Bitkomat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="die-modal-body">die-modal-body</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_die">schließen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 4 b90 window -->
+<div class="modal fade" id="b90Modal" tabindex="-1" role="dialog" aria-labelledby="b90ModalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="b90-modal-title"><i class="fas fa-share-alt" title="Die Grünen"></i> Die
+                    Grünen
+                    Bitkomat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="b90-modal-body">b90-modal-body</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_b90">schließen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 3 fdp window -->
+<div class="modal fade" id="fdpModal" tabindex="-1" role="dialog" aria-labelledby="fdpModalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="fdp-modal-title"><i class="fas fa-share-alt" title="FDP"></i> FDP
+                    Bitkomat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="fdp-modal-body">fdp-modal-body</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_fdp">schließen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 1 CDU CSU window -->
+<div class="modal fade" id="cduModal" tabindex="-1" role="dialog" aria-labelledby="cduModalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="cdu-modal-title"><i class="fas fa-share-alt" title="CDU / CSU"></i> CDU /
+                    CSU
+                    Bitkomat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="cdu-modal-body">cdu-modal-body</div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_cdu">schließen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
-<script type="text/javascript" type="module" src="lang/de_de_sie.js"></script>
-<script type="text/javascript" type="module" src="js/hammer.min.js"></script>
-<script type="text/javascript" type="module" src="js/bitkomat.js"></script>
-<script type="text/javascript" type="module" src="js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" type="module" src="js/fontawesome-all.min.js"></script>
+<!-- 0 parteien kontextualisierungen window -->
+<div class="modal fade" id="parteienModal" tabindex="-1" role="dialog" aria-labelledby="parteienModalTitle"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="parteien-modal-title"><i class="fas fa-eye" title="Parteien"></i>
+                    Parteien im Bitkomat</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" >
+                <div class="parteien col card">
+                <ul class="list-group list-group-flush" id="parteien-modal-body">
+                <!-- parteien alphabetisch nach data.lists listen -->
+                    parteien-modal-body
+                </ul>
 
-<script type="text/javascript" async src="js/matomo.js"></script>
-<script type="text/javascript" defer src="js/html2canvas.min.js"></script>
+            </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_parteien">schließen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
 
+<script src="js/jquery-3.6.0.min.js">// first! </script>
+<script src="lang/de_de_sie.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/hammer.min.js"></script>
+<script src="js/bitkomat.js?v=4"></script>
+<script src="js/fontawesome-all.min.js"></script>
+<script defer src="js/matomo.js"></script>
+<script defer src="js/html2canvas.min.js"></script>
 
 </body>
 </html>
