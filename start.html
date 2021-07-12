@@ -50,33 +50,10 @@
 <body id="body" name="body" class="flex d-flex flex-column">
 <!-- Navigation -->
 <nav id="top" name="top" class="container mb-5 navbar navbar-expand-md navbar-expand-lg navbar-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item one">
-                <a class="nav-link nav-link-one" href="./start.html" title="Bitkomat starten" target="_self"><img
-                        class="bitkomat logo"
-                        src="./icons/Bitkomat_RGB.svg"
-                        alt="Logo Bitkomat"/></a>
-
-            </li>
-            <li class="nav-item two">
-                <a class="nav-link nav-link-two" href="//www.bitkom.org" title="Bitkom e.V. Website" target="_blank"
-                ><img class="bitkom logo"
-                      src="./icons/2021-06-bitkom-logo.svg"
-                      alt="Logo Bitkom e.V."/></a>
-                <a class=" nav-link nav-link-three" href="//nrwschool.de" title="NRW School of Governance Website" target="_blank"
-                ><img
-                        class="nrwschool logo"
-                        src="icons/nrw school_sw.svg"
-                        alt="Logo NRW School of Governance"/></a>
-            </li>
-        </ul>
-    </div>
+    <a class="nav-link nav-link-one" href="./start.html" title="Bitkomat starten" target="_self"><img
+            class="bitkomat logo"
+            src="./icons/Bitkomat_RGB.svg"
+            alt="Logo Bitkomat"/></a>
 </nav>
 
 <main class="container-fluid flex-fill">
@@ -90,21 +67,12 @@
 
     <!-- 1. Thesen  bewerten id="bitkomat" -->
     <div id="bitkomat" class="container" style="display: none">
-        <!-- pagination & logo -->
-        <div class="card-head">
-            <div class="col-12 text-center text-sm-center text-md-left text-lg-left">
-                <nav aria-label="pagination" class="d-sm-block">
-                    <ul class="pagination pagination-sm" id="pagination"></ul>
-                </nav>
-            </div>
-        </div>
-
         <!-- card text -->
-        <div class="card text-sm-center text-md-left text-lg-left " id="thesis-card">
+        <div class="card text-sm-center text-md-left text-lg-left" id="thesis-card">
             <span class="card-number text-center" id="thesis-number">thesis-number</span>
             <div class="card-body">
+                <h5 class="card-thema" id="thesis-thema">thesis-thema</h5>
                 <div class="card-title">
-                    <h5 class="card-thema" id="thesis-thema">thesis-thema</h5>
                     <h6 class="card-title" id="thesis-title">thesis-title</h6>
                     <p class="card-text" id="thesis-text">thesis-text</p>
                 </div>
@@ -112,24 +80,19 @@
                     <span id="btn-toggle-thesis-more-text">btn-toggle-thesis-more-text</span>
                 </button>
                 <!-- -->
-                <div class="font-italic" id="thesis-more">thesis-more</div>
+                <div class="card-text" id="thesis-more">thesis-more</div>
             </div>
             <div class="text-center text-sm-center text-md-right text-lg-right" id="thesis-ok">
-
             </div>
         </div>
-        <!-- progress bar deactivated 29.06.2021
-                <div class="progress" style="height: 8px; margin: 8px 0; ">
-                    <div id="overall-progress-bar" class="progress-bar" role="progressbar" style="width:0"></div>
-                </div>
-        -->
 
         <!-- judgement -->
         <div class="mt-5 row text-center">
             <div class="gewichten col-12 col-lg-12 col-md-12 col-sm-12">
                 <button class="btn btn-judge btn-select" id="btn-yes"><span
                         id="btn-yes-text">btn-yes-text</span></button>
-                <button class="btn btn-judge btn-select" id="btn-neutral"><span id="btn-neutral-text">btn-neutral-text</span>
+                <button class="btn btn-judge btn-select" id="btn-neutral"><span
+                        id="btn-neutral-text">btn-neutral-text</span>
                 </button>
                 <button class="btn btn-judge btn-select" id="btn-no"><span
                         id="btn-no-text">btn-no-text</span></button>
@@ -137,12 +100,23 @@
                         id="btn-skip-text">btn-skip-text</span></button>
             </div>
         </div>
+
+        <!-- pagination & logo -->
+        <div class="card-head">
+            <div class="col-12 text-center">
+                <nav aria-label="pagination" class="d-sm-block">
+                    <ul class="pagination pagination-sm" id="pagination"></ul>
+                </nav>
+            </div>
+        </div>
+
     </div>
 
 
     <!-- Seite 3 letzte Seite Ergebnisse Auswertung id="result" -->
     <div id="result" class="text-left container">
         <div class="row text-left " id="result-summary-row">
+            <img class="bitkomat logo" src="./icons/Bitkomat_RGB.svg" alt="Logo"/>
             <div class="card col-sm-12 offset-sm-0" id="card">
                 <div class="card-body text-center text-sm-center text-md-left text-lg-left">
                     <h4 id="title-results">title-results</h4>
@@ -154,22 +128,19 @@
         </div>
 
         <div class="text-center" id="result-overview">
-            <!-- lead -->
             <p class="overview text-center text-sm-center text-md-center text-lg-center">
                 <button class="btn btn-overview disabled text-center font-weight-bold" id="btn-overview">btn-overview
                 </button>
             </p>
             <p class="edit text-center text-sm-center text-md-center text-lg-center">
                 <button class="btn btn-edit btn-light" id="text-result-below-summary" title="Anworten bearbeiten">
-                    <span onclick="showBitkomatFirstThesis()"><i class="fas fa-pencil-alt fa-1x"></i>Antworten<br>bearbeiten</span>
+                    <span onclick="showBitkomatFirstThesis()"><i class="fas fa-pencil-alt fa-1x"></i>Antworten bearbeiten</span>
                 </button>
-                <button class="btn btn-share btn-light" data-toimg="#" id="text-result-share"
-                        title="share Bitkomat teilen">
-                    <i class="fas fa-share-alt fa-1x"></i>Teilen
-                </button>
-                <button class="btn btn-pdf btn-light" id="pdf-image" onclick="location.href='#top';printImageFrom('#result-summary-row')"
+
+                <button class="btn btn-pdf btn-light" id="pdf-image"
+                        onclick="location.href='#top';printImageFrom('#result-summary-row')"
                         title="Mein Ergebnis als Bild erstellen & auf meinem Rechner speichern">
-                    <i class="fas fa-print"></i> Ergebnis<br>speichern
+                    <i class="fas fa-print"></i> Ergebnis speichern
                 </button>
             </p>
         </div>
@@ -184,18 +155,27 @@
 <footer id="footer" class="pt-2 text-sm-left text-center text-md-center text-lg-center container">
     <!-- buttons navigation -->
     <div class="d-flex flex-row justify-content-center align-items-center text-sm-left text-center text-md-center text-lg-center">
+
+        <div class="mr-1">
+            <a class="nav-link nav-link-two" href="//www.bitkom.org" title="Bitkom e.V. Website"
+               target="_blank"><img class="bitkom logo"
+                                    src="./icons/2021-06-bitkom-logo.svg"
+                                    alt="Logo Bitkom e.V."/></a>
+        </div>
         <div class="mr-1">
             <button class="btn btn-dark" id="btn-results-show-qa" title="FAQ">
                 <i class="fas fa-question-circle" title="FAQ"></i> FAQ
             </button>
         </div>
-        <!--
-        <div class="flex">
-                <button class="btn btn-dark" id="btn-results-show-share" title="Share">
+
+        <div class="mr-1">
+            <div class="flex">
+                <button class="btn btn-dark" id="btn-results-show-share" title="Teilen">
                     <i class="fas fa-share-square" title="Bitkomat teilen"></i> Teilen
                 </button>
-                </div>
-        -->
+            </div>
+
+        </div>
         <div class="mr-1">
             <button class="btn btn-dark" id="btn-bitkomat-show-data" title="Datenschutz">
                 <i class="fas fa-shield-alt" title="Datenschutz"></i> Datenschutz
@@ -207,16 +187,27 @@
                     <i class="fas fa-stamp"></i> Impressum</a>
             </button>
         </div>
+            <!-- Parteien anzeigen
         <div class="mr-1">
-            <!-- Parteien anzeigen -->
             <button class="btn btn-dark" id="btn-bitkomat-parteien"><i class="fas fa-eye"></i> Parteien</button>
         </div>
+            -->
         <div class="mr-1">
             <!-- Ergebniss anzeigen -->
             <button class="btn btn-light" id="btn-bitkomat-skip-remaining-theses"><i class="fas fa-eye"></i> Ergebnisse
                 anzeigen
             </button>
         </div>
+
+        <div class="mr-1">
+            <a class=" nav-link nav-link-three" href="//nrwschool.de" title="NRW School of Governance Website"
+               target="_blank"><img
+                    class="nrwschool logo"
+                    src="icons/nrw school_sw.svg"
+                    alt="Logo NRW School of Governance"/></a>
+        </div>
+
+
     </div>
 
 </footer>
@@ -440,14 +431,14 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body" >
+            <div class="modal-body">
                 <div class="parteien col card">
-                <ul class="list-group list-group-flush" id="parteien-modal-body">
-                <!-- parteien alphabetisch nach data.lists listen -->
-                    parteien-modal-body
-                </ul>
+                    <ul class="list-group list-group-flush" id="parteien-modal-body">
+                        <!-- parteien alphabetisch nach data.lists listen -->
+                        parteien-modal-body
+                    </ul>
 
-            </div>
+                </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_parteien">schließen
