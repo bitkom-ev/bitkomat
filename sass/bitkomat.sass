@@ -36,6 +36,12 @@ footer
   .btn
     margin: 0 0 6px 0
 
+  .logo
+    height: 30px
+    width: auto
+    vertical-align: initial
+
+
 a:hover, a:visited, a:active
   text-decoration: none
 
@@ -70,79 +76,16 @@ a.external,
   display: initial
   margin: 0
   padding: 0
+
   &.container
-    @media(max-width: 768px)
-      border: none
-      padding: 0 1em
-
-  ul.navbar-nav
-    background-color: transparent
-    display: flex
-    justify-content: space-between
-    margin: 0
     padding: 0
-    width: 100%
 
-    li.nav-item
-      background-color: transparent
-      display: block
-      line-height: 80px
-      margin: 0
-      padding: 0
-      @media(min-width: 768px)
-        height: 80px
-        max-width: 24%
-        width: calc((100vw - 120px) / 2)
-
-        &.two
-          max-width: 76%
-          background-color: transparent
-          text-align: right
-          max-width: 76%
-          width: 76%
-          @media(min-width: 768px)
-            a.nav-link
-              display: inline-block
-              margin-left: 0
-              padding: 0
-              max-width: 24%
-              width: 100%
-
-          .logo
-            background-color: transparent
-
-      a.nav-link
-        background-color: transparent
-        display: inline
-        margin: 0
-        padding-left: 0
-        padding-right: 0
-        vertical-align: bottom
-
-        img
-          background-color: transparent
-          vertical-align: bottom
-          @media(max-width: 768px)
-            width: 200px
-
-      &.two
-
-        a.nav-link
-          display: inline-block
-          margin-left: 0
-
-          &.nav-link-three
-            background-color: transparent
-            margin-left: 10%
-
-          .logo
-            max-width: 100%
-
-.logo
-  height: auto
-  max-height: 80px
-  max-width: 100%
-  vertical-align: initial
+  img
+    background-color: transparent
+    vertical-align: bottom
+    max-height: 40px
+    @media(max-width: 768px)
+      max-height: 30px
 
 .flex-fill
   flex: 1 1 auto
@@ -282,6 +225,20 @@ ul#pagination
 
 .result-summary-row
   margin-bottom: 0.2em
+  position: relative
+
+#result-summary-row
+
+  img.bitkomat.logo
+    display: none
+    visibility: hidden
+    filter: invert(100%)
+    width: auto
+    max-height: 40px
+    position: absolute
+    right: 0.2rem
+    top: 1.25rem
+    z-index: 1
 
 .card-head
   background: transparent
@@ -319,28 +276,6 @@ ul#pagination
       cursor: pointer
       //padding-top: 1.25em
       padding-left: 1.25em
-
-      .float-right
-        &.closed
-          visibility: visible
-          display: block
-
-        &.opened
-          visibility: hidden
-          display: none
-
-      &.open
-        background: $lightgray
-        border-bottom: none
-
-        .float-right
-          &.closed
-            visibility: hidden
-            display: none
-
-          &.opened
-            visibility: visible
-            display: block
 
     &:first-child
       border-radius: 0
@@ -383,7 +318,6 @@ ul#pagination
             transform: translateY(-50%)
             z-index: 2
 
-
           &:hover
             &:before
               display: block ruby
@@ -398,7 +332,6 @@ ul#pagination
         position: relative
         z-index: 1
 
-
   .result-details
     border-left: 1px solid $petrol
     border-right: 1px solid $petrol
@@ -406,6 +339,7 @@ ul#pagination
 
   .card-body
     background-color: $petrol
+    background-image: radial-gradient(farthest-corner at 50% -50%, $petrol 0, $petrol 70%, $petrol 100%)
     color: $white
 
     .card-title
@@ -413,6 +347,28 @@ ul#pagination
         #thesis-text
           background: transparent
           min-height: 4.5em
+
+  .closed
+    visibility: visible
+    display: block
+
+  .opened
+    visibility: hidden
+    display: none
+
+  .open
+    background: $lightgray
+    border-bottom: none
+
+    .float-right, .float-left
+      &.closed
+        visibility: hidden
+        display: none
+
+      &.opened
+        visibility: visible
+        display: block
+
 
   ul.list-group
     margin: 1em
@@ -424,6 +380,8 @@ ul#pagination
       display: inline-block
       padding: .4em
       vertical-align: top
+      text-align: right
+
       &.list-group-item-primary
         background-color: $lightgray
 
@@ -448,17 +406,29 @@ ul#pagination
         display: inline-block
         padding-left: 6px
         width: calc(100% - 160px)
+        text-align: left
 
         @media(max-width: 768px)
           background-color: transparent
           width: 100%
 
       .list-item-three
+        background-color: transparent
         text-align: right
-        width: 100%
 
         .badge-voted
           padding: 6px
+
+        button.context-header
+          cursor: pointer
+          display: inline-block
+          text-align: left
+
+        span.context-text
+          background-color: transparent
+          display: inline-block
+          text-align: left
+          min-width: calc(100% - 160px)
 
       .svg-inline--fa
         &.fa-smile-beam,
@@ -492,9 +462,10 @@ ul#pagination
   border-bottom: none
   color: $petrol
   font-size: 2em
-  left: calc(50% - 26px)
+  left: 0
   height: 52px
-  width: 58px // plus border bottom
+  width: 58px
+  // plus border bottom
   top: -28px
   position: absolute
 
@@ -542,6 +513,7 @@ span[class^="thesis-number-"], span.thesis-number
 span.thesis-number
   height: 28px
   width: 32px
+
 @media(min-width: 768px)
   #thesis-number, span[class^="thesis-number-"]
     left: -8px
@@ -554,6 +526,63 @@ span.thesis-number
   margin: 2em 0 4em 0
   padding: 0 1em
   position: relative
+
+  .card-text
+    font-size: 20px
+
+
+  // muss in card body auch geändert werden
+  &.thesis-card-1, &.thesis-card-2, &.thesis-card-3
+    .card-body
+      background-color: $petrol_d10
+
+      h5
+        color: $petrol_d10
+
+  &.thesis-card-4, &.thesis-card-5, &.thesis-card-5, &.thesis-card-7, &.thesis-card-8, &.thesis-card-9
+    .card-body
+      background-color: $petrol
+
+      h5
+        color: $petrol
+
+  &.thesis-card-10, &.thesis-card-11, &.thesis-card-12, &.thesis-card-13, &.thesis-card-14, &.thesis-card-15
+    .card-body
+      background-color: $petrol_l5
+
+      h5
+        color: $petrol_l5
+
+  &.thesis-card-16, &.thesis-card-17, &.thesis-card-18, &.thesis-card-19
+    .card-body
+      background-color: $petrol_l10
+
+      h5
+        color: $petrol_l10
+
+  &.thesis-card-20, &.thesis-card-21, &.thesis-card-22, &.thesis-card-23, &.thesis-card-24
+    .card-body
+      background-color: $petrol_l15
+
+      h5
+        color: $petrol_l15
+
+  &.thesis-card-25, &.thesis-card-26, &.thesis-card-27, &.thesis-card-28, &.thesis-card-29
+    .card-body
+      background-color: $petrol_l20
+
+      h5
+        color: $petrol_l20
+
+
+  .card-thema
+    background-color: transparent
+    color: $petrol
+    position: absolute
+    right: 1em
+    top: -2em
+
+    thesis-card
 
 @media(min-width: 767px)
   #thesis-card
@@ -755,6 +784,7 @@ span.thesis-number
   background-color: $white !important
   border-color: $nebelgray
   color: $gray
+
   &:hover
     background-color: $altogray !important
 
@@ -820,6 +850,7 @@ span.thesis-number
 
 
 .svg-inline--fa
+  margin: 0 0.2em
   z-index: 6
 
   &.fa-check-circle,
@@ -869,10 +900,12 @@ span.thesis-number
   &.fa-check-double
     left: calc(50% - 40px)
 
-  &.fa-chevron-down
+  &.fa-angle-up,
+  &.fa-angle-down
     color: $petrol
     width: 30px
     height: 20px
+    vertical-align: middle
 
   &.btn-success
     border: none
@@ -889,7 +922,7 @@ span.thesis-number
 
   .btn
     background-color: transparent
-    min-height: 128px
+    min-height: 100px
 
     @media(max-width: 768px)
       margin-bottom: 2em
@@ -953,7 +986,7 @@ span.thesis-number
   margin-bottom: 2em
   padding: 40px 0 20px
   position: relative
-  min-width: 210px
+  min-width: 220px
   z-index: 0
 
   &:hover
@@ -976,6 +1009,7 @@ span.thesis-number
       position: absolute
       top: -42px
       left: calc(50% - 40px)
+
 .btn-pdf
   margin-right: 0
 
