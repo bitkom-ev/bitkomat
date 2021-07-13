@@ -109,101 +109,125 @@ a.external,
     background-color: $white
     height: 2px
 
-ul#pagination
-  display: inline-flex
-  flex-flow: row wrap
+#pagination
+  background-color: transparent
+  border: none
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
 
-  li.page-item
-    background-color: transparent
-    margin-right: 3px
-    margin-bottom: 6px
+  div.pagination-group
+    background-color: $white
+    border: 4px solid $petrol
+    cursor: pointer
+    display: flex
+    flex-wrap: wrap
+    line-height: normal
+    margin-bottom: 1em
+    padding: 0.4em
+    width: 32%
 
-    &.item-3, &.item-9, &.item-15, &.item-19, &.item-24
-      margin-right: 10px
-
-
-    &.bg-info, &.bg-warning
-      background-color: $altogray !important
-
-      button.page-link
-        color: $petrol
-
-    &.bg-success
-      background-color: $green
-
-      button.page-link
-        color: $white
-
-    &.bg-danger
-      background-color: $red
-
-      button.page-link
-        color: $white
+    ul.pagination
+      display: none
+      margin: 0
+      padding: 0
+    &.active
+      ul.pagination
+        display: flex
+        flex-flow: row wrap
+        width: 100%
 
 
-    &:first-child .page-link,
-    &:last-child .page-link
-      border-radius: 0
+      li.page-item
+        background-color: transparent
+        margin-right: 3px
+        margin-bottom: 6px
+        line-height: initial
 
-    &.aktive, &:hover, &:focus
-      background-color: $petrol !important
-      border-color: $petrol !important
-      box-shadow: none
-      color: $white !important
+        &.bg-info, &.bg-warning
+          background-color: $altogray !important
 
-      button.page-link
-        background-color: transparent !important
-        color: $white
+        button.page-link
+          color: $petrol
+
+        &.bg-success
+          background-color: $green
+
+          button.page-link
+            color: $white
+
+        &.bg-danger
+          background-color: $red
+
+          button.page-link
+            color: $white
+
+        .page-link
+          padding: 0.2em 0.4em
+
+        &:first-child .page-link,
+        &:last-child .page-link
+          border-radius: 0
+
+        &.aktive, &:hover, &:focus
+          background-color: $petrol !important
+          border-color: $petrol !important
+          box-shadow: none
+          color: $white !important
+
+          button.page-link
+            background-color: transparent !important
+            color: $white
 
 
-    // overwrite bootstrap !important text-light!
-    button.text-light
-      background-color: transparent !important
-      color: $petrol !important
+        // overwrite bootstrap !important text-light!
+        button.text-light
+          background-color: transparent !important
+          color: $petrol !important
 
-      &.aktive, &:hover, &:focus
-        background-color: $petrol !important
-        box-shadow: none
-        color: $white !important
-        outline: initial
+          &.aktive, &:hover, &:focus
+            background-color: $petrol !important
+            box-shadow: none
+            color: $white !important
+            outline: initial
 
-    button.page-link
-      background-color: transparent !important
-      border: 1px solid $petrol
-      box-shadow: none
-      color: $petrol
-      font-size: initial
-      line-height: 1
-      position: relative
+        button.page-link
+          background-color: transparent !important
+          border: 1px solid $petrol
+          box-shadow: none
+          color: $petrol
+          font-size: initial
+          line-height: 1
+          position: relative
 
-      &.aktive, &:hover, &:focus
-        background-color: $petrol !important
-        border-top: 1px solid $petrol
-        border-right: 1px solid $petrol
-        border-left: 1px solid $petrol
-        border-bottom: none
-        box-shadow: none
-        color: $white !important
+          &.aktive, &:hover, &:focus
+            background-color: $petrol !important
+            border-top: 1px solid $petrol
+            border-right: 1px solid $petrol
+            border-left: 1px solid $petrol
+            border-bottom: none
+            box-shadow: none
+            color: $white !important
 
-      &.aktive:after, &:hover:after, &:focus:after
-        background-color: $petrol !important
-        border-right: 1px solid $petrol
-        border-bottom: 1px solid $petrol
-        border-left: 1px solid $petrol
-        color: $white !important
-        height: 20px
-        bottom: -3px
-        left: -1px
-        right: 0
-        z-index: -1
-        content: ""
-        position: absolute
-        transform: skew(-180deg, -4.5deg)
+          &.aktive:after, &:hover:after, &:focus:after
+            background-color: $petrol !important
+            border-right: 1px solid $petrol
+            border-bottom: 1px solid $petrol
+            border-left: 1px solid $petrol
+            color: $white !important
+            height: 20px
+            bottom: -3px
+            left: -1px
+            right: 0
+            z-index: -1
+            content: ""
+            position: absolute
+            transform: skew(-180deg, -4.5deg)
 
-  li[class^="page-link bg-"]
-    button.page-link
-      //border: 1px solid yellow
-      color: $white
+      li[class^="page-link bg-"]
+        button.page-link
+          //border: 1px solid yellow
+          color: $white
 
 .progress
   background-color: transparent
@@ -1047,19 +1071,6 @@ span.thesis-number
 hr.result
   background-color: $white
   height: 2px
-
-.pagination-sm .page-item
-  &:first-child .page-link
-    border-top-left-radius: 0
-    border-bottom-left-radius: 0
-    border-top-right-radius: 0
-    border-bottom-right-radius: 0
-
-  &:last-child .page-link
-    border-top-left-radius: 0
-    border-bottom-left-radius: 0
-    border-top-right-radius: 0
-    border-bottom-right-radius: 0
 
 .btn-neural:hover
   background-color: $gray
