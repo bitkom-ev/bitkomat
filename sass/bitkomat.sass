@@ -15,8 +15,7 @@ body.flex
   justify-content: center
 
 @font-face
-  font-family: 'fontawesome'
-  src: url('../webfonts/fa-solid-900.woff') format('woff')
+  font-family: 'Font Awesome 5 Free'
 
 header
   display: inline-block
@@ -35,6 +34,10 @@ footer
 
   .btn
     margin: 0 0 6px 0
+    @media(max-width: 767px)
+      svg
+        display: none
+        visibility: hidden
 
   .logo
     height: 30px
@@ -82,10 +85,13 @@ a.external,
 
   img
     background-color: transparent
+    //border: 1px solid $petrol
+    max-height: 60px
+    margin-left: -25px
+    margin-bottom: -10px
     vertical-align: bottom
-    max-height: 40px
-    @media(max-width: 768px)
-      max-height: 30px
+    @media(max-width: 767px)
+      max-height: 40px
 
 .flex-fill
   flex: 1 1 auto
@@ -126,6 +132,15 @@ a.external,
     margin-bottom: 1em
     padding: 0.4em
     width: 32%
+    @media(max-width: 992px)
+      width: 49%
+    @media(max-width: 767px)
+      width: 49%
+      margin-bottom: 0.7em
+    @media(max-width: 576px)
+      width: 100%
+      margin-bottom: 0.5em
+
 
     ul.pagination
       display: none
@@ -253,16 +268,16 @@ a.external,
 
 #result-summary-row
 
-  img.bitkomat.logo
-    display: none
-    visibility: hidden
-    filter: invert(100%)
-    width: auto
-    max-height: 40px
+  .bitkomat.logo
+    background-color: transparent
+    color: $petrol
+    display: inline-block
+    max-height: 60px
+    right: 2em
     position: absolute
-    right: 0.2rem
-    top: 1.25rem
-    z-index: 1
+    top: 2em
+    visibility: hidden
+    z-index: 2
 
 .card-head
   background: transparent
@@ -272,7 +287,7 @@ a.external,
   flex-direction: row
   flex-wrap: wrap
 
-  @media(max-width: 640px)
+  @media(max-width: 576px)
     flex-direction: row
 
     div[class^="col-"]
@@ -283,7 +298,25 @@ a.external,
   background-color: transparent
   border: 0
   border-radius: 0
-  padding: 0
+
+  .card-title
+    background-color: $white
+    border: 4px solid $petrol
+    color: $petrol
+    font-size: 1em
+    left: 4em
+    min-height: 52px
+    padding: 1em
+    position: absolute
+    width: auto
+    top: -28px
+
+  .card-body
+    // background-image: radial-gradient(farthest-corner at 50% -50%, $petrol 0, $petrol 70%, $petrol 100%)
+    background-color: $petrol
+    color: $white
+    padding: 3em 3em 1em 2em
+
 
   .card-header
     border: 0
@@ -361,16 +394,6 @@ a.external,
     border-right: 1px solid $petrol
     border-bottom: 1px solid $petrol
 
-  .card-body
-    background-color: $petrol
-    background-image: radial-gradient(farthest-corner at 50% -50%, $petrol 0, $petrol 70%, $petrol 100%)
-    color: $white
-
-    .card-title
-      @media(min-width: 767px)
-        #thesis-text
-          background: transparent
-          min-height: 4.5em
 
   .closed
     visibility: visible
@@ -420,7 +443,7 @@ a.external,
         width: 160px
         text-align: center
 
-        @media(max-width: 768px)
+        @media(max-width: 767px)
           background-color: transparent
           max-width: 100%
           width: 100%
@@ -432,7 +455,7 @@ a.external,
         width: calc(100% - 160px)
         text-align: left
 
-        @media(max-width: 768px)
+        @media(max-width: 767px)
           background-color: transparent
           width: 100%
 
@@ -552,52 +575,13 @@ span.thesis-number
   position: relative
 
   .card-text
-    font-size: 20px
+    font-size: 18px
 
-
-  // muss in card body auch geändert werden
-  &.thesis-card-1, &.thesis-card-2, &.thesis-card-3
-    .card-body
-      background-color: $petrol_d10
-
-      h5
-        color: $petrol_d10
-
-  &.thesis-card-4, &.thesis-card-5, &.thesis-card-5, &.thesis-card-7, &.thesis-card-8, &.thesis-card-9
-    .card-body
-      background-color: $petrol
-
-      h5
-        color: $petrol
-
-  &.thesis-card-10, &.thesis-card-11, &.thesis-card-12, &.thesis-card-13, &.thesis-card-14, &.thesis-card-15
-    .card-body
-      background-color: $petrol_l5
-
-      h5
-        color: $petrol_l5
-
-  &.thesis-card-16, &.thesis-card-17, &.thesis-card-18, &.thesis-card-19
-    .card-body
-      background-color: $petrol_l10
-
-      h5
-        color: $petrol_l10
-
-  &.thesis-card-20, &.thesis-card-21, &.thesis-card-22, &.thesis-card-23, &.thesis-card-24
-    .card-body
-      background-color: $petrol_l15
-
-      h5
-        color: $petrol_l15
-
-  &.thesis-card-25, &.thesis-card-26, &.thesis-card-27, &.thesis-card-28, &.thesis-card-29
-    .card-body
-      background-color: $petrol_l20
-
-      h5
-        color: $petrol_l20
-
+  #thesis-text
+    margin: 0
+    margin-bottom: 1em
+    @media(min-width: 768px)
+      min-height: 4.5em
 
   .card-thema
     background-color: transparent
@@ -606,9 +590,7 @@ span.thesis-number
     right: 1em
     top: -2em
 
-    thesis-card
-
-@media(min-width: 767px)
+@media(min-width: 768px)
   #thesis-card
     background-color: transparent
     margin-top: 4em
@@ -619,6 +601,7 @@ span.thesis-number
 
   .right-answer-row
     margin-left: -25px
+
 
 
 #thesis-more
@@ -692,10 +675,11 @@ span.thesis-number
   background-color: transparent
   border-radius: 0
   color: $white
+  margin-left: 1em
   min-width: 110px
   padding: 6px 0
   white-space: normal
-  text-align: center
+  text-align: left
 
   span.mychoice
     background-color: transparent
@@ -712,6 +696,7 @@ span.thesis-number
     background-color: transparent
     display: inline-block
     height: auto
+    margin-left: 0
     max-width: 120px
 
     @media(max-width: 767px)
@@ -948,7 +933,7 @@ span.thesis-number
     background-color: transparent
     min-height: 100px
 
-    @media(max-width: 768px)
+    @media(max-width: 767px)
       margin-bottom: 2em
 
   .btn-overview
@@ -1006,12 +991,14 @@ span.thesis-number
   border: 4px solid $petrol
   color: $petrol
   font-size: 1.25em
-  margin-right: 2em
+  margin-right: 0
   margin-bottom: 2em
   padding: 40px 0 20px
   position: relative
   min-width: 220px
   z-index: 0
+  @media(min-width: 768px)
+    margin-right: 2em
 
   &:hover
     background-color: transparent
@@ -1048,11 +1035,11 @@ span.thesis-number
   margin-right: 1em
   margin-bottom: 2em
   z-index: 0
-  @media(max-width: 768px)
+  @media(max-width: 767px)
     min-width: 420px
     width: 87%
 
-  @media(max-width: 640px)
+  @media(max-width: 576px)
     min-width: 210px
     width: 100%
 
