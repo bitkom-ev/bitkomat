@@ -20,18 +20,17 @@
     <meta property="og:title" content="Der Bitkomat zur Bundestagswahl 2021 – Digitalpolitik leicht gemacht">
     <meta property="og:description"
           content="Am 26. September findet die Bundestagswahl 2021 statt. Mit dem Bitkomat können Sie Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien ganz einfach abgleichen.">
-    <meta property="og:image" content="https://bitkomat.de/icons/Bitkomat_RGB_DE.png">
+    <meta property="og:image" content="https://bitkomat.de/icons/bitkomat-logo.png">
     <meta property="og:url" content="https://bitkomat.de/">
     <meta property="twitter:title" content="Der Bitkomat zur Bundestagswahl 2021 – Digitalpolitik leicht gemacht">
     <meta property="twitter:description"
           content="Am 26. September findet die Bundestagswahl 2021 statt. Mit dem Bitkomat können Sie Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien ganz einfach abgleichen.">
-    <meta property="twitter:image" content="https://bitkomat.de/icons/Bitkomat_RGB_DE.png">
+    <meta property="twitter:image" content="https://bitkomat.de/icons/bitkomat-logo.png">
     <meta name="twitter:image:alt" content="Bitkomat">
     <meta name="twitter:card" content="summary_large_image">
     <!-- data from bitkom.org -->
     <meta property="fb:app_id" content="443245723182166"/>
     <meta name="twitter:site" content="@bitkom">
-
 
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
     <link media="all" rel="stylesheet" type="text/css" href="css/bitkomat.css"/>
@@ -70,7 +69,7 @@
         <!-- pagination & logo -->
         <div class="card-head">
             <div class="col-12 text-center">
-                <nav id="pagination" aria-label="pagination" class="flex flex-row justify-content">
+                <nav id="pagination" aria-label="pagination" class="flex flex-row justify-content mb-5 mb-md-1 mb-lg-1">
 
                 </nav>
             </div>
@@ -109,7 +108,6 @@
                         id="btn-skip-text">btn-skip-text</span></button>
             </div>
         </div>
-
     </div>
 
 
@@ -128,10 +126,6 @@
         </div>
 
         <div class="text-center" id="result-overview">
-            <p class="overview text-center text-sm-center text-md-center text-lg-center">
-                <button class="btn btn-overview disabled text-center font-weight-bold" id="btn-overview">btn-overview
-                </button>
-            </p>
             <p class="edit text-center text-sm-center text-md-center text-lg-center">
                 <button class="btn btn-pdf btn-light" id="pdf-image"
                         onclick="location.href='#top';printImageFrom('#result-summary-row')"
@@ -146,7 +140,15 @@
             </p>
         </div>
 
+        <p class="overview text-center text-sm-center text-md-center text-lg-center">
+            <button class="btn btn-overview disabled text-center font-weight-bold" id="btn-overview">btn-overview
+            </button>
+        </p>
+
+
         <div class="card col-sm-12 offset-sm-0" id="result-detail">
+
+
             <div class="card-body"></div>
         </div>
     </div>
@@ -172,27 +174,7 @@
         </div>
     </div>
 </div>
-<!-- intro window -->
-<div class="modal fade" id="introModal" tabindex="-1" role="dialog" aria-labelledby="introModalTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="intro-modal-title"><i class="fas fa-exclamation-circle"></i> Bitkomat
-                </h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body" id="intro-modal-body">intro-modal-body</div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_intro">
-                    schließen
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
+
 <!-- faq window -->
 <div class="modal fade" id="QAModal" tabindex="-1" role="dialog" aria-labelledby="QAModalTitle" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -209,149 +191,6 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_faq">schließen
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- share window -->
-<div class="modal fade" id="shareModal" tabindex="-1" role="dialog" aria-labelledby="shareModalTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="share-modal-title"><i class="fas fa-share-alt" title="Share"></i> Share
-                    Bitkomat</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body" id="share-modal-body">share-modal-body</div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_share">schließen
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- 2 spd window -->
-<div class="modal fade" id="spdModal" tabindex="-1" role="dialog" aria-labelledby="spdModalTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="spd-modal-title"><i class="fas fa-share-alt" title="SPD"></i> SPD
-                    Bitkomat</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body" id="spd-modal-body">spd-modal-body</div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_spd">schließen
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- 6 afd window -->
-<div class="modal fade" id="afdModal" tabindex="-1" role="dialog" aria-labelledby="afdModalTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="afd-modal-title"><i class="fas fa-share-alt" title="AfD"></i> AfD
-                    Bitkomat</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body" id="afd-modal-body">afd-modal-body</div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_afd">schließen
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- 5 die Linke window -->
-<div class="modal fade" id="dieModal" tabindex="-1" role="dialog" aria-labelledby="dieModalTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="die-modal-title"><i class="fas fa-share-alt" title="Die Linke"></i> Die
-                    Linke
-                    Bitkomat</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body" id="die-modal-body">die-modal-body</div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_die">schließen
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- 4 b90 window -->
-<div class="modal fade" id="b90Modal" tabindex="-1" role="dialog" aria-labelledby="b90ModalTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="b90-modal-title"><i class="fas fa-share-alt" title="Die Grünen"></i> Die
-                    Grünen
-                    Bitkomat</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body" id="b90-modal-body">b90-modal-body</div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_b90">schließen
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- 3 fdp window -->
-<div class="modal fade" id="fdpModal" tabindex="-1" role="dialog" aria-labelledby="fdpModalTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="fdp-modal-title"><i class="fas fa-share-alt" title="FDP"></i> FDP
-                    Bitkomat</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body" id="fdp-modal-body">fdp-modal-body</div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_fdp">schließen
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- 1 CDU CSU window -->
-<div class="modal fade" id="cduModal" tabindex="-1" role="dialog" aria-labelledby="cduModalTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="cdu-modal-title"><i class="fas fa-share-alt" title="CDU / CSU"></i> CDU /
-                    CSU
-                    Bitkomat</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body" id="cdu-modal-body">cdu-modal-body</div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_cdu">schließen
                 </button>
             </div>
         </div>
@@ -392,26 +231,13 @@
 <footer id="footer" class="container container-fluid flex-fill">
     <!-- buttons navigation -->
     <div class="d-flex flex-wrap justify-content-center align-items-center text-center">
-        <div class="mr-1">
-            <a class="nav-link nav-link-two" href="//www.bitkom.org" title="Bitkom e.V. Website"
-               target="_blank"><img class="bitkom logo"
-                                    src="./icons/2021-06-bitkom-logo.svg"
-                                    alt="Logo Bitkom e.V."/></a>
-        </div>
+
         <div class="mr-1">
             <button class="btn btn-dark" id="btn-results-show-qa" title="FAQ">
                 <i class="fas fa-question-circle" title="FAQ"></i> FAQ
             </button>
         </div>
 
-        <div class="mr-1">
-            <div class="flex">
-                <button class="btn btn-dark" id="btn-results-show-share" title="Teilen">
-                    <i class="fas fa-share-square" title="Bitkomat teilen"></i> Teilen
-                </button>
-            </div>
-
-        </div>
         <div class="mr-1">
             <button class="btn btn-dark" id="btn-bitkomat-show-data" title="Datenschutz">
                 <i class="fas fa-shield-alt" title="Datenschutz"></i> Datenschutz
@@ -423,16 +249,19 @@
                     <i class="fas fa-stamp"></i> Impressum</a>
             </button>
         </div>
-        <!-- Parteien anzeigen
-    <div class="mr-1">
-        <button class="btn btn-dark" id="btn-bitkomat-parteien"><i class="fas fa-eye"></i> Parteien</button>
-    </div>
-        -->
+
         <div class="mr-1">
             <!-- Ergebniss anzeigen -->
             <button class="btn btn-light" id="btn-bitkomat-skip-remaining-theses"><i class="fas fa-eye"></i> Ergebnisse
                 anzeigen
             </button>
+        </div>
+
+        <div class="mr-1">
+            <a class="nav-link nav-link-two" href="//www.bitkom.org" title="Bitkom e.V. Website"
+               target="_blank"><img class="bitkom logo"
+                                    src="./icons/2021-06-bitkom-logo.svg"
+                                    alt="Logo Bitkom e.V."/></a>
         </div>
         <!-- 13.07.2021 erst einmal noch nicht anzeigen
                 <div class="mr-1">
@@ -445,8 +274,6 @@
         -->
     </div>
 </footer>
-
-
 
 
 <script src="js/jquery-3.6.0.min.js">// first! </script>
