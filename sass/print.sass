@@ -8,8 +8,8 @@ body
   print-color-adjust: exact
   margin: 0
 
-/* remove stuff that should not be visible in the final print */
-header, footer, .meta, .modal.fade, #intro, #start, #bitkomat, #result-overview, #result-detail
+/* remove stuff that should not be visible in the final print: footer, */
+header,  .meta, .modal.fade, #intro, #start, #bitkomat, #overview, #result-overview, #result-detail
   display: none !important
 
   #result
@@ -26,6 +26,7 @@ header, footer, .meta, .modal.fade, #intro, #start, #bitkomat, #result-overview,
     position: relative
 
     img.bitkomat.logo
+      display: inline-block
       -webkit-print-color-adjust: exact
       print-color-adjust: exact
       visibility: visible !important
@@ -93,7 +94,7 @@ header, footer, .meta, .modal.fade, #intro, #start, #bitkomat, #result-overview,
         print-color-adjust: exact
 
       &.result-detail-header
-        background-color: $lightgray !important
+        background-color: $white !important
         cursor: pointer
         padding-top: 1em
         color-adjust: exact
@@ -109,7 +110,7 @@ header, footer, .meta, .modal.fade, #intro, #start, #bitkomat, #result-overview,
         border-top: 0
 
         &.result-detail-footer
-          background-color: $lightgray !important
+          background-color: $white !important
           cursor: pointer
           color-adjust: exact
           -webkit-print-color-adjust: exact

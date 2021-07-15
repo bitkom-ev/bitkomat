@@ -146,6 +146,7 @@ a.external,
       display: none
       margin: 0
       padding: 0
+
     &.active
       ul.pagination
         display: flex
@@ -263,11 +264,10 @@ a.external,
 
 
 .result-summary-row
-  margin-bottom: 0.2em
+  margin-bottom: 0.8em
   position: relative
 
 #result-summary-row
-
   .bitkomat.logo
     background-color: transparent
     color: $petrol
@@ -278,6 +278,15 @@ a.external,
     top: 2em
     visibility: hidden
     z-index: 2
+
+  @media screen
+    .bitkomat.logo
+      display: none
+      visibility: hidden
+  @media print
+    .bitkomat.logo
+      display: inline-block
+      visibility: visible !important
 
 .card-head
   background: transparent
@@ -298,10 +307,11 @@ a.external,
   background-color: $lightgray
   padding: 6em 0
   width: 100%
+
   .card
     .card-body
-      padding: 2em 2em 1em 2em
-
+      font-size: 20px
+      padding: 1em 2em
 
 .card
   background-color: transparent
@@ -433,7 +443,7 @@ a.external,
     list-style-type: none
 
     li.list-group-item
-      border-color: $petrol
+      border-bottom: 1px solid $petrol !important
       color: $petrol
       display: inline-block
       padding: .4em
@@ -614,7 +624,6 @@ span.thesis-number
     margin-left: -25px
 
 
-
 #thesis-more
   margin-top: 0.5em
 
@@ -686,8 +695,10 @@ span.thesis-number
   background-color: transparent
   border-radius: 0
   color: $white
-  margin-left: 1em
-  min-width: 110px
+  font-size: initial
+  //margin-left: 1em
+  //min-width: 110px
+  line-height: initial
   padding: 6px 0
   white-space: normal
   text-align: left
@@ -698,6 +709,7 @@ span.thesis-number
     display: inline-block
     font-size: 1.4em
     font-weight: bold
+    min-height: auto
     @media(max-width: 767px)
       margin-top: 20px
       margin-left: 0
@@ -889,12 +901,12 @@ span.thesis-number
     height: 80px
     position: absolute
     top: -42px
-    left: calc(50% - 40px)
+    left: calc(50% - 42px)
 
   &.fa-check-circle
     bottom: -2px
     color: $petrol
-    left: calc(50% - 40px)
+    left: calc(50% - 42px)
     top: initial
     right: -30px
 
@@ -918,10 +930,10 @@ span.thesis-number
     color: $red
 
   &.fa-check-double
-    left: calc(50% - 40px)
+    left: calc(50% - 42px)
 
-  &.fa-angle-up,
-  &.fa-angle-down
+  &.fa-times,
+  &.fa-chevron-down
     color: $petrol
     width: 30px
     height: 20px
@@ -929,6 +941,9 @@ span.thesis-number
 
   &.btn-success
     border: none
+
+#overview
+//
 
 #result-overview
   border: 1px solid $petrol
@@ -946,7 +961,6 @@ span.thesis-number
 
     @media(max-width: 767px)
       margin-bottom: 2em
-
 
 
 .btn-overview
@@ -1015,6 +1029,10 @@ span.thesis-number
   @media(min-width: 768px)
     margin-right: 2em
 
+  span.btn-act
+    display: inline-block
+    margin-top: 1em
+
   &:hover
     background-color: transparent
     border: 4px solid $petrol
@@ -1034,7 +1052,7 @@ span.thesis-number
       padding: 20px
       position: absolute
       top: -42px
-      left: calc(50% - 40px)
+      left: calc(50% - 42px)
 
 .btn-pdf
   margin-right: 0
@@ -1107,6 +1125,9 @@ a.fa
 
 .fa, .far, .fas
   font-family: 'fontawesome' !important
+
+#result-details
+  //
 
 #result-detail
   .card

@@ -2667,7 +2667,7 @@ readers do not read off random characters that represent icons */
 .fa-meh:before {
     content: "\f11a"; }
 
-.fa-meh:before {
+.fa-meh-blank:before {
     content: "\f5a4"; }
 
 .fa-meh-rolling-eyes:before {
