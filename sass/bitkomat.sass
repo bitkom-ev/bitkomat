@@ -125,7 +125,7 @@ a.external,
   div.pagination-group
     background-color: $white
     border: 4px solid $petrol
-    cursor: pointer
+    // not without pagination toggle cursor: pointer
     display: flex
     flex-wrap: wrap
     line-height: normal
@@ -506,6 +506,7 @@ a.external,
           border-radius: 20px
           height: 40px
           left: -42px
+          margin: 0
           position: absolute
           top: calc(50% - 21px)
           width: 40px
@@ -897,8 +898,9 @@ span.thesis-number
     border: 4px solid $white
     border-radius: 40px
     color: $white
-    width: 80px
     height: 80px
+    margin: 0
+    width: 80px
     position: absolute
     top: -42px
     left: calc(50% - 42px)
@@ -972,8 +974,11 @@ span.thesis-number
   padding-top: 0
   position: relative
   width: 210px
-  top: 1em
+  top: 2em
   z-index: 2
+
+  &:hover
+    color: $white !important
 
   span
     position: relative
@@ -987,12 +992,13 @@ span.thesis-number
     transform: skew(-180deg, -4.5deg)
 
   .svg-inline--fa
+    margin: 0
 
     &.fa-smile-beam
       left: -42px
 
     &.fa-meh
-      left: 62px
+      left: calc(50% - 42px)
 
     &.fa-frown
       left: initial
@@ -1127,7 +1133,7 @@ a.fa
   font-family: 'fontawesome' !important
 
 #result-details
-  //
+//
 
 #result-detail
   .card
