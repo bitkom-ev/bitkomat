@@ -70,7 +70,6 @@
         <div class="card-head">
             <div class="col-12 text-center">
                 <nav id="pagination" aria-label="pagination" class="flex flex-row justify-content mb-5 mb-md-1 mb-lg-1">
-
                 </nav>
             </div>
         </div>
@@ -95,8 +94,8 @@
         </div>
 
         <!-- judgement -->
-        <div class="mt-5 row text-center">
-            <div class="gewichten col-12 col-lg-12 col-md-12 col-sm-12">
+        <div class="mt-5 row text-center justify-content">
+            <div class="gewichten col-12">
                 <button class="btn btn-judge btn-select" id="btn-yes"><span
                         id="btn-yes-text">btn-yes-text</span></button>
                 <button class="btn btn-judge btn-select" id="btn-neutral"><span
@@ -114,7 +113,7 @@
     <!-- Seite 3 letzte Seite Ergebnisse Auswertung id="result" -->
     <div id="result" class="text-left container">
         <div class="row text-left" id="result-summary-row">
-            <img class="bitkomat logo" src="./icons/bitkomat-logo-invertiert.png" alt="Logo"/>
+            <img id="bitkomat-logo" class="bitkomat logo" src="./icons/bitkomat-logo-invertiert.png" alt="Logo"/>
             <div class="card col-sm-12 offset-sm-0" id="card">
                 <div class="card-body text-left">
                     <h4 id="title-results">title-results</h4>
@@ -130,7 +129,8 @@
             <p class="edit text-center text-sm-center text-md-center text-lg-center">
                 <button class="btn btn-pdf btn-light" id="pdf-image"
                         title="Mein Ergebnis als PNG-Bild speichern">
-                    <span class="btn-act" onclick="location.href='#top?mtm_campaign=print-bitkomat-image';printImageFrom('#result-summary-row')"
+                    <!-- document.querySelectorAll("h3, blockquote, .myclass") -->
+                    <span class="btn-act matomo_download" onclick="location.href='#top';printImageFrom('#result-summary-row')"
                     ><i class="far fa-hdd"></i> Ergebnis speichern</span>
                 </button>
 
