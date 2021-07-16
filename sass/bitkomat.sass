@@ -124,7 +124,7 @@ a.external,
 
   div.pagination-group
     background-color: $white
-    border: 4px solid $petrol
+    border: 2px solid $petrol
     // not without pagination toggle cursor: pointer
     display: flex
     flex-wrap: wrap
@@ -141,6 +141,8 @@ a.external,
       width: 100%
       margin-bottom: 0.5em
 
+    span
+      font-weight: 600
 
     ul.pagination
       display: none
@@ -157,7 +159,7 @@ a.external,
       li.page-item
         background-color: transparent
         margin-right: 3px
-        margin-bottom: 6px
+        //margin-bottom: 6px
         line-height: initial
 
         &.bg-info, &.bg-warning
@@ -303,15 +305,6 @@ a.external,
     padding-right: 0
     padding-left: 0
 
-#result-detail
-  background-color: $lightgray
-  padding: 6em 0
-  width: 100%
-
-  .card
-    .card-body
-      font-size: 20px
-      padding: 1em 2em
 
 .card
   background-color: transparent
@@ -531,7 +524,7 @@ a.external,
   border-bottom: none
   color: $petrol
   font-size: 2em
-  left: 0
+  left: -6px
   height: 52px
   width: 58px
   // plus border bottom
@@ -602,7 +595,7 @@ span.thesis-number
   #thesis-text
     margin: 0
     margin-bottom: 1em
-    @media(min-width: 768px)
+    @media(min-width: 577px)
       min-height: 6em
 
   .card-thema
@@ -945,7 +938,11 @@ span.thesis-number
     border: none
 
 #overview
-//
+  background-color: transparent
+  left: calc(50% - 105px)
+  // 210 / 2 = 105
+  position: absolute
+  width: initial
 
 #result-overview
   border: 1px solid $petrol
@@ -961,6 +958,9 @@ span.thesis-number
     background-color: transparent
     min-height: 100px
 
+    &:last-child
+      margin-right: 0
+
     @media(max-width: 767px)
       margin-bottom: 2em
 
@@ -974,7 +974,7 @@ span.thesis-number
   padding-top: 0
   position: relative
   width: 210px
-  top: 2em
+  top: -2em
   z-index: 2
 
   &:hover
@@ -1048,7 +1048,8 @@ span.thesis-number
 
     &.fa-pencil-alt,
     &.fa-share-alt,
-    &.fa-print
+    &.fa-print,
+    &.fa-hdd
       background-color: $petrol
       border: 4px solid $white
       border-radius: 40px
@@ -1059,9 +1060,6 @@ span.thesis-number
       position: absolute
       top: -42px
       left: calc(50% - 42px)
-
-.btn-pdf
-  margin-right: 0
 
 
 .btn-judge-2
@@ -1133,8 +1131,30 @@ a.fa
   font-family: 'fontawesome' !important
 
 #result-details
-//
+  background: $lightgray
+  margin-top: 9em
+
+  @media(min-width: 577px)
+    margin-left: -15%
+    margin-right: -15%
+
+  @media(min-width: 768px)
+    margin-left: -20%
+    margin-right: -20%
+
+  @media(min-width: 993px)
+    margin-left: -30%
+    margin-right: -30%
+
 
 #result-detail
+  background-color: transparent
+  padding: 8em 0 1em 0
+  width: 100%
+
   .card
     margin-bottom: 2em
+
+    .card-body
+      font-size: 20px
+      padding: 1em 2em

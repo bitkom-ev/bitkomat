@@ -118,6 +118,7 @@
             <div class="card col-sm-12 offset-sm-0" id="card">
                 <div class="card-body text-left">
                     <h4 id="title-results">title-results</h4>
+                    <!-- nicht drucken ! -->
                     <h5 class="card-text" id="title-results-summary">title-results-summary</h5>
                     <hr class="result">
                     <div id="result-summary"></div>
@@ -128,9 +129,9 @@
         <div class=" text-center" id="result-overview">
             <p class="edit text-center text-sm-center text-md-center text-lg-center">
                 <button class="btn btn-pdf btn-light" id="pdf-image"
-                        title="Drucken: mein Ergebnis als Bild erstellen & auf meinem Rechner speichern">
-                    <span class="btn-act" onclick="location.href='#top';printImageFrom('#result-summary-row')"><i
-                            class="fas fa-print"></i> Drucken</span>
+                        title="Mein Ergebnis als PNG-Bild speichern">
+                    <span class="btn-act" onclick="location.href='#top?mtm_campaign=print-bitkomat-image';printImageFrom('#result-summary-row')"
+                    ><i class="far fa-hdd"></i> Ergebnis speichern</span>
                 </button>
 
                 <button class="btn btn-edit btn-light" id="text-result-below-summary" title="Anworten bearbeiten">
