@@ -5,6 +5,10 @@ AuthName "Password required"
 AuthUserFile "/var/www/digitalnavi/.htpasswd"
 Require valid-user
 
+# redirct all 404 not found to home index
+DirectoryIndex index.html
+ErrorDocument 404 https://bitkomat.de
+
 # – --------------------------------------------------------------
 # I Folow: https://www.drweb.de/htaccess/
 # Belässt die Dateien, die sich selten oder gar nicht ändern, für eine bestimmte Zeit im Browser-Cache
