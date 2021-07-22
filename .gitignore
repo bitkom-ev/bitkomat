@@ -1,15 +1,11 @@
 /docs/*
 /.idea/*
 /config/2021*
-/04
-/06
-/05
 /node_modules
 /sass/fonts.sass
 /07/index.html
-/07
 /svg
-/08
+/00
 /09
 /10
 /11
