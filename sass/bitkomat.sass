@@ -313,7 +313,7 @@ a.external,
 
   .card-title
     background-color: $white
-    border: 4px solid $petrol
+    border: 3px solid $petrol
     color: $petrol
     font-size: 1em
     left: 4em
@@ -329,6 +329,16 @@ a.external,
     color: $white
     padding: 3em 3em 1em 2em
 
+  .card-group-name
+    align-self: center
+    background: $petrol
+    color: $white
+    display: inline-block
+    font-size: 20px
+    margin-bottom: 2em
+    padding: 0.5em 1.5em
+    max-width: max-content
+    width: auto
 
   .card-header
     border: 0
@@ -446,7 +456,6 @@ a.external,
       &.list-group-item-primary
         background-color: $white
 
-
       &:last-child
         border-bottom: none !important
 
@@ -491,6 +500,13 @@ a.external,
           text-align: left
           min-width: calc(100% - 160px)
 
+      blockquote
+        background-image: linear-gradient(to bottom right, $altogray, $lightgray)
+        border: 1px solid
+        font-style: oblique
+        margin-bottom: 1em
+        padding-left: 1em
+
       .svg-inline--fa
         &.fa-smile-beam,
         &.fa-meh,
@@ -518,9 +534,9 @@ a.external,
 
 #thesis-number, span[class^="thesis-number-"], span.thesis-number
   background-color: $white
-  border-top: 4px solid $petrol
-  border-left: 4px solid $petrol
-  border-right: 4px solid $petrol
+  border-top: 3px solid $petrol
+  border-left: 3px solid $petrol
+  border-right: 3px solid $petrol
   border-bottom: none
   color: $petrol
   font-size: 2em
@@ -533,13 +549,13 @@ a.external,
 
   &:after
     background-color: $white
-    border-right: 4px solid $petrol
-    border-bottom: 4px solid $petrol
-    border-left: 4px solid $petrol
+    border-right: 3px solid $petrol
+    border-bottom: 3px solid $petrol
+    border-left: 3px solid $petrol
     height: 12px
     bottom: -8px
-    left: -4px
-    right: -4px
+    left: -3px
+    right: -3px
     z-index: 2
     content: ""
     position: absolute
@@ -818,10 +834,23 @@ span.thesis-number
   background-color: $petrol
   border-color: $petrol
   color: $white
+  a
+    color: $white
 
   &:hover
     background-color: $black
     color: $altogray
+
+
+.btn-dark-border
+  background-color: $petrol
+  border-color: $white
+  color: $white
+
+  &:hover
+    background-color: $white
+    border-color: $white
+    color: $petrol
 
   a
     color: $white
@@ -838,9 +867,9 @@ span.thesis-number
 
 .btn-start, .btn-overview
   background-color: $white
-  border-top: 4px solid $petrol
-  border-left: 4px solid $petrol
-  border-right: 4px solid $petrol
+  border-top: 3px solid $petrol
+  border-left: 3px solid $petrol
+  border-right: 3px solid $petrol
   border-bottom: none
   color: $petrol
   font-size: 2em
@@ -852,19 +881,19 @@ span.thesis-number
 
   &:after
     background-color: transparent
-    border-right: 4px solid $petrol
-    border-bottom: 4px solid $petrol
-    border-left: 4px solid $petrol
+    border-right: 3px solid $petrol
+    border-bottom: 3px solid $petrol
+    border-left: 3px solid $petrol
     bottom: -15px
     height: 30px
-    left: -4px
-    right: -4px
+    left: -3px
+    right: -3px
     content: ""
     position: absolute
     transform: skew(-180deg, -4.5deg)
 
 .btn-judge
-  border: 4px solid $petrol
+  border: 3px solid $petrol
   color: $white
   min-width: 210px
   font-size: 1.25em
@@ -888,7 +917,7 @@ span.thesis-number
   &.fa-frown,
   &.fa-check-double
     background-color: $white
-    border: 4px solid $white
+    border: 3px solid $white
     border-radius: 40px
     color: $white
     height: 80px
@@ -1023,7 +1052,7 @@ span.thesis-number
 
 .btn-edit, .btn-share, .btn-pdf
   background-color: $white
-  border: 4px solid $petrol
+  border: 3px solid $petrol
   color: $petrol
   font-size: 1.25em
   margin: 2em 0 1em 0
@@ -1041,7 +1070,7 @@ span.thesis-number
 
   &:hover
     background-color: transparent
-    border: 4px solid $petrol
+    border: 3px solid $petrol
     color: $black
 
   .svg-inline--fa
@@ -1051,7 +1080,7 @@ span.thesis-number
     &.fa-print,
     &.fa-hdd
       background-color: $petrol
-      border: 4px solid $white
+      border: 3px solid $white
       border-radius: 40px
       color: $white
       width: 80px
@@ -1063,7 +1092,7 @@ span.thesis-number
 
 
 .btn-judge-2
-  border: 4px solid $altogray
+  border: 3px solid $altogray
   color: $petrol
   font-size: 1.25em
   padding: 40px 0 20px
@@ -1122,9 +1151,6 @@ hr.result
     margin-top: 9em
     padding: 1em 0
 
-  .btn-start
-//
-
 a.fa
   color: $white
 
@@ -1162,3 +1188,17 @@ a.fa
     .card-body
       font-size: 20px
       padding: 1em 2em
+
+#ot-sdk-btn
+  background-color: $petrol
+  color: $white
+
+#ot-sdk-btn.ot-sdk-show-settings,
+#ot-sdk-btn.optanon-show-settings
+  background-color: $petrol !important
+  border: 1px solid $white !important
+  color: $white !important
+  &:hover
+    background-color: $white !important
+    border-color: $petrol !important
+    color: $petrol !important

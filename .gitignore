@@ -1,9 +1,6 @@
-/docs/*
-/.idea/*
-/config/2021*
+/docs
+/.idea
 /node_modules
-/sass/fonts.sass
-/07/index.html
 /svg
 /00
 /09
