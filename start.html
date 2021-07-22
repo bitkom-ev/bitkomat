@@ -43,7 +43,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <meta name="google-site-verification" content="by3_tcZad0fc7HgfB-MrNJm06FS22Vs9DueicSYej9Y" />
+    <meta name="google-site-verification" content="by3_tcZad0fc7HgfB-MrNJm06FS22Vs9DueicSYej9Y"/>
 
 </head>
 
@@ -84,7 +84,7 @@
                 <div class="card-text">
                     <p class="card-text" id="thesis-text">thesis-text</p>
                 </div>
-                <button class="btn btn-info" id="btn-toggle-thesis-more">
+                <button class="btn btn-dark-border" id="btn-toggle-thesis-more">
                     <span id="btn-toggle-thesis-more-text">btn-toggle-thesis-more-text</span>
                 </button>
                 <!-- -->
@@ -119,19 +119,21 @@
                 <div class="card-body text-left">
                     <h4 id="title-results">title-results</h4>
                     <!-- nicht drucken ! -->
-                    <h5 class="card-text" id="title-results-summary">title-results-summary</h5>
+                    <h5 class="card-text" id="title-results-summary-top">title-results-summary-top</h5>
                     <hr class="result">
                     <div id="result-summary"></div>
+                    <h5 class="card-text" id="title-results-summary-bottom">title-results-summary-bottom</h5>
                 </div>
             </div>
         </div>
-<!-- If you want to force Matomo to consider a link as a download, you can add the matomo_download or piwik_download css class to the link: //-->
+        <!-- If you want to force Matomo to consider a link as a download, you can add the matomo_download or piwik_download css class to the link: //-->
         <div class=" text-center" id="result-overview">
             <p class="edit text-center text-sm-center text-md-center text-lg-center">
                 <button class="btn btn-pdf btn-light" id="pdf-image"
                         title="Mein Ergebnis als PNG-Bild speichern">
                     <!-- document.querySelectorAll("h3, blockquote, .myclass") -->
-                    <span class="btn-act matomo_download" onclick="location.href='#top';printImageFrom('#result-summary-row')"
+                    <span class="btn-act matomo_download"
+                          onclick="location.href='#top';printImageFrom('#result-summary-row')"
                     ><i class="far fa-hdd"></i> Ergebnis speichern</span>
                 </button>
 
@@ -265,13 +267,13 @@
                                     alt="Logo Bitkom e.V."/></a>
         </div>
         <!-- 13.07.2021 erst einmal noch nicht anzeigen
-                <div class="mr-1">
-                    <a class=" nav-link nav-link-three" href="//nrwschool.de" title="NRW School of Governance Website"
-                       target="_blank"><img
-                            class="nrwschool logo"
-                            src="icons/nrw school_sw.svg"
-                            alt="Logo NRW School of Governance"/></a>
-                </div>
+        <div class="mr-1">
+            <a class=" nav-link nav-link-three" href="//nrwschool.de" title="NRW School of Governance Website"
+               target="_blank"><img
+                    class="nrwschool logo"
+                    src="icons/nrw school_sw.svg"
+                    alt="Logo NRW School of Governance"/></a>
+        </div>
         -->
     </div>
 </footer>
@@ -287,10 +289,13 @@
 <script defer src="js/html2canvas.min.js"></script>
 
 <!-- OneTrust Cookie-Einwilligungshinweis – Anfang für bitkomat.de -->
-<script type="text/javascript" src="https://cdn.cookielaw.org/consent/79fa068f-4795-4c04-9e9e-1851e569f117-test/OtAutoBlock.js" ></script>
-<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true" type="text/javascript" charset="UTF-8" data-domain-script="79fa068f-4795-4c04-9e9e-1851e569f117-test" ></script>
+<script type="text/javascript"
+        src="https://cdn.cookielaw.org/consent/79fa068f-4795-4c04-9e9e-1851e569f117-test/OtAutoBlock.js"></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true"
+        type="text/javascript" charset="UTF-8" data-domain-script="79fa068f-4795-4c04-9e9e-1851e569f117-test"></script>
 <script type="text/javascript">
-    function OptanonWrapper() { }
+    function OptanonWrapper() {
+    }
 </script>
 <!-- OneTrust-Cookie-Einwilligungshinweis – Ende für bitkomat.de -->
 

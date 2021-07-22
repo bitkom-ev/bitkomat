@@ -29,14 +29,6 @@ var T =
             _classCallCheck(this, T);
             this.page_title = "Bitkomat";
 
-            this.header_body = httpGet("./header.html");
-            this.intro_modal_body = httpGet("./intro.html");
-            this.positionen_modal_body = httpGet("./positionen.html");
-            //this.imprint_modal_body = httpGet("https://www.bitkom.org/Impressum", 'article');
-            this.qa_modal_body = httpGet("./faq.html");
-            this.data_modal_body = httpGet("./datenschutzhinweise.html");
-            this.share_modal_body = httpGet("./share.html");
-
             this.swype_info_message_text = "Wischen Sie, um manuell zwischen Thesen zu wechseln";
             this.btn_swype_info_ok = "OK";
             this.start_subtitle = "Digitalpolitischer Parteiencheck zur Bundestagswahl 2021";
@@ -45,18 +37,28 @@ var T =
             this.btn_toggle_thesis_more_text = "Erläuterung";
             //this.btn_important = "<i class=\"fas fa-check-double\"></i>These doppelt gewichten";
             this.btn_yes_text = "<i class=\"fa fa-smile-beam\"></i>Stimme zu";
-            this.btn_neutral_text = "<i class=\"fas fa-meh-blank\"></i>Neutral";
+            this.btn_neutral_text = "<i class=\"fas fa-meh\"></i>Neutral";
             this.btn_no_text = "<i class=\"fas fa-frown\"></i>Stimme nicht zu";
             this.btn_skip_text = "<i class=\"fas fa-angle-double-right\"></i>Überspringen";
             this.btn_bitkomat_skip_remaining_theses = "<i class=\"fas fa-eye\"></i> Ergebnisse anzeigen";
             this.title_results = "Ergebnisse";
-            this.title_results_summary = "Übereinstimmung mit den Parteien"; // Zusammenfassung
+            this.title_results_summary_top = `<p>Die Ergebnisse zeigen die Übereinstimmung Ihrer persönlichen Präferenzen mit den Positionen der Parteien.</p>`;
+            this.title_results_summary_bottom = `<p class='text-right small'>Die Vorschläge des Bitkom für die neue Legislatur finden Sie unter <a href='https://www.digitalwahl21.de' title='Bitkom-Positionen zur Bundestagswahl 2021' target='_blank'>www.digitalwahl21.de</a>.</p>`;
             this.title_results_details = "Thesen"; // Details Übersicht
-            this.btn_overview = '<i class="fa fa-smile-beam"></i> <i class="fas fa-meh-blank"></i> <i class="fas fa-frown"></i><span >Übersicht</span>';
+            this.btn_overview = '<i class="fa fa-smile-beam"></i> <i class="fas fa-meh"></i> <i class="fas fa-frown"></i><span >Übersicht</span>';
             this.btn_results_show_start = '<i class="fas fa-home fa-1x"></i>';
             this.pdf_print_title = 'Hier sehen Sie Ihr Bitkomat Ergebnis.';
             this.pdf_print_name = 'Dateiname?';
             this.pdf_print_keywords = 'Bitkomat, Wahlomat, Bundestagswahl, Wahl, Partei, Parteiencheck, digitalpolitisch, Position';
+
+            //this.header_body = httpGet("./header.html");
+            //this.intro_modal_body = httpGet("./intro.html");
+            //this.positionen_modal_body = httpGet("./positionen.html");
+            //this.imprint_modal_body = httpGet("https://www.bitkom.org/Impressum", 'article');
+            //this.qa_modal_body = httpGet("./faq.html");
+            //this.data_modal_body = httpGet("./datenschutzhinweise.html");
+            //this.share_modal_body = httpGet("./share.html");
+
         }
 
         _createClass(T, [{
@@ -85,19 +87,21 @@ var T =
             {
                 key: "label_your_choice",
                 get: function get() {
-                    return "<span class=\"mychoice\">Ich habe gewählt</span>";
+                    return "<span class=\"mychoice\">Ihre Wahl</span>";
                 }
             }, {
                 key: "default_text_no_statement",
                 get: function get() {
-                    return "<small class='text-muted'>Keine Stellungnahme.</small>";
+                    //return "<small class='text-muted'>Die Partei hat ihrer Antwort auf diese These keine Erläuterung hinzugefügt.</small>";
+                    return "Die Partei hat ihrer Antwort auf diese These keine Erläuterung hinzugefügt.";
                 }
             }, {
                 key: "error_loading_config_file",
                 get: function get() {
                     return `<b>Fehler</b>
 Die Konfigurationsdatei
-<a href="config/data.json"><tt>config/data.json</tt></a> konnte nicht geladen werden.
+<a href="config/data.json"><tt>config/data.json</tt></a> 
+konnte nicht geladen werden.
 Existiert sie und enthält keine Syntaxfehler?`;
                 }
             }]);
