@@ -26,7 +26,6 @@ function init() {
     $.getJSON("config/data.json")
         .done(function (jsondata) {
             data = jsondata;
-            currentThesis = 0;
             initOnclickCallbacks();
             initAnswers();
             loadThesis();
@@ -620,13 +619,6 @@ ${group}
 `;
         /**
          <!-- Wissenschaftlicher Kontext  -->
-         */
-        for (var list_id in data.lists) {
-            text += `
-            <li class="border-bottom list-group-item">
-                ${getSelectionMarker(data.lists[list_id].img, data.answers[list_id][thesis_id].selection)} 
-                <span class="list-item-two">${statementOrDefault(data.answers[list_id][thesis_id].statement)}</span>
-         <!-- Wissenschaftlicher Kontext  -->
          <span class="context list-item-three">
          <span class=" context-header">
          <button type="button" class="btn btn-light">
@@ -637,6 +629,13 @@ ${group}
          </span>
          <span class="context-text"><blockquote>${statementOrDefault(data.answers[list_id][thesis_id].context)}</blockquote></span>
          </span>
+         */
+        for (var list_id in data.lists) {
+            text += `
+            <li class="border-bottom list-group-item">
+                ${getSelectionMarker(data.lists[list_id].img, data.answers[list_id][thesis_id].selection)} 
+                <span class="list-item-two">${statementOrDefault(data.answers[list_id][thesis_id].statement)}</span>
+         <!-- Wissenschaftlicher Kontext hier einfügen  -->
             </li>
 `;
         }
