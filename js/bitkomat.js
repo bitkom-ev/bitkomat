@@ -516,6 +516,12 @@ function getSummaryProgressBar(list, percentage, remaining_percentage, text_perc
     return bar;
 }
 
+/**
+ * function calculatePairPoints
+ * @param self
+ * @param list
+ * @returns {number}
+ */
 function calculatePairPoints(self, list) {
     var str = self + list;
     switch (str) {
@@ -599,7 +605,7 @@ function initResultDetails() {
         var text = `<div class="border-bottom card result-detail-card-${thesis_id} text-left">
 ${group}
 <!-- These: -->        
-        <div class="card-header result-detail-header position-relative">
+        <div class="card-header result-detail-header position-relative" data-content-piece="show result detail for thesis number ${thesisNumber}">
             <span class="text-center thesis-number thesis-number-${thesisNumber}">${thesisNumber}</span>
             <span class="card-text" >${data.theses[thesis_id].s}</span>
             <span class="float-right closed"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>

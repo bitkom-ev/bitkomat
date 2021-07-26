@@ -8,6 +8,7 @@ _paq.push(['enableLinkTracking']);
     var u = "https://matomo.bitkom.org/";
     _paq.push(['setTrackerUrl', u + 'matomo.php']);
     _paq.push(['setSiteId', '30']);
+    _paq.push(['trackVisibleContentImpressions']);
     var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
     g.type = 'text/javascript';
     g.async = true;

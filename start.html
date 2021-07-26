@@ -1,49 +1,54 @@
 <!doctype html>
 <html lang="de">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Cache-control" content="public">
+    <meta charset="utf-8" />
+    <meta http-equiv="Cache-control" content="public" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
     <title id="page-title">Der Bitkomat zur Bundestagswahl 2021 – Digitalpolitik leicht gemacht</title>
-
+    <meta name='subtitle' content='Mit dem Bitkomat können Sie Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien ganz einfach abgleichen.' />
     <meta name="description"
           content="Am 26. September findet die Bundestagswahl 2021 statt. Mit dem Bitkomat können Sie Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien ganz einfach abgleichen."/>
     <meta name="keywords"
           content="Bitkomat, Wahlomat, Bundestagswahl, Wahl, Partei, Parteiencheck, digitalpolitisch, Position "/>
-    <meta name="author" content="Bitkom e.V."/>
+
+    <meta name='owner' content='Bitkom e.V.' />
     <meta name="copyright" content="Bitkom e.V."/>
+    <meta name='reply-to' content='info@bitkom.org' />
+    <meta name="author" content="Konrad Tadesse, k.tadesse@bitkom.org" />
+    <meta name='designer' content='' />
+
     <meta name="robots" content="index,follow"/>
 
     <!-- social media meta tags -->
-    <meta property="og:title" content="Der Bitkomat zur Bundestagswahl 2021 – Digitalpolitik leicht gemacht">
+    <meta property="og:title" content="Der Bitkomat zur Bundestagswahl 2021 – Digitalpolitik leicht gemacht" />
     <meta property="og:description"
-          content="Am 26. September findet die Bundestagswahl 2021 statt. Mit dem Bitkomat können Sie Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien ganz einfach abgleichen.">
-    <meta property="og:image" content="https://bitkomat.de/img/Bitkomat.png">
-    <meta property="og:url" content="https://bitkomat.de/start.html">
-    <meta property="twitter:title" content="Der Bitkomat zur Bundestagswahl 2021 – Digitalpolitik leicht gemacht">
+          content="Am 26. September findet die Bundestagswahl 2021 statt. Mit dem Bitkomat können Sie Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien ganz einfach abgleichen." />
+    <meta property="og:image" content="https://bitkomat.de/img/Bitkomat.png" />
+    <meta property="og:url" content="https://bitkomat.de/start.html" />
+    <meta property="twitter:title" content="Der Bitkomat zur Bundestagswahl 2021 – Digitalpolitik leicht gemacht" />
     <meta property="twitter:description"
-          content="Am 26. September findet die Bundestagswahl 2021 statt. Mit dem Bitkomat können Sie Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien ganz einfach abgleichen.">
-    <meta property="twitter:image" content="https://bitkomat.de/img/Bitkomat.png">
-    <meta name="twitter:image:alt" content="Bitkomat">
-    <meta name="twitter:card" content="summary_large_image">
+          content="Am 26. September findet die Bundestagswahl 2021 statt. Mit dem Bitkomat können Sie Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien ganz einfach abgleichen." /> 
+    <meta property="twitter:image" content="https://bitkomat.de/img/Bitkomat.png" />
+    <meta name="twitter:image:alt" content="Bitkomat" /> 
+    <meta name="twitter:card" content="summary_large_image" />
     <!-- data from bitkom.org -->
     <meta property="fb:app_id" content="443245723182166"/>
-    <meta name="twitter:site" content="@bitkom">
+    <meta name="twitter:site" content="@bitkom" />
 
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-    <link media="all" rel="stylesheet" type="text/css" href="css/bitkomat.css"/>
-    <link media="print" rel="stylesheet" type="text/css" href="css/print.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link media="all" rel="stylesheet" type="text/css" href="css/bitkomat.css" />
+    <link media="print" rel="stylesheet" type="text/css" href="css/print.css" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" /> 
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
 
-    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
 
-    <meta name="google-site-verification" content="by3_tcZad0fc7HgfB-MrNJm06FS22Vs9DueicSYej9Y"/>
+    <meta name="google-site-verification" content="by3_tcZad0fc7HgfB-MrNJm06FS22Vs9DueicSYej9Y" />
 
 </head>
 
@@ -58,7 +63,7 @@
 
 <main class="container-fluid flex-fill">
 
-    <div id="spinner" class="container justify-content-center">
+    <div id="spinner" class="container justify-content-center" data-content-piece="loading">
         <button class="btn btn-primary" type="button" disabled>
             <span class="spinner-border " role="status" aria-hidden="true"></span>
             Lade Thesen, Fragen ...
@@ -66,7 +71,7 @@
     </div>
 
     <!-- 1. Thesen  bewerten id="bitkomat" -->
-    <div id="bitkomat" class="container" style="display: none">
+    <div id="bitkomat" class="container" style="display: none" data-content-piece="display thesis">
         <!-- pagination & logo -->
         <div class="card-head">
             <div class="col-12 text-center">
@@ -80,7 +85,7 @@
             <span class="card-number text-center" id="thesis-number">thesis-number</span>
             <h5 class="card-title" id="thesis-title">thesis-title</h5>
             <div class="card-body">
-                <!--                <h5 class="card-thema" id="thesis-thema">thesis-thema</h5> -->
+
                 <div class="card-text">
                     <p class="card-text" id="thesis-text">thesis-text</p>
                 </div>
@@ -112,8 +117,8 @@
 
 
     <!-- Seite 3 letzte Seite Ergebnisse Auswertung id="result" -->
-    <div id="result" class=" text-left container">
-        <div class="row text-left" id="result-summary-row">
+    <div id="result" class=" text-left container" data-content-piece="result">
+        <div class="row text-left" id="result-summary-row" data-content-piece="result display">
             <img id="bitkomat-logo" class="bitkomat logo" src="./icons/bitkomat-logo-invertiert.png" alt="Logo"/>
             <div class="card col-sm-12 offset-sm-0" id="card">
                 <div class="card-body text-left">
@@ -126,21 +131,18 @@
                 </div>
             </div>
         </div>
-        <!-- If you want to force Matomo to consider a link as a download, you can add the matomo_download or piwik_download css class to the link: //-->
+
         <div class=" text-center" id="result-overview">
             <p class="edit text-center text-sm-center text-md-center text-lg-center">
                 <button class="btn btn-pdf btn-light" id="pdf-image"
                         title="Mein Ergebnis als PNG-Bild speichern">
-                    <!-- document.querySelectorAll("h3, blockquote, .myclass") -->
-                    <span class="btn-act matomo_download"
+                    <span class="btn-act matomo_download" data-content-piece="result print"
                           onclick="location.href='#top';printImageFrom('#result-summary-row')"
                     ><i class="far fa-hdd"></i> Ergebnis speichern</span>
                 </button>
-
-                <button class="btn btn-edit btn-light" id="text-result-below-summary" title="Anworten bearbeiten">
+                <button class="btn btn-edit btn-light" id="text-result-below-summary" data-content-piece="result edit" title="Antworten bearbeiten">
                     <span class="btn-act" onclick="showBitkomatFirstThesis()"><i class="fas fa-pencil-alt fa-1x"></i>Antworten bearbeiten</span>
                 </button>
-
             </p>
         </div>
 
@@ -195,35 +197,6 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_faq">schließen
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- 0 parteien kontextualisierungen window -->
-<div class="modal fade" id="parteienModal" tabindex="-1" role="dialog" aria-labelledby="parteienModalTitle"
-     aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="parteien-modal-title"><i class="fas fa-eye" title="Parteien"></i>
-                    Parteien im Bitkomat</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="parteien col card">
-                    <ul class="list-group list-group-flush" id="parteien-modal-body">
-                        <!-- parteien alphabetisch nach data.lists listen -->
-                        parteien-modal-body
-                    </ul>
-
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal" id="btn_close_parteien">schließen
                 </button>
             </div>
         </div>
@@ -288,7 +261,7 @@
 <script defer src="js/matomo.js"></script>
 <script defer src="js/html2canvas.min.js"></script>
 
-<!-- OneTrust Cookie-Einwilligungshinweis – Anfang für bitkomat.de -->
+<!-- @todo: mit live produktiv Code aktualisieren! OneTrust Cookie-Einwilligungshinweis – Anfang für bitkomat.de -->
 <script type="text/javascript"
         src="https://cdn.cookielaw.org/consent/79fa068f-4795-4c04-9e9e-1851e569f117-test/OtAutoBlock.js"></script>
 <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-document-language="true"

@@ -111,8 +111,10 @@ The points for the groups in the results at the end are calculated as follows:
  - The group gains 2 points for each thesis where their answer matches the user's.
  - A slight deviation (yes/neutral or neutral/no) gains the group still 1 point.
  - If the answers are contrary or if a group has no position on a thesis, the group gains no point.
- - A thesis that the user skipped gains no one any point. The maximum number of points possible decreases.
- - A thesis that the user counts double gets groups twice the points (0/2/4). This increases the maximum number of points possible.
+ - A thesis that the user skipped gains no one any point. 
+   The maximum number of points possible decreases.
+ - A thesis that the user counts double gets groups twice the points (0/2/4). 
+   This increases the maximum number of points possible.
 
 
 Demo
