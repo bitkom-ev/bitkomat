@@ -59,7 +59,7 @@ a
 a.external,
 .list-group a
   &:before
-    background: transparent url("../icons/link-external.svg") left center no-repeat
+    background: transparent url("../icon/link-external.svg") left center no-repeat
     background-size: 16px
     content: ""
     color: $blue
@@ -162,20 +162,35 @@ a.external,
         //margin-bottom: 6px
         line-height: initial
 
+        &.bg-info, &.bg-warning, &.bg-success, &.bg-danger
+          &.bg-double
+            button.page-link
+              font-weight: bolder
+
         &.bg-info, &.bg-warning
           background-color: $altogray !important
 
-        button.page-link
-          color: $petrol
+          &.bg-double
+            background-color: $nebelgray !important
+            color: $black
+
+          button.page-link
+            color: $petrol
 
         &.bg-success
-          background-color: $green
+          background-color: $green !important
+
+          &.bg-double
+            background-color: $darkgreen !important
 
           button.page-link
             color: $white
 
         &.bg-danger
           background-color: $red
+
+          &.bg-double
+            background-color: $darkred !important
 
           button.page-link
             color: $white
@@ -347,8 +362,47 @@ a.external,
 
     .card-text
       background: transparent
-      padding-left: 1em
+      display: inline-block
+      font-weight: bold
+      margin: 0.5em 1em
+      padding-left: 3em
 
+    .svg-inline--fa
+      &.fa-smile-beam,
+      &.fa-meh,
+      &.fa-frown,
+      &.fa-angle-double-right
+        position: relative
+        left: initial
+        top: initial
+
+    &.weight-detail-header
+
+      .svg-inline--fa
+        &.fa-check-double
+          background-color: $white
+          border: 2px solid $petrol
+          color: $altogray
+          left: -21px
+          margin: 0
+          cursor: pointer
+          padding: 0.4em
+          top: calc(50% - 21px)
+
+          &:hover, &:active
+            border: 2px solid $petrol
+            color: $petrol
+
+
+      // for double weight switch color:
+      .double
+        .svg-inline--fa
+          &.fa-check-double
+            background-color: $petrol
+            color: $white
+
+
+    &.weight-detail-header,
     &.result-detail-header
       background-color: $white
       border: 1px solid $petrol
@@ -356,9 +410,15 @@ a.external,
       //padding-top: 1.25em
       padding-left: 1.25em
 
+      .list-item
+        position: absolute
+        left: 2em
+        top: 0px
+
     &:first-child
       border-radius: 0
 
+    &.weight-detail-card,
     &.result-detail-card
       margin-bottom: 2em
 
@@ -372,6 +432,7 @@ a.external,
     padding: .4em
     border-top: 0
 
+    &.weight-detail-footer,
     &.result-detail-footer
       background-color: $lightgray
       cursor: pointer
@@ -383,28 +444,6 @@ a.external,
         border-right: 1px solid $petrol
         padding: 1px 6px 3px 0
 
-        .badge
-          &:before
-            background: $white
-            border: 1px solid $altogray
-            border-radius: 0
-            color: $petrol
-            content: attr(data-text)
-            display: none
-            min-width: 200px
-            left: calc(50% - 200px)
-            padding: 1em
-            position: absolute
-            top: -100%
-            transform: translateY(-50%)
-            z-index: 2
-
-          &:hover
-            &:before
-              display: block ruby
-
-            &:after
-              display: block ruby
 
         span.badge
           padding: 5px 7px
@@ -413,6 +452,7 @@ a.external,
         position: relative
         z-index: 1
 
+  .weight-details,
   .result-details
     background-color: $white
     border-left: 1px solid $petrol
@@ -489,6 +529,20 @@ a.external,
         .badge-voted
           padding: 6px
 
+        .btn-light, .btn-secondary
+          background-color: $white
+          border: none
+          color: $petrol
+          font-weight: bold
+
+          &:hover
+            background-color: $altogray
+            border: none
+
+          &:focus, &:active
+            background-color: $white
+            border: none
+
         button.context-header
           cursor: pointer
           display: inline-block
@@ -501,24 +555,10 @@ a.external,
           min-width: calc(100% - 160px)
 
       blockquote
-        background-image: linear-gradient(to bottom right, $altogray, $lightgray)
-        border: 1px solid
-        font-style: oblique
+        background-color: $altogray
+        border: none
         margin-bottom: 1em
-        padding-left: 1em
-
-      .svg-inline--fa
-        &.fa-smile-beam,
-        &.fa-meh,
-        &.fa-frown,
-        &.fa-angle-double-right
-          border-radius: 20px
-          height: 40px
-          left: -42px
-          margin: 0
-          position: absolute
-          top: calc(50% - 21px)
-          width: 40px
+        padding: 1em
 
 
 .text-sm-center
@@ -571,6 +611,7 @@ a.external,
   &.bg-danger, &.bg-danger:after
     background-color: $red !important
 
+
 span[class^="thesis-number-"], span.thesis-number
   border-top: 2px solid $petrol
   border-left: 2px solid $petrol
@@ -601,7 +642,7 @@ span.thesis-number
 
 #thesis-card
   min-height: 14em
-  margin: 2em 0 4em 0
+  margin: 2em 0 0 0
   padding: 0 1em
   position: relative
 
@@ -625,7 +666,7 @@ span.thesis-number
   #thesis-card
     background-color: transparent
     margin-top: 4em
-    margin-bottom: 6em
+    margin-bottom: 0
 
   .left-answer-row
     margin-right: -25px
@@ -640,7 +681,7 @@ span.thesis-number
 .emaining-progress-bar
   background-color: rgba(255, 255, 255, 0)
 
-// init content componant status hidden:
+// init content componant status hidden: #btn-bitkomat-show-weight
 #start, #result, #btn-bitkomat-skip-remaining-theses
   display: none
 
@@ -713,6 +754,19 @@ span.thesis-number
   white-space: normal
   text-align: left
 
+  .svg-inline--fa
+    &.fa-smile-beam,
+    &.fa-meh,
+    &.fa-frown,
+    &.fa-angle-double-right
+      border-radius: 20px
+      height: 40px
+      width: 40px
+      margin: 0
+      left: -42px
+      top: calc(50% - 42px)
+
+
   span.mychoice
     background-color: transparent
     color: $petrol
@@ -784,6 +838,18 @@ span.thesis-number
   border: none
   color: $white
 
+  &.focus, &:hover
+    background-color: $green
+    border-color: initial
+
+  &:not(:disabled):not(.disabled).active,
+  &:not(:disabled):not(.disabled).active:focus,
+  &.dropdown-toggle:focus
+    background-color: $green
+    border-color: initial
+    box-shadow: none
+
+
 .btn-warning
   background-color: $gray
   border-color: $gray
@@ -834,6 +900,7 @@ span.thesis-number
   background-color: $petrol
   border-color: $petrol
   color: $white
+
   a
     color: $white
 
@@ -927,6 +994,12 @@ span.thesis-number
     top: -42px
     left: calc(50% - 42px)
 
+  &.fa-check-double
+    background-color: $petrol
+    border-color: $white
+    color: $white
+    padding: .4em
+
   &.fa-check-circle
     bottom: -2px
     color: $petrol
@@ -953,8 +1026,6 @@ span.thesis-number
   &.fa-frown
     color: $red
 
-  &.fa-check-double
-    left: calc(50% - 42px)
 
   &.fa-times,
   &.fa-chevron-down
@@ -966,7 +1037,7 @@ span.thesis-number
   &.btn-success
     border: none
 
-#overview
+#overview-weight, #overview
   background-color: transparent
   left: calc(50% - 105px)
   // 210 / 2 = 105
@@ -1050,7 +1121,7 @@ span.thesis-number
     height: 2em
     vertical-align: inherit
 
-.btn-edit, .btn-share, .btn-pdf
+.btn-edit, .btn-share, .btn-pdf, .btn-weight
   background-color: $white
   border: 3px solid $petrol
   color: $petrol
@@ -1078,7 +1149,8 @@ span.thesis-number
     &.fa-pencil-alt,
     &.fa-share-alt,
     &.fa-print,
-    &.fa-hdd
+    &.fa-hdd,
+    &.btn-weight
       background-color: $petrol
       border: 3px solid $white
       border-radius: 40px
@@ -1095,19 +1167,16 @@ span.thesis-number
   border: 3px solid $altogray
   color: $petrol
   font-size: 1.25em
-  padding: 40px 0 20px
+  padding: 1em 0em
   position: relative
-  min-width: 600px
-  margin-right: 1em
-  margin-bottom: 2em
+  min-width: calc(100% - 3em)
+  margin: 0 auto
   z-index: 0
   @media(max-width: 767px)
-    min-width: 420px
-    width: 87%
+    min-width: calc(100% - 3em)
 
   @media(max-width: 576px)
-    min-width: 210px
-    width: 100%
+    min-width: calc(100% - 3em)
 
   .svg-inline--fa
 
@@ -1160,6 +1229,7 @@ a.fa
 .fa, .far, .fas
   font-family: 'fontawesome' !important
 
+#weight-details,
 #result-details
   background: $lightgray
   margin-top: 9em
@@ -1176,7 +1246,7 @@ a.fa
     margin-left: -30%
     margin-right: -30%
 
-
+#weight-detail,
 #result-detail
   background-color: transparent
   padding: 8em 0 1em 0
@@ -1189,6 +1259,52 @@ a.fa
       font-size: 20px
       padding: 1em 2em
 
+#weight-details
+  .card ul.list-group
+    margin: 0
+
+  .btn-overview
+    min-height: 7em
+
+  #overview-weight-space
+    background-color: transparent
+    padding-top: 11em
+
+  #overview-weight-text
+    background-color: $petrol
+    color: $white
+    font-size: 20px
+    padding: 1em
+
+  .float-right
+    margin-right: 1em
+    @media(min-width: 577px)
+      margin-right: 2em
+
+  @media(min-width: 768px)
+    #thesis-number, span[class^="thesis-number-"]
+      right: -1em
+    span.thesis-number
+      right: -1em
+      top: -14px
+
+  #weight-detail
+    padding-top: 0
+
+    #thesis-number, span[class^="thesis-number-"], span.thesis-number
+      left: initial
+      right: -1em
+
+#result-detail, #weight-detail
+
+  .svg-inline--fa
+    &.fa-check-double
+      border-radius: 20px
+      height: 40px
+      width: 40px
+      margin: 0
+
+
 #ot-sdk-btn
   background-color: $petrol
   color: $white
@@ -1198,7 +1314,51 @@ a.fa
   background-color: $petrol !important
   border: 1px solid $white !important
   color: $white !important
+
   &:hover
     background-color: $white !important
     border-color: $petrol !important
     color: $petrol !important
+
+#bottom
+  background-color: transparent
+
+  .btn
+    background: $white
+    padding: 1em
+    font-size: 20px
+    border: 3px solid $petrol
+
+    .svg-inline--fa
+      font-size: 28px
+      font-weight: lighter
+
+.tip
+  position: relative
+
+  &:before
+    background: $petrol
+    border: none
+    border-radius:
+    color: $white
+    content: attr(data-text)
+    display: none
+    font-weight: normal
+    font-size: initial
+    min-width: 200px
+    /* move to right */
+    left: 80%
+    margin: 0
+    padding: 1em
+    position: absolute
+    /* vertically center */
+    top: -80%
+    transform: translateY(-50%)
+    z-index: 2
+
+  &:hover
+    &:before
+      display: block
+
+    &:after
+      display: block ruby
