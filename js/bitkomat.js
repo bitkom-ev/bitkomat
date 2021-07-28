@@ -22,7 +22,7 @@ function translate() {
 
 function init() {
     // hide all: #result,
-    $("#bitkomat, #start, #intro,  #header-body").hide();
+    $("#bitkomat, #start, #intro, #weight, #result,  #header-body").hide();
     $.getJSON("config/data.json")
         .done(function (jsondata) {
             data = jsondata;
@@ -30,7 +30,7 @@ function init() {
             initAnswers();
             loadThesis();
             recreatePagination(1, 1, currentThesis);
-            initResultDetails();
+            initResultDetails('weight');
             $('#btn-start').prop('disabled', false);
             $("#bitkomat").show();
             $("#spinner").hide();
@@ -68,7 +68,7 @@ function initOnclickCallbacks() {
         toggleThesisMore();
     });
     $('#btn-important').off('click').click(function () {
-        toggleImportant();
+        toggleImportant(-1);
     });
     $('#btn-yes').off('click').click(function () {
         doYes();
@@ -83,14 +83,22 @@ function initOnclickCallbacks() {
         doSkip();
     });
     $('#btn-bitkomat-skip-remaining-theses').off('click').click(function () {
-        showResults();
+        showResults('weight');
+    });
+    $('#btn-bitkomat-show-weight').off('click').click(function () {
+        showResults('weight');
+    });
+    $('#btn-bitkomat-change-weight').off('click').click(function () {
+        showResults('weight');
+    });
+    $('#btn-bitkomat-show-results').off('click').click(function () {
+        showResults('result');
     });
     $('#btn-thesis-ok').off('click').click(function () {
         doNext();
     });
     $('#text-result-summary').off('click').click(function () {
         showBitkomatFirstThesis();
-
     });
 
 }
@@ -212,20 +220,56 @@ function recreatePagination(status, real, currentThesis) {
 function getPaginationClasses(i) {
     switch (answers[i]) {
         case "a":
-        case "e":
             return " bg-success text-light";
+        case "e":
+            return " bg-success bg-double text-light";
         case "b":
-        case "f":
             return " bg-warning text-dark";
+        case "f":
+            return " bg-warning bg-double text-dark";
         case "c":
-        case "g":
             return " bg-danger text-light";
+        case "g":
+            return " bg-danger bg-double text-light";
         case "d":
-        case "h":
             return "";
+        case "h":
+            return " bg-double";
         default:
             return "";
     }
+}
+
+function doDouble(thisThesis) {
+    if (answers[thisThesis] == 'a') {
+        answers[thisThesis] = 'e';
+    }
+    if (answers[thisThesis] == 'b') {
+        answers[thisThesis] = 'f';
+    }
+    if (answers[thisThesis] == 'c') {
+        answers[thisThesis] = 'g';
+    }
+    if (answers[thisThesis] == 'd') {
+        answers[thisThesis] = 'h';
+    }
+    /**
+     * reverse: ?? aber richtig, nicht wieder direkt zurückschalten! :-)
+     if (answers[thisThesis] == 'e') {
+        answers[thisThesis] = 'a';
+    }
+     if (answers[thisThesis] == 'f') {
+        answers[thisThesis] = 'b';
+    }
+     if (answers[thisThesis] == 'g') {
+        answers[thisThesis] = 'c';
+    }
+     if (answers[thisThesis] == 'h') {
+        answers[thisThesis] = 'd';
+    }
+     */
+
+    showResults('weight');
 }
 
 function doYes() {
@@ -274,8 +318,12 @@ function doNext() {
     recreatePagination(1, 1, currentThesis);
 }
 
-function toggleImportant() {
-    answers[currentThesis] = toggleImportantCharacter(answers[currentThesis]);
+function toggleImportant(thisThesis = -1) {
+    if (thisThesis == -1) {
+        answers[currentThesis] = toggleImportantCharacter(answers[currentThesis]);
+    } else {
+        answers[thisThesis] = toggleImportantCharacter(answers[thisThesis]);
+    }
     if (isThesisMarkedImportant()) {
         setImportant();
     } else {
@@ -286,17 +334,21 @@ function toggleImportant() {
 function unsetImportant() {
     $('#btn-important').addClass('btn-light');
     $('#btn-important').removeClass('btn-success');
-    //$('#btn-important').text(t.btn_make_thesis_double_weight);
+    $('#btn-important').text(t.btn_make_thesis_double_weight);
 }
 
 function setImportant() {
     $('#btn-important').removeClass('btn-light');
     $('#btn-important').addClass('btn-success');
-    //$('#btn-important').text(t.btn_thesis_has_double_weight);
+    $('#btn-important').text(t.btn_thesis_has_double_weight);
 }
 
-function isThesisMarkedImportant() {
-    return answers[currentThesis] === 'e' || answers[currentThesis] === 'f' || answers[currentThesis] === 'g' || answers[currentThesis] === 'h';
+function isThesisMarkedImportant(thisThesis = -1) {
+    if (thisThesis == -1) {
+        return answers[currentThesis] === 'e' || answers[currentThesis] === 'f' || answers[currentThesis] === 'g' || answers[currentThesis] === 'h';
+    } else {
+        return [thisThesis] === 'e' || answers[thisThesis] === 'f' || answers[thisThesis] === 'g' || answers[thisThesis] === 'h';
+    }
 }
 
 function toggleImportantCharacter(char) {
@@ -417,7 +469,7 @@ function nextThesisAfterSelection() {
 function nextThesis() {
     currentThesis++;
     if (currentThesis == Object.keys(data.theses).length) {
-        showResults();
+        showResults('weight');
     } else {
         loadThesis();
     }
@@ -428,50 +480,61 @@ function prevThesis() {
     loadThesis();
 }
 
-function showResults() {
+
+function showResults(type = 'weight') {
     var maxAchievablePoints = 0;
     var results = [];
     for (var i = 0; i < answers.length; i++) {
         maxAchievablePoints += calculatePairPoints(answers[i], answers[i]);
     }
-    for (var list_id in data.lists) {
-        var pointsForList = 0;
-        for (var x = 0; x < answers.length; x++) {
-            var thesis_id = "" + x;
-            pointsForList += calculatePairPoints(answers[x], data.answers[list_id][thesis_id].selection);
+    if (type === 'result') {
+        for (var list_id in data.lists) {
+            var pointsForList = 0;
+            for (var x = 0; x < answers.length; x++) {
+                var thesis_id = "" + x;
+                pointsForList += calculatePairPoints(answers[x], data.answers[list_id][thesis_id].selection);
+            }
+            var list = data.lists[list_id].name; // name_x
+            results.push([list, pointsForList]);
         }
-        var list = data.lists[list_id].name; // name_x
-        results.push([list, pointsForList]);
-    }
-    results.sort(function (a, b) {
-        if (a[1] == b[1]) {
-            return 0;
-        } else if (a[1] > b[1]) return -1;
-        return 1;
-    });
+        results.sort(function (a, b) {
+            if (a[1] == b[1]) {
+                return 0;
+            } else if (a[1] > b[1]) return -1;
+            return 1;
+        });
 
-    $('#result-summary').empty();
-    for (var y = 0; y < results.length; y++) {
-        var result = results[y];
-        var ylist = result[0];
-        var ypointsForList = result[1];
-        addResultSummary(ylist, ypointsForList, maxAchievablePoints);
+        $('#' + type + '-summary').empty();
+        for (var y = 0; y < results.length; y++) {
+            var result = results[y];
+            var ylist = result[0];
+            var ypointsForList = result[1];
+            addResultSummary(ylist, ypointsForList, maxAchievablePoints, type);
+        }
     }
-    updateResultDetailPlaceholders();
-    showResult();
+    updateResultDetailPlaceholders(type);
+    showResult(type);
 }
 
-function updateResultDetailPlaceholders() {
+function updateResultDetailPlaceholders(type = 'weight') {
     for (var i = 0; i < answers.length; i++) {
-        if (answers[i] === "e" || answers[i] === "f" || answers[i] === "g" || answers[i] === "h")
+
+        if (answers[i] === "e" || answers[i] === "f" || answers[i] === "g" || answers[i] === "h") {
             $('#placeholder-your-choice-' + i).parent().addClass('bg-info');
-        $('#placeholder-your-choice-' + i).replaceWith(getSelectionMarker(t.label_your_choice, answers[i]));
+
+        }
+        if (type === 'weight') {
+            $('#placeholder-your-choice-' + i).replaceWith(getSelectionMarker('', answers[i]));
+        }
+        if (type === 'result') {
+            $('#placeholder-your-choice-' + i).replaceWith(getSelectionMarker('<span class=\"mychoice\">Ihre Wahl</span>', answers[i]));
+        }
     }
-    // $('#thesis-ok').append('<span id="btn-thesis-ok" class="btn " title="These bewertet"><i class="far fa-check-circle"></i></span>');
+    // $('#thesis-ok').append('<span id="btn-thesis-ok" class="btn " title="Thema bewertet"><i class="far fa-check-circle"></i></span>');
     // add ok button
 }
 
-function addResultSummary(list, pointsForList, maxAchievablePoints) {
+function addResultSummary(list, pointsForList, maxAchievablePoints, type) {
     var percentage = Math.round(pointsForList / maxAchievablePoints * 100);
     var remaining_percentage = 100 - percentage;
     var text_percentage = t.achieved_points_text(pointsForList, maxAchievablePoints);
@@ -481,7 +544,7 @@ function addResultSummary(list, pointsForList, maxAchievablePoints) {
         text_percentage = '';
     }
 
-    $('#result-summary').append(getSummaryProgressBar(list, percentage, remaining_percentage, text_percentage, text_remaining_percentage));
+    $('#' + type + '-summary').append(getSummaryProgressBar(list, percentage, remaining_percentage, text_percentage, text_remaining_percentage));
 }
 
 function getSummaryProgressBar(list, percentage, remaining_percentage, text_percentage, text_remaining_percentage) {
@@ -555,14 +618,15 @@ function calculatePairPoints(self, list) {
     }
 }
 
-function setResultDetailCallbacks() {
-    $('.result-detail-header').click(function () {
+
+function setResultDetailCallbacks(type = 'result') {
+    $('.' + type + '-detail-header').click(function () {
         $(this).toggleClass('open');
-        $(this).next('.result-details').slideToggle();
+        $(this).next('.' + type + '-details').slideToggle();
     });
-    $('.result-detail-footer').click(function () {
+    $('.' + type + '-detail-footer').click(function () {
         $(this).toggleClass('open');
-        $(this).prev('.result-details').slideToggle();
+        $(this).prev('.' + type + '-details').slideToggle();
     });
     $('.context-header').click(function () {
         $(this).toggleClass('open');
@@ -582,9 +646,13 @@ function toggleThesisMore() {
     $('#thesis-more').slideToggle();
 }
 
-
-function initResultDetails() {
-    $('#result-detail').empty();
+// ok
+function initResultDetails(type = 'weight') {
+    console.log(type);
+    if (type === 'result') {
+        location.href = "#top";
+    }
+    $('#' + type + '-detail').empty();
 
     for (var thesis_id in data.theses) {
         var thesisNumber = parseInt(thesis_id) + 1;
@@ -593,57 +661,71 @@ function initResultDetails() {
             thesisGroupNumber = 28;
         }
 
-        var thesisGroup = data.theses[thesis_id].t;
-        var group = "";
-        var i = thesis_id;
+        let thesisGroup = data.theses[thesis_id].t;
+        let group = "";
+        let i = thesis_id;
+        // <!-- Thema Zuordnung: -->
         if (i == 0 || i == 3 || i == 9 || i == 15 || i == 19 || i == 24) {
             group = `<div class="card-group-name">
-            <!-- These Zuordnung: -->${thesisGroup}
+            ${thesisGroup}
             </div>`;
         }
 
-        var text = `<div class="border-bottom card result-detail-card-${thesis_id} text-left">
+        let myAnswer = answers[thesis_id];
+        let gewichtung = "";
+// gewichtung:
+        if (type === 'weight') {
+            if (myAnswer === 'e' || myAnswer === 'f' || myAnswer === 'g' || myAnswer === 'h') {
+                gewichtung = "double";
+            }
+        }
+
+        var text = `<div class="border-bottom card ${type}-detail-card-${thesis_id} text-left">
 ${group}
-<!-- These: -->        
-        <div class="card-header result-detail-header position-relative" data-content-piece="show result detail for thesis number ${thesisNumber}">
-            <span class="text-center thesis-number thesis-number-${thesisNumber}">${thesisNumber}</span>
-            <span class="card-text" >${data.theses[thesis_id].s}</span>
-            <span class="float-right closed"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+<!-- Thema: -->        
+        <div class="card-header ${type}-detail-header position-relative" data-content-piece="show ${type} detail for thesis number ${thesisNumber}">`;
+// gewichtung: class="tip" data-text="Thema doppelt gewichten?"
+        if (type === 'weight') {
+            text += `<span class="text-center answer-${myAnswer} ${gewichtung} " onclick="doDouble(${thesis_id})" title="Doppelt gewichten?"><i class="fa fa-check-double"></i></span>`;
+        }
+        text += `<span class="text-center thesis-number thesis-number-${thesisNumber}">${thesisNumber}</span>
+            <span class="card-text" >${data.theses[thesis_id].s}</span>`;
+
+        text += getSelectionMarker('', myAnswer);
+
+        text += `<span class="float-right closed"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
             <span class="float-right opened"><i class="fa fal fa-times" aria-hidden="true"></i></span>
-    </div>
-    <div class="result-details text-left">
+        </div>
+
+    <div class="${type}-details text-left">
         <div class="card-body">
             <!-- lead -->
             <p class="card-text ">${data.theses[thesis_id].l}</p>
         </div>
-        <ul class="list-group list-group-flush">
-        <!-- meine Wahl -->
-        <li class="border-bottom list-group-item">
-            <span class="badge badge-secondary" id="placeholder-your-choice-${thesis_id}"><span class="mychoice">PLACEHOLDER</span></span>
-             <span class="list-item-two">&nbsp;</span>
-        </li>
-`;
-        /**
-         <!-- Wissenschaftlicher Kontext  -->
-         <span class="context list-item-three">
-         <span class=" context-header">
-         <button type="button" class="btn btn-light">
-         <span class="float-left closed"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
-         <span class="float-left opened"><i class="fa fal fa-times" aria-hidden="true"></i></span>
-         wissenschaftliche Einordnung
-         </button>
-         </span>
-         <span class="context-text"><blockquote>${statementOrDefault(data.answers[list_id][thesis_id].context)}</blockquote></span>
-         </span>
-         */
-        for (var list_id in data.lists) {
-            text += `
+        <ul class="list-group list-group-flush">`
+        ;
+
+        if (type === 'result') {
+            // Listen mit wissenschaftlicher Kontext
+            for (var list_id in data.lists) {
+                text += `
             <li class="border-bottom list-group-item">
                 ${getSelectionMarker(data.lists[list_id].img, data.answers[list_id][thesis_id].selection)} 
                 <span class="list-item-two">${statementOrDefault(data.answers[list_id][thesis_id].statement)}</span>
          <!-- Wissenschaftlicher Kontext hier einfügen  -->
+         <span class="context list-item-three">
+         <span class=" context-header" data-content-piece="show result detail context thesis number ${thesisNumber}">
+         <button type="button" class="btn btn-light">
+         <span class="float-right closed"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+         <span class="float-right opened"><i class="fa fal fa-times" aria-hidden="true"></i></span>
+         Wissenschaftliche Einordnung
+         </button>
+         </span>
+         <span class="context-text kursiv"><blockquote cite="//nrwschool.de">"${statementOrDefault(data.answers[list_id][thesis_id].context)}"</blockquote></span>
+         </span>
             </li>
 `;
+            }
         }
         text += `
         </ul>
@@ -651,13 +733,17 @@ ${group}
 </div>
 `;
 
-        $('#result-detail').append(text);
+        $('#' + type + '-detail').append(text);
     }
-    setResultDetailCallbacks();
-    $('.result-details').toggle();
+
+    setResultDetailCallbacks(type);
+    $('.' + type + '-details').toggle();
     $('.context-text').toggle();
-    //setPaginationCallbacks();
+    if (type === 'result') {
+    }
+    setPaginationCallbacks();
 }
+
 
 function statementOrDefault(statement) {
     if (statement === "") {
@@ -670,18 +756,18 @@ function statementOrDefault(statement) {
 function getSelectionMarker(list, selection) {
     let anfang = '<span class="list-item"><span class="badge badge-voted" ';
     if (selection === "a" || selection === "e") { // badge-success
-        return anfang + ' title="stimme zu" data-text="Ich stimme dieser These zu"><i class="fa fa-smile-beam"></i> ' + list + '</span></span>';
+        return anfang + ' title="stimme zu" data-text="Ich stimme diesem Thema zu"><i class="fa fa-smile-beam"></i> ' + list + '</span></span>';
     }
     if (selection === "b" || selection === "f") { // badge-warning
-        return anfang + ' title="neutral" data-text="Ich stehe dieser These neutral gegenüber"><i class="fas fa-meh"></i> ' + list + '</span></span>';
+        return anfang + ' title="neutral" data-text="Ich stehe diesem Thema neutral gegenüber"><i class="fas fa-meh"></i> ' + list + '</span></span>';
     }
     if (selection === "c" || selection === "g") { // badge-danger
-        return anfang + ' title="stimme nicht zu" data-text="Ich stimme dieser These nicht zu">  <i class="fas fa-frown"></i> ' + list + '</span></span>';
+        return anfang + ' title="stimme nicht zu" data-text="Ich stimme diesem Thema nicht zu">  <i class="fas fa-frown"></i> ' + list + '</span></span>';
     }
     if (selection === "d" || selection === "h") { // badge-secondary
-        return anfang + ' title="übersprungen" data-text="Ich habe diese These übersprungen"> <i class="fas fa-angle-double-right"></i> ' + list + '</span></span>';
+        return anfang + ' title="übersprungen" data-text="Ich habe dieses Thema übersprungen"> <i class="fas fa-angle-double-right"></i> ' + list + '</span></span>';
     }
-    return 'Es ist ein Fehler aufgetreten';
+    return 'getSelectionMarker: error';
 }
 
 /**
@@ -701,12 +787,12 @@ function showBitkomatFirstThesis() {
     //setPaginationCallbacks();
 }
 
-// Thesen bewerten id bitkomat
+// Themen bewerten id bitkomat
 function showBitkomat(status) {
-    $("#start, #intro, #result, #header-body").hide();
+    $("#start, #intro, #weight, #result, #header-body").hide();
     loadThesis();
     $("#bitkomat").show();
-    initResultDetails();
+    initResultDetails('weight');
     if (showSwypeInfo) {
         showSwypeInfo = false;
         $("#swype-info").show();
@@ -716,13 +802,14 @@ function showBitkomat(status) {
     }
 }
 
-function showResult() {
-    $("#start, #bitkomat, #intro, #result, #header-body").hide();
-    $("#result").fadeIn();
+function showResult(type = 'weight') {
+    $("#start, #bitkomat, #intro, #weight, #result, #header-body").hide();
+    $("#" + type + "").fadeIn();
     animateBars();
+    initResultDetails(type);
     // track show result:
     if (_paq) {
-        _paq.push(['trackEvent', 'result', 'show']);
+        _paq.push(['trackEvent', 'result', type]);
     }
 }
 
@@ -755,7 +842,7 @@ function thesisOk(i) {
         case "d":
         case "h":
         default:
-            return "<span id=\"btn-thesis-ok\" class=\"btn \" title=\"These bewertet\"><i class=\"far fa-check-circle\"></i></span>";
+            return "<span id=\"btn-thesis-ok\" class=\"btn \" title=\"Thema bewertet\"><i class=\"far fa-check-circle\"></i></span>";
 
     }
 }
