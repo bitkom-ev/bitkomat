@@ -111,10 +111,7 @@ a.external,
   padding: 4em 2em 6em
   white-space: normal
 
-  hr
-    background-color: $white
-    height: 2px
-
+ 
 #pagination
   background-color: transparent
   border: none
@@ -141,6 +138,26 @@ a.external,
       width: 100%
       margin-bottom: 0.5em
 
+    &.active
+      ul.pagination
+        display: flex
+        flex-flow: row wrap
+        width: 100%
+
+    /* neu cluster focused bg petrol */
+
+
+    &.focused
+      background-color: $petrol
+      color: $white
+
+      ul.pagination
+
+        li.page-item
+          background-color: $white !important
+          border: $white !important
+          color: $petrol !important
+
     span
       font-weight: 600
 
@@ -149,15 +166,8 @@ a.external,
       margin: 0
       padding: 0
 
-    &.active
-      ul.pagination
-        display: flex
-        flex-flow: row wrap
-        width: 100%
-
-
       li.page-item
-        background-color: transparent
+
         margin-right: 3px
         //margin-bottom: 6px
         line-height: initial
@@ -187,7 +197,7 @@ a.external,
             color: $white
 
         &.bg-danger
-          background-color: $red
+          background-color: $red !important
 
           &.bg-double
             background-color: $darkred !important
@@ -326,6 +336,21 @@ a.external,
   border: 0
   border-radius: 0
 
+  .svg-inline--fa
+    &.fa-smile-beam,
+    &.fa-meh,
+    &.fa-frown,
+    &.fa-angle-double-right
+      border: 2px solid $white
+      border-radius: 20px
+      height: 40px
+      width: 40px
+      margin: 0
+      left: 2em
+      top: calc(50% - 21px)
+      @media(max-width: 767px)
+        left: 1em
+
   .card-title
     background-color: $white
     border: 3px solid $petrol
@@ -366,15 +391,9 @@ a.external,
       font-weight: bold
       margin: 0.5em 1em
       padding-left: 3em
-
-    .svg-inline--fa
-      &.fa-smile-beam,
-      &.fa-meh,
-      &.fa-frown,
-      &.fa-angle-double-right
-        position: relative
-        left: initial
-        top: initial
+      @media(max-width: 768px)
+        padding-left: 2em
+        margin-top: 1em
 
     &.weight-detail-header
 
@@ -393,8 +412,6 @@ a.external,
             border: 2px solid $petrol
             color: $petrol
 
-
-      // for double weight switch color:
       .double
         .svg-inline--fa
           &.fa-check-double
@@ -410,10 +427,6 @@ a.external,
       //padding-top: 1.25em
       padding-left: 1.25em
 
-      .list-item
-        position: absolute
-        left: 2em
-        top: 0px
 
     &:first-child
       border-radius: 0
@@ -506,6 +519,12 @@ a.external,
         width: 160px
         text-align: center
 
+        .tip
+          &:before
+            left: 1em
+            right: initial
+            top: -2em
+
         @media(max-width: 767px)
           background-color: transparent
           max-width: 100%
@@ -554,11 +573,25 @@ a.external,
           text-align: left
           min-width: calc(100% - 160px)
 
+        .tip
+          &:before
+            left: initial
+            right: 0
+            top: -2em
+
       blockquote
         background-color: $altogray
         border: none
+        font-style: italic
         margin-bottom: 1em
         padding: 1em
+
+      .svg-inline--fa
+        &.fa-smile-beam,
+        &.fa-meh,
+        &.fa-frown,
+        &.fa-angle-double-right
+          left: -42px
 
 
 .text-sm-center
@@ -572,33 +605,32 @@ a.external,
   .btn-start
     top: -9em
 
-#thesis-number, span[class^="thesis-number-"], span.thesis-number
+#thesis-number,
+span[class^="thesis-number-"], span.thesis-number
   background-color: $white
-  border-top: 3px solid $petrol
-  border-left: 3px solid $petrol
-  border-right: 3px solid $petrol
-  border-bottom: none
+  border-top: 2px solid $petrol
+  border-left: 2px solid $petrol
+  border-right: 2px solid $petrol
   color: $petrol
-  font-size: 2em
-  left: -6px
+  font-size: 1.25em
   height: 52px
-  width: 58px
-  // plus border bottom
-  top: -28px
   position: absolute
+  width: 58px
+  left: -28px
+  top: -14px
 
   &:after
     background-color: $white
-    border-right: 3px solid $petrol
-    border-bottom: 3px solid $petrol
-    border-left: 3px solid $petrol
-    height: 12px
-    bottom: -8px
-    left: -3px
-    right: -3px
-    z-index: 2
+    border-right: 2px solid $petrol
+    border-bottom: 2px solid $petrol
+    border-left: 2px solid $petrol
     content: ""
+    height: 8px
+    bottom: -6px
+    left: -2px
     position: absolute
+    right: -2px
+    z-index: 2
     transform: skew(-180deg, -4.5deg)
 
   &.bg-success, &.bg-success:after
@@ -611,40 +643,30 @@ a.external,
   &.bg-danger, &.bg-danger:after
     background-color: $red !important
 
-
-span[class^="thesis-number-"], span.thesis-number
-  border-top: 2px solid $petrol
-  border-left: 2px solid $petrol
-  border-right: 2px solid $petrol
-  font-size: 1.25em
-  top: -14px
-
-  &:after
-    background-color: $white
-    border-right: 2px solid $petrol
-    border-bottom: 2px solid $petrol
-    border-left: 2px solid $petrol
-    height: 8px
-    bottom: -6px
-    left: -2px
-    right: -2px
-
 span.thesis-number
   height: 28px
   width: 32px
+  left: -16px
 
-@media(min-width: 768px)
-  #thesis-number, span[class^="thesis-number-"]
-    left: -8px
-  span.thesis-number
-    left: -14px
-    top: -14px
+  @media(min-width: 768px)
+    #thesis-number, span[class^="thesis-number-"]
+      left: -8px
+    span.thesis-number
+      left: -14px
+      top: -14px
 
 #thesis-card
   min-height: 14em
   margin: 2em 0 0 0
   padding: 0 1em
   position: relative
+
+  #thesis-number
+    font-size: 34px
+    height: 52px
+    width: 58px
+    left: -12px
+    top: -28px
 
   .card-text
     font-size: 20px
@@ -681,8 +703,8 @@ span.thesis-number
 .emaining-progress-bar
   background-color: rgba(255, 255, 255, 0)
 
-// init content componant status hidden: #btn-bitkomat-show-weight
-#start, #result, #btn-bitkomat-skip-remaining-theses
+// init content component status hidden:
+#start, #result, #btn-bitkomat-skip-remaining-theses, #btn-bitkomat-show-weight
   display: none
 
 #swype-info
@@ -753,19 +775,6 @@ span.thesis-number
   padding: 6px 0
   white-space: normal
   text-align: left
-
-  .svg-inline--fa
-    &.fa-smile-beam,
-    &.fa-meh,
-    &.fa-frown,
-    &.fa-angle-double-right
-      border-radius: 20px
-      height: 40px
-      width: 40px
-      margin: 0
-      left: -42px
-      top: calc(50% - 42px)
-
 
   span.mychoice
     background-color: transparent
@@ -959,6 +968,10 @@ span.thesis-number
     position: absolute
     transform: skew(-180deg, -4.5deg)
 
+#btn-weights-weight
+  &.btn-overview
+    width: 240px
+
 .btn-judge
   border: 3px solid $petrol
   color: $white
@@ -969,73 +982,6 @@ span.thesis-number
   position: relative
   padding: 40px 0 20px
   z-index: 0
-
-
-.svg-inline--fa
-  margin: 0 0.2em
-  z-index: 6
-
-  &.fa-check-circle,
-  &.fa-caret-right,
-  &.fa-angle-double-right,
-  &.fa-smile,
-  &.fa-smile-beam,
-  &.fa-meh,
-  &.fa-frown,
-  &.fa-check-double
-    background-color: $white
-    border: 3px solid $white
-    border-radius: 40px
-    color: $white
-    height: 80px
-    margin: 0
-    width: 80px
-    position: absolute
-    top: -42px
-    left: calc(50% - 42px)
-
-  &.fa-check-double
-    background-color: $petrol
-    border-color: $white
-    color: $white
-    padding: .4em
-
-  &.fa-check-circle
-    bottom: -2px
-    color: $petrol
-    left: calc(50% - 42px)
-    top: initial
-    right: -30px
-
-  @media(min-width: 768px)
-    &.fa-check-circle
-      left: initial
-
-  &.fa-caret-right
-    background-color: $green
-    left: 62px
-
-  &.fa-angle-double-right,
-  &.fa-meh
-    color: $gray
-
-  &.fa-smile,
-  &.fa-smile-beam
-    color: $green
-
-  &.fa-frown
-    color: $red
-
-
-  &.fa-times,
-  &.fa-chevron-down
-    color: $petrol
-    width: 30px
-    height: 20px
-    vertical-align: middle
-
-  &.btn-success
-    border: none
 
 #overview-weight, #overview
   background-color: transparent
@@ -1055,7 +1001,6 @@ span.thesis-number
       height: 80px
 
   .btn
-    background-color: transparent
     min-height: 100px
 
     &:last-child
@@ -1122,7 +1067,6 @@ span.thesis-number
     vertical-align: inherit
 
 .btn-edit, .btn-share, .btn-pdf, .btn-weight
-  background-color: $white
   border: 3px solid $petrol
   color: $petrol
   font-size: 1.25em
@@ -1140,28 +1084,9 @@ span.thesis-number
     margin-top: 1em
 
   &:hover
-    background-color: transparent
-    border: 3px solid $petrol
+    background-color: $altogray !important
+    border: 3px solid $black
     color: $black
-
-  .svg-inline--fa
-
-    &.fa-pencil-alt,
-    &.fa-share-alt,
-    &.fa-print,
-    &.fa-hdd,
-    &.btn-weight
-      background-color: $petrol
-      border: 3px solid $white
-      border-radius: 40px
-      color: $white
-      width: 80px
-      height: 80px
-      padding: 20px
-      position: absolute
-      top: -42px
-      left: calc(50% - 42px)
-
 
 .btn-judge-2
   border: 3px solid $altogray
@@ -1229,8 +1154,7 @@ a.fa
 .fa, .far, .fas
   font-family: 'fontawesome' !important
 
-#weight-details,
-#result-details
+#weight-details, #result-details
   background: $lightgray
   margin-top: 9em
 
@@ -1246,8 +1170,7 @@ a.fa
     margin-left: -30%
     margin-right: -30%
 
-#weight-detail,
-#result-detail
+#weight-detail, #result-detail
   background-color: transparent
   padding: 8em 0 1em 0
   width: 100%
@@ -1259,9 +1182,37 @@ a.fa
       font-size: 20px
       padding: 1em 2em
 
+  .svg-inline--fa
+    &.fa-check-double
+      border-radius: 20px
+      height: 40px
+      width: 40px
+      margin: 0
+
 #weight-details
-  .card ul.list-group
-    margin: 0
+  .card
+    ul.list-group
+      margin: 0
+
+    .card-header
+
+      .svg-inline--fa
+        &.fa-smile-beam,
+        &.fa-meh,
+        &.fa-frown,
+        &.fa-angle-double-right
+          left: 2em
+          @media(max-width: 768px)
+            left: -21px
+            bottom: 0
+            top: initial
+
+        &.fa-check-double
+          left: -21px
+
+          @media(max-width: 768px)
+            top: -21px
+
 
   .btn-overview
     min-height: 7em
@@ -1295,14 +1246,18 @@ a.fa
       left: initial
       right: -1em
 
-#result-detail, #weight-detail
+
+#result-detail
 
   .svg-inline--fa
     &.fa-check-double
-      border-radius: 20px
-      height: 40px
-      width: 40px
-      margin: 0
+      bottom: -21px
+      left: initial
+      right: -21px
+      top: initial
+
+  .answer-a, .answer-b, .answer-c, .answer-d
+    display: none
 
 
 #ot-sdk-btn
@@ -1321,44 +1276,157 @@ a.fa
     color: $petrol !important
 
 #bottom
-  background-color: transparent
-
   .btn
-    background: $white
-    padding: 1em
-    font-size: 20px
     border: 3px solid $petrol
+    font-size: 20px
+    min-width: 280px
+    padding: 1em
+    position: relative
 
     .svg-inline--fa
-      font-size: 28px
+      border: 0
       font-weight: lighter
+      height: 33px
+      line-height: 33px
+      margin: 0
+      padding: 0
+      position: absolute
+
+      &.fa-check-double,
+      &.fa-chevron-left,
+      &.fa-chevron-right
+        border-radius: 15px
+        color: $petrol
+        height: 33px
+        width: 33px
+        top: inherit
+
+      &.fa-chevron-left
+        left: 3px
+      &.fa-eye,
+      &.fa-check-double
+        left: 2.5em
+        background-color: transparent
+      &.fa-chevron-right
+        right: 3px
 
 .tip
-  position: relative
+  //position: relative
+  z-index: 1
 
   &:before
     background: $petrol
     border: none
-    border-radius:
+    border-radius: 0
     color: $white
     content: attr(data-text)
     display: none
     font-weight: normal
     font-size: initial
-    min-width: 200px
-    /* move to right */
-    left: 80%
+    min-width: 260px
+    left: 1em
     margin: 0
     padding: 1em
     position: absolute
-    /* vertically center */
-    top: -80%
+    top: -1em
     transform: translateY(-50%)
-    z-index: 2
+    z-index: 0
 
   &:hover
     &:before
       display: block
+      z-index: 8
 
     &:after
       display: block ruby
+
+/** svg **/
+.svg-inline--fa
+  margin: 0 0.2em
+  z-index: 6
+
+  &.fa-pencil-alt,
+  &.fa-share-alt,
+  &.fa-print,
+  &.fa-hdd,
+  &.btn-weight,
+  &.fa-check-circle,
+  &.fa-caret-right,
+  &.fa-angle-double-right,
+  &.fa-smile,
+  &.fa-smile-beam,
+  &.fa-meh,
+  &.fa-frown,
+  &.fa-check-double
+    background-color: $white
+    border: 3px solid $white
+    border-radius: 40px
+    color: $white
+    margin: 0
+    height: 80px
+    position: absolute
+    width: 80px
+    top: -43px
+    left: calc(50% - 43px)
+
+  &.fa-pencil-alt,
+  &.fa-share-alt,
+  &.fa-print,
+  &.fa-hdd,
+  &.btn-weight
+    background-color: $petrol
+    border-radius: 40px
+    color: $white
+    padding: 20px
+
+  &.fa-check-double
+    background-color: $petrol
+    border-color: $white
+    color: $white
+    padding: .4em
+
+  &.fa-check-circle
+    bottom: -2px
+    color: $petrol
+    left: calc(50% - 43px)
+    top: initial
+    right: -30px
+
+  @media(min-width: 768px)
+    &.fa-check-circle
+      left: initial
+
+  &.fa-caret-right
+    background-color: $green
+    left: 62px
+
+  &.fa-angle-double-right,
+  &.fa-meh
+    color: $gray
+
+  &.fa-smile,
+  &.fa-smile-beam
+    color: $green
+
+  &.fa-frown
+    color: $red
+
+  &.fa-times,
+  &.fa-chevron-down,
+  &.fa-chevron-left,
+  &.fa-chevron-right
+    color: $petrol
+    width: 30px
+    height: 20px
+
+  &.fa-chevron-left,
+  &.fa-chevron-right
+    border: 0
+    border-radius: 0
+    width: 30px
+    height: 30px
+    top: inherit
+
+
+  &.btn-success
+    border: none
