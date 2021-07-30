@@ -173,7 +173,10 @@
 
                 <!-- Gewichtung ändern -->
                 <button class="btn btn-weight btn-light" id="btn-bitkomat-change-weight" onclick="location.href='#top';"
-                        title="Gewichtung ändern"><i class="fa fa-check-double fa-1x"></i> Gewichtung ändern
+                        title="Gewichtung ändern"><span class="btn-act"
+                                                        data-content-piece="weight change"
+                                                        onclick="location.href='#top';">
+                    <i class="fa fa-check-double fa-1x"></i> Gewichtung ändern</span>
                 </button>
 
             </p>
@@ -238,23 +241,23 @@
 </div>
 
 <!-- bottom context navigation -->
-<nav id="bottom" name="bottom" class="bottom container mb-3 mt-3 navbar-light text-left text-md-center text-lg-center">
-    <div class="mr-1">
+<nav id="bottom" name="bottom" class="text-center container-fluid flex-fill flex-wrap bottom container mt-3 navbar-light text-left text-md-center text-lg-center">
+    <div class="container">
         <!-- Antworten bearbeiten icon < -->
-        <button class="btn btn-light float-left mr-3 mr-md-0 mr-lg-0 mb-3 mb-md-0 mb-lg-0" id="text-result-edit"
+        <button class="btn btn-light mb-3 mr-3" id="text-result-edit"
                 data-content-piece="result edit"
                 title="Antworten bearbeiten">
             <span class="btn-act" onclick="showBitkomatFirstThesis()"><i class="fa fa-chevron-left"></i> Antworten bearbeiten</span>
         </button>
 
         <!-- Gewichtung anzeigen -->
-        <button class="btn btn-light float-left float-sm-left float-md-none float-lg-none mr-3 mr-md-0 mr-lg-0 mb-3 mb-md-0 mb-lg-0"
+        <button class="btn btn-light mb-3 mr-3"
                 id="btn-bitkomat-show-weight" onclick="location.href='#top';"
-                title="Gewichtung vornehmen"><i class="fa fa-eye"></i> Gewichtung
+                title="Gewichtung vornehmen"><i class="fa fa-check-double"></i> Gewichtung
         </button>
 
         <!-- Abschluss-Button Weiter zur Auswertung  icon > -->
-        <button class="btn btn-light float-left float-sm-left float-md-right float-lg-right mr-0"
+        <button class="btn btn-light mb-3 mr-3"
                 id="btn-bitkomat-show-results"
                 title="Weiter zur Auswertung">Weiter zur Auswertung <i class="fa fa-chevron-right"></i></button>
 
@@ -307,7 +310,7 @@
 <script defer src="js/matomo.js"></script>
 <script defer src="js/html2canvas.min.js"></script>
 
-<!-- OneTrust Cookie-Einwilligungshinweis – Anfang -->
+<!-- OneTrust Cookie-Einwilligungshinweis – Anfang für bitkomat.de/start.html -->
 <script type="text/javascript"
         src="https://cdn.cookielaw.org/consent/f2703f70-d635-4fba-a1f1-82f2195a9a33/OtAutoBlock.js"></script>
 <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8"
@@ -316,7 +319,7 @@
     function OptanonWrapper() {
     }
 </script>
-<!-- OneTrust-Cookie-Einwilligungshinweis – Ende  -->
+<!-- OneTrust-Cookie-Einwilligungshinweis – Ende für bitkomat.de/start.html -->
 
 </body>
 </html>
