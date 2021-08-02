@@ -94,9 +94,6 @@ function initOnclickCallbacks() {
     $('#btn-bitkomat-show-results').off('click').click(function () {
         showResults('result');
     });
-    $('#btn-thesis-ok').off('click').click(function () {
-        doNext();
-    });
     $('#text-result-summary').off('click').click(function () {
         showBitkomatFirstThesis();
     });
@@ -241,35 +238,39 @@ function getPaginationClasses(i) {
 }
 
 function doDouble(thisThesis) {
-    if (answers[thisThesis] == 'a') {
-        answers[thisThesis] = 'e';
+    let char = answers[thisThesis];
+    let double = 0;
+    if (char == 'e' || char == 'f' || char == 'g' || char == 'h') {
+        double = 1;
     }
-    if (answers[thisThesis] == 'b') {
-        answers[thisThesis] = 'f';
+    if (double === 0) {
+        if (char == 'a') {
+            char = 'e';
+        } else if (char == 'b') {
+            char = 'f';
+        } else if (char == 'c') {
+            char = 'g';
+        } else (char == 'd')
+        {
+            char = 'h';
+        }
     }
-    if (answers[thisThesis] == 'c') {
-        answers[thisThesis] = 'g';
-    }
-    if (answers[thisThesis] == 'd') {
-        answers[thisThesis] = 'h';
-    }
+
     /**
      * reverse: ?? aber richtig, nicht wieder direkt zurückschalten! :-)
-     if (answers[thisThesis] == 'e') {
-        answers[thisThesis] = 'a';
-    }
-     if (answers[thisThesis] == 'f') {
-        answers[thisThesis] = 'b';
-    }
-     if (answers[thisThesis] == 'g') {
-        answers[thisThesis] = 'c';
-    }
-     if (answers[thisThesis] == 'h') {
-        answers[thisThesis] = 'd';
+     else if (char == 'e') {
+        char = 'a';
+    } else if (char == 'f') {
+        char = 'b';
+    } else if (char == 'g') {
+        char = 'c';
+    } else (char == 'h')
+     {
+        char = 'd';
     }
      */
-
-    showResults('weight');
+    answers[thisThesis] = char;
+    return showResults('weight');
 }
 
 function doYes() {
@@ -308,12 +309,6 @@ function doSkip() {
     } else {
         answers[currentThesis] = 'd';
     }
-    nextThesisAfterSelection();
-    recreatePagination(1, 1, currentThesis);
-}
-
-// similar to skip, only show next question
-function doNext() {
     nextThesisAfterSelection();
     recreatePagination(1, 1, currentThesis);
 }
@@ -470,8 +465,10 @@ function nextThesis() {
     currentThesis++;
     if (currentThesis == Object.keys(data.theses).length) {
         showResults('weight');
+        location.href = "#top";
     } else {
         loadThesis();
+        location.href = "#these";
     }
 }
 
@@ -538,8 +535,6 @@ function updateResultDetailPlaceholders(type = 'weight') {
             $('#placeholder-your-choice-' + i).replaceWith(getSelectionMarker('<span class=\"mychoice\">Ihre Wahl</span>', answers[i]), 'result');
         }
     }
-    // $('#thesis-ok').append('<span id="btn-thesis-ok" class="btn " title="Thema bewertet"><i class="far fa-check-circle"></i></span>');
-    // add ok button
 }
 
 function addResultSummary(list, pointsForList, maxAchievablePoints, type) {
@@ -656,7 +651,7 @@ function toggleThesisMore() {
 
 // ok
 function initResultDetails(type = 'weight') {
-    console.log(type);
+    //console.log(type);
     if (type === 'result') {
         location.href = "#top";
     }
@@ -731,14 +726,14 @@ ${group}
                 <!-- Wissenschaftlicher Kontext hier einfügen  -->
              <span class="context list-item-three position-relative">
              <span class=" context-header" data-content-piece="show result detail context thesis number ${thesisNumber}">
-                 <button type="button" class="btn btn-light tip" data-text="NRW-School of Governance:">
+                 <button type="button" class="btn btn-light" data-text="">
                      <span class="float-right closed"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
                      <span class="float-right opened"><i class="fa fal fa-times" aria-hidden="true"></i></span>
                      Wissenschaftliche Einordnung
                 </button>
             </span>
-             <span class="context-text kursiv">
-                <blockquote cite="//nrwschool.de">"${statementOrDefault(data.answers[list_id][thesis_id].context)}"</blockquote></span>
+             <span class="context-text">
+                <blockquote cite="//nrwschool.de"><span>NRW-School of Governance:</span><br>"${statementOrDefault(data.answers[list_id][thesis_id].context)}"</blockquote></span>
              </span>
         </li>
 `;
@@ -781,7 +776,7 @@ function getSelectionMarker(list, selection, who = 'party') {
     let textC = 'Stimmt diesem Thema nicht zu';
     let textD = 'Hat dieses Thema übersprungen';
 
-    if(who === 'me') {
+    if (who === 'me') {
         textA = 'Ich stimme diesem Thema zu';
         textB = 'Ich stehe diesem Thema neutral gegenüber';
         textC = 'Ich stimme diesem Thema nicht zu';
