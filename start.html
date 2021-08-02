@@ -62,7 +62,7 @@
             alt="Logo Bitkomat"/></a>
 </nav>
 
-<main class="container-fluid flex-fill">
+<main id="main" name="main" class="container-fluid flex-fill">
 
     <div id="spinner" class="container justify-content-center" data-content-piece="loading">
         <button class="btn btn-primary" type="button" disabled>
@@ -80,9 +80,11 @@
                 </nav>
             </div>
         </div>
+        <!-- anchor only -->
+        <div id="these" name="these">&nbsp;</div>
 
         <!-- card text -->
-        <div class="card text-left" id="thesis-card">
+        <div class="card text-left" id="thesis-card" name="thesis-card">
             <span class="card-number text-center" id="thesis-number">thesis-number</span>
             <h5 class="card-title" id="thesis-title">thesis-title</h5>
             <div class="card-body">
@@ -102,9 +104,6 @@
 
         <!-- judgement -->
         <div class="row text-center justify-content">
-            <!-- only if done
-            <button class="mt-3 btn btn-judge btn-judge-2 btn-success btn-select"  id="btn-important">btn-important</button>
-            -->
             <div class="mt-5 gewichten col-12">
                 <button class="btn btn-judge btn-select" id="btn-yes"><span
                         id="btn-yes-text">btn-yes-text</span></button>
@@ -115,7 +114,6 @@
                         id="btn-no-text">btn-no-text</span></button>
                 <button class="btn btn-judge btn-light btn-select" id="btn-skip"><span
                         id="btn-skip-text">btn-skip-text</span></button>
-
             </div>
         </div>
     </div>
