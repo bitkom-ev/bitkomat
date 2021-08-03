@@ -111,7 +111,7 @@ a.external,
   padding: 4em 2em 6em
   white-space: normal
 
- 
+
 #pagination
   background-color: transparent
   border: none
@@ -145,6 +145,9 @@ a.external,
         width: 100%
 
     /* neu cluster focused bg petrol */
+
+
+
 
 
     &.focused
@@ -418,7 +421,6 @@ a.external,
             background-color: $petrol
             color: $white
 
-
     &.weight-detail-header,
     &.result-detail-header
       background-color: $white
@@ -585,6 +587,7 @@ a.external,
         font-style: italic
         margin-bottom: 1em
         padding: 1em
+
         span
           font-style: normal
 
@@ -706,7 +709,7 @@ span.thesis-number
   background-color: rgba(255, 255, 255, 0)
 
 // init content component status hidden:
-#start, #result, #btn-bitkomat-skip-remaining-theses, #btn-bitkomat-show-weight
+#start, #result, #weight, #bottom, #btn-bitkomat-skip-remaining-theses, #btn-bitkomat-show-weight
   display: none
 
 #swype-info
@@ -1063,10 +1066,18 @@ span.thesis-number
     width: 100%
 
   .spinner-border
-
     width: 2em
     height: 2em
     vertical-align: inherit
+
+.noscript
+  background-color: transparent
+  border: none
+  color: $petrol
+  margin: 30% auto
+  opacity: 1
+  width: 100%
+
 
 .btn-edit, .btn-share, .btn-pdf, .btn-weight
   border: 3px solid $petrol
@@ -1177,7 +1188,8 @@ a.fa
   padding: 8em 0 1em 0
   width: 100%
   @media(max-width: 768px)
-    width: 98%
+    background-color: transparent
+    max-width: 96%
 
   .card
     margin-bottom: 2em
@@ -1194,6 +1206,21 @@ a.fa
       margin: 0
 
 #weight-details
+
+  #overview-weight-text
+    .svg-inline--fa
+      &.fa-check-double
+        background-color: $white
+        border: 2px solid $white
+        color: $altogray
+        cursor: none
+        left: initial
+        top: initial
+        position: relative
+        height: 40px
+        width: 40px
+        vertical-align: middle
+
   .card
     ul.list-group
       margin: 0
@@ -1307,10 +1334,12 @@ a.fa
 
       &.fa-chevron-left
         left: 3px
+
       &.fa-eye,
       &.fa-check-double
         left: 2.5em
         background-color: transparent
+
       &.fa-chevron-right
         right: 3px
 

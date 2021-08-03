@@ -70,6 +70,21 @@
             Lade Themen, Fragen ...
         </button>
     </div>
+<!-- Falls Javascript deaktiviert sein sollte: -->
+    <noscript>
+        <div class="noscript container" data-content-piece="no javascript">
+            <p>Der Bitkomat benötigt unbedingt JavaScript.<br>
+                Ohne Javascript wird nichts sichtbar sein.</p>
+            <p>
+                Das Bitkomat Javascript läuft nur in Ihrem Browser.<br>
+                Alle Bitkomat Ergebnisse werden nur auf Ihrem Rechner verarbeitet.
+            </p>
+            <p>
+                <a href="https://www.enable-javascript.com/de/" title="Wie Sie JavaScript in Ihrem Browser aktivieren könnten" target="_blank">Wie
+                    Sie JavaScript in Ihrem Browser aktivieren könnten</a>
+            </p>
+        </div>
+    </noscript>
 
     <!-- 1. Themen  bewerten id="bitkomat" -->
     <div id="bitkomat" class="container" style="display: none" data-content-piece="display thesis">
@@ -127,11 +142,12 @@
                     <i class="fa fa-check-double"></i> <span>Gewichtung der Themen</span>
                 </button>
             </p>
-            <p id="overview-weight-space" class="container text-center text-sm-center text-md-center text-lg-center"><!-- spacer -->
+            <p id="overview-weight-space" class="container text-center text-sm-center text-md-center text-lg-center">
+                <!-- spacer -->
             </p>
             <p id="overview-weight-text" class="container text-center text-sm-center text-md-center text-lg-center">
                 Gibt es Themen, die Ihnen besonders wichtig sind?
-                Dann wählen Sie diese aus und gewichten Sie diese doppelt.
+                Dann klicken Sie bitte auf <i class="fa fa-check-double" title="Symbol doppelte Gewichtung"></i>, um das Thema doppelt zu gewichten
             </p>
 
             <div class="card container" id="weight-detail">
@@ -239,7 +255,8 @@
 </div>
 
 <!-- bottom context navigation -->
-<nav id="bottom" name="bottom" class="text-center container-fluid flex-fill flex-wrap bottom container mt-3 navbar-light text-left text-md-center text-lg-center">
+<nav id="bottom" name="bottom"
+     class="text-center container-fluid flex-fill flex-wrap bottom container mt-3 navbar-light text-left text-md-center text-lg-center">
     <div class="container">
         <!-- Antworten bearbeiten icon < -->
         <button class="btn btn-light mb-3 mr-3" id="text-result-edit"
