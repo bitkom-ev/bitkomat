@@ -237,13 +237,18 @@ function getPaginationClasses(i) {
     }
 }
 
+/**
+ * function doDouble
+ * @param thisThesis
+ */
 function doDouble(thisThesis) {
     let char = answers[thisThesis];
-    let double = 0;
+    let doStatus = 0;
     if (char == 'e' || char == 'f' || char == 'g' || char == 'h') {
-        double = 1;
+        doStatus = 1;
     }
-    if (double === 0) {
+    console.log(doStatus)
+    if (doStatus === 0) {
         if (char == 'a') {
             char = 'e';
         } else if (char == 'b') {
@@ -255,20 +260,22 @@ function doDouble(thisThesis) {
             char = 'h';
         }
     }
-
     /**
      * reverse: ?? aber richtig, nicht wieder direkt zurückschalten! :-)
-     else if (char == 'e') {
-        char = 'a';
-    } else if (char == 'f') {
-        char = 'b';
-    } else if (char == 'g') {
-        char = 'c';
-    } else (char == 'h')
-     {
-        char = 'd';
-    }
      */
+    if (doStatus === 1) {
+        if (char == 'e') {
+            char = 'a';
+        } else if (char == 'f') {
+            char = 'b';
+        } else if (char == 'g') {
+            char = 'c';
+        } else (char == 'h')
+        {
+            char = 'd';
+        }
+    }
+
     answers[thisThesis] = char;
     return showResults('weight');
 }
@@ -523,17 +530,14 @@ function showResults(type = 'weight') {
 
 function updateResultDetailPlaceholders(type = 'weight') {
     for (var i = 0; i < answers.length; i++) {
-
         if (answers[i] === "e" || answers[i] === "f" || answers[i] === "g" || answers[i] === "h") {
             $('#placeholder-your-choice-' + i).parent().addClass('bg-info');
-
         }
-        if (type === 'weight') {
-            $('#placeholder-your-choice-' + i).replaceWith(getSelectionMarker('', answers[i]), 'weight');
-        }
+        let mychoice = '';
         if (type === 'result') {
-            $('#placeholder-your-choice-' + i).replaceWith(getSelectionMarker('<span class=\"mychoice\">Ihre Wahl</span>', answers[i]), 'result');
+            mychoice = '<span class=\"mychoice\">Ihre Wahl</span>';
         }
+        $('#placeholder-your-choice-' + i).replaceWith(getSelectionMarker(mychoice, answers[i]), type);
     }
 }
 
@@ -695,16 +699,17 @@ ${group}
         <div class="card-header ${type}-detail-header position-relative" data-content-piece="show ${type} detail for thesis number ${thesisNumber}">`;
 // gewichtung: tooltip" data-toggle="tooltip" data-text="Thema doppelt gewichten?"
         if (type === 'weight') {
+            text += `<span class="text-center answer-${myAnswer} ${gewichtung} ${weight} title=""><i class="fa fa-check-double"></i></span>`;
+            text += getSelectionMarker('', myAnswer, 'me');
         }
-
-        text += `<span class="text-center answer-${myAnswer} ${gewichtung}${weight} title="${gewichten}"><i class="fa fa-check-double"></i></span>`;
-
-        text += `<span class="text-center thesis-number thesis-number-${thesisNumber}">${thesisNumber}</span>
-            <span class="card-text" >${data.theses[thesis_id].s}</span>`;
-
-        text += getSelectionMarker('', myAnswer, 'me');
-
-        text += `<span class="float-right closed"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+        text += `   
+            <span class="text-center answer-${myAnswer} ${gewichtung}${weight} title="${gewichten}"><i class="fa fa-check-double"></i></span>
+            <span class="text-center thesis-number thesis-number-${thesisNumber}">${thesisNumber}</span>
+            <span class="card-text" >${data.theses[thesis_id].s}</span>
+`;
+//      text += getSelectionMarker('', myAnswer, 'me');
+        text += `
+            <span class="float-right closed"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
             <span class="float-right opened"><i class="fa fal fa-times" aria-hidden="true"></i></span>
         </div>
 
@@ -717,7 +722,14 @@ ${group}
         ;
 
         if (type === 'result') {
-            // Listen mit wissenschaftlicher Kontext
+            text += `
+        <!-- meine Wahl -->
+        <li class="border-bottom list-group-item">
+            <span class="badge badge-secondary" id="placeholder-your-choice-${thesis_id}">
+            ${getSelectionMarker('<span class=\"mychoice\">Ihre Wahl</span>', answers[i], type)}
+             <span class="list-item-two">&nbsp;</span>
+        </li>`;
+
             for (var list_id in data.lists) {
                 text += `
             <li class="border-bottom list-group-item">
@@ -733,7 +745,7 @@ ${group}
                 </button>
             </span>
              <span class="context-text">
-                <blockquote cite="//nrwschool.de"><span>NRW-School of Governance:</span><br>"${statementOrDefault(data.answers[list_id][thesis_id].context)}"</blockquote></span>
+                <blockquote cite="//nrwschool.de"><span>NRW School of Governance:</span><br>"${statementOrDefault(data.answers[list_id][thesis_id].context)}"</blockquote></span>
              </span>
         </li>
 `;
@@ -781,20 +793,20 @@ function getSelectionMarker(list, selection, who = 'party') {
         textB = 'Ich stehe diesem Thema neutral gegenüber';
         textC = 'Ich stimme diesem Thema nicht zu';
         textD = 'Ich habe dieses Thema übersprungen';
-
     }
-    let anfang = '<span class="list-item"><span class="badge badge-voted tip" ';
+    // tip ?
+    let anfang = '<span class="list-item"><span class="badge badge-voted" ';
     if (selection === "a" || selection === "e") { // badge-success
-        return anfang + ' title="' + textsA + '" data-text="' + textA + '"><i class="fa fa-smile-beam"></i> ' + list + '</span></span>';
+        return anfang + ' title="' + textA + '" data-text=""><i class="fa fa-smile-beam"></i> ' + list + '</span></span>';
     }
     if (selection === "b" || selection === "f") { // badge-warning
-        return anfang + ' title="' + textsB + '" data-text="' + textB + '"><i class="fas fa-meh"></i> ' + list + '</span></span>';
+        return anfang + ' title="' + textB + '" data-text=""><i class="fas fa-meh"></i> ' + list + '</span></span>';
     }
     if (selection === "c" || selection === "g") { // badge-danger
-        return anfang + ' title="' + textsC + '" data-text="' + textC + '">  <i class="fas fa-frown"></i> ' + list + '</span></span>';
+        return anfang + ' title="' + textC + '" data-text="">  <i class="fas fa-frown"></i> ' + list + '</span></span>';
     }
     if (selection === "d" || selection === "h") { // badge-secondary
-        return anfang + ' title="' + textsD + '" data-text="' + textD + '"> <i class="fas fa-angle-double-right"></i> ' + list + '</span></span>';
+        return anfang + ' title="' + textD + '" data-text=""> <i class="fas fa-angle-double-right"></i> ' + list + '</span></span>';
     }
     return 'getSelectionMarker: error';
 }
