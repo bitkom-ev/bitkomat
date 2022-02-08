@@ -7,7 +7,7 @@
 
 # redirct all 404 not found to home index
 DirectoryIndex index.html
-ErrorDocument 404 https://bitkomat.de
+ErrorDocument 404 https://bitkomat.de/error404.html
 
 # – --------------------------------------------------------------
 # I Folow: https://www.drweb.de/htaccess/
