@@ -1,0 +1,449 @@
+{
+  "answers": {
+    "cdu": {
+      "0": {
+        "selection": "a",
+        "context": "Die Union",
+        "statement": ""
+      },
+      "1": {
+        "selection": "c",
+        "context": "",
+        "statement": ""
+      },
+      "2": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "5": {
+        "selection": "c",
+        "context": "",
+        "statement": ""
+      },
+      "6": {
+        "selection": "c",
+        "context": "",
+        "statement": ""
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "12": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "c",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "15": {
+        "selection": "c",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "c",
+        "context": "",
+        "statement": ""
+      },
+      "17": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      }
+    },
+    "spd": {
+      "0": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "1": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "2": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "3": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "",
+        "context": "",
+        "statement": "."
+      },
+      "5": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "6": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "7": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "11": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "12": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "15": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "17": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      }
+    },
+    "fdp": {
+      "1": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "2": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "3": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "",
+        "context": "",
+        "statement": "."
+      },
+      "5": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "6": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "7": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "11": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "12": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "15": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "17": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      }
+    },
+    "die": {
+      "1": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "2": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "3": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "",
+        "context": "",
+        "statement": "."
+      },
+      "5": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "6": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "7": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "11": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "12": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "15": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "17": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      }
+    },
+    "b90": {
+      "1": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "2": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "3": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "",
+        "context": "",
+        "statement": "."
+      },
+      "5": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "6": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "7": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "11": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "12": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "15": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      },
+      "17": {
+        "selection": "",
+        "context": "",
+        "statement": ""
+      }
+    }
+  }
+}

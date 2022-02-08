@@ -1,0 +1,165 @@
+@import "colors"
+
+body
+  background: transparent
+  color: $petrol
+  color-adjust: exact
+  -webkit-print-color-adjust: exact
+  print-color-adjust: exact
+  margin: 0
+
+/* remove stuff that should not be visible in the final print: footer, */
+header,  .meta, .modal.fade, #intro, #start, #bitkomat, #overview-weight, #overview, #result-overview, #result-detail
+  display: none !important
+
+  #result
+    margin: 0 auto
+    padding: 0
+
+  #result-summary-row
+    background-color: yellow
+    -webkit-print-color-adjust: exact
+    print-color-adjust: exact
+    max-width: 600px !important
+    margin: 0
+    padding: 0
+    position: relative
+
+    img.bitkomat.logo
+      display: inline-block
+      -webkit-print-color-adjust: exact
+      print-color-adjust: exact
+      visibility: visible !important
+
+    .card-body
+      background-color: $petrol !important
+      box-shadow: inset 0 0 0 800px $petrol
+      color: $white
+      margin: 0
+      padding: 0
+      color-adjust: exact
+      -webkit-print-color-adjust: exact
+      print-color-adjust: exact
+
+    .progress
+      background-color: transparent
+      border-radius: .25em
+
+    .progress-bar
+      font-weight: bold
+      padding-right: 0.5em
+      text-align: right
+      transition: width .6s ease
+
+      &.main-progress-bar
+        background-color: $white !important
+          box-shadow: inset 0 0 0 1000px $white
+        color: $petrol !important
+        color-adjust: exact
+        -webkit-print-color-adjust: exact
+        print-color-adjust: exact
+
+      &.remaining-progress-bar
+        background-color: $petrol !important
+        box-shadow: inset 0 0 0 1000px $petrol
+        color-adjust: exact
+        -webkit-print-color-adjust: exact
+        print-color-adjust: exact
+
+    .result-summary-row
+      margin-bottom: 0.2em
+
+    .card-head
+      background: transparent
+      height: 40px
+      line-height: 40px
+      display: flex
+      flex-direction: row
+      flex-wrap: wrap
+
+    .card
+      background-color: yellow
+      border: 0
+      //If you use compass, instead of the line below you could use + border-radius($radius, $vertical-radius)
+      border-radius: 0
+      margin-bottom: 0.5em
+
+      .card-header
+        border: 1px solid $petrol !important
+        background-color: $nebelgray !important
+        padding: .4em
+        border-bottom: 0
+        color-adjust: exact
+        -webkit-print-color-adjust: exact
+        print-color-adjust: exact
+
+      &.result-detail-header
+        background-color: $white !important
+        cursor: pointer
+        padding-top: 1em
+        color-adjust: exact
+        -webkit-print-color-adjust: exact
+        print-color-adjust: exact
+
+        &:first-child
+          border-radius: 0
+
+      .card-footer
+        background-color: transparent
+        padding: .4em
+        border-top: 0
+
+        &.result-detail-footer
+          background-color: $white !important
+          cursor: pointer
+          color-adjust: exact
+          -webkit-print-color-adjust: exact
+          print-color-adjust: exact
+
+        .list-item
+          padding-left: 6px
+
+          &:first-child
+            border-right: 1px solid $petrol !important
+            padding: 1px 6px 3px 0
+            -webkit-print-color-adjust: exact
+            print-color-adjust: exact
+
+            .badge
+              &:before
+                background: $white
+                border: 1px solid $altogray !important
+                border-radius: 0
+                color: $petrol !important
+                content: attr(data-text)
+                display: none
+                min-width: 200px
+                left: calc(50% - 200px)
+                padding: 1em
+                position: absolute
+                top: -100%
+                transform: translateY(-50%)
+                z-index: 2
+
+              &:hover
+                &:before
+                  display: block ruby
+
+                &:after
+                  display: block ruby
+
+            span.badge
+              padding: 5px 7px
+
+          .badge
+            position: relative
+            z-index: 1
+
+      .card-body
+        padding: .4em
+        background-color: $petrol !important
+        color: $white !important
+        margin: 1em
+        padding: 1em
+        -webkit-print-color-adjust: exact
+
