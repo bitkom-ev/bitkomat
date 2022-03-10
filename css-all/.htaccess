@@ -1,0 +1,5 @@
+# Authentication
+AuthType Basic
+AuthName "Password required"
+AuthUserFile "/var/www/digitalnavi/.htpasswd"
+Require valid-user
