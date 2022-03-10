@@ -1,0 +1,138 @@
+body {
+  background: transparent;
+  color: #08262e;
+  color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+  margin: 0; }
+
+/* remove stuff that should not be visible in the final print: footer, */
+#onetrust-banner-sdk, #onetrust-consent-sdk, header, .meta, .modal.fade, #intro, #start, #bitkomat, #overview-weight, #overview, #result-overview, #result-detail {
+  display: none !important; }
+  #onetrust-banner-sdk #result, #onetrust-consent-sdk #result, header #result, .meta #result, .modal.fade #result, #intro #result, #start #result, #bitkomat #result, #overview-weight #result, #overview #result, #result-overview #result, #result-detail #result {
+    margin: 0 auto;
+    padding: 0; }
+  #onetrust-banner-sdk #result-summary-row, #onetrust-consent-sdk #result-summary-row, header #result-summary-row, .meta #result-summary-row, .modal.fade #result-summary-row, #intro #result-summary-row, #start #result-summary-row, #bitkomat #result-summary-row, #overview-weight #result-summary-row, #overview #result-summary-row, #result-overview #result-summary-row, #result-detail #result-summary-row {
+    background-color: transparent;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    max-width: 600px !important;
+    margin: 0;
+    padding: 0;
+    position: relative; }
+    #onetrust-banner-sdk #result-summary-row img.bitkomat.logo, #onetrust-consent-sdk #result-summary-row img.bitkomat.logo, header #result-summary-row img.bitkomat.logo, .meta #result-summary-row img.bitkomat.logo, .modal.fade #result-summary-row img.bitkomat.logo, #intro #result-summary-row img.bitkomat.logo, #start #result-summary-row img.bitkomat.logo, #bitkomat #result-summary-row img.bitkomat.logo, #overview-weight #result-summary-row img.bitkomat.logo, #overview #result-summary-row img.bitkomat.logo, #result-overview #result-summary-row img.bitkomat.logo, #result-detail #result-summary-row img.bitkomat.logo {
+      background-color: transparent;
+      display: inline-block;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+      visibility: visible !important; }
+    #onetrust-banner-sdk #result-summary-row .card-body, #onetrust-consent-sdk #result-summary-row .card-body, header #result-summary-row .card-body, .meta #result-summary-row .card-body, .modal.fade #result-summary-row .card-body, #intro #result-summary-row .card-body, #start #result-summary-row .card-body, #bitkomat #result-summary-row .card-body, #overview-weight #result-summary-row .card-body, #overview #result-summary-row .card-body, #result-overview #result-summary-row .card-body, #result-detail #result-summary-row .card-body {
+      background-color: #08262e !important;
+      box-shadow: inset 0 0 0 800px #08262e;
+      color: #ffffff;
+      margin: 0;
+      padding: 0;
+      color-adjust: exact;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact; }
+    #onetrust-banner-sdk #result-summary-row .progress, #onetrust-consent-sdk #result-summary-row .progress, header #result-summary-row .progress, .meta #result-summary-row .progress, .modal.fade #result-summary-row .progress, #intro #result-summary-row .progress, #start #result-summary-row .progress, #bitkomat #result-summary-row .progress, #overview-weight #result-summary-row .progress, #overview #result-summary-row .progress, #result-overview #result-summary-row .progress, #result-detail #result-summary-row .progress {
+      background-color: transparent;
+      border-radius: 0.25em; }
+    #onetrust-banner-sdk #result-summary-row .progress-bar, #onetrust-consent-sdk #result-summary-row .progress-bar, header #result-summary-row .progress-bar, .meta #result-summary-row .progress-bar, .modal.fade #result-summary-row .progress-bar, #intro #result-summary-row .progress-bar, #start #result-summary-row .progress-bar, #bitkomat #result-summary-row .progress-bar, #overview-weight #result-summary-row .progress-bar, #overview #result-summary-row .progress-bar, #result-overview #result-summary-row .progress-bar, #result-detail #result-summary-row .progress-bar {
+      font-weight: bold;
+      padding-right: 0.5em;
+      text-align: right;
+      transition: width 0.6s ease; }
+      #onetrust-banner-sdk #result-summary-row .progress-bar.main-progress-bar, #onetrust-consent-sdk #result-summary-row .progress-bar.main-progress-bar, header #result-summary-row .progress-bar.main-progress-bar, .meta #result-summary-row .progress-bar.main-progress-bar, .modal.fade #result-summary-row .progress-bar.main-progress-bar, #intro #result-summary-row .progress-bar.main-progress-bar, #start #result-summary-row .progress-bar.main-progress-bar, #bitkomat #result-summary-row .progress-bar.main-progress-bar, #overview-weight #result-summary-row .progress-bar.main-progress-bar, #overview #result-summary-row .progress-bar.main-progress-bar, #result-overview #result-summary-row .progress-bar.main-progress-bar, #result-detail #result-summary-row .progress-bar.main-progress-bar {
+        background-color: #ffffff !important;
+          background-color-box-shadow: inset 0 0 0 1000px #ffffff;
+        color: #08262e !important;
+        color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact; }
+      #onetrust-banner-sdk #result-summary-row .progress-bar.remaining-progress-bar, #onetrust-consent-sdk #result-summary-row .progress-bar.remaining-progress-bar, header #result-summary-row .progress-bar.remaining-progress-bar, .meta #result-summary-row .progress-bar.remaining-progress-bar, .modal.fade #result-summary-row .progress-bar.remaining-progress-bar, #intro #result-summary-row .progress-bar.remaining-progress-bar, #start #result-summary-row .progress-bar.remaining-progress-bar, #bitkomat #result-summary-row .progress-bar.remaining-progress-bar, #overview-weight #result-summary-row .progress-bar.remaining-progress-bar, #overview #result-summary-row .progress-bar.remaining-progress-bar, #result-overview #result-summary-row .progress-bar.remaining-progress-bar, #result-detail #result-summary-row .progress-bar.remaining-progress-bar {
+        background-color: #08262e !important;
+        box-shadow: inset 0 0 0 1000px #08262e;
+        color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact; }
+    #onetrust-banner-sdk #result-summary-row .result-summary-row, #onetrust-consent-sdk #result-summary-row .result-summary-row, header #result-summary-row .result-summary-row, .meta #result-summary-row .result-summary-row, .modal.fade #result-summary-row .result-summary-row, #intro #result-summary-row .result-summary-row, #start #result-summary-row .result-summary-row, #bitkomat #result-summary-row .result-summary-row, #overview-weight #result-summary-row .result-summary-row, #overview #result-summary-row .result-summary-row, #result-overview #result-summary-row .result-summary-row, #result-detail #result-summary-row .result-summary-row {
+      margin-bottom: 0.2em; }
+    #onetrust-banner-sdk #result-summary-row .card-head, #onetrust-consent-sdk #result-summary-row .card-head, header #result-summary-row .card-head, .meta #result-summary-row .card-head, .modal.fade #result-summary-row .card-head, #intro #result-summary-row .card-head, #start #result-summary-row .card-head, #bitkomat #result-summary-row .card-head, #overview-weight #result-summary-row .card-head, #overview #result-summary-row .card-head, #result-overview #result-summary-row .card-head, #result-detail #result-summary-row .card-head {
+      background: transparent;
+      height: 40px;
+      line-height: 40px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+    #onetrust-banner-sdk #result-summary-row .card, #onetrust-consent-sdk #result-summary-row .card, header #result-summary-row .card, .meta #result-summary-row .card, .modal.fade #result-summary-row .card, #intro #result-summary-row .card, #start #result-summary-row .card, #bitkomat #result-summary-row .card, #overview-weight #result-summary-row .card, #overview #result-summary-row .card, #result-overview #result-summary-row .card, #result-detail #result-summary-row .card {
+      background-color: transparent;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0.5em; }
+      #onetrust-banner-sdk #result-summary-row .card .card-header, #onetrust-consent-sdk #result-summary-row .card .card-header, header #result-summary-row .card .card-header, .meta #result-summary-row .card .card-header, .modal.fade #result-summary-row .card .card-header, #intro #result-summary-row .card .card-header, #start #result-summary-row .card .card-header, #bitkomat #result-summary-row .card .card-header, #overview-weight #result-summary-row .card .card-header, #overview #result-summary-row .card .card-header, #result-overview #result-summary-row .card .card-header, #result-detail #result-summary-row .card .card-header {
+        border: 1px solid #08262e !important;
+        background-color: #b2b2b2 !important;
+        padding: 0.4em;
+        border-bottom: 0;
+        color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact; }
+      #onetrust-banner-sdk #result-summary-row .card.result-detail-header, #onetrust-consent-sdk #result-summary-row .card.result-detail-header, header #result-summary-row .card.result-detail-header, .meta #result-summary-row .card.result-detail-header, .modal.fade #result-summary-row .card.result-detail-header, #intro #result-summary-row .card.result-detail-header, #start #result-summary-row .card.result-detail-header, #bitkomat #result-summary-row .card.result-detail-header, #overview-weight #result-summary-row .card.result-detail-header, #overview #result-summary-row .card.result-detail-header, #result-overview #result-summary-row .card.result-detail-header, #result-detail #result-summary-row .card.result-detail-header {
+        background-color: #ffffff !important;
+        cursor: pointer;
+        padding-top: 1em;
+        color-adjust: exact;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact; }
+        #onetrust-banner-sdk #result-summary-row .card.result-detail-header:first-child, #onetrust-consent-sdk #result-summary-row .card.result-detail-header:first-child, header #result-summary-row .card.result-detail-header:first-child, .meta #result-summary-row .card.result-detail-header:first-child, .modal.fade #result-summary-row .card.result-detail-header:first-child, #intro #result-summary-row .card.result-detail-header:first-child, #start #result-summary-row .card.result-detail-header:first-child, #bitkomat #result-summary-row .card.result-detail-header:first-child, #overview-weight #result-summary-row .card.result-detail-header:first-child, #overview #result-summary-row .card.result-detail-header:first-child, #result-overview #result-summary-row .card.result-detail-header:first-child, #result-detail #result-summary-row .card.result-detail-header:first-child {
+          border-radius: 0; }
+      #onetrust-banner-sdk #result-summary-row .card .card-footer, #onetrust-consent-sdk #result-summary-row .card .card-footer, header #result-summary-row .card .card-footer, .meta #result-summary-row .card .card-footer, .modal.fade #result-summary-row .card .card-footer, #intro #result-summary-row .card .card-footer, #start #result-summary-row .card .card-footer, #bitkomat #result-summary-row .card .card-footer, #overview-weight #result-summary-row .card .card-footer, #overview #result-summary-row .card .card-footer, #result-overview #result-summary-row .card .card-footer, #result-detail #result-summary-row .card .card-footer {
+        background-color: transparent;
+        padding: 0.4em;
+        border-top: 0; }
+        #onetrust-banner-sdk #result-summary-row .card .card-footer.result-detail-footer, #onetrust-consent-sdk #result-summary-row .card .card-footer.result-detail-footer, header #result-summary-row .card .card-footer.result-detail-footer, .meta #result-summary-row .card .card-footer.result-detail-footer, .modal.fade #result-summary-row .card .card-footer.result-detail-footer, #intro #result-summary-row .card .card-footer.result-detail-footer, #start #result-summary-row .card .card-footer.result-detail-footer, #bitkomat #result-summary-row .card .card-footer.result-detail-footer, #overview-weight #result-summary-row .card .card-footer.result-detail-footer, #overview #result-summary-row .card .card-footer.result-detail-footer, #result-overview #result-summary-row .card .card-footer.result-detail-footer, #result-detail #result-summary-row .card .card-footer.result-detail-footer {
+          background-color: #ffffff !important;
+          cursor: pointer;
+          color-adjust: exact;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact; }
+        #onetrust-banner-sdk #result-summary-row .card .card-footer .list-item, #onetrust-consent-sdk #result-summary-row .card .card-footer .list-item, header #result-summary-row .card .card-footer .list-item, .meta #result-summary-row .card .card-footer .list-item, .modal.fade #result-summary-row .card .card-footer .list-item, #intro #result-summary-row .card .card-footer .list-item, #start #result-summary-row .card .card-footer .list-item, #bitkomat #result-summary-row .card .card-footer .list-item, #overview-weight #result-summary-row .card .card-footer .list-item, #overview #result-summary-row .card .card-footer .list-item, #result-overview #result-summary-row .card .card-footer .list-item, #result-detail #result-summary-row .card .card-footer .list-item {
+          padding-left: 6px; }
+          #onetrust-banner-sdk #result-summary-row .card .card-footer .list-item:first-child, #onetrust-consent-sdk #result-summary-row .card .card-footer .list-item:first-child, header #result-summary-row .card .card-footer .list-item:first-child, .meta #result-summary-row .card .card-footer .list-item:first-child, .modal.fade #result-summary-row .card .card-footer .list-item:first-child, #intro #result-summary-row .card .card-footer .list-item:first-child, #start #result-summary-row .card .card-footer .list-item:first-child, #bitkomat #result-summary-row .card .card-footer .list-item:first-child, #overview-weight #result-summary-row .card .card-footer .list-item:first-child, #overview #result-summary-row .card .card-footer .list-item:first-child, #result-overview #result-summary-row .card .card-footer .list-item:first-child, #result-detail #result-summary-row .card .card-footer .list-item:first-child {
+            border-right: 1px solid #08262e !important;
+            padding: 1px 6px 3px 0;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact; }
+            #onetrust-banner-sdk #result-summary-row .card .card-footer .list-item:first-child .badge:before, #onetrust-consent-sdk #result-summary-row .card .card-footer .list-item:first-child .badge:before, header #result-summary-row .card .card-footer .list-item:first-child .badge:before, .meta #result-summary-row .card .card-footer .list-item:first-child .badge:before, .modal.fade #result-summary-row .card .card-footer .list-item:first-child .badge:before, #intro #result-summary-row .card .card-footer .list-item:first-child .badge:before, #start #result-summary-row .card .card-footer .list-item:first-child .badge:before, #bitkomat #result-summary-row .card .card-footer .list-item:first-child .badge:before, #overview-weight #result-summary-row .card .card-footer .list-item:first-child .badge:before, #overview #result-summary-row .card .card-footer .list-item:first-child .badge:before, #result-overview #result-summary-row .card .card-footer .list-item:first-child .badge:before, #result-detail #result-summary-row .card .card-footer .list-item:first-child .badge:before {
+              background: #ffffff;
+              border: 1px solid #ddd !important;
+              border-radius: 0;
+              color: #08262e !important;
+              content: attr(data-text);
+              display: none;
+              min-width: 200px;
+              left: calc(50% - 200px);
+              padding: 1em;
+              position: absolute;
+              top: -100%;
+              transform: translateY(-50%);
+              z-index: 2; }
+            #onetrust-banner-sdk #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before, #onetrust-consent-sdk #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before, header #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before, .meta #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before, .modal.fade #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before, #intro #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before, #start #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before, #bitkomat #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before, #overview-weight #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before, #overview #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before, #result-overview #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before, #result-detail #result-summary-row .card .card-footer .list-item:first-child .badge:hover:before {
+              display: block ruby; }
+            #onetrust-banner-sdk #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after, #onetrust-consent-sdk #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after, header #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after, .meta #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after, .modal.fade #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after, #intro #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after, #start #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after, #bitkomat #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after, #overview-weight #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after, #overview #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after, #result-overview #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after, #result-detail #result-summary-row .card .card-footer .list-item:first-child .badge:hover:after {
+              display: block ruby; }
+            #onetrust-banner-sdk #result-summary-row .card .card-footer .list-item:first-child span.badge, #onetrust-consent-sdk #result-summary-row .card .card-footer .list-item:first-child span.badge, header #result-summary-row .card .card-footer .list-item:first-child span.badge, .meta #result-summary-row .card .card-footer .list-item:first-child span.badge, .modal.fade #result-summary-row .card .card-footer .list-item:first-child span.badge, #intro #result-summary-row .card .card-footer .list-item:first-child span.badge, #start #result-summary-row .card .card-footer .list-item:first-child span.badge, #bitkomat #result-summary-row .card .card-footer .list-item:first-child span.badge, #overview-weight #result-summary-row .card .card-footer .list-item:first-child span.badge, #overview #result-summary-row .card .card-footer .list-item:first-child span.badge, #result-overview #result-summary-row .card .card-footer .list-item:first-child span.badge, #result-detail #result-summary-row .card .card-footer .list-item:first-child span.badge {
+              padding: 5px 7px; }
+          #onetrust-banner-sdk #result-summary-row .card .card-footer .list-item .badge, #onetrust-consent-sdk #result-summary-row .card .card-footer .list-item .badge, header #result-summary-row .card .card-footer .list-item .badge, .meta #result-summary-row .card .card-footer .list-item .badge, .modal.fade #result-summary-row .card .card-footer .list-item .badge, #intro #result-summary-row .card .card-footer .list-item .badge, #start #result-summary-row .card .card-footer .list-item .badge, #bitkomat #result-summary-row .card .card-footer .list-item .badge, #overview-weight #result-summary-row .card .card-footer .list-item .badge, #overview #result-summary-row .card .card-footer .list-item .badge, #result-overview #result-summary-row .card .card-footer .list-item .badge, #result-detail #result-summary-row .card .card-footer .list-item .badge {
+            position: relative;
+            z-index: 1; }
+      #onetrust-banner-sdk #result-summary-row .card .card-body, #onetrust-consent-sdk #result-summary-row .card .card-body, header #result-summary-row .card .card-body, .meta #result-summary-row .card .card-body, .modal.fade #result-summary-row .card .card-body, #intro #result-summary-row .card .card-body, #start #result-summary-row .card .card-body, #bitkomat #result-summary-row .card .card-body, #overview-weight #result-summary-row .card .card-body, #overview #result-summary-row .card .card-body, #result-overview #result-summary-row .card .card-body, #result-detail #result-summary-row .card .card-body {
+        padding: 0.4em;
+        background-color: #08262e !important;
+        color: #ffffff !important;
+        margin: 1em;
+        padding: 1em;
+        -webkit-print-color-adjust: exact; }
+
+/*# sourceMappingURL=print.css.map */
