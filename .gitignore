@@ -1,13 +1,6 @@
-/docs
 /.idea
+.sass-cache
+/2021-bund/.sass-cache
+/2022-nrw/.sass-cache
+/docs
 /node_modules
-/svg
-/00
-/09
-/10
-/11
-/js/initResult-old.js
-/js/initResult.js
-/js/initWeight.js
-/nrw/*.gitignore
-/nrw/.sass-cache/9e1f6c270f7e383a7c9c227b585079231dfd497a/*.sassc
