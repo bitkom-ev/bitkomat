@@ -43,7 +43,7 @@ var T =
             this.btn_bitkomat_skip_remaining_theses = "<i class=\"fas fa-eye\"></i> Ergebnisse anzeigen";
             this.title_results = "Ergebnisse";
             this.title_results_summary_top = `<p>Die Ergebnisse zeigen die Übereinstimmung Ihrer persönlichen Präferenzen mit den Positionen der Parteien.</p>`;
-            this.title_results_summary_bottom = `<p class='text-right small'>Die Vorschläge des Bitkom ... </p>`;
+            this.title_results_summary_bottom = `<p class='text-right small'></p>`;
             this.title_results_details = "Themen"; // Details Übersicht
             this.btn_results_weight = '<i class="fa fa-check-double"></i> <span >Gewichtung der Themen</span>';
             this.btn_overview = '<i class="fa fa-smile-beam"></i> <i class="fas fa-meh"></i> <i class="fas fa-frown"></i><span >Übersicht</span>';

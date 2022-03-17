@@ -9,7 +9,7 @@ body
   margin: 0
 
 /* remove stuff that should not be visible in the final print: footer, */
-#onetrust-banner-sdk, #onetrust-consent-sdk, header, .meta, .modal.fade, #intro, #start, #bitkomat, #overview-weight, #overview, #result-overview, #result-detail
+#onetrust-banner-sdk, #onetrust-consent-sdk, header, nav#bottom .container, .meta, .modal.fade, #intro, #start, #bitkomat, #overview-weight, #overview, #result-overview, #result-detail
   display: none !important
 
   #result
@@ -24,13 +24,6 @@ body
     margin: 0
     padding: 0
     position: relative
-
-    img.bitkomat.logo
-      background-color: transparent
-      display: inline-block
-      -webkit-print-color-adjust: exact
-      print-color-adjust: exact
-      visibility: visible !important
 
     .card-body
       background-color: $petrol !important

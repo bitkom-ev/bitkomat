@@ -1,5 +1,4 @@
 // Generator from bitkomat-nrw.css: https://sebastianpontow.de/css2compass/
-
 @import "colors"
 
 html
@@ -84,14 +83,18 @@ a.external,
     padding: 0
 
   img
+    border: none
     background-color: transparent
-    //border: 1px solid $petrol
-    max-height: 60px
+    max-height: 80px
     margin-left: -25px
     margin-bottom: -10px
     vertical-align: bottom
+
     @media(max-width: 767px)
-      max-height: 40px
+      border: none
+      margin-left: 1em
+      margin-bottom: 0
+      max-height: 60px
 
 .flex-fill
   flex: 1 1 auto
@@ -154,6 +157,8 @@ a.external,
         width: 100%
 
     /* neu cluster focused bg petrol */
+
+
 
 
 
@@ -313,9 +318,9 @@ a.external,
     color: $petrol
     display: inline-block
     max-height: 60px
-    right: 2em
+    right: 1em
     position: absolute
-    top: 2em
+    top: 1em
     visibility: hidden
     z-index: 2
 
@@ -323,10 +328,13 @@ a.external,
     .bitkomat.logo
       display: none
       visibility: hidden
+
   @media print
     .bitkomat.logo
-      background-color: transparent
+      background-color: $white
       display: inline-block
+      print-color-adjust: exact
+      -webkit-print-color-adjust: exact
       visibility: visible !important
 
 .card-head

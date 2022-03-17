@@ -166,16 +166,16 @@ function recreatePagination(status, real, currentThesis) {
             if (currentThesis >= 0 && currentThesis <= 3 && i >= 0 && i < 4) {
                 currentGroup = 'focused';
             }
-            if (currentThesis > 4 && currentThesis <= 6 && i >= 3 && i < 6) {
+            if (currentThesis >= 4 && currentThesis <= 6 && i >= 3 && i < 6) {
                 currentGroup = 'focused';
             }
-            if (currentThesis > 7 && currentThesis <= 10 && i >= 7 && i < 10) {
+            if (currentThesis >= 7 && currentThesis <= 10 && i >= 6 && i < 10) {
                 currentGroup = 'focused';
             }
-            if (currentThesis > 11 && currentThesis <= 13 && i >= 11 && i < 13) {
+            if (currentThesis >= 11 && currentThesis <= 13 && i >= 10 && i < 13) {
                 currentGroup = 'focused';
             }
-            if (currentThesis > 14 && currentThesis <= 16 && i >= 14 && i < 16) {
+            if (currentThesis >= 14 && currentThesis <= 16 && i >= 13 && i < 16) {
                 currentGroup = 'focused';
             }
 // <!-- Thema Zuordnung group gruppe -->
@@ -896,8 +896,9 @@ function printImageFrom(selected) {
     let height = $(selected).height();
     let width = $(selected).width();
     let color = '#fff';
-    let logo = $("#bitkomat-logo");
+    let logo = $(".bitkomat.logo");
     logo.css({
+        "background-color": '#ffffff',
         "visibility": "visible",
         "display": "block",
         "z-index": 99
