@@ -13,7 +13,7 @@ const cleanCSS = require('gulp-clean-css');
 // use only for digitaltag skin:
 gulp.task('sass', function () {
 
-    return gulp.src(['./11/sass/*.sass'])
+    return gulp.src(['./sass/*.sass'])
         .pipe(sass({
             includePaths: ['./sass/', './'],
             outputStyle: 'expanded' // compressed :nested :compact :expanded :compressed
@@ -23,11 +23,11 @@ gulp.task('sass', function () {
             grid: true
         }))
         .pipe(cleanCSS({level: 2, rebase: false}))
-        .pipe(gulp.dest('./11/css/'));
+        .pipe(gulp.dest('./css/'));
 });
 
 gulp.task('watch', function () {
-    gulp.watch(['./11/sass/']);
+    gulp.watch(['./sass/']);
 });
 gulp.task('default', ['watch']);
 
