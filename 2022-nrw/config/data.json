@@ -112,7 +112,7 @@
     "spd": {
       "name": "SPD",
       "name_x": "Sozialdemokratische Partei Deutschlands",
-      "img": "<img src='img/spd-nrw-sw.jpg' alt='SPD - Sozialdemokratische Partei Deutschlands' />"
+      "img": "<img src='img/spd-nrw.jpg' style='max-width: 80px; text-align: center;' alt='SPD - Sozialdemokratische Partei Deutschlands' />"
     },
     "fdp": {
       "name": "FDP",

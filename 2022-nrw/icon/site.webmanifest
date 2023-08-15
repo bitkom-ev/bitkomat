@@ -1,6 +1,9 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Bitkomat Landtagswahl NRW 2022",
+    "short_name": "Bitkomat",
+    "description": "Am 15. Mai findet die Landtagswahl in Nordrhein-Westfalen statt. Mit unserem Bitkomat können Sie Ihre digitalpolitischen Positionen ganz einfach mit denen der Parteien abgleichen.",
+    "start_url": "./2022-nrw",
+    "id": "/2022-nrw/icon/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",

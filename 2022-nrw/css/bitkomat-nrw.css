@@ -71,7 +71,7 @@ a.external .btn,
   .navbar img {
     border: none;
     background-color: transparent;
-    max-height: 80px;
+    max-height: 100px;
     margin-left: -25px;
     margin-bottom: -10px;
     vertical-align: bottom; }

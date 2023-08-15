@@ -950,6 +950,7 @@ function printImageFrom(selected) {
         if (_paq) {
             _paq.push(['trackEvent', 'result', 'store']);
             _paq.push(['trackLink', now + '-bitkomat-nrw-ergebnis.png', 'download'])
+            _paq.push(['disableCookies']);
             _paq.push(['trackPageView']);
             _paq.push(['setLinkTrackingTimer', 500]); // 500 250 milliseconds
         }
