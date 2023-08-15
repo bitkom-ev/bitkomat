@@ -1,0 +1,35 @@
+{
+  "lists": {
+  "csu": {
+      "name": "CSU",
+      "name_x": "Christlich-Soziale Union in Bayern",
+      "img": "<img src='img/csu.png' alt='CSU - Christlich-Soziale Union in Bayern' />"
+    },
+    "spd": {
+      "name": "SPD",
+      "name_x": "Sozialdemokratische Partei Deutschlands",
+      "img": "<img src='img/spd.png' alt='SPD - Sozialdemokratische Partei Deutschlands' />"
+    },
+    "fdp": {
+      "name": "FDP",
+      "name_x": "Freie Demokratische Partei",
+      "img": "<img src='img/fdp.png' alt='FDP - Freie Demokratische Partei' />"
+    },
+    "b90": {
+      "name": "B90/Die Grünen Bayern",
+      "name_x": "Bündnis 90/Die Grünen Bayern",
+      "img": "<img src='img/die-grünen.jpg' alt='Bündnis 90/Die Grünen Bayern' />"
+    },
+    "fwb": {
+      "name": "Freie Wähler Bayern",
+      "name_x": "Landesvereinigung Freie Wähler Bayern",
+      "img": "<img src='img/freie-wähler.png' alt='Landesvereinigung Freie Wähler Bayern' />"
+    },
+    "afd": {
+      "name": "AfD Bayern",
+      "name_x": "Landesverband der Partei Alternative für Deutschland in Bayern",
+      "img": "<img src='img/afd.png' alt='Landesverband der Partei Alternative für Deutschland in Bayern' />"
+    }
+
+  }
+}

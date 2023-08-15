@@ -1,0 +1,528 @@
+{
+  "answers": {
+    "csu": {
+      "0": {
+        "selection": "c",
+        "context": "",
+        "statement": "Digitale Kompetenzen sind nicht nur für die Arbeitswelt von enormer Bedeutung, sie sind ebenfalls für einen selbstbestimmten Umgang mit Internet, Social Media und künftigen Anwendungsfelder unabdingbar. Die grundlegenden Kompetenzen müssen gleichsam in allen Schulformen vermittelt werden. Grundsätzlich muss sich der InformatikUnterricht am individuellen Schüler orientieren. Der Informatikunterricht ist bereits fest in den Lehrplänen integriert und kann je nach Schulform als Leistungsfach in Anspruch genommen werden. Die entsprechende Einführung eines Pflichtmoduls ab der Jahrgangsstufe 5 ist aktuell nicht geplant."
+      },
+      "1": {
+        "selection": "b",
+        "context": "",
+        "statement": "Die CSU möchte alle Schülerinnen und Schüler bis 2028 mit einem digitalen Endgerät für ihren Bildungsweg ausstatten. Am aktuell laufenden Pilotverfahren „Digitale Schule der Zukunft“ nehmen 350 Schulen im Freistaat teil. Ziel dieses Projektes ist es u.a. ein geeignetes Beschaffungswesen zu entwickeln, weswegen auf die Fragestellung aktuell nur bedingt eingegangen werden kann. Grundsätzlich werden wir die finanziellen Voraussetzungen schaffen, so dass die Klassenzimmer die bestmögliche digitale Ausstattung erhalten."
+      },
+      "2": {
+        "selection": "c",
+        "context": "",
+        "statement": "Bei der Ausstattung unserer Hochschulen legen wir ein besonderes Augenmerk auf  moderne Ausstattung, so dass Studenten bestmöglich auf die veränderten Anforderungsprofile der digitalen Transformation vorbereitet sind. Ein verpflichtendes Modul zur Vermittlung von digitalen Kompetenzen wäre indes ein unverhältnismäßiger Eingriff in die Freiheit der Forschung und Lehre, welche im Grundgesetz verankert ist. Dank des innovativen Ausbaus der Hochschulen sind derartige Angebote bereits oftmals teil des Curriculums oder können als freiwillige Zusatzkurse besucht werden.  "
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "Damit wir den digitalen Wandel erfolgreich vollziehen können, müssen wir die digitale Teilhabe eines jeden Bürgers garantieren. Diese darf nicht vom Alter, Ausbildung oder der Herkunft abhängen. Wir möchten möglichst flächendeckend digitale Bildungsangebote anbieten und insbesondere älteren Menschen mit Schulungsangeboten den digitalen Einstieg auch im hohen Alter ermöglichen, beispielsweise mit der Initiative „zusammen digital“. Wir stärken Vereine und Netzwerke, welche einen besonderen Beitrag hinsichtlich digitaler Kompetenzen leisten und bieten auch Angestellten des Öffentlichen Dienstes entsprechend Workshop- und Schulungsangebote an, um die digitale Barrierefreiheit zu fördern."
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": "Das bayerische Digitalministerium, das erste seiner Art, erweist sich als absolutes Erfolgsmodell, trotz der heftigen Kritik der Opposition bei seiner Gründung. Mit dem Bayerischen Digitalgesetz, dem Bayerischen Digitalplan und den vielen erfolgreichen Inititative ist Bayern bereits jetzt deutschlandweit Vorreiter bei der Verwaltungsdigitalisierung. Wir werden diesen erfolgreichen Ansatz weiterführen und entwickeln."
+      },
+      "5": {
+        "selection": "b",
+        "context": "",
+        "statement": "Bayern ist bereits Vorreiter der Verwaltungsdigitalisierung. Im Freistaat sind bereits über 220 Leistungen gemäß dem Onlinezugangsgesetz flächendeckend verfügbar. Ein absoluter Spitzenwert in Deutschland. Dank unseres fortschrittlichen bayerischen Digitalgesetzes wird sich dieser Trend fortsetzen. Grundsätzlich gilt hinsichtlich der Verwaltungsdigitalisierung: Je schneller, desto besser. Allerdings sind weiter die hohen Sicherheitsstandards für behördliche Leistungen, verflochtene Zuständigkeiten sowie angestrebte Musterlösungen anderer Bundesländer gemäß der OZG-Reform zu beachten, weswegen ein genauer Zeitplan für alle Leistungen in diesem Zusammenhang unseriös wäre."
+      },
+      "6": {
+        "selection": "c",
+        "context": "",
+        "statement": "Onlinewahlen sind eine interessante Vision, deren Perspektive stetig erforscht und evaluiert wird. Insbesondere Bundestags- und Landtagswahlen haben jedoch die strengen Wahlgrundsätz des Grundgesetzes zu erfüllen und müssen höchsten Sicherheitsstandards genügen. Aus den genannten Gründen lehnen wir Online-Landtagswahlen zum aktuellen Zeitpunkt ab."
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": "Bayern ist das erste Bundesland mit einem dedizierten Digitalgesetz, welches die Digitalisierung der Verwaltung reglementiert, so wie die digitalen Rahmenbedingungen im Freistaat formuliert. Der Rechtsanspruch auf den digitalen Zahlungsweg ist bereits in Art. 18 (1) des BayDiG festgeschrieben und wird von uns konsequent vorangetrieben."
+      },
+      "8": {
+        "selection": "b",
+        "context": "",
+        "statement": "Die Open-Data-Nutzung eröffnet neue Möglichkeiten für die Verwaltung, aber auch für die bayerische Wirtschaft. Gleichzeitig gilt es auch den hohen Stellenwert des Datenschutzes ausreichend zu achten. Open-Data ermöglicht neue Geschäftsmodelle, v.a. mit zivilgesellschaftlichen Nutzen. Bayern ist bereits 2021 GovData beigetreten und möchte anhand eines Landesportals den Datenaustausch vorantreiben. Der Neuaufbau des Portals hat für uns einen hohen Stellenwert."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Fortschritt entsteht durch mutige Unternehmer und Gründer. Sie stehen für eine dynamische Marktwirtschaft, Fortschritt und Innovation. Bayern ist Gründerland. Daher fördern wir Startups auf verschiedenen Ebene, beispielsweise durch Förderkredite, Beratungen und die Vernetzung, auch mit öffentlichen Stellen. Wir stehen für einen fairen Wettbewerb bezüglich Ausschreibungen ein, so dass sich Startups in den Ausschreibungswettbewerben behaupten und profilieren können."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Fortschritt benötigt mutige Gründer. Bayern ist das Start-Up-Land in Deutschland. Wir stehen für Dynamik und wollen den Gründergeist weiter fördern. Eine intervenierende und zentralistische Wirtschaftspolitik lehnen wir ab. Wir möchten den Raum für Innovationen schaffen und setzen auf weniger Bürokratie und weitere Anreize für Investitionen. Wagniskapital ist für eine erfolgreiche und fortschrittliche Gründerszene unerlässlich, weswegen wir auch den Scale-Up-Fonds weiter fortsetzen werden."
+      },
+      "11": {
+        "selection": "b",
+        "context": "",
+        "statement": "Die bayerische Wirtschaft benötigt qualifizierte Zuwanderung von Fachkräften. Wir setzen vor allem auf schnellere Verfahren und die verbesserte Anerkennnung von im Ausland erworbenen Qualifikationen. Aktuell läuft ein Pilotprojekt zur schnelleren Anerkennung von Pflegefachkräften, welches im Erfolgsfall ebenfalls möglicherweise auf weitere Berufsgruppen ausgeweitet werden kann. Grundsätzlich ist die Zentrale Stelle für die Einwanderung von Fachkräften nicht dafür verantwortlich, aktiv im Ausland für Fachkräfte zu werben. Eine solche Initiative müsste von der Branche bzw. Unternehmen ausgehen, beispielsweise in Form von Vermittlungsagenturen bzw. unterbevollmächtigten Dienstleistern."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir verfolgen grundsätzlich das Ziel, dass alle Verwaltungsleistungen sowie Förderanträge digital zur Verfügung gestellt werden. Bayern beteiligt sich in diesem Zuge im Rahmen der OZG-Umsetzung an einem Pilotprojekt der Bundesländer Hessen und Rheinland-Pfalz mit der Zielsetzung der vollständigen Digitalisierung des Antrags- und Genehmigungsverfahrens hinsichtlich des Glasfaserausbaus."
+      },
+      "13": {
+        "selection": "c",
+        "context": "",
+        "statement": "Über 90% der bayerischen Haushalte verfügen bereits über eine Anbindung an ein mindestens 100 Mbit/s schnelles Netz, über 97% sind über einen schnellen Internetanschluss an das Netz angebunden. Im Bundesvergleich ist dies trotz unserer ländlichen Prägung der Spitzenwert aller Flächenländer. Mit der Gigabitrichtlinie verfügen wir über ein deutschlandweit einmaliges Förderprogramm, dass gezielt Kommunen beim Ausbau gigabitfähiger Infrastruktur unterstützt, wo kein eigenwirtschaftlicher Ausbau stattfindet. Mit unserer Förderung, und den bereits erteilten Genehmigungen werden wir über 99% der bayerischen Haushalte mit schnellem Internet versorgen können. Unsere Priorität ist der Glasfaserausbau. Für die verbleibenden Liegenschaften, die nach aktuellem Stand nicht von der Förderungen profitieren können, konnte bereits festgestellt werden, dass diese fast vollumfänglich durch nicht leitungsgebundene Angebote bereits eine optimale Anbindung an das Internet verfügen. Der Bedarf an weiteren Förderprogrammen ist im Freistaat aufgrund des erfolgreichen Ausbaus somit nicht gegeben."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Unsere Polizei genießt unsere volle Rückendeckung. Bayern steht wie kein anderes Bundesland für Sicherheit durch Stärke und einen wehrhaften Rechtsstaat. Der Freistaat ist bereits jetzt führend hinsichtlich der IT-Sicherheit. Wir investieren laufend in neue Stellen und statten die Polizei mit den nötigen Mitteln aus, so dass diese auf dem neuesten Stand der Technik und auf höchstem Niveau ihrer Arbeit nachgehen kann. Kriminelle dürfen keinen technischen Vorsprung haben."
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": " Wir wollen entschlossen gegen Hass und Hetze auch im Netz vorgehen und haben deshalb Deutschlands ersten Hate Speech-Beauftragten eingerichtet. Wir werden ihn und die 22 Sonderdezenerate in ganz Bayern weiter stärken und Hasskriminalität im Netz mit allen Mitteln des Rechtsstaats bekämpfen."
+      },
+      "16": {
+        "selection": "b",
+        "context": "",
+        "statement": "Datenschutz ist ein wichtiger Bestandteil des digitalen Wandels. Er setzt Rahmenbedingungen, ermöglicht aber auch neue Geschäftsmodelle. Wir wollen das Bayerische Landesamt für Datenschutz stärken und es zu einem Kompetenzzentrum für Datenschutz ausbauen. Zugleich erhält die neue Institution hierdurch neue Möglichkeiten und einen erweiterten Instrumentenkasten. Wir möchten uns zudem für allgemeingültige Verfahren und Rahmenbedingungen in Deutschland und Europa einsetzen und die Kooperationen der Datenschutzbehörden auf allen Ebenen besser vernetzen und synchronisieren."
+      }
+    },
+    "spd": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen, dass digitale Kompetenzen bereits früh gelehrt werden. Wir werden alle Schulen in Bayern erstklassig ausstatten. Allen Schülerinnen und Schülern müssen ein digitales Endgerät und Zugang zum Internet zur Verfügung stehen."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir stehen für volle Lernmittelfreiheit, insbesondere auch bei digitalen Endgeräten. Auch Lehrkräfte sollen regelmäßig mit Dienstgeräten ausgestattet werden. Wir werden die Digitalisierung der Schulen vorantreiben, indem wir die kommunalen Träger durch Förderprogramme unterstützen."
+      },
+      "2": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir als SPD wollen die Digitalisierung in der Hochschullehre stärken. Die Teilhabe am gesellschaftlichen und politischen Leben hängt zunehmend von den eigenen digitalen Fähigkeiten ab. Die Einführung eines interdisziplinären Moduls zu Digitalkompetenzen kann hierzu einen wichtigen Beitrag leisten."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "Alle Bürgerinnen und Bürger sollen die zentralen Verwaltungsleistungen in Zukunft digital nutzen können. Wir als BayernSPD werden den Aufbau von sogenannten Integrationslotsen zur Beratung und Hilfestellung von digital weniger versierten Menschen z.B. beim Ausfüllen von digitalen Anträgen fördern."
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir als BayernSPD wollen, dass das Staatsministerium für Digitales Instrumente an die Hand bekommt, mit denen es gezielt Projekte anstößt und die Staatsregierung diese steuert. Zusätzlich sollte das Digitalministerium ein Mitspracherecht bei allen die digitale Transformation betreffenden Budgetfragen der anderen Ressorts erhalten."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "Alle Bürgerinnen und Bürger sollen die zentralen Verwaltungsleistungen in Zukunft digital nutzen können. Dafür setzen wir auf eine breite und umfassende Digitalisierungsstrategie.Darüber hinaus werden wir die digitale Infrastruktur so ausbauen, dass alle Bürgerinnen und Bürger problemlos Zugang zu den Online-Leistungen der Verwaltung hat."
+      },
+      "6": {
+        "selection": "c",
+        "context": "",
+        "statement": "Online-Wahlen können zu einer höheren Wahlbeteiligung führen und die politische Partizipation stärken. Wir sehen jedoch nach wie vor große Schwierigkeiten bei der IT-Sicherheit. Sollten Wahlen zukünftig auch digital möglich sein, muss die Sicherheitsinfrastruktur deutlich verbessert werden, um Wahlmanipulation zu verhindern."
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": "Durch die Bereitstellung von zentralen IT-Infrastrukturen und einheitlichen Standards werden wir die Städte und Gemeinden in die Lage versetzen, den Bürgerinnen und Bürgern und Unternehmen Online-Dienste anzubieten. Hierzu zählt für uns auch die Möglichkeit der digitalen Zahlung."
+      },
+      "8": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir setzen uns für die Schaffung eines umfassenden Informationsfreiheits- und Transparenzgesetzes ein, das es allen Bürgerinnen und Bürgern ermöglicht, gebührenfrei und unabhängig von der Motivation digitalen Zugang zu proaktiv bereitgestellten Informationen zum Handeln der Verwaltung sowohl auf staatlicher als auch auf kommunaler Ebene zu erhalten. Zur unabhängigen Überwachung der Umsetzung und zur Gewährleistung von Rechten betroffener Personen sollen die Kompetenzen des Bayerischen Landesbeauftragten für den Datenschutz als Aufsichtsbehörde entsprechend erweitert und dieser mit den erforderlichen personellen und technischen Ressourcen ausgestattet werden."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir als BayernSPD wollen, dass Bayern zum Vorreiter wird, wenn es um den Erfolg unserer Startup-Szene geht. Dafür brauchen wir die gleichen Spielregeln wie Firmen aus den USA und China, indem lokale Firmen vor Übernahmen, aber auch vor dem Wettbewerb mit\naußereuropäischen Monopolen geschützt werden. Aufträge des Freistaates werden wir an die Bedingung einer europäischen, technologischen Souveränität koppeln. Wir werden die Gründerzentren in Bayern weiter ausbauen. Wir investieren in den Erfolg der Startups in Bayern. Dazu müssen wir den Kapitalstandort Bayern stärken und unseren Firmen auch in der späteren, meist kapitalintensiven Phase, ihrer Gründung zur Seite stehen."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir als BayernSPD haben uns von Beginn an für eine Erhöhung und Verstetigung des Wachstumsfonds eingesetzt. Dies werden wir auch in Zukunft tun."
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir brauchen eine schnellere Anerkennung von Berufsabschlüssen, ein passgenaues Angebot an Sprachkursen und ein Klima der Willkommenskultur. Wir müssen die Vereinbarkeit von Familie und Beruf erleichtern und die Teilzeitquoten bei Frauen anheben. Wir als BayernSPD wollen die Arbeits- und Lebensbedingungen attraktiv gestalten, um mehr Fachkräfte für Bayern zu gewinnen und zu halten. Im Einklang mit der Fachkräftestrategie der Bundesregierung werden wir deshalb mehr Geld in die Aus- und Weiterbildung von jungen Menschen und Beschäftigten zu investieren."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Unser Ziel ist die Versorgung mit Glasfaser und dem neuesten Mobilfunkstandard. Und zwar egal, ob auf dem Land oder in der Stadt. Das werden wir durch konkrete, gesetzlich festgelegte Ausbau- und Versorgungspflichten und entsprechende Zwischenziele erreichen. Hierfür werden wir auch bürokratische Prozesse abbauen und vereinfachen."
+      },
+      "13": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wir als SPD wollen einen schnellen Ausbau der Breitbandversorgung im ländlichen Raum. Betreiber, die sich für den Ausbau in ländlichen Regionen engagieren, werden wir belohnen und dafür sorgen, dass der ineffiziente Doppelausbau von Netzen in lukrativen Gebieten der Vergangenheit angehört."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Hass und Kriminalität im Internet sind ein großes Problem. Wir werden entschieden dagegen vorgehen. Das Internet ist und bleibt kein rechtsfreier Raum. Wir werden daher den gegen Internetkriminalität spezialisierten Polizeieinheiten mit mehr Geld und Personal ausstatten. Zusätzlich werden wir die Menschen in Bayern mit umfassenden Aufklärungskampagnen informieren, mit welchen Mitteln man sich gegen Straftaten in den Bereichen Datenschutz, Cybercrime, Hass und Hetze im Netz zur Wehr setzen kann."
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": "Als SPD ist es uns wichtig, Hass uns Hetze entschieden entgegenzutreten. Hass und Hetze gefährden unsere Demokratie.  Aus diesem Grund werden wir die Hate-Speech-Sonderdezernate besser ausstatten. Gleichzeitig werden wir die schulische und außerschulische Bildungsarbeit stärken, denn sie spielt eine zentrale Rolle in der Prävention."
+      },
+      "16": {
+        "selection": "c",
+        "context": "",
+        "statement": ""
+      }
+    },
+    "fdp": {
+      "0": {
+        "selection": "c",
+        "context": "",
+        "statement": "Wir fordern mehr MINT-Kompetenzschulen im Rahmen des Wahlpflichtsystems, in denen die MINT-Fächer eine besondere Berücksichtigung erhalten. Als schnell umsetzbare Flexibilisierungsmaßnahme sollen Schüler in der sechsten Klasse statt der zweiten Fremdsprache das Fach Informatik wählen können."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "2": {
+        "selection": "a",
+        "context": "",
+        "statement": "Ein verpflichtendes, interdisziplinäres Modul zu Digitalkompetenzen an bayerischen Hochschulen ist unerlässlich für eine zukunftsfähige Ausbildung. Digitale Technologien prägen alle Berufsfelder, daher müssen Studierende grundlegende Fähigkeiten im Umgang damit erwerben. Das Modul fördert die Zusammenarbeit zwischen Fachbereichen, stärkt die Kreativität und Problemlösungsfähigkeiten und sensibilisiert für ethische Fragen. Zudem steigert es die Attraktivität der Hochschulen im globalen Wettbewerb, da Absolventen mit zeitgemäßen digitalen Kompetenzen von Unternehmen weltweit gefragt sind. Die Integration dieses Moduls in die Curricula gewährleistet, dass die Absolventen den Anforderungen der Zukunft gewachsen sind und einen Beitrag zur Innovationskraft Bayerns und Deutschlands leisten können."
+      },
+      "3": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Verwaltungsdigitalisierung muss in jedem Fall die komplette Digitalisierung der Prozesse umfassen. Auch die behördeninterne Verarbeitung muss digital sein."
+      },
+      "6": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wenn bei Landtagswahlen die Stimme in Zukunft digital abgegeben werden kann, kann dies einen Beitrag dazu leisten, die Wahlbeteiligung zu steigern. Daher sollten die Möglichkeit geschaffen werden, dass die Wahlen unter Wahrung des Wahlgeheimnisses und bei Authentifizierbarkeit der Stimmen durchgeführt werden können und hierdurch digitale Landtagswahlen schnellstmöglich angeboten werden."
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir sprechen uns dafür aus, dass das Thema der Fachkräfteanwerbung, inklusive der Anerkennung ausländischer Abschlüsse an einer staatlichen Stelle zentralisiert wird. Die Verfahren müssen einfach, innerhalb weniger Wochen und möglichst auch auf Englisch erfolgen."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "b",
+        "context": "",
+        "statement": "Eine pauschale Stellenerhöhung halten wir nicht für zielführend. Die Polizeieinheiten müssen sachlich und personell so ausgestattet sein, dass sie erfolgreich ihre Aufgaben bewältigen können. Dazu ist der konkrete Bedarf zu ermitteln, an diesem ist die sachliche, personelle und organisatorische Ausstattung anzupassen."
+      },
+      "15": {
+        "selection": "b",
+        "context": "",
+        "statement": "Die Bekämpfung von Hate-Speech ist uns ein Anliegen. Die Sonderdezernate leisten hierbei einen wichtigen Beitrag. Eine pauschale Erhöhung der Ausstattung halten wir nicht für zielführend, vielmehr sollte die Ausstattung an den konkreten Bedarf angepasst werden und dort, wo sich ein solcher zeigt, auch gehandelt werden."
+      },
+      "16": {
+        "selection": "b",
+        "context": "",
+        "statement": "Einheitliche und rechtsverbindliche Regelungen zum Datenschutz sind zweifellos sinnvoll und wichtig. Inwieweit eine Datenschutzaufsichtsbehörde, die für alle Länder und den Bund gleichermaßen zuständig ist, hier für Verbesserung sorgen kann, muss zunächst überprüft werden. Der Bayerische Landesbeauftragte für den Datenschutz soll bestehen bleiben."
+      }
+    },
+    "b90": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir stärken den Informatikunterricht für alle Schüler*innen. Sie sollen digitale Medien effektiv, effizient und kreativ im Privat- und Berufsleben einsetzen können, sich mündig in der digitalen Welt bewegen und den digitalen Wandel selbst aktiv mitgestalten können. Unser klares Leitbild dabei ist: Die Technik dient den Menschen, nicht andersherum. Informatik muss dafür allerdings weiterentwickelt werden, vor allem die Medienkompetenz der Schüler*innen wollen wir stärken. Das ist aber auch Aufgabe aller anderen Fächer. Unser Ziel ist, dass die Schüler*innen wissen, woher die jeweiligen Informationen stammen und wie glaubwürdig sie sind. Sie sollen Nachrichten von Meinungen unterscheiden und mit demokratiegefährdenden Desinformationen souverän umgehen können."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "Schule soll sich an die Bedingungen vor Ort anpassen können. Wir wollen den Schulen deshalb ein eigenständigeres Agieren ermöglichen. Darum setzen wir uns für Schulbudgets ein."
+      },
+      "2": {
+        "selection": "b",
+        "context": "",
+        "statement": "Aufgrund der Wissenschaftsfreiheit kann der Freistaat nicht in die Lehrinhalte einzelner Studiengänge eingreifen, um ein verpflichtendes Digitalmodul für alle Studierenden festzusetzen. Nichtsdestotrotz halten wir es für sinnvoll, die Digitalkompetenz bayerischer Hochschulabsolvent*innen zu fördern. Dazu haben wir in der Vergangenheit immer wieder eine Aufstockung der Mittel für die Rechenzentren der bayerischen Hochschulen gefordert. Dort gibt es bereits breit gefächert qualitativ sehr hochwertige Zusatzangebote in der Lehre. Gleichzeitig wollen wir auch die Digitalkompetenzen mit Fachbezug deutlich stärken."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "Für uns liegt die große Aufgabe, die Gesellschaft mit Digitalkompetenzen zu befähigen, klar beim Staat. Die Verwaltung ist eine Art Benutzeroberfläche der Demokratie für die Bürger*innen. Sie nimmt deshalb eine wichtige Rolle dabei ein, die Menschen im Zuge des digitalen Wandels zu unterstützen und zu begleiten. Zivilgesellschaftliche Akteur*innen können auch dazu beitragen. Sie müssen dann dafür finanzielle Unterstützung erhalten. Zentral ist, dass Verwaltungsmitarbeiter*innen ausreichende Angebote an Schulungen und Weiterbildungen erhalten. Hierfür wollen wir entsprechende Förderprogramme wie z.B. den Grundkurs Digitallotse aufstocken und für mehr Verwaltungsmitarbeiter*innen zugänglich machen."
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": "Das bayerische Digitalministerium entspricht aktuell einem reinen Schaufenster-Ministerium ohne ausreichendes Budget oder logische Zuständigkeiten. Für echte Zugkraft in der Digitalisierung braucht Bayern ein Digitalministerium, dass finanziell gut ausgestattet ist und über zentrale digitalpolitische Verantwortungsbereiche sowie Durchsetzungskompetenz im Kabinett verfügt. Hierzu gehört insbesondere der Ausbau einer robusten digitalen Infrastruktur. Wir Grüne wollen, dass die Förderung von Breitbandausbau sowie von Mobilfunk im Digitalministerium gebündelt wird."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Verwaltungsdigitalisierung ist ein Mammutprojekt. Aus unserer Sicht soll die Landesebene auf konstruktive Zusammenarbeit mit anderen Bundesländern und den Bund setzen, um gemeinsame Lösungen und Standards festzulegen, und keinen bayerischen Alleingang beschreiten. Zudem wollen wir den Kommunen stärker unter die Arme greifen, weil sie für den Großteil der Verwaltungsleistungen zuständig sind. Sie müssen strategische Orientierungshilfen sowie mehr finanzielle und personelle Mittel vom Freistaat erhalten."
+      },
+      "6": {
+        "selection": "c",
+        "context": "",
+        "statement": "Die Landtagswahlen sollten auch künftig nicht digital erfolgen, sondern im Wahllokal bzw. per Briefwahl. Wir sehen zwar Vorteile wie eine eventuell höhere Wahlbeteiligung, aber auch schwerwiegende Nachteile (z. B. höhere Manipulationsgefahr). Bei der Einführung der Teilnahmemöglichkeit von Gemeinderatsmitgliedern an Sitzungen via Bild-Ton-Übertragung (Art. 47a GO) waren wir einverstanden, dass auch bei einer Zuschaltung der/des Gemeinderät*in mittels Ton-Bild-Übertragung eine Teilnahme an Wahlen nicht möglich ist (bis heute so in Art. 47a Abs. 1 S . 6 GO geregelt)."
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": "Bargeld wird immer weniger genutzt, Online-Zahlmethoden nehmen dagegen zu. Dieser Entwicklung sollte auch die Verwaltung Rechnung tragen und entsprechende Möglichkeiten aufsetzen. Für uns ist wichtig, dass neben Online-Zahlmethoden die analogen Zahlmethoden weiterhin möglich bleiben."
+      },
+      "8": {
+        "selection": "a",
+        "context": "",
+        "statement": "Seit langem engagieren wir uns für die Weiterentwicklung der Informationsfreiheit und der verstärkten Bereitstellung offener Daten („Open Data“). Wir wollen eine Open-Data-Strategie und ein Transparenzgesetz für Bayern - mit einem konkreten Anspruch der Bürger*innen auf die Bereitstellung staatlicher Daten. Das ermöglicht neue demokratische Beteiligungsmöglichkeiten, Effizienzgewinne in der Verwaltung, Zugewinne an öffentlichem Wissen, fördert innovative Dienstleistungen und die Entwicklung neuer Geschäftsmodelle. Davon profitieren auch unsere bayerischen Unternehmen."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Das hat unsere Landtagsfraktion im Gesetzentwurf für ein Bayrisches Vergabegesetz explizit gefordert. Die Regierungsfraktionen haben diesen Gesetzentwurf abgelehnt."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Startups leisten zur sozial-ökologischen Transformation unserer Wirtschaft einen wichtigen Beitrag. Gerade in der Scale-Up-Phase haben sie aber häufig Finanzierungsprobleme. Dem wollen wir auch mit staatlichen Mitteln entgegenwirken."
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen, dass die Zuwanderung von Fachkräften schneller geht. Das haben wir auf Bundesebene mit der Reform des Fachkräfteeinwanderungsgesetzes auf den Weg gebracht. Entsprechend müssen auch die Genehmigungsstellen in Bayern schneller werden und mit mehr Personal ausgestattet sein. Gleichzeitig muss verhindert werden, dass die Fachkräfte wieder abwandern. Dafür wollen wir mit sog. Welcome Centern als Anlaufstelle für Unternehmen und Fachkräfte aus dem Ausland sorgen."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir müssen alle Genehmigungsprozesse digitalisieren schon allein aufgrund des immer größeren Personalmangels in der Verwaltung."
+      },
+      "13": {
+        "selection": "a",
+        "context": "",
+        "statement": "Unsere Landtagsfraktion hat in den letzten Jahren bei allen Haushaltsberatungen die Einführung von sogenannten Vouchern in Höhe von 500 € für Privathaushalte und KMU gefordert, was aber von Regierungsfraktion als nicht notwendig abgelehnt wurde."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Sicherheitsbehörden können sich der Kriminalität im Netz nur dann erfolgreich stellen, wenn wir sie personell und materiell in die Lage versetzen mit den Entwicklungen der Cyberkriminellen Schritt zu halten."
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Hate-Speech Sonderdezernate sind ein erster Schritt in die richtige Richtung. Diese müssen noch weiter gestärkt und ausgebaut werden. Daneben benötigen wir in Bayern endlich eine Online-Polizeiwache, an die man sich jederzeit wenden kann. Nur dann stellen wir für die Betroffenen Waffengleichheit her: Eine strafbare Handlung zu verfolgen, soll für Betroffene mittels einer Online-Polizeiwache genauso leicht sein, wie es für die Täter leicht ist, Hass und Hetze in Computer oder Smartphone zu tippen."
+      },
+      "16": {
+        "selection": "c",
+        "context": "",
+        "statement": "Aufgrund der föderalen Struktur der Bundesrepublik ist eine einheitliche Datenschutzaufsicht von Bund und Ländern verfassungsrechtlich nicht möglich und nicht sinnvoll. Um eine bessere Einheitlichkeit bei der Auslegung des bestehenden Rechts zu erreichen ist stattdessen ein noch intensiverer Austausch und eine Stärkung der Datenschutzkonferenz erforderlich. In Bayern gibt es bei der Datenschutzaufsicht noch großes Verbesserungspotential: Wir wollen für Bayern eine Zusammenlegung der privaten und öffentlichen Datenschutzaufsicht und eine volle Unabhängigkeit dieser Stelle nach dem Vorbild des ULD Schleswig-Holstein. Hierfür ist eine Änderung der Bayerischen Verfassung erforderlich."
+      }
+    },
+    "fwb": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Informatikunterricht gibt es in Bayern in unterschiedlichen Ausprägungen als Pflichtfach an allen Schulformen. Bayern gehört zu den wenigen Bundesländern, an deren Gymnasien in der Sekundarstufe I verpflichtender Informatikunterricht für alle Schülerinnen und Schüler stattfindet. An den Realschulen ist die Informatik in ein verpflichtendes Verbundfach „Informationstechnologie“ integriert. An den Mittelschulen gibt es ebenfalls ein Pflichtfach Informatik. Je nach gewählter Schulform werden im Unterricht in unterschiedlichem Umfang allgemeine sowie berufs- bzw. studienvorbereitende Kompetenzen aus dem Informatikbereich entwickelt und gefestigt. Somit kann Bayern ein handlungsorientiertes und interdisziplinär ausgerichtetes Pflichtfach Informatik an allen weiterführenden Schularten vorweisen."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wird bereits umgesetzt: Die Digitalisierung der bayerischen Schulen wurde mit mehr als zwei Milliarden Euro vorangetrieben. Allen Lehrkräften und Referendaren in Bayern wurden mit Ablauf des Schuljahres 2021/22 Lehrer-Dienst-Geräte zur Verfügung gestellt. Zudem wurden hunderttausende Schüler-Geräte angeschafft."
+      },
+      "2": {
+        "selection": "c",
+        "context": "",
+        "statement": "Wir wollen kein verpflichtendes Modul, aber mit Nachdruck zeigen, wie wichtig Digitalkompetenz ist. U.a. mit dem Hochschulinnovationsgesetz haben wir den Hochschulen neue Handlungsspielräume zur Förderung von Entrepreneurship und Gründungskultur eröffnet. Wir sehen die Bayerische Wissenschafts- und Forschungslandschaft hier auf einem guten Weg, den wir weiter intensiv unterstützen werden."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen Digitalisierung in öffentlichen Verwaltungen konsequent umsetzen. Und „Digital Streetwork“ in Bayern verstetigen."
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "6": {
+        "selection": "c",
+        "context": "",
+        "statement": "Unser Wahlsystem hat sich über Jahre bewährt, hier sehen wir keine Notwendigkeit zur Veränderung. Außerdem ist digitales Wählen in Zeiten großangelegter Hackerangriffe  - die besonders in Zeiten von Wahlen zunehmen - nicht zielführend."
+      },
+      "7": {
+        "selection": "b",
+        "context": "",
+        "statement": "Die Angebote für Digitales Bezahlen sollten immer mehr ausgebaut werden. Gleichzeitig sollten analoge Bezahlmöglichkeiten erhalten bleiben, gerade auch in Hinblick auf ältere Mitbürgerinnen und Mitbürger."
+      },
+      "8": {
+        "selection": "b",
+        "context": "",
+        "statement": "Das streben wir an, denn Open-Data-Angebote in den öffentlichen Verwaltungen können aus unserer Sicht einen umfassenden bürger- und unternehmerfreundlichen Service bieten."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Es ist uns wichtig die bürokratischen Erfordernisse für die Teilnahme an öffentlichen Ausschreibungen so niedrig wie möglich zu halten. Auch für kleine und mittlere Unternehmen sowie für Startups muss es möglich sein sich um Aufträge der öffentlichen Hand zu bewerben, ohne dass dafür übermäßige Aufwände anfallen. Unter anderem haben wir uns beim Bund für eine einheitliche Ausgestaltung des digitalen Zugangs zu Ausschreibung eingesetzt."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen die unterstützenden Maßnahmen des Freistaats fortführen, wie die Initiative „Gründerland.Bayern“, die Stärkung des Wagniskapitalangebots und die 19 Digitalen Gründerzentren an 28 Standorten sowie weitere rund 40 allgemeine und Technologieorientierte Gründerzentren in ganz Bayern. Mit dem Finanzierungsnetzwerk BayStartUP und den Angeboten von Bayern Kapital mit Seedfonds Bayern, Innovationsfonds, Innovationsfonds EFRE, Wachstumsfonds Bayern und ScaleUp-Fonds Bayern stehen in Bayern passgenaue und starke staatliche Wagniskapitalfördermöglichkeiten zur Verfügung. Diese wollen wir fortführen und bedarfsgerecht weiterentwickeln."
+      },
+      "11": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "d",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir fordern, die Schaffung von 1000 Stellen für polizeiausbildungsferne Tätigkeiten zur Entlastung der Polizeibeamten, mit Fokus u.a. auf IT-Fachkräfte in Angriff zu nehmen."
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "d",
+        "context": "",
+        "statement": ""
+      }
+    },
+    "afd": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die AfD will in Schulen, Bildungs- und Forschungseinrichtungen den Fächern Mathematik, Informatik, Natur- und Ingenieurwissenschaften einen größeren Stellenwert einräumen, das Wissens- und Leistungsniveau erhöhen, den Wettbewerb frei von Ideologie und Politik fördern und eine Kultur der Technikchancen etablieren."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "Der Zustand der Schulen muss wieder dem Niveau einer Bildungsnation und eines modernen Industrielandes entsprechen. Die Anschaffung und Wartung der IT-Ausstattung stellt der Freistaat sicher."
+      },
+      "2": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die AfD will in Schulen, Bildungs- und Forschungseinrichtungen den Fächern Mathematik, Informatik, Natur-und Ingenieurwissenschaften einen größeren Stellenwert einräumen, das Wissens- und Leistungsniveau erhöhen, den Wettbewerb frei von Ideologie und Politik fördern und eine Kultur der Technikchancen etablieren. Im Zuge von Industrie 4.0 findet eine durchgängige Digitalisierung aller Berufsfelder statt. Dafür müssen Infrastruktur, Wissen und Ausbildung bereitstehen, die den hohen Ansprüchen genügen."
+      },
+      "3": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wir fordern eine zügige Umsetzung des Online-Zugang-Gesetzes (OZG) in Bayern, um die Geschäftsprozesse der öffentlichen Verwaltung weiter zu digitalisieren. Standardisierte Schnittstellen und eine kooperative Entwicklung tragen dazu bei, Mehrfach-Entwicklungen der Städte und Gemeinden zu vermeiden, um dadurch gemeinsam die angestrebten Ziele schneller zu erreichen. Dabei muss jedoch sichergestellt sein, dass bei der Verwaltung auch in Zukunft eine niederschwellige, persönliche Kontaktaufnahme möglich bleibt."
+      },
+      "4": {
+        "selection": "b",
+        "context": "",
+        "statement": "Digitalisierung ist eine Querschnittsaufgabe, welche die gesamte Verwaltung betrifft. Sollten Kompetenzen in einem Digitalisierungsministerium weiter gebündelt werden, so müssen die Kompetenzen dieses Ministeriums dringend erweitert werden."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "Als zukunftsorientierte und technologieoffene Partei befördert die AfD die Digitalisierung und deren Weiterentwicklung am Industriestandort Deutschland mit den Schwerpunkten Industrie 4.0, digitale Verwaltung und Künstliche Intelligenz. Die Verwaltung ist zu digitalisieren; sämtliche Anträge müssen digital eingereicht werden können."
+      },
+      "6": {
+        "selection": "c",
+        "context": "",
+        "statement": "Eine Online-Wahl zum Landtag oder anderen Wahlen lehnt die AfD ab."
+      },
+      "7": {
+        "selection": "b",
+        "context": "",
+        "statement": "Digitales Bazahlen kann nur eine Möglichkeit sein, welcher wir ihm Rahmen der digitalisierung der Verwaltung und unter Wahrung sämtlicher Sicherheitsstandards und des Datenschutzes offen gegenüber stehen. Der Bürger soll die Wahlfreiheit haben. Gesetzliches Zahlungsmittel ist immer noch Bargeld, woran die festhalten will. Daher muss auch die Zahlung mittels Bargeld weiter möglich sein."
+      },
+      "8": {
+        "selection": "c",
+        "context": "",
+        "statement": "Die AfD steht für Datenschutz und Datensicherheit ohne ausufernde Bürokratie. Die AfD Bayern fordert die Abschaffung der Datenschutz-Grundverordnung (DSGVO) und deren Ersatz durch ein neues, schlankes Datenschutzgesetz zur Wahrung der informationellen Selbstbestimmung der Bürger. Datenschutz darf kein Selbstzweck sein und ökonomische Entwicklungen behindern, sondern soll zielgerichtet mit den mildesten Eingriffen die berechtigten Interessen der Bürger vor dem Missbrauch ihrer Daten schützen. Einwilligungen zur Datenverarbeitung müssen jederzeit und wirksam widerrufbar sein."
+      },
+      "9": {
+        "selection": "b",
+        "context": "",
+        "statement": "Eine Existenzgründung muss innerhalb eines Tages möglich sein. Außerdem muss ein ideologiefreier Zugang zu Wagniskapital für Unternehmensgründungen erleichtert werden."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Junge Technologieunternehmen sind auf Kapital angewiesen, um ihre Entwicklungen voranzutreiben. Risikokapitalgeber sind vorrangig am Gewinn interessiert, der viel zu oft durch frühen Verkauf der Anteile an internationale Konzerne realisiert wird. Die AfD möchte vielversprechende junge Technologieunternehmen mit ihrer Innovationskraft, ihrer Wertschöpfung und ihren Arbeitsplätzen in Bayern halten. Dazu strebt die AfD einen Ausbau der Fördermöglichkeiten an, die Risikokapital im Austausch gegen Firmenanteile zur Verfügung stellen, aber keinen Einfluss auf Unternehmensentscheidungen ausüben."
+      },
+      "11": {
+        "selection": "b",
+        "context": "",
+        "statement": "Die AfD vertraut hier auf den freien (Arbeits-) Markt. Deutsche Arbeitnehmer dürfen aber bei der Stellenbesetzung nicht benachteiligt werden."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die AfD steht für reduzierte Bürokratie und vereinfachte Genehmigungsverfahren."
+      },
+      "13": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wir fordern, den kabelgebundenen Breitbandausbau in Bayern endlich flächendeckend abzuschließen und dabei bevorzugt Glasfaser zu verwenden. Die Mobilfunkversorgung muss in ländlichen Regionen, insbesondere an Bahnstrecken und Hauptverkehrsstraßen, sichergestellt werden. Flächenabdeckung hat Vorrang vor Breitband. Die bei dem Ausbau der digitalen Infrastruktur benötigte Hardware muss von staatlich zertifizierten, zuverlässigen Anbietern stammen, um Unabhängigkeit und Souveränität zu gewährleisten."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Aus der fortschreitenden Digitalisierung folgt eine neue Verwundbarkeit von Bürgern, Industrie und Staat, die von Kriminellen, unfreundlich gesinnten Ländern oder der eigenen Regierung ausgenutzt werden kann. Um Bürger, Unternehmen und Behörden zu schützen, fordern wir eine massive Verstärkung der IT-Sicherheit. Dieses Ziel muss sich in Aus- und Weiterbildung sowie zielgerichteter Innovation widerspiegeln. Da der Faktor Mensch das größte Sicherheitsrisiko darstellt, müssen die Mitarbeiter digitaler Infrastrukturen für die Gefahren sensibilisiert und entsprechend weitergebildet werden. Die Ende-zu-Ende-Verschlüsselung muss Standard in der Kommunikation werden."
+      },
+      "15": {
+        "selection": "b",
+        "context": "",
+        "statement": "Zensur in digitalen Medien lehnen wir ab. Den Straftatbestand der Hassrede sehen wir kritisch. Grundsätzlich sollten aber Beleidigungen, Bedrohungen und andere Straftaten im Netz besser aufgeklärt werden."
+      },
+      "16": {
+        "selection": "b",
+        "context": "",
+        "statement": "Die AfD bekennt sich zur föderalen Struktur der Bundesrepublik Deutschland. Die AfD steht für Datenschutz und Datensicherheit ohne ausufernde Bürokratie. Die AfD Bayern fordert die Abschaffung der Datenschutz-Grundverordnung (DSGVO) und deren Ersatz durch ein neues, schlankes Datenschutzgesetz zur Wahrung der informationellen Selbstbestimmung der Bürger. Datenschutz darf kein Selbstzweck sein und ökonomische Entwicklungen behindern, sondern soll zielgerichtet mit den mildesten Eingriffen die berechtigten Interessen der Bürger vor dem Missbrauch ihrer Daten schützen. Einwilligungen zur Datenverarbeitung müssen jederzeit und wirksam widerrufbar sein."
+      }
+    }
+  }
+
+
+}
