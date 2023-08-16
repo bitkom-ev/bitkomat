@@ -58,8 +58,7 @@
 <body id="body" name="body" class="flex d-flex flex-column">
 <!-- Navigation -->
 <nav id="top" name="top" class="container mb-5 navbar navbar-expand-md navbar-expand-lg navbar-light">
-    <a class="nav-link nav-link-one" href="" title="Bitkomat Bayern starten" target="_self"><img
-            class="bitkomat logo" src="icon/bitkomat.png"  alt="Logo Bitkomat"/></a>
+    <a class="nav-link nav-link-one" href="" title="Bitkomat Bayern starten" target="_self"><img class="bitkomat logo" src="icon/bitkomat.png"  alt="Logo Bitkomat"/></a>
 </nav>
 
 <main id="main" name="main" class="container-fluid flex-fill">
@@ -177,7 +176,10 @@
                 <button class="btn btn-pdf btn-light" id="pdf-image"
                         title="Mein Ergebnis als PNG-Bild speichern">
   <span class="btn-act matomo_download" data-content-piece="result print"
-        onclick="window.location='#top';printImageFrom('#result-summary-row')"
+        onclick="
+        window.location='#top';
+        printImageFrom('#result-summary-row');
+        _paq.push(['trackLink', '//bitkomat.de/2023-bayern/print-result', 'download']);"
   ><i class="far fa-hdd fa-1x"></i> Ergebnis speichern</span>
                 </button>
                 <button class="btn btn-edit btn-light" id="text-result-below-summary" data-content-piece="result edit"

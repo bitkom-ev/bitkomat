@@ -62,6 +62,15 @@ body {
 #onetrust-banner-sdk #result-summary-row .result-summary-row, #onetrust-consent-sdk #result-summary-row .result-summary-row, header #result-summary-row .result-summary-row, nav#bottom .container #result-summary-row .result-summary-row, .meta #result-summary-row .result-summary-row, .modal.fade #result-summary-row .result-summary-row, #intro #result-summary-row .result-summary-row, #start #result-summary-row .result-summary-row, #bitkomat #result-summary-row .result-summary-row, #overview-weight #result-summary-row .result-summary-row, #overview #result-summary-row .result-summary-row, #result-overview #result-summary-row .result-summary-row, #result-detail #result-summary-row .result-summary-row {
   margin-bottom: 0.2em;
 }
+#onetrust-banner-sdk #result-summary-row .bitkomat.logo, #onetrust-consent-sdk #result-summary-row .bitkomat.logo, header #result-summary-row .bitkomat.logo, nav#bottom .container #result-summary-row .bitkomat.logo, .meta #result-summary-row .bitkomat.logo, .modal.fade #result-summary-row .bitkomat.logo, #intro #result-summary-row .bitkomat.logo, #start #result-summary-row .bitkomat.logo, #bitkomat #result-summary-row .bitkomat.logo, #overview-weight #result-summary-row .bitkomat.logo, #overview #result-summary-row .bitkomat.logo, #result-overview #result-summary-row .bitkomat.logo, #result-detail #result-summary-row .bitkomat.logo {
+  background-color: #ffffff;
+  display: inline-block;
+  max-height: 68px;
+  padding: 4px;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+  visibility: visible !important;
+}
 #onetrust-banner-sdk #result-summary-row .card-head, #onetrust-consent-sdk #result-summary-row .card-head, header #result-summary-row .card-head, nav#bottom .container #result-summary-row .card-head, .meta #result-summary-row .card-head, .modal.fade #result-summary-row .card-head, #intro #result-summary-row .card-head, #start #result-summary-row .card-head, #bitkomat #result-summary-row .card-head, #overview-weight #result-summary-row .card-head, #overview #result-summary-row .card-head, #result-overview #result-summary-row .card-head, #result-detail #result-summary-row .card-head {
   background: transparent;
   height: 40px;

@@ -83,13 +83,13 @@ function initOnclickCallbacks() {
         doSkip();
     });
     $('#btn-bitkomat-bayern-skip-remaining-theses').off('click').click(function () {
-        showResults('weight');
+        showResults('skip & weight');
     });
     $('#btn-bitkomat-bayern-show-weight').off('click').click(function () {
         showResults('weight');
     });
     $('#btn-bitkomat-bayern-change-weight').off('click').click(function () {
-        showResults('weight');
+        showResults('weight & change');
     });
     $('#btn-bitkomat-bayern-show-results').off('click').click(function () {
         showResults('result');
@@ -162,6 +162,7 @@ function recreatePagination(status, real, currentThesis) {
             let thema = data.theses[i].t;
             // 1. init first group
             let currentGroup = '';
+            //console.log(currentThesis);
             // <!-- Thema Zuordnung group gruppe -->
             if (currentThesis >= 0 && currentThesis <= 3 && i >= 0 && i < 4) {
                 currentGroup = 'focused';
@@ -180,6 +181,7 @@ function recreatePagination(status, real, currentThesis) {
             }
 // <!-- Thema Zuordnung group gruppe -->
             if (i == 0 || i == 4 || i == 7 || i == 11 || i == 14 ) {
+                //console.log(i);
                 var listid = i;
                 $('#pagination').append('<div class="pagination-group active ' + currentGroup + '" id="pagination-group-' + i + '">');
                 currentGroup = '';
@@ -893,14 +895,15 @@ function thesisOk(i) {
  *  function printImageFrom to generate png with html2canvas
  */
 function printImageFrom(selected) {
-    let height = $(selected).height();
-    let width = $(selected).width();
-    let color = '#fff';
+    let height = $(selected).height() + 30 ;
+    let width = $(selected).width() + 20 ;
+    let color = '#ffffff';
     let logo = $(".bitkomat.logo");
     logo.css({
-        "background-color": '#ffffff',
+        "background-color": color,
         "visibility": "visible",
         "display": "block",
+        "padding": 4,
         "z-index": 99
     });
 
@@ -950,7 +953,7 @@ function printImageFrom(selected) {
         if (_paq) {
             _paq.push(['trackEvent', 'result', 'store']);
             _paq.push(['trackLink', now + '-bitkomat-bayern-ergebnis.png', 'download'])
-            _paq.push(['disableCookies']);
+            //_paq.push(['disableCookies']);
             _paq.push(['trackPageView']);
             _paq.push(['setLinkTrackingTimer', 500]); // 500 250 milliseconds
         }

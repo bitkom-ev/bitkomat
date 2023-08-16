@@ -1,6 +1,6 @@
 {
   "lists": {
-  "csu": {
+    "csu": {
       "name": "CSU",
       "name_x": "Christlich-Soziale Union in Bayern",
       "img": "<img src='img/csu.png' alt='CSU - Christlich-Soziale Union in Bayern' />"
@@ -30,6 +30,5 @@
       "name_x": "Landesverband der Partei Alternative für Deutschland in Bayern",
       "img": "<img src='img/afd.png' alt='Landesverband der Partei Alternative für Deutschland in Bayern' />"
     }
-
   }
 }

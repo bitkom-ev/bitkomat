@@ -29,10 +29,10 @@ var T =
             _classCallCheck(this, T);
             this.page_title = "Bitkomat Bayern";
 
-            this.swype_info_message_text = "Wischen Sie, um manuell zwischen Themen zu wechseln";
+            this.swype_info_message_text = "Wische, um manuell zwischen Themen zu wechseln";
             this.btn_swype_info_ok = "OK";
             this.start_subtitle = "Digitalpolitischer Parteiencheck zur Landtagswahl 2023";
-            this.start_explanatory_text = `<p class="text-center">Der Bitkomat ermöglicht es Ihnen, Ihre digitalpolitischen Positionen mit denen der aktuell im Deutschen Bundestag vertretenen Parteien abzugleichen.</p>`;
+            this.start_explanatory_text = `<p class="text-center">Der Bitkomat ermöglicht es Ihnen, Ihre digitalpolitischen Positionen mit denen der aktuell im Bayrischen Landtag vertretenen Parteien abzugleichen.</p>`;
             this.btn_start = "<i class=\"fas fa-caret-right\"></i><span >Bitkomat Bayern<br>starten</span>";
             this.btn_toggle_thesis_more_text = "Erläuterung";
             this.btn_important = "<i class=\"fas fa-check-double\"></i>Thema doppelt gewichten";
@@ -41,6 +41,8 @@ var T =
             this.btn_no_text = "<i class=\"fas fa-frown\"></i>Stimme nicht zu";
             this.btn_skip_text = "<i class=\"fas fa-angle-double-right\"></i>Überspringen";
             this.btn_bitkomat_skip_remaining_theses = "<i class=\"fas fa-eye\"></i> Ergebnisse anzeigen";
+            this.btn_make_thesis_double_weight = 'Thema doppelt gewichten';
+            this.btn_thesis_has_double_weight = 'Thema wird doppelt gewichtet';
             this.title_results = "Ergebnisse";
             this.title_results_summary_top = `<p>Die Ergebnisse zeigen die Übereinstimmung Ihrer persönlichen Präferenzen mit den Positionen der Parteien.</p>`;
             this.title_results_summary_bottom = `<p class='text-right small'></p>`;
@@ -51,6 +53,8 @@ var T =
             this.pdf_print_title = 'Hier sehen Sie Ihr Bayern Bitkomat Ergebnis.';
             this.pdf_print_name = 'Dateiname?';
             this.pdf_print_keywords = 'Bitkomat Bayern, Wahlomat, Landtagswahl, Wahl, Partei, Parteiencheck, digitalpolitisch, Position, digitale Themen, digitales Thema, These, Thesen';
+            this.text_no_statement = '<i>Die Partei hat ihrer Antwort auf dieses Thema keine Erläuterung hinzugefügt.</i>';
+            this.error_loading_config_file = '<b>Fehler</b> Die Konfigurationsdatei <a href="config/data.json"><code>config/data.json</code></a> konnte nicht geladen werden. Existiert sie und enthält keine Syntaxfehler?';
         }
 
         _createClass(T, [{
@@ -68,25 +72,24 @@ var T =
             {
                 key: "btn_make_thesis_double_weight",
                 get: function get() {
-                    return "Thema doppelt gewichten";
+                    return this.btn_make_thesis_double_weight;
                 }
             }, {
                 key: "btn_thesis_has_double_weight",
                 get: function get() {
-                    return "Thema wird doppelt gewichtet";
+                    return this.btn_thesis_has_double_weight;
                 }
             },
             {
                 key: "default_text_no_statement",
                 get: function get() {
-                    //return "<small class='text-muted'>Die Partei hat ihrer Antwort auf dieses Thema keine Erläuterung hinzugefügt.</small>";
-                    return "Die Partei hat ihrer Antwort auf dieses Thema keine Erläuterung hinzugefügt.";
+                    return this.text_no_statement;
                 }
             },
             {
                 key: "error_loading_config_file",
                 get: function get() {
-                    return `<b>Fehler</b> Die Konfigurationsdatei <a href="config/data.json"><code>config/data.json</code></a> konnte nicht geladen werden. Existiert sie und enthält keine Syntaxfehler?`;
+                    return this.error_loading_config_file;
                 }
             }]);
 
