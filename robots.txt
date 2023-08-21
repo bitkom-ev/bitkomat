@@ -1,8 +1,5 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow: /10
-Disallow: /11
-Disallow: /12
 Disallow: /config
 Disallow: /js
 Disallow: /lang

@@ -83,13 +83,13 @@ function initOnclickCallbacks() {
         doSkip();
     });
     $('#btn-bitkomat-bayern-skip-remaining-theses').off('click').click(function () {
-        showResults('skip & weight');
+        showResults('weight');
     });
     $('#btn-bitkomat-bayern-show-weight').off('click').click(function () {
         showResults('weight');
     });
     $('#btn-bitkomat-bayern-change-weight').off('click').click(function () {
-        showResults('weight & change');
+        showResults('weight');
     });
     $('#btn-bitkomat-bayern-show-results').off('click').click(function () {
         showResults('result');
@@ -151,6 +151,9 @@ function hideModal(id) {
 }
 
 function recreatePagination(status, real, currentThesis) {
+    let thesen = Object.keys(data.theses).length;
+    //console.log(thesen);
+
     if (status == 0) {
         return $('#pagination').empty();
     } else {
@@ -167,20 +170,17 @@ function recreatePagination(status, real, currentThesis) {
             if (currentThesis >= 0 && currentThesis <= 3 && i >= 0 && i < 4) {
                 currentGroup = 'focused';
             }
-            if (currentThesis >= 4 && currentThesis <= 6 && i >= 3 && i < 6) {
+            if (currentThesis >= 4 && currentThesis <= 8 && i >= 4 && i < 9) {
                 currentGroup = 'focused';
             }
-            if (currentThesis >= 7 && currentThesis <= 10 && i >= 6 && i < 10) {
+            if (currentThesis >= 9 && currentThesis <= 13 && i >= 9 && i < 14) {
                 currentGroup = 'focused';
             }
-            if (currentThesis >= 11 && currentThesis <= 13 && i >= 10 && i < 13) {
-                currentGroup = 'focused';
-            }
-            if (currentThesis >= 14 && currentThesis <= 16 && i >= 13 && i < 16) {
+            if (currentThesis >= 14 && currentThesis <= (thesen - 1) && i >= 14 && i < thesen) {
                 currentGroup = 'focused';
             }
 // <!-- Thema Zuordnung group gruppe -->
-            if (i == 0 || i == 4 || i == 7 || i == 11 || i == 14 ) {
+            if (i == 0 || i == 4 || i == 9 || i == 14) {
                 //console.log(i);
                 var listid = i;
                 $('#pagination').append('<div class="pagination-group active ' + currentGroup + '" id="pagination-group-' + i + '">');
@@ -195,7 +195,7 @@ function recreatePagination(status, real, currentThesis) {
                 '<button class="page-link" onclick="loadThesisNumber(' + i + ')">' + (i + 1) + '</button>' +
                 '</li>');
 // <!-- Thema Zuordnung group gruppe -->
-            if (i == 0 || i == 4 || i == 7 || i == 11 || i == 14 ) {
+            if (i == 0 || i == 4 || i == 9 || i == 14) {
                 $('#pagination-group-' + i).append('</ul>');
                 $('#pagination').append('</div>');
             }
@@ -669,7 +669,7 @@ function initResultDetails(type = 'weight') {
         let group = "";
         let i = thesis_id;
         // <!-- Thema Zuordnung group gruppe -->
-        if (i == 0 || i == 4 || i == 7 || i == 11 || i == 14 ) {
+        if (i == 0 || i == 4 || i == 9 || i == 14) {
             group = `<div class="card-group-name">
             ${thesisGroup}
             </div>`;
@@ -693,7 +693,7 @@ function initResultDetails(type = 'weight') {
         var text = `<div class="border-bottom card ${type}-detail-card-${thesis_id} text-left">
 ${group}
 <!-- Thema: -->        
-        <div class="card-header ${type}-detail-header position-relative" data-content-piece="show ${type} detail for thesis number ${thesisNumber}">`;
+        <div class="card-header ${type}-detail-header position-relative">`;
 // gewichtung: tooltip" data-toggle="tooltip" data-text="Thema doppelt gewichten?"
         if (type === 'weight') {
             text += `<span class="text-center answer-${myAnswer} ${gewichtung} ${weight} title=""><i class="fa fa-check-double"></i></span>`;
@@ -702,7 +702,7 @@ ${group}
         text += `   
             <span class="text-center answer-${myAnswer} ${gewichtung}${weight} title="${gewichten}"><i class="fa fa-check-double"></i></span>
             <span class="text-center thesis-number thesis-number-${thesisNumber}">${thesisNumber}</span>
-            <span class="card-text" >${data.theses[thesis_id].s}</span>
+            <span class="card-text tip" data-text="Erläuterung anzeigen." >${data.theses[thesis_id].s}</span>
 `;
 //      text += getSelectionMarker('', myAnswer, 'me');
         text += `
@@ -895,9 +895,10 @@ function thesisOk(i) {
  *  function printImageFrom to generate png with html2canvas
  */
 function printImageFrom(selected) {
-    let height = $(selected).height() + 30 ;
-    let width = $(selected).width() + 20 ;
+    let height = $(selected).height() + 30;
+    let width = $(selected).width() + 20;
     let color = '#ffffff';
+    // bitkomat-bayern-logo
     let logo = $(".bitkomat.logo");
     logo.css({
         "background-color": color,
