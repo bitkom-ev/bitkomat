@@ -1,4 +1,6 @@
 {
+
+
   "theses": {
     "0": {
       "s": "Informatik als Pflichtfach",
@@ -15,7 +17,7 @@
     "2": {
       "s": "Hochschulen",
       "t": "Bildung & Teilhabe",
-      "l": "Um Zukunftskompetenzen aktiv zu stärken, sollten alle Studiengänge an bayerischen Hochschulen ein verpflichtendes, interdisziplinäres Modul zu Digitalkompetenzen für alle Studierenden vorsehen",
+      "l": "Um Zukunftskompetenzen aktiv zu stärken, sollten alle Studiengänge an bayerischen Hochschulen ein verpflichtendes, interdisziplinäres Modul zu Digitalkompetenzen für alle Studierenden vorsehen.",
       "x": "Gut ausgebildete und qualifizierte Menschen sind die wichtigste Ressource Deutschlands. In einem verpflichtenden interdisziplinären Modul zu digitalen Kompetenzen könnten Studierende verschiedener Fachrichtungen gemeinsam wichtige Fähigkeiten im Umgang mit digitalen Technologien erlernen, um sich besser auf die Anforderungen der Arbeitswelt vorzubereiten."
     },
     "3": {
@@ -45,7 +47,7 @@
     "7": {
       "s": "Digitales Bezahlen",
       "t": "Politik & Verwaltung",
-      "l": "Alle Leistungen der bayrischen Kommunen (z.B. Parkgebühren, Bußgelder, Online-Zugänge zu Bibliotheken) sollte man immer auch digital bezahlen können.",
+      "l": "Alle Leistungen der bayerischen Kommunen (z.B. Parkgebühren, Bußgelder, Online-Zugänge zu Bibliotheken) sollte man immer auch digital bezahlen können.",
       "x": "Digitales Bezahlen, z.B. mit dem Smartphone oder der Kreditkarte, gewinnt für Bürgerinnen und Bürger stetig an Bedeutung. Doch gerade bei den kommunalen Leistungen, wie dem Begleichen von Parkgebühren oder Bußgeldern, ist dies oftmals noch nicht möglich."
     },
     "8": {
@@ -58,7 +60,7 @@
       "s": "Bessere Chancen für Startups",
       "t": "Digitale Wirtschaft & Infrastruktur",
       "l": "Die Vergabe von öffentlichen Aufträgen an Startups sollte erleichtert werden.",
-      "x": "Startups können mit ihren Lösungen Innovation in die öffentliche Verwaltung bringen. Oftmals bleibt jungen Unternehmen aber der Zugang zu öffentlichen Vergabeverfahren versperrt, da die erforderten Projektreferenzen und/oder Wirtschaftlichkeitskriterien für Startups eine unüberwindbare Hürde darstellen. Es wird daher diskutiert, Vergabeverfahren anzupassen, so dass auch junge Unternehmen eine Chance haben, sich auf öffentliche Ausschreibungen zu bewerben."
+      "x": "Startups können mit ihren Lösungen Innovation in die öffentliche Verwaltung bringen. Oftmals bleibt jungen Unternehmen aber der Zugang zu öffentlichen Vergabeverfahren versperrt, da die geforderten Projektreferenzen und/oder Wirtschaftlichkeitskriterien für Startups eine unüberwindbare Hürde darstellen. Es wird daher diskutiert, Vergabeverfahren anzupassen, so dass auch junge Unternehmen eine Chance haben, sich auf öffentliche Ausschreibungen zu bewerben."
     },
     "10": {
       "s": "Wagniskapital für Wachstumsunternehmen",
@@ -76,7 +78,7 @@
       "s": "One Stop Shop für den Netzausbau",
       "t": "Digitale Wirtschaft & Infrastruktur",
       "l": "Um den Ausbau von Glasfasernetzen zu beschleunigen, sollten alle erforderlichen Genehmigungen zum Netzausbau in einem Schritt digital beantragt werden können.",
-      "x": "Unsere Gesellschaft und Wirtschaft ist überall auf hochleistungsfähige Telekommunikationsnetze angewiesen. Den Ausbau erschweren verschiedene baurechtliche Hürde sowie notwendige Genehmigungsverfahren, für die oft unterschiedliche Behörden zuständig sind. Um diese Genehmigungsverfahren für den Netzausbau zu vereinfachen, werden die Genehmigungen bei einer Art „One Stop Shop“ in einem einzigen Schritt beantragt."
+      "x": "Unsere Gesellschaft und Wirtschaft ist überall auf hochleistungsfähige Telekommunikationsnetze angewiesen. Den Ausbau erschweren verschiedene baurechtliche Hürden sowie notwendige Genehmigungsverfahren, für die oft unterschiedliche Behörden zuständig sind. Um diese Genehmigungsverfahren für den Netzausbau zu vereinfachen, werden die Genehmigungen bei einer Art „One Stop Shop“ in einem einzigen Schritt beantragt."
     },
     "13": {
       "s": "Breitbandausbau",
@@ -88,7 +90,7 @@
       "s": "Bekämpfung von Cybercrime",
       "t": "Sicherheit & Datenschutz",
       "l": "Auf den Einsatz gegen Internetkriminalität spezialisierte Polizeieinheiten sollten massiv verstärkt werden.",
-      "x": "Cyberkriminalität ist ein weit verbreitetes Phänomen und verursacht bei Betroffenen unter anderem erhebliche finanzielle Schäden. Um Cybercrime effektiv zu bekämpfen, fordern u.a. Sicherheitsexpertinnen und -experten, dass die vorhandene Expertise bei den Polizeidienststellen gebündelt wird und die personellen und materiellen Ressourcen massiv verstärkt werden"
+      "x": "Cybercrime ist weit verbreitet und verursacht bei Betroffenen unter anderem erhebliche finanzielle Schäden. Um Cybercrime effektiv zu bekämpfen, fordern u.a. Sicherheitsexpertinnen und -experten, dass die vorhandene Expertise bei den Polizeidienststellen gebündelt wird und die personellen und materiellen Ressourcen massiv verstärkt werden."
     },
     "15": {
       "s": "Verfolgung von Hate Speech im Netz",
@@ -103,4 +105,7 @@
       "x": "Bürgerinnen und Bürgern sowie Unternehmen sollte die Erfüllung von datenschutzrechtlichen Vorgaben so einfach wie möglich gemacht werden. In diesem Kontext wird u.a. die Einrichtung einer länderübergreifenden Anlaufstelle für sämtliche datenschutzrelevante Belange gefordert."
     }
   }
+
+
+
 }

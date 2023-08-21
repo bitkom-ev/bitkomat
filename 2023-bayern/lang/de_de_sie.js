@@ -32,7 +32,7 @@ var T =
             this.swype_info_message_text = "Wische, um manuell zwischen Themen zu wechseln";
             this.btn_swype_info_ok = "OK";
             this.start_subtitle = "Digitalpolitischer Parteiencheck zur Landtagswahl 2023";
-            this.start_explanatory_text = `<p class="text-center">Der Bitkomat ermöglicht es Ihnen, Ihre digitalpolitischen Positionen mit denen der aktuell im Bayrischen Landtag vertretenen Parteien abzugleichen.</p>`;
+            this.start_explanatory_text = `<p class="text-center">Der Bitkomat ermöglicht es Ihnen, Ihre digitalpolitischen Positionen mit denen der aktuell im Bayerischen Landtag vertretenen Parteien abzugleichen.</p>`;
             this.btn_start = "<i class=\"fas fa-caret-right\"></i><span >Bitkomat Bayern<br>starten</span>";
             this.btn_toggle_thesis_more_text = "Erläuterung";
             this.btn_important = "<i class=\"fas fa-check-double\"></i>Thema doppelt gewichten";
