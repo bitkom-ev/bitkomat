@@ -210,7 +210,7 @@ a.external .btn,
   background-color: #28d296 !important;
 }
 #pagination div.pagination-group ul.pagination li.page-item.bg-success.bg-double {
-  background-color: #203A3E !important;
+  background-color: rgb(0, 128, 0) !important;
 }
 #pagination div.pagination-group ul.pagination li.page-item.bg-success button.page-link {
   color: #ffffff;
@@ -409,6 +409,11 @@ a.external .btn,
   border: 0;
   background-color: #b2b2b2;
   padding: 0.4em;
+}
+.card .card-header .tip:before {
+  left: 1em;
+  right: initial;
+  top: -2em;
 }
 .card .card-header .card-text {
   background: transparent;
