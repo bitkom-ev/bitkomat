@@ -1,5 +1,4 @@
 <!doctype html>
-<!doctype html>
 <html lang="de">
 <head>
     <meta charset="utf-8"/>
@@ -33,20 +32,28 @@
     <meta property="fb:app_id" content="443245723182166"/>
     <meta name="twitter:site" content="@bitkom"/>
 
-    <link rel="stylesheet" type="text/css" href="./../css-all/bootstrap.min.css"/>
-    <link media="print" rel="stylesheet" type="text/css" href="css/colors.css"/>
-    <link media="print" rel="stylesheet" type="text/css" href="./../css-all//fa-all.css"/>
-    <link media="print" rel="stylesheet" type="text/css" href="css/print.css"/>
+    <link rel="stylesheet" type="text/css" href="../css-all/bootstrap.min.css"/>
     <link media="all" rel="stylesheet" type="text/css" href="css/bitkomat-bayern.css"/>
+    <link media="print" rel="stylesheet" type="text/css" href="css/colors.css"/>
+    <link media="print" rel="stylesheet" type="text/css" href="css/print.css"/>
+    <link media="print" rel="stylesheet" type="text/css" href="../css-all/fa-all.css"/>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png"/>
-    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png"/>
-    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png"/>
+
+    <!-- https://realfavicongenerator.net/ :: -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+
     <meta name="theme-color" content="#ffffff"/>
 
     <meta name="google-site-verification" content="by3_tcZad0fc7HgfB-MrNJm06FS22Vs9DueicSYej9Y"/>
 
-<!-- update in 08.2023 change to usercentrics in 11.2023 -->
+    <!-- update in 08.2023 change to usercentrics in 11.2023 -->
     <!-- OptanonConsentNoticeStart -->
     <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" data-language="de" type="text/javascript" charset="UTF-8" data-domain-script="79fa068f-4795-4c04-9e9e-1851e569f117" ></script>
     <script type="text/javascript">
@@ -58,8 +65,7 @@
 <body id="body" name="body" class="flex d-flex flex-column">
 <!-- Navigation -->
 <nav id="top" name="top" class="container mb-5 navbar navbar-expand-md navbar-expand-lg navbar-light">
-    <a class="nav-link nav-link-one" href="" title="Bitkomat Bayern starten" target="_self"><img
-            class="bitkomat logo" src="icon/bitkomat.png"  alt="Logo Bitkomat"/></a>
+    <a class="nav-link nav-link-one" href="" title="Bitkomat Bayern starten" target="_self"><img class="bitkomat logo" src="icon/logo-bitkomat-bayern-transparent.png" alt="Logo Bitkomat"/></a>
 </nav>
 
 <main id="main" name="main" class="container-fluid flex-fill">
@@ -160,7 +166,7 @@
 
     <div id="result" class=" text-left container" data-content-piece="display result">
         <div class="row text-left" id="result-summary-row" data-content-piece="result display">
-            <img id="bitkomat-bayern-logo" class="bitkomat logo invertiert" src="icon/Bayerlogo-bitkomat-bayern-transparent.png" alt="Bitkomat Logo invertiert"/>
+            <img id="bitkomat-bayern-logo" class="bitkomat logo" src="icon/logo-bitkomat-bayern-transparent.png" alt="Bitkomat Bayern Logo"/>
             <div class="card col-sm-12 offset-sm-0" id="card">
                 <div class="card-body text-left">
                     <h4 id="title-results">title-results</h4>
@@ -177,7 +183,10 @@
                 <button class="btn btn-pdf btn-light" id="pdf-image"
                         title="Mein Ergebnis als PNG-Bild speichern">
   <span class="btn-act matomo_download" data-content-piece="result print"
-        onclick="window.location='#top';printImageFrom('#result-summary-row')"
+        onclick="
+        window.location='#top';
+        printImageFrom('#result-summary-row');
+        _paq.push(['trackLink', '//bitkomat.de/2023-bayern/print-result', 'download']);"
   ><i class="far fa-hdd fa-1x"></i> Ergebnis speichern</span>
                 </button>
                 <button class="btn btn-edit btn-light" id="text-result-below-summary" data-content-piece="result edit"
@@ -193,7 +202,6 @@
                                                         onclick="window.location='#top';">
   <i class="fa fa-check-double fa-1x"></i> Gewichtung ändern</span>
                 </button>
-
             </p>
         </div>
         <div class="" id="result-details">
@@ -284,7 +292,7 @@
     <div class="d-flex flex-wrap justify-content-center align-items-center text-center">
         <div class="mr-1">
             <a class="nav-link nav-link-two" href="//www.bitkom.org" title="Bitkom e.V. Website"
-               target="_blank"><img class="bitkom logo" src="./icon/bitkom.png" alt="Logo Bitkom e.V."/></a>
+               target="_blank"><img class="bitkom logo" src="icon/bitkom.png" alt="Logo Bitkom e.V."/></a>
         </div>
         <div class="mr-1">
             <button class="btn btn-dark" id="btn-results-show-qa" title="FAQ">
