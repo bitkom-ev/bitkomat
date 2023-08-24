@@ -15,7 +15,7 @@
     "2": {
       "s": "Hochschulen",
       "t": "Bildung & Teilhabe",
-      "l": "Um Zukunftskompetenzen aktiv zu stärken, sollten alle Studiengänge an bayerischen Hochschulen ein verpflichtendes, interdisziplinäres Modul zu Digitalkompetenzen für alle Studierenden vorsehen",
+      "l": "Um Zukunftskompetenzen aktiv zu stärken, sollten alle Studiengänge an bayerischen Hochschulen ein verpflichtendes, interdisziplinäres Modul zu Digitalkompetenzen für alle Studierenden vorsehen.",
       "x": "Gut ausgebildete und qualifizierte Menschen sind die wichtigste Ressource Deutschlands. In einem verpflichtenden interdisziplinären Modul zu digitalen Kompetenzen könnten Studierende verschiedener Fachrichtungen gemeinsam wichtige Fähigkeiten im Umgang mit digitalen Technologien erlernen, um sich besser auf die Anforderungen der Arbeitswelt vorzubereiten."
     },
     "3": {
@@ -69,7 +69,7 @@
     "11": {
       "s": "IT-Fachkräfte",
       "t": "Digitale Wirtschaft & Infrastruktur",
-      "l": "Die bayerische „Zentrale Stelle für die Einwanderung von Fachkräften“ sollte ausgebaut werden und sich verstärkt um die Gewinnung von IT-Fachkräften kümmern.",
+      "l": "Die bayerische „Zentrale Stelle für die Einwanderung von Fachkräften“ sollte ausgebaut werden und sich verstärkt um die Gewinnung von IT- Fachkräften kümmern.",
       "x": "Der Mangel an IT-Fachkräften verschärft sich kontinuierlich: Derzeit fehlen in Deutschlands Unternehmen ca. 137.000 IT-Expertinnen und -Experten quer durch alle Branchen. Um dem Fachkräftemangel zu begegnen, sollten Potenziale im In- und Ausland genutzt werden. Spezielle Anlaufstellen im Land können dabei die Fachkräftezuwanderung erleichtern."
     },
     "12": {
@@ -103,8 +103,6 @@
       "x": "Bürgerinnen und Bürgern sowie Unternehmen sollte die Erfüllung von datenschutzrechtlichen Vorgaben so einfach wie möglich gemacht werden. In diesem Kontext wird u.a. die Einrichtung einer länderübergreifenden Anlaufstelle für sämtliche datenschutzrelevante Belange gefordert."
     }
   },
-
-
   "lists": {
     "csu": {
       "name": "CSU",
@@ -137,14 +135,12 @@
       "img": "<img src='img/afd.png' alt='Landesverband der Partei Alternative für Deutschland in Bayern' />"
     }
   },
-
-
   "answers": {
     "csu": {
       "0": {
         "selection": "c",
         "context": "",
-        "statement": "Digitale Kompetenzen sind nicht nur für die Arbeitswelt von enormer Bedeutung, sie sind ebenfalls für einen selbstbestimmten Umgang mit Internet, Social Media und künftigen Anwendungsfelder unabdingbar. Die grundlegenden Kompetenzen müssen gleichsam in allen Schulformen vermittelt werden. Grundsätzlich muss sich der InformatikUnterricht am individuellen Schüler orientieren. Der Informatikunterricht ist bereits fest in den Lehrplänen integriert und kann je nach Schulform als Leistungsfach in Anspruch genommen werden. Die entsprechende Einführung eines Pflichtmoduls ab der Jahrgangsstufe 5 ist aktuell nicht geplant."
+        "statement": "Digitale Kompetenzen sind nicht nur für die Arbeitswelt von enormer Bedeutung, sie sind ebenfalls für einen selbstbestimmten Umgang mit Internet, Social Media und künftigen Anwendungsfelder unabdingbar. Die grundlegenden Kompetenzen müssen gleichsam in allen Schulformen vermittelt werden. Grundsätzlich muss sich der Informatik Unterricht am individuellen Schüler orientieren. Der Informatikunterricht ist bereits fest in den Lehrplänen integriert und kann je nach Schulform als Leistungsfach in Anspruch genommen werden. Die entsprechende Einführung eines Pflichtmoduls ab der Jahrgangsstufe 5 ist aktuell nicht geplant."
       },
       "1": {
         "selection": "b",
@@ -154,7 +150,7 @@
       "2": {
         "selection": "c",
         "context": "",
-        "statement": "Bei der Ausstattung unserer Hochschulen legen wir ein besonderes Augenmerk auf  moderne Ausstattung, so dass Studenten bestmöglich auf die veränderten Anforderungsprofile der digitalen Transformation vorbereitet sind. Ein verpflichtendes Modul zur Vermittlung von digitalen Kompetenzen wäre indes ein unverhältnismäßiger Eingriff in die Freiheit der Forschung und Lehre, welche im Grundgesetz verankert ist. Dank des innovativen Ausbaus der Hochschulen sind derartige Angebote bereits oftmals teil des Curriculums oder können als freiwillige Zusatzkurse besucht werden.  "
+        "statement": "Bei der Ausstattung unserer Hochschulen legen wir ein besonderes Augenmerk auf  moderne Ausstattung, so dass Studenten bestmöglich auf die veränderten Anforderungsprofile der digitalen Transformation vorbereitet sind. Ein verpflichtendes Modul zur Vermittlung von digitalen Kompetenzen wäre indes ein unverhältnismäßiger Eingriff in die Freiheit der Forschung und Lehre, welche im Grundgesetz verankert ist. Dank des innovativen Ausbaus der Hochschulen sind derartige Angebote bereits oftmals Teil des Curriculums oder können als freiwillige Zusatzkurse besucht werden. "
       },
       "3": {
         "selection": "a",
@@ -164,7 +160,7 @@
       "4": {
         "selection": "a",
         "context": "",
-        "statement": "Das bayerische Digitalministerium, das erste seiner Art, erweist sich als absolutes Erfolgsmodell, trotz der heftigen Kritik der Opposition bei seiner Gründung. Mit dem Bayerischen Digitalgesetz, dem Bayerischen Digitalplan und den vielen erfolgreichen Inititative ist Bayern bereits jetzt deutschlandweit Vorreiter bei der Verwaltungsdigitalisierung. Wir werden diesen erfolgreichen Ansatz weiterführen und entwickeln."
+        "statement": "Das bayerische Digitalministerium, das erste seiner Art, erweist sich als absolutes Erfolgsmodell, trotz der heftigen Kritik der Opposition bei seiner Gründung. Mit dem Bayerischen Digitalgesetz, dem Bayerischen Digitalplan und den vielen erfolgreichen Initiative ist Bayern bereits jetzt deutschlandweit Vorreiter bei der Verwaltungsdigitalisierung. Wir werden diesen erfolgreichen Ansatz weiterführen und entwickeln."
       },
       "5": {
         "selection": "b",
@@ -174,7 +170,7 @@
       "6": {
         "selection": "c",
         "context": "",
-        "statement": "Onlinewahlen sind eine interessante Vision, deren Perspektive stetig erforscht und evaluiert wird. Insbesondere Bundestags- und Landtagswahlen haben jedoch die strengen Wahlgrundsätz des Grundgesetzes zu erfüllen und müssen höchsten Sicherheitsstandards genügen. Aus den genannten Gründen lehnen wir Online-Landtagswahlen zum aktuellen Zeitpunkt ab."
+        "statement": "Onlinewahlen sind eine interessante Vision, deren Perspektive stetig erforscht und evaluiert wird. Insbesondere Bundestags- und Landtagswahlen haben jedoch die strengen Wahlgrundsätze des Grundgesetzes zu erfüllen und müssen höchsten Sicherheitsstandards genügen. Aus den genannten Gründen lehnen wir Online-Landtagswahlen zum aktuellen Zeitpunkt ab."
       },
       "7": {
         "selection": "a",
@@ -184,12 +180,12 @@
       "8": {
         "selection": "b",
         "context": "",
-        "statement": "Die Open-Data-Nutzung eröffnet neue Möglichkeiten für die Verwaltung, aber auch für die bayerische Wirtschaft. Gleichzeitig gilt es auch den hohen Stellenwert des Datenschutzes ausreichend zu achten. Open-Data ermöglicht neue Geschäftsmodelle, v.a. mit zivilgesellschaftlichen Nutzen. Bayern ist bereits 2021 GovData beigetreten und möchte anhand eines Landesportals den Datenaustausch vorantreiben. Der Neuaufbau des Portals hat für uns einen hohen Stellenwert."
+        "statement": "Die Open-Data-Nutzung eröffnet neue Möglichkeiten für die Verwaltung, aber auch für die bayerische Wirtschaft. Gleichzeitig gilt es auch den hohen Stellenwert des Datenschutzes ausreichend zu achten. Open-Data ermöglicht neue Geschäftsmodelle, v.a. mit zivilgesellschaftlichem Nutzen. Bayern ist bereits 2021 GovData beigetreten und möchte anhand eines Landesportals den Datenaustausch vorantreiben. Der Neuaufbau des Portals hat für uns einen hohen Stellenwert."
       },
       "9": {
         "selection": "a",
         "context": "",
-        "statement": "Fortschritt entsteht durch mutige Unternehmer und Gründer. Sie stehen für eine dynamische Marktwirtschaft, Fortschritt und Innovation. Bayern ist Gründerland. Daher fördern wir Startups auf verschiedenen Ebene, beispielsweise durch Förderkredite, Beratungen und die Vernetzung, auch mit öffentlichen Stellen. Wir stehen für einen fairen Wettbewerb bezüglich Ausschreibungen ein, so dass sich Startups in den Ausschreibungswettbewerben behaupten und profilieren können."
+        "statement": "Fortschritt entsteht durch mutige Unternehmer und Gründer. Sie stehen für eine dynamische Marktwirtschaft, Fortschritt und Innovation. Bayern ist Gründerland. Daher fördern wir Startups auf verschiedenen Ebenen, beispielsweise durch Förderkredite, Beratungen und die Vernetzung, auch mit öffentlichen Stellen. Wir stehen für einen fairen Wettbewerb bezüglich Ausschreibungen ein, so dass sich Startups in den Ausschreibungswettbewerben behaupten und profilieren können."
       },
       "10": {
         "selection": "a",
@@ -199,7 +195,7 @@
       "11": {
         "selection": "b",
         "context": "",
-        "statement": "Die bayerische Wirtschaft benötigt qualifizierte Zuwanderung von Fachkräften. Wir setzen vor allem auf schnellere Verfahren und die verbesserte Anerkennnung von im Ausland erworbenen Qualifikationen. Aktuell läuft ein Pilotprojekt zur schnelleren Anerkennung von Pflegefachkräften, welches im Erfolgsfall ebenfalls möglicherweise auf weitere Berufsgruppen ausgeweitet werden kann. Grundsätzlich ist die Zentrale Stelle für die Einwanderung von Fachkräften nicht dafür verantwortlich, aktiv im Ausland für Fachkräfte zu werben. Eine solche Initiative müsste von der Branche bzw. Unternehmen ausgehen, beispielsweise in Form von Vermittlungsagenturen bzw. unterbevollmächtigten Dienstleistern."
+        "statement": "Die bayerische Wirtschaft benötigt qualifizierte Zuwanderung von Fachkräften. Wir setzen vor allem auf schnellere Verfahren und die verbesserte Anerkennung von im Ausland erworbenen Qualifikationen. Aktuell läuft ein Pilotprojekt zur schnelleren Anerkennung von Pflegefachkräften, welches im Erfolgsfall ebenfalls möglicherweise auf weitere Berufsgruppen ausgeweitet werden kann. Grundsätzlich ist die zentrale Stelle für die Einwanderung von Fachkräften nicht dafür verantwortlich, aktiv im Ausland für Fachkräfte zu werben. Eine solche Initiative müsste von der Branche bzw. Unternehmen ausgehen, beispielsweise in Form von Vermittlungsagenturen bzw. unterbevollmächtigten Dienstleistern."
       },
       "12": {
         "selection": "a",
@@ -209,7 +205,7 @@
       "13": {
         "selection": "c",
         "context": "",
-        "statement": "Über 90% der bayerischen Haushalte verfügen bereits über eine Anbindung an ein mindestens 100 Mbit/s schnelles Netz, über 97% sind über einen schnellen Internetanschluss an das Netz angebunden. Im Bundesvergleich ist dies trotz unserer ländlichen Prägung der Spitzenwert aller Flächenländer. Mit der Gigabitrichtlinie verfügen wir über ein deutschlandweit einmaliges Förderprogramm, dass gezielt Kommunen beim Ausbau gigabitfähiger Infrastruktur unterstützt, wo kein eigenwirtschaftlicher Ausbau stattfindet. Mit unserer Förderung, und den bereits erteilten Genehmigungen werden wir über 99% der bayerischen Haushalte mit schnellem Internet versorgen können. Unsere Priorität ist der Glasfaserausbau. Für die verbleibenden Liegenschaften, die nach aktuellem Stand nicht von der Förderungen profitieren können, konnte bereits festgestellt werden, dass diese fast vollumfänglich durch nicht leitungsgebundene Angebote bereits eine optimale Anbindung an das Internet verfügen. Der Bedarf an weiteren Förderprogrammen ist im Freistaat aufgrund des erfolgreichen Ausbaus somit nicht gegeben."
+        "statement": "Über 90% der bayerischen Haushalte verfügen bereits über eine Anbindung an ein mindestens 100 Mbit/s schnelles Netz, über 97% sind über einen schnellen Internetanschluss an das Netz angebunden. Im Bundesvergleich ist dies trotz unserer ländlichen Prägung der Spitzenwert aller Flächenländer. Mit der Gigabitrichtlinie verfügen wir über ein deutschlandweit einmaliges Förderprogramm, dass gezielt Kommunen beim Ausbau gigabitfähiger Infrastruktur unterstützt, wo kein eigenwirtschaftlicher Ausbau stattfindet. Mit unserer Förderung, und den bereits erteilten Genehmigungen werden wir über 99% der bayerischen Haushalte mit schnellem Internet versorgen können. Unsere Priorität ist der Glasfaserausbau. Für die verbleibenden Liegenschaften, die nach aktuellem Stand nicht von den Förderungen profitieren können, konnte bereits festgestellt werden, dass diese fast vollumfänglich durch nicht leitungsgebundene Angebote bereits eine optimale Anbindung an das Internet verfügen. Der Bedarf an weiteren Förderprogrammen ist im Freistaat aufgrund des erfolgreichen Ausbaus somit nicht gegeben."
       },
       "14": {
         "selection": "a",
@@ -219,7 +215,7 @@
       "15": {
         "selection": "a",
         "context": "",
-        "statement": " Wir wollen entschlossen gegen Hass und Hetze auch im Netz vorgehen und haben deshalb Deutschlands ersten Hate Speech-Beauftragten eingerichtet. Wir werden ihn und die 22 Sonderdezenerate in ganz Bayern weiter stärken und Hasskriminalität im Netz mit allen Mitteln des Rechtsstaats bekämpfen."
+        "statement": " Wir wollen entschlossen gegen Hass und Hetze auch im Netz vorgehen und haben deshalb Deutschlands ersten Hate Speech-Beauftragten eingerichtet. Wir werden ihn und die 22 Sonderdezernate in ganz Bayern weiter stärken und Hasskriminalität im Netz mit allen Mitteln des Rechtsstaats bekämpfen."
       },
       "16": {
         "selection": "b",
@@ -256,7 +252,7 @@
       "5": {
         "selection": "a",
         "context": "",
-        "statement": "Alle Bürgerinnen und Bürger sollen die zentralen Verwaltungsleistungen in Zukunft digital nutzen können. Dafür setzen wir auf eine breite und umfassende Digitalisierungsstrategie.Darüber hinaus werden wir die digitale Infrastruktur so ausbauen, dass alle Bürgerinnen und Bürger problemlos Zugang zu den Online-Leistungen der Verwaltung hat."
+        "statement": "Alle Bürgerinnen und Bürger sollen die zentralen Verwaltungsleistungen in Zukunft digital nutzen können. Dafür setzen wir auf eine breite und umfassende Digitalisierungsstrategie. Darüber hinaus werden wir die digitale Infrastruktur so ausbauen, dass alle Bürgerinnen und Bürger problemlos Zugang zu den Online-Leistungen der Verwaltung hat."
       },
       "6": {
         "selection": "c",
@@ -276,7 +272,7 @@
       "9": {
         "selection": "a",
         "context": "",
-        "statement": "Wir als BayernSPD wollen, dass Bayern zum Vorreiter wird, wenn es um den Erfolg unserer Startup-Szene geht. Dafür brauchen wir die gleichen Spielregeln wie Firmen aus den USA und China, indem lokale Firmen vor Übernahmen, aber auch vor dem Wettbewerb mit\naußereuropäischen Monopolen geschützt werden. Aufträge des Freistaates werden wir an die Bedingung einer europäischen, technologischen Souveränität koppeln. Wir werden die Gründerzentren in Bayern weiter ausbauen. Wir investieren in den Erfolg der Startups in Bayern. Dazu müssen wir den Kapitalstandort Bayern stärken und unseren Firmen auch in der späteren, meist kapitalintensiven Phase, ihrer Gründung zur Seite stehen."
+        "statement": "Wir als BayernSPD wollen, dass Bayern zum Vorreiter wird, wenn es um den Erfolg unserer Startup-Szene geht. Dafür brauchen wir die gleichen Spielregeln wie Firmen aus den USA und China, indem lokale Firmen vor Übernahmen, aber auch vor dem Wettbewerb mit außereuropäischen Monopolen geschützt werden. Aufträge des Freistaates werden wir an die Bedingung einer europäischen, technologischen Souveränität koppeln. Wir werden die Gründerzentren in Bayern weiter ausbauen. Wir investieren in den Erfolg der Startups in Bayern. Dazu müssen wir den Kapitalstandort Bayern stärken und unseren Firmen auch in der späteren, meist kapitalintensiven Phase, ihrer Gründung zur Seite stehen."
       },
       "10": {
         "selection": "a",
@@ -522,7 +518,7 @@
       "6": {
         "selection": "c",
         "context": "",
-        "statement": "Unser Wahlsystem hat sich über Jahre bewährt, hier sehen wir keine Notwendigkeit zur Veränderung. Außerdem ist digitales Wählen in Zeiten großangelegter Hackerangriffe  - die besonders in Zeiten von Wahlen zunehmen - nicht zielführend."
+        "statement": "Unser Wahlsystem hat sich über Jahre bewährt, hier sehen wir keine Notwendigkeit zur Veränderung. Außerdem ist digitales Wählen in Zeiten großangelegter Hackerangriffe - die besonders in Zeiten von Wahlen zunehmen - nicht zielführend."
       },
       "7": {
         "selection": "b",
@@ -537,12 +533,12 @@
       "9": {
         "selection": "a",
         "context": "",
-        "statement": "Es ist uns wichtig die bürokratischen Erfordernisse für die Teilnahme an öffentlichen Ausschreibungen so niedrig wie möglich zu halten. Auch für kleine und mittlere Unternehmen sowie für Startups muss es möglich sein sich um Aufträge der öffentlichen Hand zu bewerben, ohne dass dafür übermäßige Aufwände anfallen. Unter anderem haben wir uns beim Bund für eine einheitliche Ausgestaltung des digitalen Zugangs zu Ausschreibung eingesetzt."
+        "statement": "Es ist uns wichtig die bürokratischen Erfordernisse für die Teilnahme an öffentlichen Ausschreibungen so niedrig wie möglich zu halten. Auch für kleine und mittlere Unternehmen sowie für Startups muss es möglich sein sich, um Aufträge der öffentlichen Hand zu bewerben, ohne dass dafür übermäßige Aufwände anfallen. Unter anderem haben wir uns beim Bund für eine einheitliche Ausgestaltung des digitalen Zugangs zu Ausschreibung eingesetzt."
       },
       "10": {
         "selection": "a",
         "context": "",
-        "statement": "Wir wollen die unterstützenden Maßnahmen des Freistaats fortführen, wie die Initiative „Gründerland.Bayern“, die Stärkung des Wagniskapitalangebots und die 19 Digitalen Gründerzentren an 28 Standorten sowie weitere rund 40 allgemeine und Technologieorientierte Gründerzentren in ganz Bayern. Mit dem Finanzierungsnetzwerk BayStartUP und den Angeboten von Bayern Kapital mit Seedfonds Bayern, Innovationsfonds, Innovationsfonds EFRE, Wachstumsfonds Bayern und ScaleUp-Fonds Bayern stehen in Bayern passgenaue und starke staatliche Wagniskapitalfördermöglichkeiten zur Verfügung. Diese wollen wir fortführen und bedarfsgerecht weiterentwickeln."
+        "statement": "Wir wollen die unterstützenden Maßnahmen des Freistaats fortführen, wie die Initiative „Gründerland Bayern“, die Stärkung des Wagniskapitalangebots und die 19 Digitalen Gründerzentren an 28 Standorten sowie weitere rund 40 allgemeine und Technologieorientierte Gründerzentren in ganz Bayern. Mit dem Finanzierungsnetzwerk BayStartUP und den Angeboten von Bayern Kapital mit Seedfonds Bayern, Innovationsfonds, Innovationsfonds EFRE, Wachstumsfonds Bayern und ScaleUp-Fonds Bayern stehen in Bayern passgenaue und starke staatliche Wagniskapitalfördermöglichkeiten zur Verfügung. Diese wollen wir fortführen und bedarfsgerecht weiterentwickeln."
       },
       "11": {
         "selection": "b",
@@ -589,7 +585,7 @@
       "2": {
         "selection": "a",
         "context": "",
-        "statement": "Die AfD will in Schulen, Bildungs- und Forschungseinrichtungen den Fächern Mathematik, Informatik, Natur-und Ingenieurwissenschaften einen größeren Stellenwert einräumen, das Wissens- und Leistungsniveau erhöhen, den Wettbewerb frei von Ideologie und Politik fördern und eine Kultur der Technikchancen etablieren. Im Zuge von Industrie 4.0 findet eine durchgängige Digitalisierung aller Berufsfelder statt. Dafür müssen Infrastruktur, Wissen und Ausbildung bereitstehen, die den hohen Ansprüchen genügen."
+        "statement": "Die AfD will in Schulen, Bildungs- und Forschungseinrichtungen den Fächern Mathematik, Informatik, Natur- und Ingenieurwissenschaften einen größeren Stellenwert einräumen, das Wissens- und Leistungsniveau erhöhen, den Wettbewerb frei von Ideologie und Politik fördern und eine Kultur der Technikchancen etablieren. Im Zuge von Industrie 4.0 findet eine durchgängige Digitalisierung aller Berufsfelder statt. Dafür müssen Infrastruktur, Wissen und Ausbildung bereitstehen, die den hohen Ansprüchen genügen."
       },
       "3": {
         "selection": "b",
@@ -614,7 +610,7 @@
       "7": {
         "selection": "b",
         "context": "",
-        "statement": "Digitales Bezahlen kann nur eine Möglichkeit sein, welcher wir ihm Rahmen der Digitalisierung der Verwaltung und unter Wahrung sämtlicher Sicherheitsstandards und des Datenschutzes offen gegenüber stehen. Der Bürger soll die Wahlfreiheit haben. Gesetzliches Zahlungsmittel ist immer noch Bargeld, woran die festhalten will. Daher muss auch die Zahlung mittels Bargeld weiter möglich sein."
+        "statement": "Digitales Bezahlen kann nur eine Möglichkeit sein, welcher wir ihm Rahmen der Digitalisierung der Verwaltung und unter Wahrung sämtlicher Sicherheitsstandards und des Datenschutzes offen gegenüber stehen. Der Bürger soll die Wahlfreiheit haben. Gesetzliches Zahlungsmittel ist immer noch Bargeld, woran die festhalten will. Daher muss auch die Zahlung mittels Bargelds weiter möglich sein."
       },
       "8": {
         "selection": "c",
@@ -663,5 +659,4 @@
       }
     }
   }
-
 }
