@@ -1,106 +1,104 @@
-{
-  "theses": {
-    "0": {
-      "s": "Informatik als Pflichtfach",
-      "t": "Bildung & Teilhabe",
-      "l": "Informatik sollte als Pflichtfach an allen weiterführenden Schulen ab Klasse 5 eingeführt werden.",
-      "x": "Um zukünftig mehr IT-Fachkräfte auszubilden und dem Mangel zu begegnen, aber auch um die digitalen Kompetenzen der Schülerinnen und Schüler zu stärken, diskutieren Politik, Gesellschaft und Wirtschaft über die Einführung von Informatik als Pflichtfach in der Breite."
-    },
-    "1": {
-      "s": "Digitalisierung der Schulen",
-      "t": "Bildung & Teilhabe",
-      "l": "Jede bayerische Schule sollte ein eigenes Budget für digitales Lehren & Lernen erhalten.",
-      "x": "Um digitale Bildungsangebote tatsächlich flächendeckend sicherzustellen, braucht es aus Sicht zahlreicher Expertinnen und Experten die nötige Finanzierung. Ein Weg dafür könnte ein unbürokratisches Budget für digitales Lehren & Lernen für bayerische Schulen sein. Ein solches Budget könnte Raum für neue Ideen und digitale Schulentwicklung bieten und so Schulverantwortlichen die Chance geben, eigenverantwortlich Neues auszuprobieren."
-    },
-    "2": {
-      "s": "Hochschulen",
-      "t": "Bildung & Teilhabe",
-      "l": "Um Zukunftskompetenzen aktiv zu stärken, sollten alle Studiengänge an bayerischen Hochschulen ein verpflichtendes, interdisziplinäres Modul zu Digitalkompetenzen für alle Studierenden vorsehen.",
-      "x": "Gut ausgebildete und qualifizierte Menschen sind die wichtigste Ressource Deutschlands. In einem verpflichtenden interdisziplinären Modul zu digitalen Kompetenzen könnten Studierende verschiedener Fachrichtungen gemeinsam wichtige Fähigkeiten im Umgang mit digitalen Technologien erlernen, um sich besser auf die Anforderungen der Arbeitswelt vorzubereiten."
-    },
-    "3": {
-      "s": "Digitale Streetworker",
-      "t": "Bildung & Teilhabe",
-      "l": "Um den Übergang hin zur vollständig digitalen Verwaltung zu erleichtern, sollten speziell geschulte Verwaltungsangestellte digital weniger versierten Menschen bei ihren digitalen Behördengängen helfen.",
-      "x": "Die Digitalisierung schreitet in allen Bereichen des öffentlichen und privaten Lebens voran. Künftig werden viel mehr Verwaltungsdienstleistungen als heute zeitsparend online in Anspruch genommen werden – z.B. vom Sofa aus. Allerdings ist der Umgang mit solchen Online-Tools nicht für alle selbstverständlich. Damit z.B. auch ältere Personen diese Angebote nutzen können, könnten zu ihrer Unterstützung verstärkt digitale Streetworker eingesetzt werden."
-    },
-    "4": {
-      "s": "Digitalministerium",
-      "t": "Politik & Verwaltung",
-      "l": "Die Landesregierung sollte an einem eigenständigen Digitalministerium festhalten und dessen Zuständigkeiten erweitern.",
-      "x": "In Bayern gibt es seit 2018 ein eigenständiges Digitalministerium. Das Ministerium ist unter anderem für die Digitalisierung der Verwaltung zuständig. Allerdings sind nicht alle digitalrelevanten Themen im Digitalministerium angesiedelt, wie zum Beispiel der Ausbau der digitalen Infrastruktur. Daher wird diskutiert, ob es sinnvoll ist, weitere digitalpolitische Kompetenzen in diesem Ressort zu bündeln."
-    },
-    "5": {
-      "s": "Digitale Verwaltung",
-      "t": "Politik & Verwaltung",
-      "l": "Bayern muss Vorreiter bei der Verwaltungsdigitalisierung sein: Jeder Behördengang sollte bis 2025 komplett online möglich sein.",
-      "x": "Die digitale Transformation der öffentlichen Verwaltung bietet aus Sicht vieler Expertinnen und Experten große Potenziale für Staat, Gesellschaft und Wirtschaft: Bürgerinnen und Bürger sowie Unternehmen werden entlastet, Verwaltungshandeln wird flexibler, nutzerfreundlicher und transparenter und verwaltungsinterne Ressourcen können effizient genutzt werden. Bislang sind jedoch viele wichtige Verwaltungsdienstleistungen noch nicht digital verfügbar."
-    },
-    "6": {
-      "s": "Online-Wahl",
-      "t": "Politik & Verwaltung",
-      "l": "Bei Landtagswahlen sollte man seine Stimme zukünftig online abgeben können.",
-      "x": "Die Digitalisierung eröffnet eine Vielzahl neuer Beteiligungsformen: Parteitage finden virtuell statt, Aktionärsversammlungen werden online abgehalten und Vereine verlegen ihre Treffen in den digitalen Raum. Dabei kann zum Teil digital abgestimmt werden. Ob die Möglichkeit digitaler Partizipation auch auf die Stimmabgabe bei der Landtagswahl ausgeweitet werden soll, ist aber umstritten."
-    },
-    "7": {
-      "s": "Digitales Bezahlen",
-      "t": "Politik & Verwaltung",
-      "l": "Alle Leistungen der bayerischen Kommunen (z.B. Parkgebühren, Bußgelder, Online-Zugänge zu Bibliotheken) sollte man immer auch digital bezahlen können.",
-      "x": "Digitales Bezahlen, z.B. mit dem Smartphone oder der Kreditkarte, gewinnt für Bürgerinnen und Bürger stetig an Bedeutung. Doch gerade bei den kommunalen Leistungen, wie dem Begleichen von Parkgebühren oder Bußgeldern, ist dies oftmals noch nicht möglich."
-    },
-    "8": {
-      "s": "Open Data",
-      "t": "Politik & Verwaltung",
-      "l": "Bürgerinnen und Bürger sowie Unternehmen und Organisationen sollten ein explizites Recht auf die Nutzung von Verwaltungsdaten erhalten und die Bereitstellung im Zweifel einklagen können.",
-      "x": "Daten werden immer wertvoller und der Zugang zu ihnen ist ein wichtiger Schlüssel für die Digitalisierung von Wirtschaft und Gesellschaft. Ein Recht auf Nutzung von Verwaltungsdaten könnte sicherstellen, dass auch Bürgerinnen und Bürger sowie Unternehmen zukünftig stärker von den Datenschätzen der Verwaltung profitieren."
-    },
-    "9": {
-      "s": "Bessere Chancen für Startups",
-      "t": "Digitale Wirtschaft & Infrastruktur",
-      "l": "Die Vergabe von öffentlichen Aufträgen an Startups sollte erleichtert werden.",
-      "x": "Startups können mit ihren Lösungen Innovation in die öffentliche Verwaltung bringen. Oftmals bleibt jungen Unternehmen aber der Zugang zu öffentlichen Vergabeverfahren versperrt, da die geforderten Projektreferenzen und/oder Wirtschaftlichkeitskriterien für Startups eine unüberwindbare Hürde darstellen. Es wird daher diskutiert, Vergabeverfahren anzupassen, so dass auch junge Unternehmen eine Chance haben, sich auf öffentliche Ausschreibungen zu bewerben."
-    },
-    "10": {
-      "s": "Wagniskapital für Wachstumsunternehmen",
-      "t": "Digitale Wirtschaft & Infrastruktur",
-      "l": "Der Wachstums- und Scale-Up-Fonds von Bayern Kapital sollten verstetigt und ausgebaut werden.",
-      "x": "Der Wachstums- und der Scale-Up-Fonds in Bayern fördern insbesondere Startups in der Wachstumsphase. Die Fonds sind damit eine wichtige Unterstützung für Gründerinnen und Gründer im Freistaat, die häufig noch vor der Herausforderung stehen, ausreichend Wachstumsfinanzierung zu erhalten."
-    },
-    "11": {
-      "s": "IT-Fachkräfte",
-      "t": "Digitale Wirtschaft & Infrastruktur",
-      "l": "Die bayerische „Zentrale Stelle für die Einwanderung von Fachkräften“ sollte ausgebaut werden und sich verstärkt um die Gewinnung von IT- Fachkräften kümmern.",
-      "x": "Der Mangel an IT-Fachkräften verschärft sich kontinuierlich: Derzeit fehlen in Deutschlands Unternehmen ca. 137.000 IT-Expertinnen und -Experten quer durch alle Branchen. Um dem Fachkräftemangel zu begegnen, sollten Potenziale im In- und Ausland genutzt werden. Spezielle Anlaufstellen im Land können dabei die Fachkräftezuwanderung erleichtern."
-    },
-    "12": {
-      "s": "One Stop Shop für den Netzausbau",
-      "t": "Digitale Wirtschaft & Infrastruktur",
-      "l": "Um den Ausbau von Glasfasernetzen zu beschleunigen, sollten alle erforderlichen Genehmigungen zum Netzausbau in einem Schritt digital beantragt werden können.",
-      "x": "Unsere Gesellschaft und Wirtschaft ist überall auf hochleistungsfähige Telekommunikationsnetze angewiesen. Den Ausbau erschweren verschiedene baurechtliche Hürden sowie notwendige Genehmigungsverfahren, für die oft unterschiedliche Behörden zuständig sind. Um diese Genehmigungsverfahren für den Netzausbau zu vereinfachen, werden die Genehmigungen bei einer Art „One Stop Shop“ in einem einzigen Schritt beantragt."
-    },
-    "13": {
-      "s": "Breitbandausbau",
-      "t": "Digitale Wirtschaft & Infrastruktur",
-      "l": "Wer an seinem Wohnort bislang keinen Breitbandzugang hat, sollte vom Freistaat eine finanzielle Unterstützung für schnelles Internet via Satellit erhalten.",
-      "x": "Schnelles Internet ist unentbehrlich. Haushalte, deren Anschluss an das Breitbandnetz z.B. aufgrund ihrer abgelegenen Lage unwirtschaftlich wäre oder erst langfristig möglich ist, könnten zukünftig z.B. mit schnellem Internet via Satellit versorgt werden – staatlich mit einem einmaligen Zuschuss gefördert."
-    },
-    "14": {
-      "s": "Bekämpfung von Cybercrime",
-      "t": "Sicherheit & Datenschutz",
-      "l": "Auf den Einsatz gegen Internetkriminalität spezialisierte Polizeieinheiten sollten massiv verstärkt werden.",
-      "x": "Cybercrime ist weit verbreitet und verursacht bei Betroffenen unter anderem erhebliche finanzielle Schäden. Um Cybercrime effektiv zu bekämpfen, fordern u.a. Sicherheitsexpertinnen und -experten, dass die vorhandene Expertise bei den Polizeidienststellen gebündelt wird und die personellen und materiellen Ressourcen massiv verstärkt werden."
-    },
-    "15": {
-      "s": "Verfolgung von Hate Speech im Netz",
-      "t": "Sicherheit & Datenschutz",
-      "l": "Die bayerischen Hate-Speech-Sonderdezernate sollten besser ausgestattet werden.",
-      "x": "Allzu oft werden Nutzerinnen und Nutzer Opfer von Hasskommentaren im Internet. Um diesem Phänomen noch besser begegnen zu können, wird diskutiert, die Sonderdezernate zur Bekämpfung von Hate Speech in Bayern besser auszustatten."
-    },
-    "16": {
-      "s": "Einheitlicher Datenschutz",
-      "t": "Sicherheit & Datenschutz",
-      "l": "Bayern sollte sich für mehr Einheitlichkeit in der Datenschutzaufsicht einsetzen – mit dem Ziel einer gemeinsamen Datenschutzaufsicht für alle Länder und den Bund.",
-      "x": "Bürgerinnen und Bürgern sowie Unternehmen sollte die Erfüllung von datenschutzrechtlichen Vorgaben so einfach wie möglich gemacht werden. In diesem Kontext wird u.a. die Einrichtung einer länderübergreifenden Anlaufstelle für sämtliche datenschutzrelevante Belange gefordert."
-    }
-  }
+"theses": {
+"0": {
+"s": "Informatik als Pflichtfach",
+"t": "Bildung & Teilhabe",
+"l": "Informatik sollte als Pflichtfach an allen weiterführenden Schulen ab Klasse 5 eingeführt werden.",
+"x": "Um zukünftig mehr IT-Fachkräfte auszubilden und dem Mangel zu begegnen, aber auch um die digitalen Kompetenzen der Schülerinnen und Schüler zu stärken, diskutieren Politik, Gesellschaft und Wirtschaft über die Einführung von Informatik als Pflichtfach in der Breite."
+},
+"1": {
+"s": "Digitalisierung der Schulen",
+"t": "Bildung & Teilhabe",
+"l": "Jede bayerische Schule sollte ein eigenes Budget für digitales Lehren & Lernen erhalten.",
+"x": "Um digitale Bildungsangebote tatsächlich flächendeckend sicherzustellen, braucht es aus Sicht zahlreicher Expertinnen und Experten die nötige Finanzierung. Ein Weg dafür könnte ein unbürokratisches Budget für digitales Lehren & Lernen für bayerische Schulen sein. Ein solches Budget könnte Raum für neue Ideen und digitale Schulentwicklung bieten und so Schulverantwortlichen die Chance geben, eigenverantwortlich Neues auszuprobieren."
+},
+"2": {
+"s": "Hochschulen",
+"t": "Bildung & Teilhabe",
+"l": "Um Zukunftskompetenzen aktiv zu stärken, sollten alle Studiengänge an bayerischen Hochschulen ein verpflichtendes, interdisziplinäres Modul zu Digitalkompetenzen vorsehen.",
+"x": "Gut ausgebildete und qualifizierte Menschen sind die wichtigste Ressource Deutschlands. In einem verpflichtenden interdisziplinären Modul zu digitalen Kompetenzen könnten Studierende verschiedener Fachrichtungen gemeinsam wichtige Fähigkeiten im Umgang mit digitalen Technologien erlernen, um sich besser auf die Anforderungen der Arbeitswelt vorzubereiten."
+},
+"3": {
+"s": "Digitale Streetworker",
+"t": "Bildung & Teilhabe",
+"l": "Um den Übergang hin zur vollständig digitalen Verwaltung zu erleichtern, sollten speziell geschulte Verwaltungsangestellte digital weniger versierten Menschen bei ihren digitalen Behördengängen helfen.",
+"x": "Die Digitalisierung schreitet in allen Bereichen des öffentlichen und privaten Lebens voran. Künftig werden viel mehr Verwaltungsdienstleistungen als heute zeitsparend online in Anspruch genommen werden – z.B. vom Sofa aus. Allerdings ist der Umgang mit solchen Online-Tools nicht für alle selbstverständlich. Damit z.B. auch ältere Personen diese Angebote nutzen können, könnten zu ihrer Unterstützung verstärkt digitale Streetworker eingesetzt werden."
+},
+"4": {
+"s": "Digitalministerium",
+"t": "Politik & Verwaltung",
+"l": "Die Landesregierung sollte an einem eigenständigen Digitalministerium festhalten und dessen Zuständigkeiten erweitern.",
+"x": "In Bayern gibt es seit 2018 ein eigenständiges Digitalministerium. Das Ministerium ist unter anderem für die Digitalisierung der Verwaltung zuständig. Allerdings sind nicht alle digitalrelevanten Themen im Digitalministerium angesiedelt, wie zum Beispiel der Ausbau der digitalen Infrastruktur. Daher wird diskutiert, ob es sinnvoll ist, weitere digitalpolitische Kompetenzen in diesem Ressort zu bündeln."
+},
+"5": {
+"s": "Digitale Verwaltung",
+"t": "Politik & Verwaltung",
+"l": "Bayern muss Vorreiter bei der Verwaltungsdigitalisierung sein: Jeder Behördengang sollte bis 2025 komplett online möglich sein.",
+"x": "Die digitale Transformation der öffentlichen Verwaltung bietet aus Sicht vieler Expertinnen und Experten große Potenziale für Staat, Gesellschaft und Wirtschaft: Bürgerinnen und Bürger sowie Unternehmen werden entlastet, Verwaltungshandeln wird flexibler, nutzerfreundlicher und transparenter und verwaltungsinterne Ressourcen können effizient genutzt werden. Bislang sind jedoch viele wichtige Verwaltungsdienstleistungen noch nicht digital verfügbar."
+},
+"6": {
+"s": "Online-Wahl",
+"t": "Politik & Verwaltung",
+"l": "Bei Landtagswahlen sollte man seine Stimme zukünftig online abgeben können.",
+"x": "Die Digitalisierung eröffnet eine Vielzahl neuer Beteiligungsformen: Parteitage finden virtuell statt, Aktionärsversammlungen werden online abgehalten und Vereine verlegen ihre Treffen in den digitalen Raum. Dabei kann zum Teil digital abgestimmt werden. Ob die Möglichkeit digitaler Partizipation auch auf die Stimmabgabe bei der Landtagswahl ausgeweitet werden soll, ist aber umstritten."
+},
+"7": {
+"s": "Digitales Bezahlen",
+"t": "Politik & Verwaltung",
+"l": "Alle Leistungen der bayerischen Kommunen (z.B. Parkgebühren, Bußgelder, Online-Zugänge zu Bibliotheken) sollte man immer auch digital bezahlen können.",
+"x": "Digitales Bezahlen, z.B. mit dem Smartphone oder der Kreditkarte, gewinnt für Bürgerinnen und Bürger stetig an Bedeutung. Doch gerade bei den kommunalen Leistungen, wie dem Begleichen von Parkgebühren oder Bußgeldern, ist dies oftmals noch nicht möglich."
+},
+"8": {
+"s": "Open Data",
+"t": "Politik & Verwaltung",
+"l": "Bürgerinnen und Bürger sowie Unternehmen und Organisationen sollten ein explizites Recht auf die Nutzung von Verwaltungsdaten erhalten und die Bereitstellung im Zweifel einklagen können.",
+"x": "Daten werden immer wertvoller und der Zugang zu ihnen ist ein wichtiger Schlüssel für die Digitalisierung von Wirtschaft und Gesellschaft. Ein Recht auf Nutzung von Verwaltungsdaten könnte sicherstellen, dass auch Bürgerinnen und Bürger sowie Unternehmen zukünftig stärker von den Datenschätzen der Verwaltung profitieren."
+},
+"9": {
+"s": "Bessere Chancen für Startups",
+"t": "Digitale Wirtschaft & Infrastruktur",
+"l": "Die Vergabe von öffentlichen Aufträgen an Startups sollte erleichtert werden.",
+"x": "Startups können mit ihren Lösungen Innovation in die öffentliche Verwaltung bringen. Oftmals bleibt jungen Unternehmen aber der Zugang zu öffentlichen Vergabeverfahren versperrt, da die geforderten Projektreferenzen und/oder Wirtschaftlichkeitskriterien für Startups eine unüberwindbare Hürde darstellen. Es wird daher diskutiert, Vergabeverfahren anzupassen, so dass auch junge Unternehmen eine Chance haben, sich auf öffentliche Ausschreibungen zu bewerben."
+},
+"10": {
+"s": "Wagniskapital für Wachstumsunternehmen",
+"t": "Digitale Wirtschaft & Infrastruktur",
+"l": "Der Wachstums- und Scale-Up-Fonds von Bayern Kapital sollten verstetigt und ausgebaut werden.",
+"x": "Der Wachstums- und der Scale-Up-Fonds in Bayern fördern insbesondere Startups in der Wachstumsphase. Die Fonds sind damit eine wichtige Unterstützung für Gründerinnen und Gründer im Freistaat, die häufig noch vor der Herausforderung stehen, ausreichend Wachstumsfinanzierung zu erhalten."
+},
+"11": {
+"s": "IT-Fachkräfte",
+"t": "Digitale Wirtschaft & Infrastruktur",
+"l": "Die bayerische „Zentrale Stelle für die Einwanderung von Fachkräften“ sollte ausgebaut werden und sich verstärkt um die Gewinnung von IT-Fachkräften kümmern.",
+"x": "Der Mangel an IT-Fachkräften verschärft sich kontinuierlich: Derzeit fehlen in Deutschlands Unternehmen ca. 137.000 IT-Expertinnen und -Experten quer durch alle Branchen. Um dem Fachkräftemangel zu begegnen, sollten Potenziale im In- und Ausland genutzt werden. Spezielle Anlaufstellen im Land können dabei die Fachkräftezuwanderung erleichtern."
+},
+"12": {
+"s": "One Stop Shop für den Netzausbau",
+"t": "Digitale Wirtschaft & Infrastruktur",
+"l": "Um den Ausbau von Glasfasernetzen zu beschleunigen, sollten alle erforderlichen Genehmigungen zum Netzausbau in einem Schritt digital beantragt werden können.",
+"x": "Unsere Gesellschaft und Wirtschaft ist überall auf hochleistungsfähige Telekommunikationsnetze angewiesen. Den Ausbau erschweren verschiedene baurechtliche Hürden sowie notwendige Genehmigungsverfahren, für die oft unterschiedliche Behörden zuständig sind. Um diese Genehmigungsverfahren für den Netzausbau zu vereinfachen, werden die Genehmigungen bei einer Art „One Stop Shop“ in einem einzigen Schritt beantragt."
+},
+"13": {
+"s": "Breitbandausbau",
+"t": "Digitale Wirtschaft & Infrastruktur",
+"l": "Wer an seinem Wohnort bislang keinen Breitbandzugang hat, sollte vom Freistaat eine finanzielle Unterstützung für schnelles Internet via Satellit erhalten.",
+"x": "Schnelles Internet ist unentbehrlich. Haushalte, deren Anschluss an das Breitbandnetz z.B. aufgrund ihrer abgelegenen Lage unwirtschaftlich wäre oder erst langfristig möglich ist, könnten zukünftig z.B. mit schnellem Internet via Satellit versorgt werden – staatlich mit einem einmaligen Zuschuss gefördert."
+},
+"14": {
+"s": "Bekämpfung von Cybercrime",
+"t": "Sicherheit & Datenschutz",
+"l": "Auf den Einsatz gegen Internetkriminalität spezialisierte Polizeieinheiten sollten massiv verstärkt werden.",
+"x": "Cybercrime ist weit verbreitet und verursacht bei Betroffenen unter anderem erhebliche finanzielle Schäden. Um Cybercrime effektiv zu bekämpfen, fordern u.a. Sicherheitsexpertinnen und -experten, dass die vorhandene Expertise bei den Polizeidienststellen gebündelt wird und die personellen und materiellen Ressourcen massiv verstärkt werden."
+},
+"15": {
+"s": "Verfolgung von Hate Speech im Netz",
+"t": "Sicherheit & Datenschutz",
+"l": "Die bayerischen Hate-Speech-Sonderdezernate sollten besser ausgestattet werden.",
+"x": "Allzu oft werden Nutzerinnen und Nutzer Opfer von Hasskommentaren im Internet. Um diesem Phänomen noch besser begegnen zu können, wird diskutiert, die Sonderdezernate zur Bekämpfung von Hate Speech in Bayern besser auszustatten."
+},
+"16": {
+"s": "Einheitlicher Datenschutz",
+"t": "Sicherheit & Datenschutz",
+"l": "Bayern sollte sich für mehr Einheitlichkeit in der Datenschutzaufsicht einsetzen – mit dem Ziel einer gemeinsamen Datenschutzaufsicht für alle Länder und den Bund.",
+"x": "Bürgerinnen und Bürgern sowie Unternehmen sollte die Erfüllung von datenschutzrechtlichen Vorgaben so einfach wie möglich gemacht werden. In diesem Kontext wird u.a. die Einrichtung einer länderübergreifenden Anlaufstelle für sämtliche datenschutzrelevante Belange gefordert."
 }
+},
