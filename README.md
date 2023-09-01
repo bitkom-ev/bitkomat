@@ -1,8 +1,7 @@
-![Bitkomat](img/logo.svg)
+![Bitkomat](icon/logo-bitkomat.png)
 
-[English Version](README.md)
-
-
+[Updated German Version](README-DE.md)
+## This is the original english Version
 Bitkomat is an implementation of a voting advice application (VAA). It allows users to compare their opinion on selected theses
 to the opinions of groups or individuals competing in an election.
 
