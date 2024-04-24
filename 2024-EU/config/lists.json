@@ -1,0 +1,29 @@
+{
+  "lists": {
+    "cdu": {
+      "name": "CDU",
+      "name_x": "Christliche Demokratische Union Deutschlands",
+      "img": "<img src='img/cdu.png' alt='CDU/CSU - Christliche Demokratische Union Deutschlands' />"
+    },
+    "spd": {
+      "name": "SPD",
+      "name_x": "Sozialdemokratische Partei Deutschlands",
+      "img": "<img src='img/spd.png' alt='SPD - Sozialdemokratische Partei Deutschlands' />"
+    },
+    "fdp": {
+      "name": "FDP",
+      "name_x": "Freie Demokratische Partei",
+      "img": "<img src='img/fdp.png' alt='FDP - Freie Demokratische Partei' />"
+    },
+    "b90": {
+      "name": "BÜNDNIS 90/DIE GRÜNEN",
+      "name_x": "Bündnis 90/Die Grünen",
+      "img": "<img src='img/die-gruenen.png' alt='Bündnis 90/Die Grünen' />"
+    },
+    "afd": {
+      "name": "AfD",
+      "name_x": "Alternative für Deutschland",
+      "img": "<img src='img/afd.png' alt='Alternative für Deutschland' />"
+    }
+  }
+}

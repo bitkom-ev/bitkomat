@@ -1,0 +1,464 @@
+{
+  "answers": {
+    "cdu": {
+      "0": {
+        "selection": "c",
+        "context": "",
+        "statement": "CDU und CSU setzen auf gute Rahmenbedingungen und Freiräume für Unternehmen, anstatt auf Subventionen. Daher wollen wir u. a. mit einem umfassenden Bürokratieabbau und mit neuen Handelsabkommen Freiräume und neue Chancen für Unternehmen schaffen."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "CDU und CSU wollen Künstliche Intelligenz, keine künstliche Bürokratie. Europa soll Zentrum für eine auf ethischen Grundsätzen basierende Entwicklung von Künstlicher Intelligenz werden, die den Menschen dient. CDU und CSU wollen Forschung fördern und beschleunigen, Entwicklung von Anwendungen unterstützen und Freiräume ermöglichen. In diesem Sinne wollen CDU und CSU KI für Wirtschaftswachstum und Fortschritte für die Gesellschaft z.B. im Gesundheitsbereich nutzen. Wir müssen ihre Risiken beherrschen, dürfen aber nicht durch eine Überregulierung die Chancen und Vorteile von KI verpassen. Die neuen Vorschriften dürfen Innovationen in KI nicht abwürgen."
+      },
+      "2": {
+        "selection": "b",
+        "context": "",
+        "statement": "Das bestehende Urheberrecht enthält bereits Regelungen, die einen Ausgleich zwischen KI-Entwicklern und Content Creators schaffen. CDU und CSU werden diese Regelungen vor dem Hintergrund der jüngsten technologischen Entwicklungen im Zusammenhang mit künstlicher Intelligenz genau evaluieren. Ob dies dazu führt, dass aus Sicht der CDU und CSU das geltende Urheberrecht angepasst werden muss, befindet sich derzeit in der Prüfung."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "CDU und CSU setzen sich für eine Offensive für Forschung und Innovation ein, mit der wir eine Vorreiterrolle bei der Entwicklung von Schlüsseltechnologien erreichen wollen. Unser Ziel ist, dass in der EU insgesamt 3 % des Bruttoinlandprodukts (BIP) für Forschung und Entwicklung investiert werden."
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": "Deutschland muss attraktiver für Fachkräfte werden, die Verfahren müssen rein digital bearbeitet werden. Die entsprechenden Arbeitsvisa sind schnell zu erteilen, wenn alle Voraussetzungen für eine Arbeit in Deutschland vorliegen. CDU und CSU wollen den Anteil von Frauen in der Wissenschaft, Forschung, Mathematik und im Ingenieurwesen erhöhen. Gleichzeitig müssen die Fähigkeiten junger Menschen aus ganz Europa zur Bekämpfung des Fachkräftemangels in Deutschland gefördert und genutzt werden. Dafür müssen insbesondere alle Hürden beseitigt werden, die es bei der Arbeitnehmerfreizügigkeit noch gibt."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Überregulierung der Wirtschaft wollen CDU und CSU durch einen sofortigen Belastungsstopp für neue und laufende EU-Initiativen beenden. Die komplexe EU-Gesetzgebung wollen CDU und CSU konsolidieren, die Berichtspflichten für Unternehmen zusammenfassen und überflüssige EU-Regeln abschaffen. Zudem wollen CDU und CSU einen unabhängigen europäischen Normenkontrollrat schaffen, der die Bürokratiekosten misst und auch die Erfahrung in den Mitgliedstaaten mit der Anwendung des EU-Rechts berücksichtigt."
+      },
+      "6": {
+        "selection": "a",
+        "context": "",
+        "statement": "CDU und CSU wollen das „1 in, 2 out“-Prinzip durchsetzen und so Bürokratie spürbar abbauen."
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir brauchen einen EU-Wettbewerbsfähigkeits-Check und einen Aktionsplan zur Reduzierung der regulatorischen Belastung."
+      },
+      "8": {
+        "selection": "b",
+        "context": "",
+        "statement": "CDU und CSU teilen das Ziel, Gesetze und Regulierung so auszugestalten, dass sie effektiv umgesetzt werden können. Dafür braucht es eine Beteiligung der Wirtschaft. Insbesondere in technischen Umsetzungsgremien, z.B. im Bereich Standardisierung, hat sich die gemeinsame Erarbeitung von Richtlinien durch Politik und Wirtschaft bewährt. Eine Vertiefung des Austauschs durch eine neue, formelle Struktur lehnen wir allerdings ab, da wir Strukturen und Abläufe verschlanken und nicht erweitern wollen."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "CDU und CSU wollen eine echte Digital- und Datenunion mit einem modernen Wettbewerbsrecht und hochklassiger digitaler Infrastruktur. Zudem dürfen Planungen nicht verzögert werden durch ausufernde Beteiligung und durch verspätetes Vorbringen von Einwänden in Rechtsschutzverfahren."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "CDU und CSU wollen modernste Infrastruktur als Grundlage für Technologieführerschaft in Europa ausbauen. Dafür setzen wir sowohl auf öffentliche als auch private Investitionen. Ziel ist es, Unternehmen und Forschung Zugang zu besten Rahmenbedingungen für Innovation zu bieten. Das umfasst u.a. Hochleistungsrechenzentren, aber auch Netzwerkinfrastruktur."
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": "CDU und CSU wollen Datenschutz einfacher und innovationsfreundlicher machen. Die Privatsphäre der Bürger ist und bleibt ein hohes Gut. Aber das Datenschutzrecht ist zu kompliziert. CDU und CSU wollen ein deutlich einfacheres und einheitlicheres Datenschutzrecht, das überall in der EU gleich angewandt wird. Dazu braucht es eine Reform der Datenschutzgrundverordnung. Dabei gilt das Prinzip: Sorgfaltspflichten gehören in sensible Bereiche. CDU und CSU begrüßen, dass die EU Datenräume wie zum Beispiel den europäischen Gesundheitsdatenraum ermöglichen und das Teilen von Daten erleichtern will."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Das europäische Datenschutzrecht ist zu kompliziert. CDU und CSU wollen ein deutlich einfacheres und einheitlicheres Datenschutzrecht. Das beinhaltet Harmonisierung bestehenden Rechts und eine klarere sowie verbindlichere Auslegung. Wir wollen Datenräume und Datenteilen für mehr Innovation fördern."
+      },
+      "13": {
+        "selection": "a",
+        "context": "",
+        "statement": "In den letzten Jahren wurde das digitale Verbraucherrecht in der EU zunehmend ausformuliert, und es wird entsprechend der digitalen Entwicklung, wenn notwendig, weiterentwickelt. U.a. wurde der Verbraucherschutz gegenüber den Herstellern digitaler Produkte verbessert in Bezug auf die Gewährleistungsrechte für Käufer und Aktualisierungspflichten für digitale Inhalte. Und mit dem Digital Services Act gibt es nun festgeschriebene Rechte gegen Hasskriminalität, Fakeshops oder den Verlust der Privatsphäre auf Plattformen. Die Plattformen sind auch verpflichtet, viel genauer zu prüfen, was bei ihnen gehandelt wird. Jetzt kommt es auf die effektive Umsetzung und die Kontrolle dieser Regelungen an."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "CDU und CSU setzen auf innovative Konzepte und auf marktbasierte Instrumente beim Klimaschutz und wollen in diesem Sinne den Green Deal weiterentwickeln - ohne unnötige zusätzliche Bürokratie zu erzeugen."
+      },
+      "15": {
+        "selection": "c",
+        "context": "",
+        "statement": "CDU und CSU sehen in Startup-Politik einen wichtigen Hebel zur Förderung von Innovation und Wohlstand in Europa. Die Anliegen von Startups gilt es, politisch zu adressieren und einen Dialog mit Startup-Vertretern zu suchen, um Folgenabschätzungen politischer Pläne für junge, innovative Unternehmen vornehmen zu können. Gleichzeitig setzen CDU und CSU sich für einen Abbau bürokratischer Strukturen und Verfahren ein. Ziel sind schlankere Entscheidungsprozesse, weniger Auflagen und zielführendere Vorgaben. Dazu trägt auch bei, die Europäische Kommission nicht weiter zu vergrößern, sondern bestehende Strukturen zu fokussieren und auch für die Anliegen von Startups zu nutzen."
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": "CDU und CSU wollen Europa und Deutschland zu einem starken Finanzplatz machen, der internationale Standards setzt und europäischen Unternehmen das benötigte Kapital zur Verfügung stellt. Wir wollen die Kapitalmarktunion vertiefen und den Binnenmarkt für Finanzdienstleistungen stärken."
+      },
+      "17": {
+        "selection": "a",
+        "context": "",
+        "statement": "CDU und CSU setzen sich für eine Stärkung von Forschung, Entwicklung und Einsatz (technologischer) Innovationen ein. Nur als führender Innovationsstandort wird Europa seinen Wohlstand und seine geostrategische Positionierung mittel- und langfristig ausbauen können. Um dieses Ziel einer Technologieführerschaft und hoher Innovationskraft in Europa zu erreichen, bedarf es größerer regulatorischer Freiräume für Innovatoren."
+      }
+    },
+    "spd": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir setzen uns für eine Stärkung der digitalen Souveränität Europas ein. Dazu gehört neben klaren Regeln für digitale Märkte und Dienste die Wettbewerb, Innovation und Verbraucherrechte schützen und stärken, auch eine starke technologische und wirtschaftliche Unabhängigkeit bei digitalen Schlüsseltechnologien. Zudem setzen wir uns für einen wirksamen Schutz vor Cyberattacken und den Schutz kritischer Infrastrukturen ein."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen bei der Entwicklung und Nutzung von KI-Modellen die erneute Dominanz großer Tech-Monopole verhindern. Insbesondere für den Einsatz in der öffentlichen Verwaltung bzw. dort, wo großes öffentliches Interesse vorliegt wollen wir im europäischen Maßstab allgemein zugängliche KI-Modelle entwickeln und globale Standards „Made in Europe“ setzen. Zudem wollen wir eine gebündelte europäische Spitzenforschung im Bereich KI ermöglichen, um Fachkräfte in Europa auszubilden und zu halten.Die Entwicklung und der Einsatz von Methoden der Künstlichen Intelligenz müssen europäischen Werten folgen."
+      },
+      "2": {
+        "selection": "b",
+        "context": "",
+        "statement": "Mit dem jüngst beschlossenen AI Act führen wir neue Transparenzregeln zur Nutzung von urheberrechtlich geschütztem Material für das Training von KI-Modellen ein und wollen so Urheber*innen bei der Durchsetzung ihrer Rechte unterstützen. Ob darüber hinaus eine Anpassung des Urheberrechts selbst notwendig ist, bedarf weiterer Prüfung. Es gilt, die Rechte von Urheber*innen zu schützen, ohne dabei aber die KI-Entwicklung in Europa zu hemmen."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir setzen uns für eine Fortsetzung und finanzielle Stärkung des Programms Digitales Europa ein. Weil der digitale Wandel unserer Gesellschaft und unserer Wirtschaft eine Querschnittsaufgabe ist, wollen wir auch die bestehenden Digitalstränge in anderen EU-Programmen weiter stärken. Im Rahmen von Horizont Europa wollen wir die Erforschung digitaler Innovationen weiter unterstützen. Zu diesem Zweck setzen wir uns auch für eine Erhöhung des Forschungsetats ein. Darüber hinaus wollen wir bei der Gestaltung der zukünftigen europäischen Strukturfonds den Ausbau digitaler Infrastrukturprojekte noch stärker hervorheben."
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen und müssen in Europa gemeinsam Fachkräfte gezielt anwerben. Dafür braucht es ein verbessertes EU-Fachkräfteeinwanderungsrecht. Dabei muss auch die Versorgung mit Wohnraum bedacht und nicht nur den Arbeitskräften, sondern auch ihren Familien, Maßnahmen der Integration und eine gute Perspektive angeboten werden. Es muss sichergestellt sein, dass Zugewanderte in gute und qualifkationsgerechte Arbeit vermittelt und nicht ausgebeutet werden. Denn jeder Mensch in Europa hat das Recht auf einen guten Arbeitsplatz."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die EU hat in den letzten Jahren viele Rechtsakte wie den Digital Service Act (DSA) den Digital Markets Act (DMA) und zuletzt den AI-Act auf den Weg gebracht. Wir wollen im nächsten Schritt dafür sorgen, dass zur wirksamen Umsetzung der Rechtsakte genügend Ressourcen zur Verfügung stehen, damit die Vorgaben in den Mitgliedsstaaten transparent, lösungsorientiert und einheitlich umgesetzt werden können."
+      },
+      "6": {
+        "selection": "b",
+        "context": "",
+        "statement": "Die SPD setzt sich auf nationaler und europäischer Ebene konsequent für den verantwortungsvollen Bürokratieabbau ein, sowohl für Bürgerinnen und Bürger als auch für Unternehmen. Außerdem wollen wir Planungs- und Genehmigungsprozesse beschleunigen. Grundsätzlich gilt außerdem, dass Bürokratieabbau nicht zu niedrigeren Sozial-, Umwelt- oder Sicherheitsstandards führen darf."
+      },
+      "7": {
+        "selection": "b",
+        "context": "",
+        "statement": "Die SPD setzt sich für die Stärkung der europäischen Wettbewerbsfähigkeit und des europäischen Binnenmarktes ein. Wenn man über regulatorische neue Instrumente nachdenkt, muss bei der Ausgestaltung sichergestellt werden, dass diese nicht zu europäischem Protektionismus und Isolationismus führen und europäische Partner (Drittstaaten) nicht von gemeinsamer Wertschöpfung ausgeschlossen werden."
+      },
+      "8": {
+        "selection": "c",
+        "context": "",
+        "statement": "In ihren Folgeabschätzungen muss die Kommission bereits jetzt die Machbarkeit und die Folgen neuer Regeln auf betroffene Branchen prüfen und auf dieser Basis evidenzbasierte Gesetzgebung vorschlagen. Für die Gewährleistung der praktischen Umsetzbarkeit neuer Gesetzgebung braucht es keinen zusätzlichen Industry Advisory Body, sondern eine konsequentere Umsetzung der bestehenden Regeln zur besseren Rechtsetzung."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Digitale Infrastruktur sollte in der EU auch weiterhin ausgebaut werden. Rechtssicherheit und Transparenz für alle beteiligten Wirtschaftsakteure und eine effizientere Planung für die Betreiber von öffentlichen elektronischen Kommunikationsnetze sind notwendig, um die digitale Zukunft Europas zu gestalten."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Den Aufbau einer souveränen Edge-Cloud Infrastruktur nach europäischen Werten unterstützen wir. Entsprechend setzen wir uns dafür ein, Europas Netzwerkinfrastruktur auszubauen sowie die Produktionskapazitäten zur Herstellung digitaler Schlüsseltechnologien und Netzwerktechnologien und den Aufbau von Rechenkapazitäten noch stärker als bisher fördern. Dabei wollen wir auch weiterhin für ein höchstmögliches Sicherheitsniveau von Netzen und Informationssystemen und Speicherlösungen in der gesamten EU sorgen, um Europa widerstandsfähig gegen Hackerangriffe, Schadsoftware und Datenklau zu machen."
+      },
+      "11": {
+        "selection": "c",
+        "context": "",
+        "statement": "Wir fordern eine umfassende Stärkung von Behörden durch finanzielle und personelle Ressourcen. Um ein ausgewogenes Umfeld zu schaffen, ist verstärkte Unterstützung für kleine und mittelständische Unternehmen notwendig, damit sie die Datenschutzstandards einhalten können. Unternehmen, die sich nicht an Datenschutzregeln halten, dürfen keinen Wettbewerbsvorteil genießen, daher ist es entscheidend, Datenschutzbehörden mit ausreichenden Kapazitäten auszustatten um effektive Überwachung und Durchsetzung zu gewährleisten. Nur durch diese kombinierten Maßnahmen kann eine fortschrittliche Datenschutzpolitik gewährleisten, dass individuelle Rechte geschützt, Unternehmen gefördert und das Vertrauen in die digitale Gesellschaft gestärkt werden."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Mit dem Data Act schafft die EU Regeln zum einer fairen und innovativen Datenwirtschaft. Damit wird der wettbewerbsfähige europäische Binnenmarkt für Daten gefördert. Besonders haben wir und dafür eingesetzt, dass auch Aspekte des Verbraucherschutzes im Zuge des Data Act berücksichtigt werden. Bestimmungen zum Schutz von Geschäftsgeheimnissen und Möglichkeiten, dass Konkurrenten den erweiterten Zugang zu Daten nutzen, um sich einen unlauteren Vorteil zu verschaffen haben wir eingeschränkt. Damit werden Chancen für datengesteuerte Innovationen eröffnet. Wir setzen uns dafür ein im Rahmen der Bewertung und Überprüfung mögliche Widersprüche zwischen der Datenschutzgrundverordnung und dem Data Act abzubauen."
+      },
+      "13": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen eine digitale Welt, die dem Menschen dient. Es sollte daher selbstverständlich sein, dass Verbraucher:innen offline wie online dieselben Rechte haben. Mit dem Digital Services Act und dem Digital Markets Act, sowie der KI-Gesetzgebung wurden in den letzten Jahren wichtige Elemente eines digitalen Verbraucherschutzes etabliert. Dazu gehören mündige Verbraucher:innen, die handlungsfähig sind und klare Regeln, die Manipulationsmöglichkeiten im Internet begrenzen, mit denen Entscheidungen beeinflusst werden. Die zu Tage tretenden Regelungslücken beim Umgang mit Plattformen müssen angegangen werden, damit es einen kohärenten und starken europäischen Verbraucherschutz gibt."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen digitale Technik etwa in der Landwirtschaft ermöglichen und voranbringen. Die Verringerung des Pflanzenschutz- und Düngemitteleinsatzes durch KI-gestütztes precision farming ist hier ein Beispiel. Zudem wollen wir Effizienzsteigerungen und Ressourcenschonung in der Grundstoffindustrie mittels digitaler Technologien verbessern."
+      },
+      "15": {
+        "selection": "b",
+        "context": "",
+        "statement": "Start-Ups sind Wachstumsmotoren für die Wirtschaft, daher ist deren Unterstützung ein wichtiges Anliegen. In Europa wollen wir einen verantwortungsvollen Abbau von bürokratischen Hemmnissen für Start-Ups ebenso wie für andere Unternehmen und Selbstständige erreichen. Die Vollendung der Kapitalmarktunion soll auch dazu beitragen, die Finanzierungsmöglichkeiten für Start-Ups zu verbessern. Ein weiteres Anliegen ist es, Frauen in der Wirtschaft, insbesondere als Gründerinnen zu fördern. Grundsätzlich möchten wir inhaltliche Lösungen nach vorne bringen anstatt über Personalfragen zu diskutieren."
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": "Um Investitionen zu fördern und die wettbewerbsfähige Finanzierung europäischer Unternehmen, u.a. Start-Ups, sicherzustellen, soll ein gemeinsamer europäischer Kapitalmarkt geschaffen werden. Dies möchten wir weiter vorantreiben. Von der Kapitalmarktunion profitieren auch Sparerinnen und Sparer durch breitere Zugänge zu grenzüberschreitenden Anlagemöglichkeiten sowie der Finanz- und Börsenstandort Europa durch eine stärkere internationale Wettbewerbsfähigkeit. Im Rahmen des EU-Listing Acts sollen derzeit außerdem Strukturen für Mehrstimmrechtsaktien geschaffen werden, die besonders für KMU und Start-Ups bedeutsam sind. Dies unterstützen wir."
+      },
+      "17": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen das Innovationspotenzial Europas bestmöglich nutzen. Unser Ziel ist eine europäisch geeinte Wissens- und Forschungslandschaft mit einem dichten Netz an Kooperationen, gemeinsamen Programmen und gezielt geförderten großen Zukunftsprojekten in Bereichen wie etwa Clean Tech, Quantencomputing oder Künstliche Intelligenz. Wir setzen uns dafür ein, dass die EU-Initiative IPCEI zur Förderung und Neuansiedlung strategisch wichtiger Unternehmen auf mehr Branchen ausgeweitet und für den Mittelstand geöffnet wird sowie die Antragsbearbeitung erheblich beschleunigt wird."
+      }
+    },
+    "fdp": {
+      "0": {
+        "selection": "c",
+        "context": "",
+        "statement": "Statt Subventionswettläufen brauchen wir mehr Wettbewerb und innovationsfreundliche Rahmenbedingungen. Wir setzen uns daher für den Ausbau des digitalen Binnenmarkts und den Abbau nationaler Schranken ein. Dadurch wird es einfacher, digitale Geschäftsmodelle zu skalieren und grenzübergreifende Start-ups zu gründen. Durch eine europäische Venture-Capital-Verordnung wollen wir beste Bedingungen für Wagniskapital schaffen. Zudem fordern wir Digital-Freiheitszonen nach europäischem Recht: Durch Experimentierräume und Öffnungsklauseln wollen wir grenzüberschreitende „Sonderwirtschaftszonen“ für digitale Ausgründungen von Unternehmen, Start-ups und Spin-offs schaffen."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen die EU zum Hotspot für Künstliche Intelligenz (KI) machen, die den Lebenschancen der Menschen dient, statt sie zu entmündigen. Darum erteilen wir konservativen Überwachungswünschen und linken Überregulierungsfantasien gleichermaßen eine Absage. Die FDP setzt sich für eine unbürokratische und praxisnahe Umsetzung der europäischen KI-Verordnung ein, die Innovationen ermöglicht und Bürgerrechte schützt. Für KI-Trainingsdaten setzen wir uns für ein Fair-Use-Prinzip nach amerikanischem Vorbild ein. Wir wollen die Wettbewerbsfähigkeit der europäischen KI-Wirtschaft stärken und moderne Monetarisierungsmodelle von Rechteinhabern ermöglichen, damit Europa führend bei KI-Anwendungen wird."
+      },
+      "2": {
+        "selection": "c",
+        "context": "",
+        "statement": "Für KI-Trainingsdaten setzen wir uns für ein Fair-Use-Prinzip nach amerikanischem Vorbild ein. Wir wollen die Wettbewerbsfähigkeit der europäischen KI-Wirtschaft stärken und moderne Monetarisierungsmodelle von Rechteinhabern ermöglichen, damit Europa führend bei KI-Anwendungen wird."
+      },
+      "3": {
+        "selection": "b",
+        "context": "",
+        "statement": "Der nächste mehrjährige Finanzrahmen muss einen starken Fokus auf Zukunftsinvestitionen insbesondere im Digitalbereich haben, zusammen mit einer verbesserten, zielgenaueren und flexibleren Nutzung von EU-Haushaltsmitteln. Dafür wollen wir die Europäische Investitionsbank sowie das „Invest EU-Programm“ stärken, sowie eine europäische Venture Capital-Verordnung schaffen. Bei weiteren bestehenden Investitonsprogrammen ist ein Fokus auf Digitalisierung sinnvoll."
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": "Angesichts des sich verschärfenden Fachkräftemangels ist die EU auf die Zuwanderung qualifizierter Arbeitskräfte angewiesen. Wir fordern deshalb eine EU-Strategie für die Fachkräftegewinnung. Ziel muss ein weitgehend harmonisiertes Fachkräfteeinwanderungsrecht sein, das auch Drittstaatsangehörigen unkomplizierte Mobilität zum Zwecke der Erwerbstätigkeit ermöglicht. Wir wollen ein modernes Zwei-Säulen-System etablieren: Die Blue Card wollen wir auch für nichtakademische Fachkräfte weiter öffnen. Zudem wollen wir einen europäischen Talentpool mit Punktesystem nach kanadischem Vorbild einführen. Wir wollen Einwanderung in den Arbeitsmarkt und nicht in die sozialen Sicherungssysteme."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "Insbesondere im Digitalbereich sind in der Legislaturperiode 2019-2024 eine Vielzahl von neuen Gesetzen und Regularien erlassen worden. Eine effiziente Umsetzung dieser Gesetze muss in der nächsten Legislaturperiode im Fokus stehen. Dabei muss genau beobachtet werden, ob viele dieser Gesetze praxistauglich sind oder vereinfacht werden müssen."
+      },
+      "6": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die immer weiter zunehmenden Bürokratielasten ersticken neues Wirtschaftswachstum im Keim. Mittlerweile sind 57 Prozent der bürokratischen Belastungen in Deutschland auf EU-Gesetze zurückzuführen. Unternehmen, insbesondere kleine und mittlere Betriebe, sowie Selbstständige sehen sich angesichts dieser Regulierungswut gezwungen, wertvolle Energie und Zeit für die Bewältigung immenser bürokratischer Anforderungen aufzuwenden. Wir Freie Demokraten wollen deshalb eine Trendwende für einen radikalen Bürokratieabbau einleiten. Für jede neue Belastung durch EU-Regulierung müssen im Gegenzug gemäß der „One in, two out“-Regel bestehende Belastungen konsequent in doppeltem Umfang abgeschafft werden."
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wettbewerbsfähige Unternehmen sind Voraussetzung für eine florierende europäische Wirtschaft. Die EU-Politik hat enorme Auswirkungen auf die Wettbewerbsfähigkeit der Unternehmen in Hinblick auf Geschäftskosten (z. B. Energiepreise, Rohstoffe, Arbeitskosten), ihre Innovationsfähigkeit und ihre internationale Wettbewerbsfähigkeit (z. B. Zugang zu Drittmärkten, Risiko von Vergeltungsmaßnahmen). Deshalb fordern wir, dass jegliche EU-Maßnahmen und Regulierungen auf ihre Auswirkungen auf Europas Wettbewerbsfähigkeit geprüft werden. Zudem soll jedes Gesetzgebungsverfahren künftig einen KMU-Test durchlaufen, der die potentiellen Auswirkungen auf kleine und mittlere Unternehmen kritisch durchleuchtet."
+      },
+      "8": {
+        "selection": "a",
+        "context": "",
+        "statement": "Um den Ausbau des digitalen Binnenmarkts zu stärken sowie die zahlreichen Digitalgesetze einheitlich umzusetzen, fordern wir ein zentrales Gremium für den digitalen Binnenmarkt. Dieses muss eng mit Vertretern aus der Praxis im Austausch sein. Ein zentrales Gremium ist dafür sinnvoller, als wie in der Vergangenheit zahlreiche Einzelgremien zu einzelnen Gesetzen zu schaffen. Darüber hinaus fordern wir, dass die EU-Kommission in Zukunft verpflichtend Folgeabschätzungen für neue Gesetze vornehmen muss."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir Freie Demokraten setzen auf die Vereinfachung sowie die Verkürzung von Planungs- und Genehmigungsverfahren. Europarechtliche Hürden für die Planungsbeschleunigung wollen wir abbauen."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Der Zugang zu Cloud-Infrastruktur und Computing-Power ist ein entscheidender Faktor für die Wettbewerbsfähigkeit europäischer Unternehmen und muss somit politische Priorität haben. Zudem brauchen wir ein besseres Klima für private Initiativen in diesem Bereich."
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir sehen einen funktionierenden europäischen Datenschutz mit Datensouveränität und informationeller Selbstbestimmung der Bürgerinnen und Bürger als Grundlage für eine faire und funktionierende Datenökonomie. Die Datenschutz-Grundverordnung der EU (DSGVO) hat sich in vielen zentralen Aspekten als weltweiter Standard für den Datenschutz etabliert. Wir wollen sie konsequent entbürokratisieren und weiterentwickeln. Insbesondere werden wir darauf achten, dass die Auswirkungen auf kleine und mittlere Unternehmen und ihre Belange stärker berücksichtigt werden und der bürokratische Aufwand reduziert wird."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wiedersprüche und Überschneidungen in bestehenden Gesetzen müssen überprüft und aufgelöst werden. Im Bereich Datenökonomie gilt dies insbesondere für die Datenschutzgrundverordnung, den Data Act, den Data Governance Act und den AI Act. Mit einem klareren Rechtsrahmen haben Unternehmen Gewissheit und Sicherheit in ihrer Arbeit und Verbraucherinnen und Verbraucher mehr Klarheit."
+      },
+      "13": {
+        "selection": "b",
+        "context": "",
+        "statement": "Gesetze im Bereich Verbraucher- oder Datenschutz sollten primär als eine Verordnung eingeführt werden, da eine national unterschiedliche Umsetzung zu Verzerrungen im Binnenmarkt und unterschiedlichen Qualitäten des Verbraucherschutz führen kann. Entscheidend für guten Verbraucherschutz ist insbesondere die Durchsetzung bestehender Gesetze, insbesondere in Hinblick auf marktbeherrschende Digitalunternehmen."
+      },
+      "14": {
+        "selection": "b",
+        "context": "",
+        "statement": "Technologischer Fortschritt und Digitalisierung sind entscheidend für nachhaltiges Wirtschaftswachstum und die Erreichung unserer Klimaziele. Politik sollte die Ziele setzen, nicht den einzelnen Weg vorgeben. Die Transformation auf dem Weg zu Digitalisierung und Klimaneutralität sowie internationale Abhängigkeiten stellen die Wirtschaft in Europa vor große Herausforderungen. Die aktuelle EU-Kommission begegnet dem jedoch mit den falschen Instrumenten, vor allem bei der Umsetzung des Green Deals. Wir brauchen mehr Wettbewerb, mehr freien Handel, bessere Bedingungen für private Investitionen und Gründungen und für technologischen Fortschritt, statt auf Verbote zu setzen. Wir fordern eine Regulierungspause beim Green Deal."
+      },
+      "15": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wir fordern eine verkleinerte EU-Kommission mit 18 Ministern. Zugleich braucht die EU einen echten Mittelstandskommissar, der sich um faire Wettbewerbsbedingungen für kleine und mittlere Unternehmen, um Start-ups sowie um Bürokratieabbau kümmert. Start-ups sind zentral für eine innovative und wirtschaftsstarke EU. Deshalb unterstützten wir den sog. Listing Act, der Start-ups und mittelgroßen Unternehmen den Zugang zur Börsenfinanzierung erleichtert. Wir setzen uns zudem für den Ausbau des digitalen Binnenmarkts und den Abbau nationaler Schranken ein. Durch Experimentierräume und Öffnungsklauseln wollen wir grenzüberschreitende „Sonderwirtschaftszonen“ für digitale Ausgründungen von Unternehmen, Start-ups und Spin-offs schaffen."
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen die die Kapitalmarktunion vertiefen. Die Kapitalmarktunion ist ein Booster für private Investitionen. Deshalb unterstützt die FDP den sog. Listing Act, der Start-ups und mittelgroßen Unternehmen den Zugang zur Börsenfinanzierung erleichtert. Wir wollen auch Privatanlegern den Zugang zum Kapitalmarkt erleichtern."
+      },
+      "17": {
+        "selection": "a",
+        "context": "",
+        "statement": "Europa braucht mehr Freude an Innovation als stets zuerst an Regulierung zu denken. Wir wollen Europa schnellstmöglich zum digitalen Chancenkontinent machen. Wir setzen uns für den Ausbau des digitalen Binnenmarkts und den Abbau nationaler Schranken ein. Wir wollen es einfacher machen, digitale Geschäftsmodelle zu skalieren und grenzübergreifende Start-ups zu gründen. Durch ein zentrales Gremium für den digitalen Binnenmarkt wollen wir eine einheitliche Rechtsauslegung sicherstellen. Wir fordern Digital-Freiheitszonen nach europäischem Recht: Durch Experimentierräume und Öffnungsklauseln wollen wir grenzüberschreitende „Sonderwirtschaftszonen“ für digitale Ausgründungen von Unternehmen, Start-ups und Spin-offs schaffen."
+      }
+    },
+    "b90": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen die digitale Souveränität Europas sichern, stärken und ausbauen. Dafür müssen wir gezielt in Innovation, Souveränität und Resilienz investieren. Daher setzen wir bei unserer Wirtschaftspolitik neben neuer Anreize für private Investitionen auch auf starke öffentliche Förderprogramme für Schlüssel- und Zukunftstechnologien."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen, dass Deutschland und die EU auf den Märkten der Zukunft den internationalen Partnern mindestens auf Augenhöhe begegnen können. Daher wollen wir Deutschland in Europa zum Hightech-Standort ausbauen und dabei vor allem auch KI zukunftssicher und nachhaltig fördern. Dafür benötigen wir neben Verfügbarkeit von Rechenkapazität auch Fachkräfteförderung, eine bessere Verfügbarkeit von Daten und die Unterstützung bei Forschung und Transfer."
+      },
+      "2": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen, dass Europa bei der Verfügbarkeit von Daten einen entscheidenden Schritt vorangeht, da diese kritisch für unsere Wettbewerbsfähigkeit sind. Das betrifft die Entwicklung von KI, den Erfolg europäischer KI-Modelle und unsere Innovationsfähigkeit insgesamt. Dabei muss sichergestellt werden, dass Urheber*innen für ihre Werke eine angemessene Vergütung erhalten."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "Besonders unter Berücksichtigung der Ziele der ökologischen Modernisierung und zur Schaffung von Anreizen nachhaltiger und klimaschützender digitaler Technologien kann ein flexibles Budget genutzt werden."
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": "Europa konkurriert mit weiteren Weltregionen um Fachkräfte. Wir setzen uns daher für eine umfassende EU-Fachkräftestrategie ein. Bei der Anwerbung aus Drittstaaten sollte die EU-Blue-Card-Initiative auf nicht akademische Berufe ausgeweitet werden, sofern ein konkretes Jobangebot zu marktüblichen Konditionen vorliegt. Gleichzeitig müssen wir Frauen die Möglichkeit geben, sich voll einzubringen. Sie arbeiten oft unfreiwillig in Teilzeit oder gar nicht. Wir brauchen eine feministische Wirtschafts-, Arbeitsmarkt- und Zeitpolitik, die soziale Infrastruktur für die Vereinbarkeit von Familie, Beruf und demokratischer Teilhabe mitdenkt."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "In den nächsten Jahren wird die Etablierung und Konsolidierung der Strukturen, die wir mit den regulatorischen Großprojekten in den letzten Wahlperioden beschlossen haben, im Vordergrund stehen. Wir werden uns für eine möglichst unbürokratische Umsetzung dieser bereits beschlossenen EU-Gesetze in nationales Recht einsetzen."
+      },
+      "6": {
+        "selection": "c",
+        "context": "",
+        "statement": "Bürokratieabbau ist eine der zentralen Herausforderung der Wirtschaftspolitik. Beim Bürokratieabbau ist aber weniger die Anzahl sondern mehr die Qualität und das Zusammenspiel der Gesetze entscheidend. Wir setzen uns für eine regelmäßige Überprüfung aller Regulierungen ein, um bürokratische Anforderungen zu vereinfachen und Vorschriften, die ihr Ziel verfehlen, wieder zu streichen."
+      },
+      "7": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wir wollen, dass die Wettbewerbsfähigkeit von Unternehmen, ganz besonders von KMU, bei der Einführung neuer Regelungen und Förderprogrammen von Anfang an mitgedacht wird. Dazu wollen wir etwa die KMU-Tests verbessern und konsequent anwenden. Wir setzen uns außerdem für angemessene Ausnahmen und Übergangsfristen für KMU in neuen Gesetzen ein."
+      },
+      "8": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wie in anderen Branchen sollte auch die Digital-Gesetzgebung einen fairen Interessenausgleich zwischen Gesellschaft, Umwelt und Wirtschaft darstellen. Wir begrüßen eine frühzeitige Berücksichtigung der betroffenen Branchen im Gesetzgebungsprozess. Die Einrichtung von Industry Advisory Bodies kann diesen Prozess verstetigen und transparent machen."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen in Europa eine Infrastruktur Union schaffen. Damit sollen grenzüberschreitende Infrastrukturprojekte gefördert und Europa enger zusammengebracht werden. Ein Schwerpunkt soll auf der Stärkung der digitalen Infrastruktur liegen, etwa durch den Ausbau von Glasfaserleitungen. Dafür wollen wir auch die Planungs- und Genehmigungsverfahren erheblich beschleunigen."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Gerade der Mittelstand profitiert von den neuen Ansätzen zu gemeinsamer, freiwilliger Nutzung von Daten. Kritische Infrastruktur muss dabei geschützt werden und als wesentliche Komponente von Souveränität mitgedacht werden. Europa, seine Regierungen und die öffentliche Hand müssen ihrer Verantwortung bei der Schaffung von nachhaltiger, zukunftssicherer und unabhängiger Hard- und Software-Infrastruktur besonders auf der Basis von Open-Source-Technologien gerecht werden."
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen die anstehende Evaluation der DSGVO nutzen, um die Regelungen bei gleichbleibendem Datenschutzniveau zu vereinfachen und praxistauglicher zu machen, auch um den besonderen Bedürfnissen von KMU und Start-Ups Rechnung zu tragen."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Regelungen aus dem Data Act wurden vor dem Hintergrund der bestehenden Regeln der DSGVO und komplementär dazu entwickelt. Widersprüche zwischen der DSGVO und dem Data Act, die trotz dieses Vorgehens im Gesetzgebungsprozess bestehen bleiben, sollten selbstverständlich aufgehoben werden."
+      },
+      "13": {
+        "selection": "c",
+        "context": "",
+        "statement": "Auf europäischer Ebene sind bereits positive Entwicklungen und Fortschritte zu beobachten. Die sich teilweise schnell entwickelnden Mechanismen und Bedrohungen von Verbraucher*innen-Interessen im Netz müssen durch die Marktaufsichtsbehörden stets begleitet und Gesetze effektiv durchgesetzt werden. Teilweise könnten hier dynamische Anpassungen von bestehenden Gesetzen erforderlich sein."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Auch und gerade zur Umsetzung des Green Deal setzen wir auf Bürokratieabbau durch verstärkte Digitalisierung. Wir wollen die digitale Umsetzung von Gesetzesvorhaben bereits im legislativen Prozess berücksichtigen. Damit können staatliche Dienstleistungen schneller und effizienter erbracht werden."
+      },
+      "15": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wir brauchen in der Kommission eine klare Zuständigkeit für junge Unternehmen, damit der Knowhow-Transfer in der EU besser koordiniert wird. Mit einer europäischen Start-up-Strategie bündeln wir wichtige Maßnahmen für besseren Zugang zu Wagniskapital, zur Gewinnung von Talenten und zu öffentlichen Aufträgen für junge Unternehmen. Statt vollkommen neue Strukturen zu schaffen, wollen wir das Portfolio einer bestehenden Position um die klare Zuständigkeit für Startup-Politik ergänzen, etwa das der EU-Kommissarin für Innovation."
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": "Indem wir endlich die Kapitalmarktunion zu einem Erfolg machen, wollen einen starken europäischen Börsenstandort aufbauen. Durch faire und klare Regeln und EU-weite Aufsichtsbehörden stärken wir das Vertrauen von Sparer*innen in die Finanzmärkte und mobilisieren grenzübergreifend Investitionen in die grüne und digitale Transformation."
+      },
+      "17": {
+        "selection": "b",
+        "context": "",
+        "statement": "Unser Ziel und Anspruch ist es, Europa bis 2035 zu einem globalen digitalen Leader zu machen. Dies kann aber nicht allein durch Innovationskraft geschehen, denn regulatorische Vorsicht und starke Innovationskraft gehen für uns Hand in Hand."
+      }
+    },
+    "afd": {
+      "0": {
+        "selection": "c",
+        "context": "",
+        "statement": ""
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "2": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "3": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "6": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "c",
+        "context": "",
+        "statement": "Die AfD lehnt den Green Deal grundsätzlich ab."
+      },
+      "15": {
+        "selection": "c",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "17": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      }
+    }
+  }
+}
