@@ -1,6 +1,6 @@
 var _paq = window._paq = window._paq || [];
 /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-_paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
+_paq.push(["setDocumentTitle", document.hostname + "/" + document.title]);
 //_paq.push(["setCookieDomain", "*bitkomat.de"]);
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
