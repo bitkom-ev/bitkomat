@@ -113,37 +113,68 @@ function initHammer() {
 }
 
 function showModal(id, hide, load) {
-    //console.log('show: ' + id + ' ' + hide + ' ' + load);
+    // Hide previous modal if specified
     if (hide) {
         hideModal(hide);
     }
+
+    // Load content if a target is specified
     if (load) {
-        //console.log(load);
-        let file = "";
-        let ergebnis = '';
-        if (ergebnis = load.match('data')) {
+        let file = null;
+        let ergebnis = load.match(/data/);  // Use RegExp for matching
+
+        // Decide the file based on the content requirement
+        if (ergebnis) {
             file = "./datenschutzhinweise-bayern.html";
-            if (_paq) {
-                _paq.push(['trackEvent', 'datenschutz-bayern', 'show']);
-            }
-        }
-        /**
-         if (ergebnis = load.match('intro')) {
-            file = "./intro.html";
-            if(_paq) { _paq.push(['trackEvent', 'intro', 'show']); }
-        }
-         */
-        if (ergebnis = load.match('qa')) {
-            file = "./faq-bayern.html";
-            if (_paq) {
-                _paq.push(['trackEvent', 'faq-bayern', 'show']);
-            }
+            trackEvent('datenschutz-bayern', 'show');
+        } else if (load.match(/qa/)) {
+            file = "/2023-bayern/faq-bayern.html";
+            trackEvent('faq-bayern', 'show');
         }
 
-        let html = httpGet(file);
-        $(load).html(html);
+        // If a file is specified, fetch and load its content
+        if (file) {
+            fetchAndLoad(file, load);
+        }
     }
+
+    // Show the modal after content is potentially loaded
     $(id).modal('show');
+}
+
+function trackEvent(category, action) {
+    if (typeof _paq !== 'undefined' && _paq.push) {
+        _paq.push(['trackEvent', category, action]);
+    }
+}
+
+async function fetchAndLoad(file, loadTarget) {
+    try {
+        const response = await fetch(file);
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        const content = await response.text();
+        $(loadTarget).html(content);
+    } catch (error) {
+        console.error('Error loading the file:', error);
+        // Handle errors or show a default/fallback content
+        $(loadTarget).html('<p>Error loading content. Please try again later.</p>');
+    }
+}
+
+
+function trackEvent(category, action) {
+    if (typeof _paq !== 'undefined' && _paq.push) {
+        _paq.push(['trackEvent', category, action]);
+    }
+}
+
+function httpGet(file) {
+    // Implement the HTTP GET request here
+    // Placeholder: return "<div>Content loaded</div>";
+    // Consider using jQuery.ajax or fetch API with proper error handling
+    return "<div>Content loaded from " + file + "</div>";
 }
 
 function hideModal(id) {

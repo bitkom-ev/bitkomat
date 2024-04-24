@@ -1,5 +1,8 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Disallow: /js-all
+Disallow: /css-all
+Disallow: /webfonts
 Disallow: /config
 Disallow: /js
 Disallow: /lang
