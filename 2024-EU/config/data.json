@@ -4,13 +4,13 @@
       "s": "Digitale Souveränität & globaler Wettbewerb",
       "t": "Innovationsstandort & Zukunftsindustrien",
       "l": "Ohne Subventionen im großen Stil wird sich Europa nicht als global souveräner Digitalstandort behaupten können.",
-      "x": "Im Zuge des Net Zero Industry Acts, mit dem die US-Regierung ein umfassendes Subventionsprogramm vorsieht, steht zunehmend die Frage im Raum, wie Europa im globalen Wettbewerb mit den USA und China schritthalten kann. Diskutiert wird in Politik, Gesellschaft und Wirtschaft u. a., Europa mithilfe von Subventionen für digitale Schlüsseltechnologien als souveränen Digitalstandort zu stärken."
+      "x": "Im Zuge des Inflation Reduction Acts, mit dem die US-Regierung ein umfassendes Subventionsprogramm vorsieht, steht zunehmend die Frage im Raum, wie Europa im globalen Wettbewerb mit den USA und China schritthalten kann. Diskutiert wird in Politik, Gesellschaft und Wirtschaft u. a., Europa mithilfe von Subventionen für digitale Schlüsseltechnologien als souveränen Digitalstandort zu stärken."
     },
     "1": {
       "s": "Chancen von KI",
       "t": "Innovationsstandort & Zukunftsindustrien",
       "l": "Europa sollte in den kommenden fünf Jahren der führende Standort für die Entwicklung und den Einsatz von KI-Anwendungen werden.",
-      "x": "Künstliche Intelligenz bietet große Potenziale für Wirtschaft, Gesellschaft und die öffentliche Verwaltung. Mit der KI-Verordnung hat die EU bereits Maßnahmen verabschiedet, die das Vertrauen von Nutzerinnen und Nutzern in die Technologie stärken sollen. Es wird derzeit diskutiert, ob diese Maßnahmen ausreichend sind, damit Europa ein weltweit führender KI-Standort wird."
+      "x": "Künstliche Intelligenz bietet große Potenziale für Wirtschaft, Gesellschaft und die öffentliche Verwaltung. Mit dem AI Act hat die EU bereits Maßnahmen verabschiedet, die das Vertrauen von Nutzerinnen und Nutzern in die Technologie stärken sollen. Es wird derzeit diskutiert, ob diese Maßnahmen ausreichend sind, damit Europa ein weltweit führender KI-Standort wird."
     },
     "2": {
       "s": "Urheberrecht & KI",
@@ -64,7 +64,7 @@
       "s": "Cloud-Infrastruktur",
       "t": "Digitale Infrastruktur & Nachhaltigkeit",
       "l": "Der Ausbau resilienter und modernster Netzwerkinfrastruktur sollte vorangetrieben werden, um die Potenziale von Edge-Cloud in Europa auszuschöpfen.",
-      "x": "Cloud und Edge Computing bieten dem Wirtschaftsstandort Europa zahlreiche Potenziale. Daher diskutieren Politik, Gesellschaft und Unternehmen, mit welchen Maßnahmen diese Potenziale am besten gehoben werden können."
+      "x": "Cloud und Edge Computing bieten dem Wirtschaftsstandort Europa zahlreiche Potenziale. Daher diskutieren Politik, Gesellschaft und Unternehmen, mit welchen Maßnahmen diese Potenziale am besten gefördert werden können."
     },
     "11": {
       "s": "Entbürokratisierung der DSGVO",
@@ -88,7 +88,7 @@
       "s": "Verwirklichung des Digital Green Deals",
       "t": "Digitale Infrastruktur & Nachhaltigkeit",
       "l": "Zur Verwirklichung des Green Deals sollten digitale Lösungen quer über alle Sektoren in den Rechtsrahmen integriert werden.",
-      "x": "Aus der Vielzahl an regulatorischen Projekten, die seit 2019 angestoßen wurden, ergeben sich zahlreiche neue bürokratische Pflichten für Bürgerinnen und Bürger sowie für Unternehmen. Derzeit wird diskutiert, wie der daraus resultierende Mehraufwand möglichst gering gehalten werden kann."
+      "x": "Digitale Technologien bieten weitreichende Potenziale um die europäischen Nachhaltigkeitsziele zu erreichen. Es wird kritisiert, dass diese in bisherigen Gesetzestexten nicht ausreichend berücksichtigt wurden. Daher diskutieren Poltik, Gesellschaft und Wirtschaft, wie die Chancen digitaler Technologien für die grüne Transformation bestmöglich mobilisiert werden können."
     },
     "15": {
       "s": "EU-Kommissarin oder -Kommissar für Startups",
@@ -293,7 +293,7 @@
       "12": {
         "selection": "a",
         "context": "",
-        "statement": "Mit dem Data Act schafft die EU Regeln zum einer fairen und innovativen Datenwirtschaft. Damit wird der wettbewerbsfähige europäische Binnenmarkt für Daten gefördert. Besonders haben wir und dafür eingesetzt, dass auch Aspekte des Verbraucherschutzes im Zuge des Data Act berücksichtigt werden. Bestimmungen zum Schutz von Geschäftsgeheimnissen und Möglichkeiten, dass Konkurrenten den erweiterten Zugang zu Daten nutzen, um sich einen unlauteren Vorteil zu verschaffen haben wir eingeschränkt. Damit werden Chancen für datengesteuerte Innovationen eröffnet. Wir setzen uns dafür ein im Rahmen der Bewertung und Überprüfung mögliche Widersprüche zwischen der Datenschutzgrundverordnung und dem Data Act abzubauen."
+        "statement": "Mit dem Data Act schafft die EU Regeln für eine faire und innovative Datenwirtschaft. Damit wird der wettbewerbsfähige europäische Binnenmarkt für Daten gefördert. Besonders haben wir uns dafür eingesetzt, dass auch Aspekte des Verbraucherschutzes im Zuge des Data Act berücksichtigt werden. Bestimmungen zum Schutz von Geschäftsgeheimnissen und Möglichkeiten, dass Konkurrenten den erweiterten Zugang zu Daten nutzen, um sich einen unlauteren Vorteil zu verschaffen haben wir eingeschränkt. Damit werden Chancen für datengesteuerte Innovationen eröffnet. Wir setzen uns dafür ein im Rahmen der Bewertung und Überprüfung mögliche Widersprüche zwischen der Datenschutzgrundverordnung und dem Data Act abzubauen."
       },
       "13": {
         "selection": "a",
@@ -385,7 +385,7 @@
       "12": {
         "selection": "a",
         "context": "",
-        "statement": "Wiedersprüche und Überschneidungen in bestehenden Gesetzen müssen überprüft und aufgelöst werden. Im Bereich Datenökonomie gilt dies insbesondere für die Datenschutzgrundverordnung, den Data Act, den Data Governance Act und den AI Act. Mit einem klareren Rechtsrahmen haben Unternehmen Gewissheit und Sicherheit in ihrer Arbeit und Verbraucherinnen und Verbraucher mehr Klarheit."
+        "statement": "Widersprüche und Überschneidungen in bestehenden Gesetzen müssen überprüft und aufgelöst werden. Im Bereich Datenökonomie gilt dies insbesondere für die Datenschutzgrundverordnung, den Data Act, den Data Governance Act und den AI Act. Mit einem klareren Rechtsrahmen haben Unternehmen Gewissheit und Sicherheit in ihrer Arbeit und Verbraucherinnen und Verbraucher mehr Klarheit."
       },
       "13": {
         "selection": "b",
@@ -497,7 +497,7 @@
       "16": {
         "selection": "a",
         "context": "",
-        "statement": "Indem wir endlich die Kapitalmarktunion zu einem Erfolg machen, wollen einen starken europäischen Börsenstandort aufbauen. Durch faire und klare Regeln und EU-weite Aufsichtsbehörden stärken wir das Vertrauen von Sparer*innen in die Finanzmärkte und mobilisieren grenzübergreifend Investitionen in die grüne und digitale Transformation."
+        "statement": "Indem wir endlich die Kapitalmarktunion zu einem Erfolg machen, wollen wir einen starken europäischen Börsenstandort aufbauen. Durch faire und klare Regeln und EU-weite Aufsichtsbehörden stärken wir das Vertrauen von Sparer*innen in die Finanzmärkte und mobilisieren grenzübergreifend Investitionen in die grüne und digitale Transformation."
       },
       "17": {
         "selection": "b",
@@ -599,4 +599,3 @@
     }
   }
 }
-
