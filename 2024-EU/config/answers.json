@@ -1,4 +1,141 @@
 {
+  "theses": {
+    "0": {
+      "s": "Digitale Souveränität & globaler Wettbewerb",
+      "t": "Innovationsstandort & Zukunftsindustrien",
+      "l": "Ohne Subventionen im großen Stil wird sich Europa nicht als global souveräner Digitalstandort behaupten können.",
+      "x": "Im Zuge des Inflation Reduction Acts, mit dem die US-Regierung ein umfassendes Subventionsprogramm vorsieht, steht zunehmend die Frage im Raum, wie Europa im globalen Wettbewerb mit den USA und China schritthalten kann. Diskutiert wird in Politik, Gesellschaft und Wirtschaft u. a., Europa mithilfe von Subventionen für digitale Schlüsseltechnologien als souveränen Digitalstandort zu stärken."
+    },
+    "1": {
+      "s": "Chancen von KI",
+      "t": "Innovationsstandort & Zukunftsindustrien",
+      "l": "Europa sollte in den kommenden fünf Jahren der führende Standort für die Entwicklung und den Einsatz von KI-Anwendungen werden.",
+      "x": "Künstliche Intelligenz bietet große Potenziale für Wirtschaft, Gesellschaft und die öffentliche Verwaltung. Mit dem AI Act hat die EU bereits Maßnahmen verabschiedet, die das Vertrauen von Nutzerinnen und Nutzern in die Technologie stärken sollen. Es wird derzeit diskutiert, ob diese Maßnahmen ausreichend sind, damit Europa ein weltweit führender KI-Standort wird."
+    },
+    "2": {
+      "s": "Urheberrecht & KI",
+      "t": "Innovationsstandort & Zukunftsindustrien",
+      "l": "Das europäische Urheberrecht schafft einen fairen Interessenausgleich zwischen KI-Entwicklern und Content Creatoren und sollte deshalb nicht angepasst werden.",
+      "x": "Zur Entwicklung von KI-Modellen werden häufig große Datensätze verwendet, die teilweise auch urheberrechtlich geschütztes Material enthalten. Es wird derzeit diskutiert, ob die Urheber bestimmter Inhalte zusätzliche Entschädigungen für die Verwendung ihrer Werke zum Training von KI-Modellen erhalten sollten."
+    },
+    "3": {
+      "s": "Europäisches Digitalbudget",
+      "t": "Innovationsstandort & Zukunftsindustrien",
+      "l": "Im neuen EU-Haushalt sollte ein zusätzliches Budget zur Förderung digitaler Technologien verankert werden, mit welchem flexibel und schnell auf aktuelle Entwicklungen reagiert werden kann.",
+      "x": "Während Innovationen und Entwicklungen bei digitalen Technologien schnell voranschreiten, wird die Verwendung von EU-Geldern meist schon Jahre im Voraus festgelegt. Dadurch kann die EU häufig nicht schnell genug mit entsprechenden Fördermitteln auf neue Entwicklungen reagieren."
+    },
+    "4": {
+      "s": "Mehr Fachkräfte für Europa",
+      "t": "Innovationsstandort & Zukunftsindustrien",
+      "l": "Europa sollte den Anspruch haben, für IT-Fachkräfte der attraktivste Standort der Welt zu werden und gezielt um die besten Köpfe werben.",
+      "x": "Der Mangel an IT-Fachkräften ist Expertinnen und Experten zufolge eine der größten Digitalisierungshürden. Alleine in deutschen Unternehmen fehlen derzeit 149.000 IT-Fachkräfte. Daher wird aktuell auf EU-Ebene diskutiert, mit welchen Maßnahmen die Fachkräftelücke geschlossen werden kann."
+    },
+    "5": {
+      "s": "Implementierung statt neuer Regulierung",
+      "t": "Politische Leitprinzipien",
+      "l": "Anstelle neuer regulatorischer Großprojekte sollten in der nächsten Legislaturperiode die Konsolidierung sowie die harmonisierte Umsetzung im Vordergrund stehen.",
+      "x": "Seit 2019 wurden 115 digitalpolitische Initiativen angestoßen, darunter zahlreiche regulatorische Großprojekte wie der AI Act, der Digital Services Act, der Digital Markets Act, der Data Act und der Cyber Resilience Act. Um eine rechtssichere Umsetzung zu gewährleisten, diskutieren Politik, Gesellschaft und Wirtschaft, ob die Implementierung von bestehenden Gesetzen Vorrang vor neuen regulatorischen Großprojekten haben sollte."
+    },
+    "6": {
+      "s": "Bürokratieabbau (One in – two out)",
+      "t": "Politische Leitprinzipien",
+      "l": "Für jede neue gesetzliche Regelung sollten mindestens zwei bestehende abgeschafft werden, um für Bürgerinnen, Bürger und Unternehmen keine zusätzliche Bürokratie zu schaffen.",
+      "x": "Aus der Vielzahl an regulatorischen Projekten, die seit 2019 angestoßen wurden, ergeben sich zahlreiche neue bürokratische Pflichten für Bürgerinnen und Bürger sowie für Unternehmen. Derzeit wird diskutiert, wie der daraus resultierende Mehraufwand möglichst gering gehalten werden kann."
+    },
+    "7": {
+      "s": "Verpflichtender Wettbewerbscheck",
+      "t": "Politische Leitprinzipien",
+      "l": "Alle neuen Gesetze sollten daraufhin überprüft werden, ob sie die Wettbewerbsfähigkeit Europas stärken.",
+      "x": "In den zahlreichen neuen Digitalgesetzen seit 2019 stehen insbesondere die Risiken von digitalen Technologien im regulatorischen Fokus. Es besteht die Sorge, dass sich dies nachteilig auf die Wettbewerbsfähigkeit und Potenziale des digitalen Sektors auswirken könnte. Daher diskutieren Politik, Gesellschaft und Wirtschaft, wie neue Gesetze künftig auch stärker zur Wettbewerbsfähigkeit der europäischen Digitalwirtschaft beitragen können."
+    },
+    "8": {
+      "s": "Ein Industry Advisory Body für neue Digitalgesetze",
+      "t": "Politische Leitprinzipien",
+      "l": "Zur Gewährleistung der praktischen Umsetzbarkeit neuer EU-Digitalgesetze sollten die Folgenabschätzungen betroffener Branchen stärker berücksichtigt werden.",
+      "x": "Für den Erfolg von Digitalgesetzen ist es entscheidend, dass diese auch in der Praxis umsetzbar sind. Derzeit wird diskutiert, wie dies am besten gewährleistet werden kann."
+    },
+    "9": {
+      "s": "Digitale Infrastruktur",
+      "t": "Digitale Infrastruktur & Nachhaltigkeit",
+      "l": "Die EU sollte weitere Verfahrensvereinfachungen für den Ausbau der digitalen Infrastruktur auf den Weg bringen.",
+      "x": "Die EU hat sich das Ziel gesetzt, bis 2030 alle Haushalte mit schnellem Internet zu versorgen. Derzeit wird diskutiert, welche Maßnahmen notwendig sind, damit dieses Ziel erreicht werden kann."
+    },
+    "10": {
+      "s": "Cloud-Infrastruktur",
+      "t": "Digitale Infrastruktur & Nachhaltigkeit",
+      "l": "Der Ausbau resilienter und modernster Netzwerkinfrastruktur sollte vorangetrieben werden, um die Potenziale von Edge-Cloud in Europa auszuschöpfen.",
+      "x": "Cloud und Edge Computing bieten dem Wirtschaftsstandort Europa zahlreiche Potenziale. Daher diskutieren Politik, Gesellschaft und Unternehmen, mit welchen Maßnahmen diese Potenziale am besten gefördert werden können."
+    },
+    "11": {
+      "s": "Entbürokratisierung der DSGVO",
+      "t": "Digitale Infrastruktur & Nachhaltigkeit",
+      "l": "Die EU sollte die Datenschutz-Grundverordnung (DSGVO) entbürokratisieren.",
+      "x": "Die Umsetzung der Datenschutz-Grundverordnung (DSGVO) erfordert zahlreiche bürokratische Schritte für Unternehmen, Behörden sowie Bürgerinnen und Bürger. Politik, Gesellschaft und Wirtschaft diskutieren daher, wie der Schutz von Daten in der Praxis vereinfacht werden kann."
+    },
+    "12": {
+      "s": "Klare Regeln für eine starke Datenökonomie",
+      "t": "Digitale Infrastruktur & Nachhaltigkeit",
+      "l": "Bestehende Widersprüche zwischen der Datenschutz-Grundverordnung (DSGVO) und dem Data Act sollten aufgehoben werden.",
+      "x": "Die Datenwirtschaft bietet dem Wirtschaftsstandort Europa zahlreiche Potenziale. Oftmals entscheiden sich Unternehmen jedoch, datengetriebene Innovationsprojekte nicht weiterzuführen, u. a. aufgrund der strengen EU-Datenschutzvorschriften. Es wird daher diskutiert, wie das politische Ziel des Aufbaus einer wettbewerbsfähigen Datenökonomie erreicht werden kann."
+    },
+    "13": {
+      "s": "Verbraucherschutz & digitale Fairness",
+      "t": "Digitale Infrastruktur & Nachhaltigkeit",
+      "l": "Verbraucherinnen und Verbraucher sind im Netz durch EU-Gesetze ausreichend geschützt.",
+      "x": "In den vergangenen fünf Jahren wurden zahlreiche EU-Gesetze für den Schutz von Verbraucherinnen und Verbrauchern im Netz verabschiedet. Dazu zählen u. a. der Digital Services Act und der Digital Markets Act sowie die Regulation on Transparency and Targeting of Online Political Advertising. Ob diese Schutzmaßnahmen ausreichen, wird derzeit diskutiert."
+    },
+    "14": {
+      "s": "Verwirklichung des Digital Green Deals",
+      "t": "Digitale Infrastruktur & Nachhaltigkeit",
+      "l": "Zur Verwirklichung des Green Deals sollten digitale Lösungen quer über alle Sektoren in den Rechtsrahmen integriert werden.",
+      "x": "Digitale Technologien bieten weitreichende Potenziale um die europäischen Nachhaltigkeitsziele zu erreichen. Es wird kritisiert, dass diese in bisherigen Gesetzestexten nicht ausreichend berücksichtigt wurden. Daher diskutieren Poltik, Gesellschaft und Wirtschaft, wie die Chancen digitaler Technologien für die grüne Transformation bestmöglich mobilisiert werden können."
+    },
+    "15": {
+      "s": "EU-Kommissarin oder -Kommissar für Startups",
+      "t": "Startups & Europas digitale Zukunft",
+      "l": "Die EU sollte in der nächsten Legislaturperiode einen Kommissar bzw. eine Kommissarin einsetzen, der/die ausschließlich für Startup-Politik zuständig ist.",
+      "x": "Die politische Zuständigkeit für Startup-Politik ist bisher quer durch die EU-Kommission verteilt. Es wird kritisiert, dass dadurch kein einheitlicher Ansatz zur Förderung von Startups möglich sei. Politik, Gesellschaft und Wirtschaft diskutieren daher, welche Maßnahmen zu einer einheitlichen europäischen Startup Politik beitragen können."
+    },
+    "16": {
+      "s": "Ein EU-Börsenstandort für European Tech Champions",
+      "t": "Startups & Europas digitale Zukunft",
+      "l": "Europäische Global Player benötigen finanzstarke Investoren. Daher sollte ein starker europäischer Börsenstandort aufgebaut werden.",
+      "x": "Für ein digital souveränes Europa müssen europäische Tech-Firmen international wettbewerbsfähig sein. Laut Expertinnen und Experten ist der fehlende Zugang zu Kapital nach wie vor ein großes Hindernis für Unternehmen. Es wird derzeit diskutiert, mit welchen Maßnahmen diese Investment-Lücke geschlossen werden kann, um die Wettbewerbsfähigkeit und Innovationskraft europäischer Tech-Unternehmen zu stärken."
+    },
+    "17": {
+      "s": "Globale Position Europas 2035",
+      "t": "Startups & Europas digitale Zukunft",
+      "l": "Die EU sollte sich das Ziel setzen, bis 2035 ein globaler digitaler Leader zu werden, und allein durch seine Innovationskraft statt regulatorischer Vorsicht den globalen Rahmen mitgestalten.",
+      "x": "Die EU hat sich für 2030 verbindliche Ziele für die digitale Transformation gesetzt. Um über 2030 hinaus zur globalen Spitze aufzuschließen, sind laut Expertinnen und Experten weitere Maßnahmen notwendig. Daher diskutieren Politik, Gesellschaft und Wirtschaft, wie Europa mittel- und langfristig ein globaler digitaler Leader werden kann."
+    }
+  },
+  "lists": {
+    "cdu": {
+      "name": "CDU",
+      "name_x": "Christliche Demokratische Union Deutschlands",
+      "img": "<img src='img/cdu.png' alt='CDU/CSU - Christliche Demokratische Union Deutschlands' />"
+    },
+    "spd": {
+      "name": "SPD",
+      "name_x": "Sozialdemokratische Partei Deutschlands",
+      "img": "<img src='img/spd.png' alt='SPD - Sozialdemokratische Partei Deutschlands' />"
+    },
+    "fdp": {
+      "name": "FDP",
+      "name_x": "Freie Demokratische Partei",
+      "img": "<img src='img/fdp.png' alt='FDP - Freie Demokratische Partei' />"
+    },
+    "b90": {
+      "name": "BÜNDNIS 90/DIE GRÜNEN",
+      "name_x": "Bündnis 90/Die Grünen",
+      "img": "<img src='img/die-gruenen.png' alt='Bündnis 90/Die Grünen' />"
+    },
+    "afd": {
+      "name": "AfD",
+      "name_x": "Alternative für Deutschland",
+      "img": "<img src='img/afd.png' alt='Alternative für Deutschland' />"
+    }
+  },
   "answers": {
     "cdu": {
       "0": {
@@ -460,5 +597,98 @@
         "statement": ""
       }
     }
+  },
+  "fw": {
+    "0": {
+      "selection": "a",
+      "context": "",
+      "statement": "Damit der Forschungs- und Innovationsstandort Europa im internationalen Vergleich bestehen kann, wollen wir die Investitionsprogramme „NextGenerationEU“, „Digitales Europa“, „Horizont Europa“ und die Fazilität „Connecting Europe“ stärken und ausweiten"
+    },
+    "1": {
+      "selection": "a",
+      "context": "",
+      "statement": "Die Herausforderungen des globalen Zeitenwandels lassen sich nicht national lösen. Zu diesen gehören der Umgang mit Digitalisierung und künstlicher Intelligenz. Wir wollen, dass Europa zu einem der führenden Märkte für KI-Entwicklungen und -Anwendungen wird."
+    },
+    "2": {
+      "selection": "a",
+      "context": "",
+      "statement": ""
+    },
+    "3": {
+      "selection": "a",
+      "context": "",
+      "statement": "Wir unterstützen die Forderung, dass die bestehenden Förderprogramme, wie „Digitales Europa“, „Horizont Europa“ und die Fazilität „Connecting Europe“ in einem europäischen Digitalbudget gebündelt werden, um zielgerichtet in den Innovationsstandort Europa investieren zu können."
+    },
+    "4": {
+      "selection": "a",
+      "context": "",
+      "statement": "Bis 2035 fehlen allein in Deutschland sieben Millionen Fachkräfte vor allem im IT-Bereich. Neben einer heimischen Ausbildungsinitiative müssen diese Fachkräfte auch verstärkt aus dem Ausland angeworben werden. Hierfür wollen wir einheitliche Standards in der EU schaffen. Gleichzeitig müssen jedoch auch nationale Hürden wie die zeitaufwendige Visa-Vergabe abgebaut werden."
+    },
+    "5": {
+      "selection": "b",
+      "context": "",
+      "statement": "Wir wollen der Zunahme bürokratischer Auflagen in der europäischen Gesetzgebung entgegenwirken. Diese treffen insbesondere den Mittelstand, das Handwerk und das Ehrenamt. Zudem wollen wir verhindern, dass die Überführung von EU-Richtlinien in nationales Recht eine weitere Paragrafenflut durch die Bundes- und Landesgesetzgeber in Deutschland auslöst."
+    },
+    "6": {
+      "selection": "a",
+      "context": "",
+      "statement": "Wir setzen uns für eine Regulierung ein, die den kleinen und mittelständischen Unternehmen in ganz Europa gerecht wird und sie vor überfordernder Bürokratie schützt. Berichts- und Meldepflichten müssen kontinuierlich evaluiert und auf ihre Existenzberechtigung hin überprüft werden. Behörden müssen darlegen und rechtfertigen, zu welchem Zweck Daten erhoben werden und was mit dem statistischen Material geschieht. Künftig muss eine One-in-two-out-Regel bestehen. Wenn neue Berichts- und Meldepflichten eingeführt werden, müssen andere entfallen."
+    },
+    "7": {
+      "selection": "a",
+      "context": "",
+      "statement": "Wir werden uns in Europa für eine umsetzbare EU-Gesetzgebung für kleine und mittlere Unternehmen einsetzen. Sie müssen weitgehend von europäischen Berichtspflichten entlastet werden. Zudem wollen wir die Potenziale des E-Governments ausschöpfen, um insbesondere die durch Europarecht verursachten Bürokratielasten zu reduzieren und Verwaltungsverfahren zu beschleunigen."
+    },
+    "8": {
+      "selection": "a",
+      "context": "",
+      "statement": "Der Abbau von Bürokratie ist ein wichtiges Kernthema europäischer Politik. Deswegen fordern wir einen eigenen Ausschuss für dieses Thema im EU-Parlament. Außerdem werden wir uns für das Programm BRIDGE-EU (Border Regency Initiative for Development and Growth in Europe) einsetzen."
+    },
+    "9": {
+      "selection": "a",
+      "context": "",
+      "statement": "In der Digitalisierung liegt unsere Zukunft. Europa kann sich im globalen Wettbewerb an der Spitze positionieren, wenn wir unseren gemeinsamen Markt für diese Herausforderung fit machen. Es darf keine Rolle spielen, von welchem Ort aus die Bürger auf Internetseiten zugreifen. Hindernisse bei digitalen Angeboten aufgrund unterschiedlicher nationaler Regelungen wollen wir konsequent beseitigen, um neue Möglichkeiten für unsere mittelständische Wirtschaft zu schaffen."
+    },
+    "10": {
+      "selection": "a",
+      "context": "",
+      "statement": "Damit wir die Potenziale des Edge Computing für Industrie und Verbraucher in Europa maximal nutzen können, setzen wir uns für eine flächendeckende Netzwerkinfrastruktur ein. Besonders in ländlichen Regionen wollen wir die Digitalisierung beschleunigen. Damit auch dort die Industrie mit Echtzeit-Datenauswertungen arbeiten kann und die Ansätze des „Smart Farming“ realisiert werden können, müssen breite Investitionen in die Infrastruktur erfolgen."
+    },
+    "11": {
+      "selection": "a",
+      "context": "",
+      "statement": "Wir setzen uns für eine mittelstandsfreundliche Überarbeitung des europäischen Datenschutzrechts ein. Gerade mit Blick auf die E-Privacy-Verordnung gilt es, Spielräume für Innovation und digitale Geschäftsmodelle zu erhalten. Auf Europaebene wollen wir eine hochrangige Arbeitsgruppe mit Praktikern des Mittelstands, der Digitalwirtschaft und des Ehrenamts einsetzen, um Vorschläge für praktikable Reformen zu unterbreiten. Diese Arbeitsgruppe soll auch die DSGVO modernisieren und einen sinnvollen Datenschutz gegenüber Dritten, wie auch dem Staat, gewährleisten."
+    },
+    "12": {
+      "selection": "a",
+      "context": "",
+      "statement": "Wir wollen die Spielräume für Innovation und digitale Geschäftsmodelle erhalten und gleichzeitig den Schutz persönlicher Daten garantieren. Auf Europaebene wollen wir deshalb eine hochrangige Arbeitsgruppe mit Praktikern des Mittelstands, der Digitalwirtschaft und des Ehrenamts einsetzen, um Vorschläge für praktikable Reformen zu unterbreiten, welche die bestehenden Widersprüche zugunsten des Innovationsstandortes Europa auflösen sollen."
+    },
+    "13": {
+      "selection": "b",
+      "context": "",
+      "statement": "Wir sehen es als unsere Aufgabe an, einen Einklang zwischen Zukunftstechnologien wie der künstlichen Intelligenz, Robotertechnik oder digitalen Industrieanwendungen und den sozialen Standards, sei es im persönlichen Umfeld oder im Arbeitsleben, zu schaffen. Neue Technologien sollen den Menschen unterstützen, nicht ihn belasten oder gar ersetzen. Wir wollen Chancen und Risiken mithilfe von Experten abwägen."
+    },
+    "14": {
+      "selection": "b",
+      "context": "",
+      "statement": "Die Europäische Kommission hat bereits die Schlüsselbereiche für eine innovative europäische Industrie ausgemacht: Antriebs- und Batterietechnologien, Nanotechnologie, Biotechnologie, Mikrotechnologie, intelligente Stromnetze und künstliche Intelligenz. Wir unterstützen Innovationen in allen Industriebereichen auf dem Weg zu einer ökologischeren und kohlenstoffärmeren Wirtschaft. Europa soll sich in den kommenden Jahren zum Vorreiter in diesen Bereichen entwickeln."
+    },
+    "15": {
+      "selection": "c",
+      "context": "",
+      "statement": "Wir wollen die Kommission drastisch verkleinern. Wir sind der Auffassung, dass maximal zehn Ressorts ausreichend sind, um Europa effektiv gestalten zu können. Allerdings wollen wir einheitliche Regeln, um die Gründungskultur in Europa nachhaltig zu stärken. Dabei ist es uns wichtig, die einheitliche Anwendung des Europarechts sicherzustellen und eine gemeinsame Definition für „Startup“ zu finden, um Fördermaßnahmen europaweit zielgenau abzustimmen."
+    },
+    "16": {
+      "selection": "a",
+      "context": "",
+      "statement": ""
+    },
+    "17": {
+      "selection": "b",
+      "context": "",
+      "statement": "Wir müssen eine Umgebung schaffen, in der auch in der EU eine Vielzahl von kleinen, mittleren und großen Digitalunternehmen aufblühen kann. Zu komplizierte Rahmenbedingungen schaffen Nachteile in diesem Zukunftsmarkt gerade für kleine Unternehmen. Wir sehen es deshalb als unsere Aufgabe an, einen Einklang zwischen Zukunftstechnologien wie der künstlichen Intelligenz, Robotertechnik oder digitalen Industrieanwendungen und den sozialen Standards, sei es im persönlichen Umfeld oder im Arbeitsleben, zu schaffen."
+    }
   }
 }
+

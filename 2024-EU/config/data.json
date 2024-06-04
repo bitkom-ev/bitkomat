@@ -111,29 +111,34 @@
   },
   "lists": {
     "cdu": {
-      "name": "CDU",
+      "name": "CDU/CSU",
       "name_x": "Christliche Demokratische Union Deutschlands",
       "img": "<img src='img/cdu.png' alt='CDU/CSU - Christliche Demokratische Union Deutschlands' />"
-    },
-    "spd": {
-      "name": "SPD",
-      "name_x": "Sozialdemokratische Partei Deutschlands",
-      "img": "<img src='img/spd.png' alt='SPD - Sozialdemokratische Partei Deutschlands' />"
-    },
-    "fdp": {
-      "name": "FDP",
-      "name_x": "Freie Demokratische Partei",
-      "img": "<img src='img/fdp.png' alt='FDP - Freie Demokratische Partei' />"
     },
     "b90": {
       "name": "BÜNDNIS 90/DIE GRÜNEN",
       "name_x": "Bündnis 90/Die Grünen",
       "img": "<img src='img/die-gruenen.png' alt='Bündnis 90/Die Grünen' />"
     },
+    "spd": {
+      "name": "SPD",
+      "name_x": "Sozialdemokratische Partei Deutschlands",
+      "img": "<img src='img/spd.png' alt='SPD - Sozialdemokratische Partei Deutschlands' />"
+    },
     "afd": {
       "name": "AfD",
       "name_x": "Alternative für Deutschland",
       "img": "<img src='img/afd.png' alt='Alternative für Deutschland' />"
+    },
+    "fdp": {
+      "name": "FDP",
+      "name_x": "Freie Demokratische Partei",
+      "img": "<img src='img/fdp.png' alt='FDP - Freie Demokratische Partei' />"
+    },
+    "fw": {
+      "name": "FW",
+      "name_x": "Freie Wähler",
+      "img": "<img src='img/fw.png' alt='Freie Wähler' />"
     }
   },
   "answers": {
@@ -229,6 +234,98 @@
         "statement": "CDU und CSU setzen sich für eine Stärkung von Forschung, Entwicklung und Einsatz (technologischer) Innovationen ein. Nur als führender Innovationsstandort wird Europa seinen Wohlstand und seine geostrategische Positionierung mittel- und langfristig ausbauen können. Um dieses Ziel einer Technologieführerschaft und hoher Innovationskraft in Europa zu erreichen, bedarf es größerer regulatorischer Freiräume für Innovatoren."
       }
     },
+    "b90": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen die digitale Souveränität Europas sichern, stärken und ausbauen. Dafür müssen wir gezielt in Innovation, Souveränität und Resilienz investieren. Daher setzen wir bei unserer Wirtschaftspolitik neben neuer Anreize für private Investitionen auch auf starke öffentliche Förderprogramme für Schlüssel- und Zukunftstechnologien."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen, dass Deutschland und die EU auf den Märkten der Zukunft den internationalen Partnern mindestens auf Augenhöhe begegnen können. Daher wollen wir Deutschland in Europa zum Hightech-Standort ausbauen und dabei vor allem auch KI zukunftssicher und nachhaltig fördern. Dafür benötigen wir neben Verfügbarkeit von Rechenkapazität auch Fachkräfteförderung, eine bessere Verfügbarkeit von Daten und die Unterstützung bei Forschung und Transfer."
+      },
+      "2": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen, dass Europa bei der Verfügbarkeit von Daten einen entscheidenden Schritt vorangeht, da diese kritisch für unsere Wettbewerbsfähigkeit sind. Das betrifft die Entwicklung von KI, den Erfolg europäischer KI-Modelle und unsere Innovationsfähigkeit insgesamt. Dabei muss sichergestellt werden, dass Urheber*innen für ihre Werke eine angemessene Vergütung erhalten."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "Besonders unter Berücksichtigung der Ziele der ökologischen Modernisierung und zur Schaffung von Anreizen nachhaltiger und klimaschützender digitaler Technologien kann ein flexibles Budget genutzt werden."
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": "Europa konkurriert mit weiteren Weltregionen um Fachkräfte. Wir setzen uns daher für eine umfassende EU-Fachkräftestrategie ein. Bei der Anwerbung aus Drittstaaten sollte die EU-Blue-Card-Initiative auf nicht akademische Berufe ausgeweitet werden, sofern ein konkretes Jobangebot zu marktüblichen Konditionen vorliegt. Gleichzeitig müssen wir Frauen die Möglichkeit geben, sich voll einzubringen. Sie arbeiten oft unfreiwillig in Teilzeit oder gar nicht. Wir brauchen eine feministische Wirtschafts-, Arbeitsmarkt- und Zeitpolitik, die soziale Infrastruktur für die Vereinbarkeit von Familie, Beruf und demokratischer Teilhabe mitdenkt."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "In den nächsten Jahren wird die Etablierung und Konsolidierung der Strukturen, die wir mit den regulatorischen Großprojekten in den letzten Wahlperioden beschlossen haben, im Vordergrund stehen. Wir werden uns für eine möglichst unbürokratische Umsetzung dieser bereits beschlossenen EU-Gesetze in nationales Recht einsetzen."
+      },
+      "6": {
+        "selection": "c",
+        "context": "",
+        "statement": "Bürokratieabbau ist eine der zentralen Herausforderung der Wirtschaftspolitik. Beim Bürokratieabbau ist aber weniger die Anzahl sondern mehr die Qualität und das Zusammenspiel der Gesetze entscheidend. Wir setzen uns für eine regelmäßige Überprüfung aller Regulierungen ein, um bürokratische Anforderungen zu vereinfachen und Vorschriften, die ihr Ziel verfehlen, wieder zu streichen."
+      },
+      "7": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wir wollen, dass die Wettbewerbsfähigkeit von Unternehmen, ganz besonders von KMU, bei der Einführung neuer Regelungen und Förderprogrammen von Anfang an mitgedacht wird. Dazu wollen wir etwa die KMU-Tests verbessern und konsequent anwenden. Wir setzen uns außerdem für angemessene Ausnahmen und Übergangsfristen für KMU in neuen Gesetzen ein."
+      },
+      "8": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wie in anderen Branchen sollte auch die Digital-Gesetzgebung einen fairen Interessenausgleich zwischen Gesellschaft, Umwelt und Wirtschaft darstellen. Wir begrüßen eine frühzeitige Berücksichtigung der betroffenen Branchen im Gesetzgebungsprozess. Die Einrichtung von Industry Advisory Bodies kann diesen Prozess verstetigen und transparent machen."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen in Europa eine Infrastruktur Union schaffen. Damit sollen grenzüberschreitende Infrastrukturprojekte gefördert und Europa enger zusammengebracht werden. Ein Schwerpunkt soll auf der Stärkung der digitalen Infrastruktur liegen, etwa durch den Ausbau von Glasfaserleitungen. Dafür wollen wir auch die Planungs- und Genehmigungsverfahren erheblich beschleunigen."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Gerade der Mittelstand profitiert von den neuen Ansätzen zu gemeinsamer, freiwilliger Nutzung von Daten. Kritische Infrastruktur muss dabei geschützt werden und als wesentliche Komponente von Souveränität mitgedacht werden. Europa, seine Regierungen und die öffentliche Hand müssen ihrer Verantwortung bei der Schaffung von nachhaltiger, zukunftssicherer und unabhängiger Hard- und Software-Infrastruktur besonders auf der Basis von Open-Source-Technologien gerecht werden."
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen die anstehende Evaluation der DSGVO nutzen, um die Regelungen bei gleichbleibendem Datenschutzniveau zu vereinfachen und praxistauglicher zu machen, auch um den besonderen Bedürfnissen von KMU und Start-Ups Rechnung zu tragen."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Regelungen aus dem Data Act wurden vor dem Hintergrund der bestehenden Regeln der DSGVO und komplementär dazu entwickelt. Widersprüche zwischen der DSGVO und dem Data Act, die trotz dieses Vorgehens im Gesetzgebungsprozess bestehen bleiben, sollten selbstverständlich aufgehoben werden."
+      },
+      "13": {
+        "selection": "c",
+        "context": "",
+        "statement": "Auf europäischer Ebene sind bereits positive Entwicklungen und Fortschritte zu beobachten. Die sich teilweise schnell entwickelnden Mechanismen und Bedrohungen von Verbraucher*innen-Interessen im Netz müssen durch die Marktaufsichtsbehörden stets begleitet und Gesetze effektiv durchgesetzt werden. Teilweise könnten hier dynamische Anpassungen von bestehenden Gesetzen erforderlich sein."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Auch und gerade zur Umsetzung des Green Deal setzen wir auf Bürokratieabbau durch verstärkte Digitalisierung. Wir wollen die digitale Umsetzung von Gesetzesvorhaben bereits im legislativen Prozess berücksichtigen. Damit können staatliche Dienstleistungen schneller und effizienter erbracht werden."
+      },
+      "15": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wir brauchen in der Kommission eine klare Zuständigkeit für junge Unternehmen, damit der Knowhow-Transfer in der EU besser koordiniert wird. Mit einer europäischen Start-up-Strategie bündeln wir wichtige Maßnahmen für besseren Zugang zu Wagniskapital, zur Gewinnung von Talenten und zu öffentlichen Aufträgen für junge Unternehmen. Statt vollkommen neue Strukturen zu schaffen, wollen wir das Portfolio einer bestehenden Position um die klare Zuständigkeit für Startup-Politik ergänzen, etwa das der EU-Kommissarin für Innovation."
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": "Indem wir endlich die Kapitalmarktunion zu einem Erfolg machen, wollen wir einen starken europäischen Börsenstandort aufbauen. Durch faire und klare Regeln und EU-weite Aufsichtsbehörden stärken wir das Vertrauen von Sparer*innen in die Finanzmärkte und mobilisieren grenzübergreifend Investitionen in die grüne und digitale Transformation."
+      },
+      "17": {
+        "selection": "b",
+        "context": "",
+        "statement": "Unser Ziel und Anspruch ist es, Europa bis 2035 zu einem globalen digitalen Leader zu machen. Dies kann aber nicht allein durch Innovationskraft geschehen, denn regulatorische Vorsicht und starke Innovationskraft gehen für uns Hand in Hand."
+      }
+    },
     "spd": {
       "0": {
         "selection": "a",
@@ -319,6 +416,98 @@
         "selection": "a",
         "context": "",
         "statement": "Wir wollen das Innovationspotenzial Europas bestmöglich nutzen. Unser Ziel ist eine europäisch geeinte Wissens- und Forschungslandschaft mit einem dichten Netz an Kooperationen, gemeinsamen Programmen und gezielt geförderten großen Zukunftsprojekten in Bereichen wie etwa Clean Tech, Quantencomputing oder Künstliche Intelligenz. Wir setzen uns dafür ein, dass die EU-Initiative IPCEI zur Förderung und Neuansiedlung strategisch wichtiger Unternehmen auf mehr Branchen ausgeweitet und für den Mittelstand geöffnet wird sowie die Antragsbearbeitung erheblich beschleunigt wird."
+      }
+    },
+    "afd": {
+      "0": {
+        "selection": "c",
+        "context": "",
+        "statement": ""
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "2": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "3": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "6": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "c",
+        "context": "",
+        "statement": "Die AfD lehnt den Green Deal grundsätzlich ab."
+      },
+      "15": {
+        "selection": "c",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "17": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
       }
     },
     "fdp": {
@@ -413,188 +602,96 @@
         "statement": "Europa braucht mehr Freude an Innovation als stets zuerst an Regulierung zu denken. Wir wollen Europa schnellstmöglich zum digitalen Chancenkontinent machen. Wir setzen uns für den Ausbau des digitalen Binnenmarkts und den Abbau nationaler Schranken ein. Wir wollen es einfacher machen, digitale Geschäftsmodelle zu skalieren und grenzübergreifende Start-ups zu gründen. Durch ein zentrales Gremium für den digitalen Binnenmarkt wollen wir eine einheitliche Rechtsauslegung sicherstellen. Wir fordern Digital-Freiheitszonen nach europäischem Recht: Durch Experimentierräume und Öffnungsklauseln wollen wir grenzüberschreitende „Sonderwirtschaftszonen“ für digitale Ausgründungen von Unternehmen, Start-ups und Spin-offs schaffen."
       }
     },
-    "b90": {
+    "fw": {
       "0": {
         "selection": "a",
         "context": "",
-        "statement": "Wir wollen die digitale Souveränität Europas sichern, stärken und ausbauen. Dafür müssen wir gezielt in Innovation, Souveränität und Resilienz investieren. Daher setzen wir bei unserer Wirtschaftspolitik neben neuer Anreize für private Investitionen auch auf starke öffentliche Förderprogramme für Schlüssel- und Zukunftstechnologien."
+        "statement": "Damit der Forschungs- und Innovationsstandort Europa im internationalen Vergleich bestehen kann, wollen wir die Investitionsprogramme „NextGenerationEU“, „Digitales Europa“, „Horizont Europa“ und die Fazilität „Connecting Europe“ stärken und ausweiten"
       },
       "1": {
         "selection": "a",
         "context": "",
-        "statement": "Wir wollen, dass Deutschland und die EU auf den Märkten der Zukunft den internationalen Partnern mindestens auf Augenhöhe begegnen können. Daher wollen wir Deutschland in Europa zum Hightech-Standort ausbauen und dabei vor allem auch KI zukunftssicher und nachhaltig fördern. Dafür benötigen wir neben Verfügbarkeit von Rechenkapazität auch Fachkräfteförderung, eine bessere Verfügbarkeit von Daten und die Unterstützung bei Forschung und Transfer."
+        "statement": "Die Herausforderungen des globalen Zeitenwandels lassen sich nicht national lösen. Zu diesen gehören der Umgang mit Digitalisierung und künstlicher Intelligenz. Wir wollen, dass Europa zu einem der führenden Märkte für KI-Entwicklungen und -Anwendungen wird."
       },
       "2": {
         "selection": "a",
         "context": "",
-        "statement": "Wir wollen, dass Europa bei der Verfügbarkeit von Daten einen entscheidenden Schritt vorangeht, da diese kritisch für unsere Wettbewerbsfähigkeit sind. Das betrifft die Entwicklung von KI, den Erfolg europäischer KI-Modelle und unsere Innovationsfähigkeit insgesamt. Dabei muss sichergestellt werden, dass Urheber*innen für ihre Werke eine angemessene Vergütung erhalten."
+        "statement": ""
       },
       "3": {
         "selection": "a",
         "context": "",
-        "statement": "Besonders unter Berücksichtigung der Ziele der ökologischen Modernisierung und zur Schaffung von Anreizen nachhaltiger und klimaschützender digitaler Technologien kann ein flexibles Budget genutzt werden."
+        "statement": "Wir unterstützen die Forderung, dass die bestehenden Förderprogramme, wie „Digitales Europa“, „Horizont Europa“ und die Fazilität „Connecting Europe“ in einem europäischen Digitalbudget gebündelt werden, um zielgerichtet in den Innovationsstandort Europa investieren zu können."
       },
       "4": {
         "selection": "a",
         "context": "",
-        "statement": "Europa konkurriert mit weiteren Weltregionen um Fachkräfte. Wir setzen uns daher für eine umfassende EU-Fachkräftestrategie ein. Bei der Anwerbung aus Drittstaaten sollte die EU-Blue-Card-Initiative auf nicht akademische Berufe ausgeweitet werden, sofern ein konkretes Jobangebot zu marktüblichen Konditionen vorliegt. Gleichzeitig müssen wir Frauen die Möglichkeit geben, sich voll einzubringen. Sie arbeiten oft unfreiwillig in Teilzeit oder gar nicht. Wir brauchen eine feministische Wirtschafts-, Arbeitsmarkt- und Zeitpolitik, die soziale Infrastruktur für die Vereinbarkeit von Familie, Beruf und demokratischer Teilhabe mitdenkt."
+        "statement": "Bis 2035 fehlen allein in Deutschland sieben Millionen Fachkräfte vor allem im IT-Bereich. Neben einer heimischen Ausbildungsinitiative müssen diese Fachkräfte auch verstärkt aus dem Ausland angeworben werden. Hierfür wollen wir einheitliche Standards in der EU schaffen. Gleichzeitig müssen jedoch auch nationale Hürden wie die zeitaufwendige Visa-Vergabe abgebaut werden."
       },
       "5": {
-        "selection": "a",
-        "context": "",
-        "statement": "In den nächsten Jahren wird die Etablierung und Konsolidierung der Strukturen, die wir mit den regulatorischen Großprojekten in den letzten Wahlperioden beschlossen haben, im Vordergrund stehen. Wir werden uns für eine möglichst unbürokratische Umsetzung dieser bereits beschlossenen EU-Gesetze in nationales Recht einsetzen."
-      },
-      "6": {
-        "selection": "c",
-        "context": "",
-        "statement": "Bürokratieabbau ist eine der zentralen Herausforderung der Wirtschaftspolitik. Beim Bürokratieabbau ist aber weniger die Anzahl sondern mehr die Qualität und das Zusammenspiel der Gesetze entscheidend. Wir setzen uns für eine regelmäßige Überprüfung aller Regulierungen ein, um bürokratische Anforderungen zu vereinfachen und Vorschriften, die ihr Ziel verfehlen, wieder zu streichen."
-      },
-      "7": {
         "selection": "b",
         "context": "",
-        "statement": "Wir wollen, dass die Wettbewerbsfähigkeit von Unternehmen, ganz besonders von KMU, bei der Einführung neuer Regelungen und Förderprogrammen von Anfang an mitgedacht wird. Dazu wollen wir etwa die KMU-Tests verbessern und konsequent anwenden. Wir setzen uns außerdem für angemessene Ausnahmen und Übergangsfristen für KMU in neuen Gesetzen ein."
-      },
-      "8": {
-        "selection": "b",
-        "context": "",
-        "statement": "Wie in anderen Branchen sollte auch die Digital-Gesetzgebung einen fairen Interessenausgleich zwischen Gesellschaft, Umwelt und Wirtschaft darstellen. Wir begrüßen eine frühzeitige Berücksichtigung der betroffenen Branchen im Gesetzgebungsprozess. Die Einrichtung von Industry Advisory Bodies kann diesen Prozess verstetigen und transparent machen."
-      },
-      "9": {
-        "selection": "a",
-        "context": "",
-        "statement": "Wir wollen in Europa eine Infrastruktur Union schaffen. Damit sollen grenzüberschreitende Infrastrukturprojekte gefördert und Europa enger zusammengebracht werden. Ein Schwerpunkt soll auf der Stärkung der digitalen Infrastruktur liegen, etwa durch den Ausbau von Glasfaserleitungen. Dafür wollen wir auch die Planungs- und Genehmigungsverfahren erheblich beschleunigen."
-      },
-      "10": {
-        "selection": "a",
-        "context": "",
-        "statement": "Gerade der Mittelstand profitiert von den neuen Ansätzen zu gemeinsamer, freiwilliger Nutzung von Daten. Kritische Infrastruktur muss dabei geschützt werden und als wesentliche Komponente von Souveränität mitgedacht werden. Europa, seine Regierungen und die öffentliche Hand müssen ihrer Verantwortung bei der Schaffung von nachhaltiger, zukunftssicherer und unabhängiger Hard- und Software-Infrastruktur besonders auf der Basis von Open-Source-Technologien gerecht werden."
-      },
-      "11": {
-        "selection": "a",
-        "context": "",
-        "statement": "Wir wollen die anstehende Evaluation der DSGVO nutzen, um die Regelungen bei gleichbleibendem Datenschutzniveau zu vereinfachen und praxistauglicher zu machen, auch um den besonderen Bedürfnissen von KMU und Start-Ups Rechnung zu tragen."
-      },
-      "12": {
-        "selection": "a",
-        "context": "",
-        "statement": "Die Regelungen aus dem Data Act wurden vor dem Hintergrund der bestehenden Regeln der DSGVO und komplementär dazu entwickelt. Widersprüche zwischen der DSGVO und dem Data Act, die trotz dieses Vorgehens im Gesetzgebungsprozess bestehen bleiben, sollten selbstverständlich aufgehoben werden."
-      },
-      "13": {
-        "selection": "c",
-        "context": "",
-        "statement": "Auf europäischer Ebene sind bereits positive Entwicklungen und Fortschritte zu beobachten. Die sich teilweise schnell entwickelnden Mechanismen und Bedrohungen von Verbraucher*innen-Interessen im Netz müssen durch die Marktaufsichtsbehörden stets begleitet und Gesetze effektiv durchgesetzt werden. Teilweise könnten hier dynamische Anpassungen von bestehenden Gesetzen erforderlich sein."
-      },
-      "14": {
-        "selection": "a",
-        "context": "",
-        "statement": "Auch und gerade zur Umsetzung des Green Deal setzen wir auf Bürokratieabbau durch verstärkte Digitalisierung. Wir wollen die digitale Umsetzung von Gesetzesvorhaben bereits im legislativen Prozess berücksichtigen. Damit können staatliche Dienstleistungen schneller und effizienter erbracht werden."
-      },
-      "15": {
-        "selection": "b",
-        "context": "",
-        "statement": "Wir brauchen in der Kommission eine klare Zuständigkeit für junge Unternehmen, damit der Knowhow-Transfer in der EU besser koordiniert wird. Mit einer europäischen Start-up-Strategie bündeln wir wichtige Maßnahmen für besseren Zugang zu Wagniskapital, zur Gewinnung von Talenten und zu öffentlichen Aufträgen für junge Unternehmen. Statt vollkommen neue Strukturen zu schaffen, wollen wir das Portfolio einer bestehenden Position um die klare Zuständigkeit für Startup-Politik ergänzen, etwa das der EU-Kommissarin für Innovation."
-      },
-      "16": {
-        "selection": "a",
-        "context": "",
-        "statement": "Indem wir endlich die Kapitalmarktunion zu einem Erfolg machen, wollen wir einen starken europäischen Börsenstandort aufbauen. Durch faire und klare Regeln und EU-weite Aufsichtsbehörden stärken wir das Vertrauen von Sparer*innen in die Finanzmärkte und mobilisieren grenzübergreifend Investitionen in die grüne und digitale Transformation."
-      },
-      "17": {
-        "selection": "b",
-        "context": "",
-        "statement": "Unser Ziel und Anspruch ist es, Europa bis 2035 zu einem globalen digitalen Leader zu machen. Dies kann aber nicht allein durch Innovationskraft geschehen, denn regulatorische Vorsicht und starke Innovationskraft gehen für uns Hand in Hand."
-      }
-    },
-    "afd": {
-      "0": {
-        "selection": "c",
-        "context": "",
-        "statement": ""
-      },
-      "1": {
-        "selection": "a",
-        "context": "",
-        "statement": ""
-      },
-      "2": {
-        "selection": "b",
-        "context": "",
-        "statement": ""
-      },
-      "3": {
-        "selection": "b",
-        "context": "",
-        "statement": ""
-      },
-      "4": {
-        "selection": "b",
-        "context": "",
-        "statement": ""
-      },
-      "5": {
-        "selection": "a",
-        "context": "",
-        "statement": ""
+        "statement": "Wir wollen der Zunahme bürokratischer Auflagen in der europäischen Gesetzgebung entgegenwirken. Diese treffen insbesondere den Mittelstand, das Handwerk und das Ehrenamt. Zudem wollen wir verhindern, dass die Überführung von EU-Richtlinien in nationales Recht eine weitere Paragrafenflut durch die Bundes- und Landesgesetzgeber in Deutschland auslöst."
       },
       "6": {
         "selection": "a",
         "context": "",
-        "statement": ""
+        "statement": "Wir setzen uns für eine Regulierung ein, die den kleinen und mittelständischen Unternehmen in ganz Europa gerecht wird und sie vor überfordernder Bürokratie schützt. Berichts- und Meldepflichten müssen kontinuierlich evaluiert und auf ihre Existenzberechtigung hin überprüft werden. Behörden müssen darlegen und rechtfertigen, zu welchem Zweck Daten erhoben werden und was mit dem statistischen Material geschieht. Künftig muss eine One-in-two-out-Regel bestehen. Wenn neue Berichts- und Meldepflichten eingeführt werden, müssen andere entfallen."
       },
       "7": {
         "selection": "a",
         "context": "",
-        "statement": ""
+        "statement": "Wir werden uns in Europa für eine umsetzbare EU-Gesetzgebung für kleine und mittlere Unternehmen einsetzen. Sie müssen weitgehend von europäischen Berichtspflichten entlastet werden. Zudem wollen wir die Potenziale des E-Governments ausschöpfen, um insbesondere die durch Europarecht verursachten Bürokratielasten zu reduzieren und Verwaltungsverfahren zu beschleunigen."
       },
       "8": {
         "selection": "a",
         "context": "",
-        "statement": ""
+        "statement": "Der Abbau von Bürokratie ist ein wichtiges Kernthema europäischer Politik. Deswegen fordern wir einen eigenen Ausschuss für dieses Thema im EU-Parlament. Außerdem werden wir uns für das Programm BRIDGE-EU (Border Regency Initiative for Development and Growth in Europe) einsetzen."
       },
       "9": {
         "selection": "a",
         "context": "",
-        "statement": ""
+        "statement": "In der Digitalisierung liegt unsere Zukunft. Europa kann sich im globalen Wettbewerb an der Spitze positionieren, wenn wir unseren gemeinsamen Markt für diese Herausforderung fit machen. Es darf keine Rolle spielen, von welchem Ort aus die Bürger auf Internetseiten zugreifen. Hindernisse bei digitalen Angeboten aufgrund unterschiedlicher nationaler Regelungen wollen wir konsequent beseitigen, um neue Möglichkeiten für unsere mittelständische Wirtschaft zu schaffen."
       },
       "10": {
         "selection": "a",
         "context": "",
-        "statement": ""
+        "statement": "Damit wir die Potenziale des Edge Computing für Industrie und Verbraucher in Europa maximal nutzen können, setzen wir uns für eine flächendeckende Netzwerkinfrastruktur ein. Besonders in ländlichen Regionen wollen wir die Digitalisierung beschleunigen. Damit auch dort die Industrie mit Echtzeit-Datenauswertungen arbeiten kann und die Ansätze des „Smart Farming“ realisiert werden können, müssen breite Investitionen in die Infrastruktur erfolgen."
       },
       "11": {
         "selection": "a",
         "context": "",
-        "statement": ""
+        "statement": "Wir setzen uns für eine mittelstandsfreundliche Überarbeitung des europäischen Datenschutzrechts ein. Gerade mit Blick auf die E-Privacy-Verordnung gilt es, Spielräume für Innovation und digitale Geschäftsmodelle zu erhalten. Auf Europaebene wollen wir eine hochrangige Arbeitsgruppe mit Praktikern des Mittelstands, der Digitalwirtschaft und des Ehrenamts einsetzen, um Vorschläge für praktikable Reformen zu unterbreiten. Diese Arbeitsgruppe soll auch die DSGVO modernisieren und einen sinnvollen Datenschutz gegenüber Dritten, wie auch dem Staat, gewährleisten."
       },
       "12": {
         "selection": "a",
         "context": "",
-        "statement": ""
+        "statement": "Wir wollen die Spielräume für Innovation und digitale Geschäftsmodelle erhalten und gleichzeitig den Schutz persönlicher Daten garantieren. Auf Europaebene wollen wir deshalb eine hochrangige Arbeitsgruppe mit Praktikern des Mittelstands, der Digitalwirtschaft und des Ehrenamts einsetzen, um Vorschläge für praktikable Reformen zu unterbreiten, welche die bestehenden Widersprüche zugunsten des Innovationsstandortes Europa auflösen sollen."
       },
       "13": {
         "selection": "b",
         "context": "",
-        "statement": ""
+        "statement": "Wir sehen es als unsere Aufgabe an, einen Einklang zwischen Zukunftstechnologien wie der künstlichen Intelligenz, Robotertechnik oder digitalen Industrieanwendungen und den sozialen Standards, sei es im persönlichen Umfeld oder im Arbeitsleben, zu schaffen. Neue Technologien sollen den Menschen unterstützen, nicht ihn belasten oder gar ersetzen. Wir wollen Chancen und Risiken mithilfe von Experten abwägen."
       },
       "14": {
-        "selection": "c",
+        "selection": "b",
         "context": "",
-        "statement": "Die AfD lehnt den Green Deal grundsätzlich ab."
+        "statement": "Die Europäische Kommission hat bereits die Schlüsselbereiche für eine innovative europäische Industrie ausgemacht: Antriebs- und Batterietechnologien, Nanotechnologie, Biotechnologie, Mikrotechnologie, intelligente Stromnetze und künstliche Intelligenz. Wir unterstützen Innovationen in allen Industriebereichen auf dem Weg zu einer ökologischeren und kohlenstoffärmeren Wirtschaft. Europa soll sich in den kommenden Jahren zum Vorreiter in diesen Bereichen entwickeln."
       },
       "15": {
         "selection": "c",
         "context": "",
-        "statement": ""
+        "statement": "Wir wollen die Kommission drastisch verkleinern. Wir sind der Auffassung, dass maximal zehn Ressorts ausreichend sind, um Europa effektiv gestalten zu können. Allerdings wollen wir einheitliche Regeln, um die Gründungskultur in Europa nachhaltig zu stärken. Dabei ist es uns wichtig, die einheitliche Anwendung des Europarechts sicherzustellen und eine gemeinsame Definition für „Startup“ zu finden, um Fördermaßnahmen europaweit zielgenau abzustimmen."
       },
       "16": {
-        "selection": "b",
+        "selection": "a",
         "context": "",
         "statement": ""
       },
       "17": {
         "selection": "b",
         "context": "",
-        "statement": ""
+        "statement": "Wir müssen eine Umgebung schaffen, in der auch in der EU eine Vielzahl von kleinen, mittleren und großen Digitalunternehmen aufblühen kann. Zu komplizierte Rahmenbedingungen schaffen Nachteile in diesem Zukunftsmarkt gerade für kleine Unternehmen. Wir sehen es deshalb als unsere Aufgabe an, einen Einklang zwischen Zukunftstechnologien wie der künstlichen Intelligenz, Robotertechnik oder digitalen Industrieanwendungen und den sozialen Standards, sei es im persönlichen Umfeld oder im Arbeitsleben, zu schaffen."
       }
     }
   }

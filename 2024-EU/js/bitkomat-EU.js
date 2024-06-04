@@ -184,19 +184,20 @@ function recreatePagination(status, real, currentThesis) {
             let currentGroup = '';
             //console.log(currentThesis);
             // <!-- Thema Zuordnung Innovationsstandort & Zukunftsindustrien 1 -5 = 0 - 4  5x  -->
-            if (currentThesis >= 0 && currentThesis <= 4 && i >= 0 && i < 5) {
+            if (currentThesis >= 0 && currentThesis <= 4 && i >= 0 && i <= 4) {
                 currentGroup = 'focused';
             }
             // <!-- Thema Zuordnung Politische Leitprinzipien 6 - 9 = 5 - 8 4x  -->
-            if (currentThesis >= 5 && currentThesis <= 9 && i >= 5 && i < 9) {
+            if (currentThesis >= 5 && currentThesis <= 8 && i >= 5 && i <= 8) {
                 currentGroup = 'focused';
             }
             // <!-- Thema Zuordnung Digitale Infrastruktur & Nachhaltigkeit 10 15 = 9 - 14 6x  -->
-            if (currentThesis >= 9 && currentThesis <= 15 && i >= 9 && i < 15) {
+            if (currentThesis >= 9 && currentThesis <= 14 && i >= 9 && i <= 14) {
                 currentGroup = 'focused';
             }
             // <!-- Thema Zuordnung Startups & Europas digitale Zukunft 16 - 18  3x -->
-            if (currentThesis >= 16 && currentThesis <= (thesen - 1) && i >= 18 && i < thesen) {
+            // && currentThesis <= (thesen - 1) && i >= 18 && i < thesen
+            if (currentThesis >= 15 && currentThesis <= 18 && i >= 15 && i <= 18 ) {
                 currentGroup = 'focused';
             }
 // <!-- Thema Zuordnung group gruppe 5x 4x 6x 3x -->
@@ -215,7 +216,7 @@ function recreatePagination(status, real, currentThesis) {
                 '<button class="page-link" onclick="loadThesisNumber(' + i + ')">' + (i + 1) + '</button>' +
                 '</li>');
 // <!-- Thema Zuordnung group gruppe -->
-            if (i == 0 || i == 4 || i == 9 || i == 14) {
+            if (i == 0 || i == 5 || i == 9 || i == 15) {
                 $('#pagination-group-' + i).append('</ul>');
                 $('#pagination').append('</div>');
             }
@@ -689,7 +690,7 @@ function initResultDetails(type = 'weight') {
         let group = "";
         let i = thesis_id;
         // <!-- Thema Zuordnung group gruppe  1 5 = 0 - 4 -->
-        if (i == 0 || i == 4 || i == 9 || i == 14) {
+        if (i == 0 || i == 5 || i == 9 || i == 15) {
             group = `<div class="card-group-name">
             ${thesisGroup}
             </div>`;
