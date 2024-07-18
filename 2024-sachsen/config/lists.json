@@ -2,28 +2,28 @@
   "lists": {
     "cdu": {
       "name": "CDU",
-      "name_x": "Christlich Demokratische Union Deutschlands",
-      "img": "<img src='img/cdu.png' alt='CDU - Christlich Demokratische Union Deutschlands' />"
+      "name_x": "CDU Landesverband Sachsen",
+      "img": "<img src='img/cdu.png' alt='CDU Landesverband Sachsen' />"
     },
-    "spd": {
-      "name": "SPD",
-      "name_x": "Sozialdemokratische Partei Deutschlands",
-      "img": "<img src='img/spd.png' alt='SPD - Sozialdemokratische Partei Deutschlands' />"
+    "linke": {
+      "name": "die Linke",
+      "name_x": "Die Linke Sachsen",
+      "img": "<img src='img/linke.png' alt='Die Linke Sachsen' />"
     },
     "b90": {
       "name": "BÜNDNIS 90/DIE GRÜNEN",
-      "name_x": "Bündnis 90/Die Grünen Bayern",
-      "img": "<img src='img/die-grünen.jpg' alt='Bündnis 90/Die Grünen Bayern' />"
+      "name_x": "BÜNDNIS 90/DIE GRÜNEN Sachsen",
+      "img": "<img src='img/gruene-sachsen.de.png' alt='BÜNDNIS 90/DIE GRÜNEN Sachsen' />"
     },
-    "fwb": {
-      "name": "Freie Wähler",
-      "name_x": "Landesvereinigung Freie Wähler Bayern",
-      "img": "<img src='img/freie-wähler.png' alt='Landesvereinigung Freie Wähler Bayern' />"
+    "spd": {
+      "name": "SPD",
+      "name_x": "SPD Landesverband Sachsen",
+      "img": "<img src='img/spd.png' alt='SPD Landesverband Sachsen' />"
     },
-    "afd": {
-      "name": "AfD",
-      "name_x": "Landesverband der Partei Alternative für Deutschland in Bayern",
-      "img": "<img src='img/afd.png' alt='Landesverband der Partei Alternative für Deutschland in Bayern' />"
+    "bsw": {
+      "name": "BSW",
+      "name_x": "Bündnis Sahra Wagenknecht",
+      "img": "<img src='img/bsw.png' alt='Bündnis Sahra Wagenknecht' />"
     }
   }
 }
