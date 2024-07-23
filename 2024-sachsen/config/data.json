@@ -1,159 +1,765 @@
 {
-
   "theses": {
     "0": {
-      "s": "Politik & Verwaltung",
-      "t": "Digitale Verwaltung",
+      "s": "Digitale Verwaltung",
+      "t": "Politik & Verwaltung",
       "l": "Digital first: Sächsische Bürgerinnen und Bürger sowie Unternehmen sollten bis zur Hälfte der nächsten Legislaturperiode ausnahmslos alle Behördengänge online erledigen können.",
       "x": "Die digitale Transformation der öffentlichen Verwaltung bietet aus Sicht vieler Expertinnen und Experten große Potenziale für Staat, Gesellschaft und Wirtschaft: Bürgerinnen und Bürger sowie Unternehmen werden entlastet, Verwaltungshandeln wird flexibler, nutzerfreundlicher und transparenter und verwaltungsinterne Ressourcen können effizient genutzt werden. Bislang sind jedoch viele wichtige Verwaltungsdienstleistungen noch nicht digital verfügbar."
     },
     "1": {
-      "s": "Politik & Verwaltung",
-      "t": "Digitalministerium",
+      "s": "Digitalministerium",
+      "t": "Politik & Verwaltung",
       "l": "Um Kompetenzen im Bereich der Digitalisierung zu bündeln, sollte die Landesregierung ein eigenständiges Digitalministerium einrichten.",
       "x": "Ein Digitalministerium kann als zentrale Stelle die Digitalisierung in allen Bereichen effizient umsetzen, vorantreiben und koordinieren. Es wird diskutiert, ob in Sachsen ein eigenes Ministerium zur zentralen Steuerung der Digitalisierung sinnvoll ist."
     },
     "2": {
-      "s": "Politik & Verwaltung",
-      "t": "Online-Wahl",
+      "s": "Online-Wahl",
+      "t": "Politik & Verwaltung",
       "l": "Bei Landtagswahlen sollte man seine Stimme zukünftig online abgeben können.",
       "x": "Die Digitalisierung eröffnet eine Vielzahl neuer Beteiligungsformen: Parteitage finden virtuell statt, Aktionärsversammlungen werden online abgehalten und Vereine treffen sich digital. Teilweise kann auch digital abgestimmt werden. Ob die Möglichkeit der digitalen Partizipation auch auf die Stimmabgabe bei Landtagswahlen ausgeweitet werden soll, ist allerdings umstritten."
     },
     "3": {
-      "s": "Politik & Verwaltung",
-      "t": "Open Data",
+      "s": "Open Data",
+      "t": "Politik & Verwaltung",
       "l": "Sächsische Bürgerinnen und Bürger sowie Unternehmen sollten einen Rechtsanspruch auf die Nutzung von Verwaltungsdaten erhalten und deren Bereitstellung im Zweifel einklagen können.",
       "x": "Daten werden immer wertvoller und der Zugang zu ihnen ist ein wichtiger Schlüssel für die Digitalisierung von Wirtschaft und Gesellschaft. Ein Recht auf Nutzung von Verwaltungsdaten könnte sicherstellen, dass auch Bürgerinnen und Bürger sowie Unternehmen zukünftig stärker von den Datenschätzen der Verwaltung profitieren."
     },
     "4": {
-      "s": "Bildung & Teilhabe",
-      "t": "Informatik als Pflichtfach",
+      "s": "Informatik als Pflichtfach",
+      "t": "Bildung & Teilhabe",
       "l": "Informatik sollte in Sachsen ab Klasse 5 als Pflichtfach mit einem festen wöchentlichen Stundenkontingent unterrichtet werden.",
       "x": "In Sachsen wird Informatik seit der Lehrplanreform 2004 als Pflichtfach mit einer Wochenstunde in den Klassenstufen 7 bis 10 für alle Schülerinnen und Schüler unterrichtet, je nach Schulart auch bis zu vierstündig. Eine Gleichstellung mit anderen MINT-Fächern im Abitur steht noch aus. Um zukünftig mehr IT-Fachkräfte auszubilden und die digitale Kompetenz der Schülerinnen und Schüler zu stärken, wird in Politik, Gesellschaft und Wirtschaft über den Ausbau von Informatik als Pflichtfach über die gesamte Sekundarstufe I und darüber hinaus diskutiert."
     },
     "5": {
-      "s": "Bildung & Teilhabe",
-      "t": "Endgeräte im Unterricht",
+      "s": "Endgeräte im Unterricht",
+      "t": "Bildung & Teilhabe",
       "l": "Digitale Endgeräte sollten im Unterricht weiterhin erlaubt sein und verantwortungsbewusst eingesetzt werden.",
       "x": "Die Debatte über ein Handyverbot an Schulen ist nicht neu. Befürworter argumentieren, dass Smartphones und Tablets vom Unterricht ablenken und die Konzentration beeinträchtigen. Gegner betonen, dass der verantwortungsvolle Umgang mit digitalen Medien eine wichtige Kompetenz ist, die erlernt werden sollte. Ein Verbot könnte diese Lernmöglichkeit einschränken. Eine ausgewogene Lösung könnte darin bestehen, klare Nutzungsregeln und pädagogische Konzepte zu entwickeln, die einen sinnvollen Umgang mit digitalen Endgeräten fördern."
     },
     "6": {
-      "s": "Bildung & Teilhabe",
-      "t": "Digitalisierung der Schulen",
+      "s": "Digitalisierung der Schulen",
+      "t": "Bildung & Teilhabe",
       "l": "Jede sächsische Schule sollte ein selbstständig verwaltetes Budget für digitales Lehren und Lernen erhalten.",
       "x": "Um digitale Bildungsangebote tatsächlich flächendeckend sicherzustellen, braucht es aus Sicht zahlreicher Expertinnen und Experten die nötige Finanzierung. Ein Weg dafür könnte ein unbürokratisches Budget für digitales Lehren und Lernen für sächsische Schulen sein. Ein solches Budget könnte Raum für neue Ideen und digitale Schulentwicklung bieten und so Schulverantwortlichen die Chance geben, eigenverantwortlich Neues auszuprobieren."
     },
     "7": {
-      "s": "Bildung & Teilhabe",
-      "t": "Fortbildung von Lehrkräften",
+      "s": "Fortbildung von Lehrkräften",
+      "t": "Bildung & Teilhabe",
       "l": "Sachsens Lehrkräfte sollten sich verpflichtend zu digitalen Kompetenzen weiterbilden.",
       "x": "Um die digitalen Kompetenzen der Lehrkräfte zu verbessern, könnten in Sachsen verpflichtende Weiterbildungen eingeführt werden. Solche Fortbildungen könnten sicherstellen, dass Lehrkräfte digitale Medien und Technologien effektiv im Unterricht einsetzen können, was die Unterrichtsqualität verbessert und die digitale Kluft zwischen Lehrern und Schülern verringert."
     },
     "8": {
-      "s": "Bildung & Teilhabe",
-      "t": "Hochschulen",
+      "s": "Hochschulen",
+      "t": "Bildung & Teilhabe",
       "l": "Alle Studiengänge an sächsischen Hochschulen sollten ein verpflichtendes Modul zu Digitalkompetenzen vorsehen.",
       "x": "Gut ausgebildete und qualifizierte Menschen sind die wichtigste Ressource Deutschlands. In einem interdisziplinären Pflichtmodul zu digitalen Kompetenzen könnten Studierende verschiedener Fachrichtungen gemeinsam wichtige Kompetenzen im Umgang mit digitalen Technologien erwerben, um sich besser auf die Anforderungen der modernen Arbeitswelt vorzubereiten."
     },
     "9": {
-      "s": "Bildung & Teilhabe",
-      "t": "Digitale Teilhabe",
+      "s": "Digitale Teilhabe",
+      "t": "Bildung & Teilhabe",
       "l": "Der Freistaat Sachsen sollte gezielt Programme zur Förderung der digitalen Teilhabe älterer Menschen im ländlichen Raum ausbauen.",
       "x": "Ältere Menschen haben oft weniger Erfahrung im Umgang mit digitalen Technologien, was dazu führt, dass sie häufiger Unterstützung benötigen, um digitale Anwendungen zu nutzen. Digitale Kompetenzen können ihnen helfen, länger selbstständig zu leben, alltägliche Aufgaben zu erledigen und in Kontakt mit Familie und Freunden zu bleiben – insbesondere im ländlichen Raum."
     },
     "10": {
-      "s": "Digitale Wirtschaft & Infrastruktur",
-      "t": "Mikroelektronik",
+      "s": "Mikroelektronik",
+      "t": "Digitale Wirtschaft & Infrastruktur",
       "l": "Um die gesamte Wertschöpfungskette am Mikroelektronikstandort Sachsen weiter zu stärken, sollte der Freistaat auch den Aufbau von Forschungs- und Entwicklungskapazitäten für Mikrochips fördern.",
       "x": "Sachsen ist ein bedeutender Standort der Mikroelektronik in Deutschland. Die Förderung von Forschungs- und Entwicklungskapazitäten kann dazu beitragen, die Innovationskraft und Wettbewerbsfähigkeit der Region zu stärken. Neue Technologien und hochwertige Arbeitsplätze können entstehen und die technologische Souveränität Europas gestärkt werden."
     },
     "11": {
-      "s": "Digitale Wirtschaft & Infrastruktur",
-      "t": "Künstliche Intelligenz",
+      "s": "Künstliche Intelligenz",
+      "t": "Digitale Wirtschaft & Infrastruktur",
       "l": "Die KI-Transferzentren an Sachsens Hochschulen sollten weiter ausgebaut werden, um die Nutzung von Forschungsergebnissen in der Praxis zu fördern.",
       "x": "Die bereits bestehenden KI-Transferzentren an den sächsischen Hochschulen stärken die Brücke zwischen Forschung und Praxis. Durch die Förderung von praxisnahen Projekten und Kooperationen mit der Wirtschaft könnten innovative KI-Technologien schneller und effektiver in die Wirtschaft integriert werden."
     },
     "12": {
-      "s": "Digitale Wirtschaft & Infrastruktur",
-      "t": "Bessere Chancen für Startups",
+      "s": "Bessere Chancen für Startups",
+      "t": "Digitale Wirtschaft & Infrastruktur",
       "l": "Die Vergabe öffentlicher Aufträge an Startups sollte erleichtert werden, z.B. durch den Aufbau einer eigenen Anlaufstelle für Startups.",
       "x": "Startups spielen eine wichtige Rolle für Sachsens Innovation und Wirtschaft. Eine erleichterte Vergabe öffentlicher Aufträge an Startups könnte deren Wachstum und Marktchancen deutlich verbessern. Der Aufbau einer eigenen Anlaufstelle für Startups würde bürokratische Hürden abbauen und den Zugang zu öffentlichen Ausschreibungen vereinfachen."
     },
     "13": {
-      "s": "Digitale Wirtschaft & Infrastruktur",
-      "t": "Wagniskapital für Wachstumsunternehmen",
+      "s": "Wagniskapital für Wachstumsunternehmen",
+      "t": "Digitale Wirtschaft & Infrastruktur",
       "l": "Zur Stärkung der Startup-Szene sollte der Technologiegründerfonds Sachsen in der neuen Legislaturperiode einen Wachstumsfonds mit Ticketgrößen im zweistelligen Millionenbereich auflegen, um vielversprechende schnell wachsende Startups auch in ihrer späteren Wachstumsphase zu unterstützen.",
       "x": "Ein Wachstumsfonds mit Ticketgrößen im zweistelligen Millionenbereich könnte vielversprechenden Startups in Sachsen helfen, auch in späteren Wachstumsphasen ausreichend Kapital zu erhalten. Damit könnten sie ihre Innovationskraft und Marktposition stärken. Der Technologiegründerfonds Sachsen könnte so gezielt die Skalierung und Internationalisierung von Unternehmen fördern und die regionale Wirtschaft dynamisieren."
     },
     "14": {
-      "s": "Digitale Wirtschaft & Infrastruktur",
-      "t": "IT-Fachkräfte / Fachkräfteeinwanderung",
+      "s": "IT-Fachkräfte / Fachkräfteeinwanderung",
+      "t": "Digitale Wirtschaft & Infrastruktur",
       "l": "Die Staatsregierung sollte die Zuwanderung von IT-Fachkräften fördern und eine starke Willkommenskultur im Land schaffen.",
       "x": "Um dem Fachkräftemangel zu begegnen, sollten Potenziale im In- und Ausland genutzt werden. Spezielle Anlaufstellen im Land könnten dabei die Zuwanderung von Fachkräften erleichtern und die Willkommenskultur stärken."
     },
     "15": {
-      "s": "Digitale Wirtschaft & Infrastruktur",
-      "t": "Netzausbau I",
+      "s": "Netzausbau",
+      "t": "Digitale Wirtschaft & Infrastruktur",
       "l": "Um den Gigabitausbau zu beschleunigen, sollten alle erforderlichen Genehmigungen in einem Schritt digital beantragt werden können.",
       "x": "Gesellschaft, Staat und Wirtschaft sind auf hochleistungsfähige Telekommunikationsnetze angewiesen. Der Ausbau wird jedoch durch verschiedene baurechtliche Hürden und Genehmigungsverfahren erschwert, für die oft unterschiedliche Behörden zuständig sind. Um diese Genehmigungsverfahren zu vereinfachen, sollten alle erforderlichen Genehmigungen bei einer Art „One Stop Shop“ in einem einzigen Schritt digital beantragt werden können."
     },
     "16": {
-      "s": "Sicherheit & Datenschutz",
-      "t": "Bekämpfung von Cybercrime",
+      "s": "Bekämpfung von Cybercrime",
+      "t": "Sicherheit & Datenschutz",
       "l": "Auf den Einsatz gegen Internetkriminalität spezialisierte Polizeieinheiten sollten deutlich mehr Personal erhalten.",
       "x": "Cybercrime ist ein weit verbreitetes Phänomen und verursacht bei den Betroffenen u.a. erhebliche finanzielle Schäden. Um Cybercrime wirksam zu bekämpfen, fordern Sicherheitsexpertinnen und -experten unter anderem eine Bündelung der vorhandenen Kompetenzen bei den Polizeidienststellen und eine Aufstockung der personellen und materiellen Ressourcen."
     },
     "17": {
-      "s": "Sicherheit & Datenschutz",
-      "t": "Verfolgung von Hate Speech im Netz",
+      "s": "Verfolgung von Hate Speech im Netz",
+      "t": "Sicherheit & Datenschutz",
       "l": "Die Staatsregierung sollte die Zentrale Meldestelle für Hasskriminalität im Internet (ZMI) stärken, z.B. durch mehr Personal und finanzielle Mittel sowie höhere Sichtbarkeit.",
       "x": "Allzu oft werden Nutzerinnen und Nutzer Opfer von Hasskommentaren im Internet. Mit zusätzlicher personeller und finanzieller Ausstattung könnte die Meldestelle schneller und effizienter reagieren. Eine bessere Sichtbarkeit der Meldestelle würde zudem das Bewusstsein für die Möglichkeit, Hate Speech zu melden, stärken und Betroffene ermutigen, Übergriffe im Netz zu melden."
     },
     "18": {
-      "s": "Sicherheit & Datenschutz",
-      "t": "KI in der Polizei",
+      "s": "KI in der Polizei",
+      "t": "Sicherheit & Datenschutz",
       "l": "KI hat das Potenzial, die Leistungsfähigkeit der Polizei zu steigern. Die sächsische Polizei sollte daher landesweit KI-Prognosesoftware z.B. zur Bekämpfung von Wohnungseinbrüchen einsetzen.",
       "x": "KI bietet der Polizei neue Möglichkeiten, präventiv gegen Kriminalität vorzugehen. Durch den Einsatz von KI-Prognosesoftware können Polizeikräfte Ressourcen effizienter einsetzen und damit die Sicherheit der Bürgerinnen und Bürger verbessern."
     },
     "19": {
-      "s": "Sicherheit & Datenschutz",
-      "t": "Einheitlicher Datenschutz",
+      "s": "Einheitlicher Datenschutz",
+      "t": "Sicherheit & Datenschutz",
       "l": "Sachsen sollte sich für mehr Einheitlichkeit in der Datenschutzaufsicht einsetzen – mit dem Ziel einer gemeinsamen Datenschutzaufsicht für alle Länder und den Bund.",
       "x": "Bürgerinnen und Bürgern sowie Unternehmen sollte die Erfüllung von datenschutzrechtlichen Vorgaben so einfach wie möglich gemacht werden. In diesem Zusammenhang wird u.a. die Einrichtung einer länderübergreifenden Anlaufstelle für alle Fragen des Datenschutzes gefordert."
     }
   },
-
-
   "lists": {
-    "lists": {
-      "cdu": {
-        "name": "CDU",
-        "name_x": "Christlich Demokratische Union Deutschlands",
-        "img": "<img src='img/cdu.png' alt='CDU - Christlich Demokratische Union Deutschlands' />"
-      },
-      "spd": {
-        "name": "SPD",
-        "name_x": "Sozialdemokratische Partei Deutschlands",
-        "img": "<img src='img/spd.png' alt='SPD - Sozialdemokratische Partei Deutschlands' />"
-      },
-      "b90": {
-        "name": "BÜNDNIS 90/DIE GRÜNEN",
-        "name_x": "Bündnis 90/Die Grünen Bayern",
-        "img": "<img src='img/die-grünen.jpg' alt='Bündnis 90/Die Grünen Bayern' />"
-      },
-      "fwb": {
-        "name": "Freie Wähler",
-        "name_x": "Landesvereinigung Freie Wähler Bayern",
-        "img": "<img src='img/freie-wähler.png' alt='Landesvereinigung Freie Wähler Bayern' />"
-      },
-      "afd": {
-        "name": "AfD",
-        "name_x": "Landesverband der Partei Alternative für Deutschland in Bayern",
-        "img": "<img src='img/afd.png' alt='Landesverband der Partei Alternative für Deutschland in Bayern' />"
-      }
+    "cdu": {
+      "name": "CDU",
+      "name_x": "CDU Landesverband Sachsen",
+      "img": "<img src='img/cdu.jpg' alt='CDU Landesverband Sachsen' />"
+    },
+    "linke": {
+      "name": "Die Linke",
+      "name_x": "Die Linke Sachsen",
+      "img": "<img src='img/linke.png' alt='Die Linke Sachsen' />"
+    },
+    "b90": {
+      "name": "BÜNDNIS 90/DIE GRÜNEN",
+      "name_x": "BÜNDNIS 90/DIE GRÜNEN Sachsen",
+      "img": "<img src='img/gruene-sachsen.de.png' alt='BÜNDNIS 90/DIE GRÜNEN Sachsen' />"
+    },
+    "spd": {
+      "name": "SPD",
+      "name_x": "SPD Landesverband Sachsen",
+      "img": "<img src='img/spd.png' alt='SPD Landesverband Sachsen' />"
+    },
+    "bsw": {
+      "name": "BSW",
+      "name_x": "Bündnis Sahra Wagenknecht",
+      "img": "<img src='img/bsw.png' alt='Bündnis Sahra Wagenknecht' />"
     }
   },
   "answers": {
-
+    "cdu": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Dem Ziel ist durchaus zuzustimmen, gleichwohl gilt es zu berücksichtigen, dass die Umsetzung bis 2026 ein überaus ambitioniertes Ziel ist und auf Belange von Menschen Rücksicht genommen werden muss, die keinen digitalen Zugang haben oder wollen.\n"
+      },
+      "1": {
+        "selection": "b",
+        "context": "",
+        "statement": "Der Bündelung stimmen wir zu, ob es dazu eines Ministeriums oder ggf. \"nur\" einer entsprechenden institutionell herausgehobenen Stellung bedarf, ist zu prüfen.\n"
+      },
+      "2": {
+        "selection": "b",
+        "context": "",
+        "statement": "Das wäre zwar als Ziel durchaus anzustreben, dafür muss allerdings gewährleistet werden, dass die Wahlrechtsgrundsätze der allgemeinen, freien und geheimen Wahl eingehalten werden; auch würde die Ermittlung des Wahlergebnisses intransparent, wenn die Stimmauszählung nicht mehr öffentlich erfolgt.\n"
+      },
+      "3": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "a",
+        "context": "",
+        "statement": "Sachsen hatte als erstes Bundesland 1992 ein Pflichtfach Informatik eingeführt und dies seit 2017 für alle Schularten verbindlich in den Klassenstufen 7 bis 10 ausgeweitet. Bis heute ist der Freistaat eines von lediglich sieben Bundesländern, in dem Informatikunterricht verbindlich für alle Schülerinnen und Schüler angeboten wird.\n"
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir sehen den Bildungsbereich als wichtig und elementar zur Vorbereitung auf das Leben als Erwachsener mit allen Regeln und Pflichten. Mobiles Internet, Smartphones und Tablets sind Teil unserer alltäglichen Welt und durchdringen jeden Bereich. Hier kann sich der Bildungsbereich nicht verschließen. Wichtig ist, Konzepte und einen Rahmen zu schaffen, wie der Einsatz konkret in welchem Umfang und in welcher Jahrgangsstufe aussehen soll.\n"
+      },
+      "6": {
+        "selection": "b",
+        "context": "",
+        "statement": "Sachsen plant die Ausbringung von Globalbudgets für die sächsischen Schulen, in welchem auch digitales Lernen und Lehren entsprechend ausgestaltet werden kann.\n"
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir führen die Beteiligungen und Wachstumsfinanzierungen des Technologiegründerfonds Sachsen, des Wachstumsfonds Mittelstand Sachsen, der Sächsischen Beteiligungsgesellschaft und der Mittelständischen Beteiligungsgesellschaft Sachsen sowie der Beteiligungsgesellschaften der Sparkassen fort.\n"
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Unser Ansatz zur Fachkräftegewinnung beruht auf zwei Säulen. Die erste besteht aus der Hebung und Aktivierung vorhandener Potenziale hier bei uns vor Ort. Dazu zählen wir die Schaffung von Anreizen in Vollzeit zu arbeiten, die Steuerfreistellung von Überstunden (bei Arbeit in Vollzeit), aber auch attraktive Möglichkeiten für Menschen im Rentenalter, weiterhin ihre Expertise und Erfahrung im Erwerbsleben einzubringen. Auf der anderen Seite wollen wir mit Anwerbungsbüros in Zielländern für bestimmte Branchen Menschen, die motiviert sind, ansprechen, sie zur Arbeit in Deutschland qualifizieren und ihnen als One-Stop-Agency bei der Arbeits- oder Fachkräftemigration nach Deutschland helfen.\n"
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen die Antragsverfahren weiter digitalisieren, den Austausch aller Akteurinnen und Akteure stärken und so die Geschwindigkeit von Genehmigungen erhöhen, um den eigenwirtschaftlichen Breitbandausbau weiter zu stärken. Die Unterstützung für eben diesen Ausbau wollen wir mit Bund und Kommunen auch weiterhin finanziell unterstützen und so Gigabit in jedem Haushalt ermöglichen. Die Bauordnung werden wir mit Blick auf einen zügigen Mobilfunkausbau weiter optimieren.\n"
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir werden Polizei und Verfassungsschutz angemessen ausstatten, um Aufgaben der Cyber- und Spionageabwehr wahrzunehmen. Wir werden uns darüber hinaus für den Aufbau eines kraftvollen sächsischen Cyber-Resilienz-Zentrums einsetzen, um ein Koordinierungszentrum für die verschiedenen Herausforderungen der Cybersicherheit zu schaffen.\n"
+      },
+      "17": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "18": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "19": {
+        "selection": "a",
+        "context": "",
+        "statement": "Aufgrund des Föderalismus in der Bundesrepublik Deutschland erscheint eine Vereinheitlichung des Datenschutzes eine inhaltlich große Herausforderung. Die Interessen gehen anlässlich der unterschiedlich geführten Landesregierungen diametral auseinander, sodass eine Vereinheitlichung wünschenswert, aber gesetzlich nicht durchsetzbar ist, obwohl dies als Facette zum Bürokratieabbau einen wichtigen Beitrag leisten würde.\n"
+      }
+    },
+    "linke": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die gesetzliche Verpflichtung besteht bereits seit dem 31.12.2022\n (OZG-Umsetzung). Wir fordern eine deutliche Beschleunigung und \nBereitstellung der dafür erforderlichen Sach- und Personalmittel. Allerdings darf dies nicht dazu führen, dass Bürger:innenrechte und Sicherheitsaspekte der IT-Infrastruktur dem untergeordnet werden."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "Digitalisierung ist zwar eine Querschnittsaufgabe für den Staat, aber ein \nzentrales Planungs- und Steuerungsressort kann durchaus \nEffizienzsteigerungen ermöglichen. Rollenkonflikte, bspw. zwischen CDO und CIO können so vermieden werden. Es kommt jedoch auf die konkrete Ausgestaltung und den Kompetenzen des zu schaffenenden Ministeriums an."
+      },
+      "2": {
+        "selection": "c",
+        "context": "",
+        "statement": "Online-Wahlen stellen eine zu große Gefahr dar, im Vergleich zum potentiell möglichen Nutzen. Weil aktuell noch nicht einmal eine sichere BundID existiert, ist ein sicheres System, das über die Verteilung staatlicher Macht entscheidet, zum aktuellen Zeitpunkt nicht vorstellbar."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "Grundsätzlich befürworten wir einen freien Zugang zu Daten für die Öffentlichkeit. Datenschutz sollte dabei oberste Priorität haben. Öffentliche Daten dürfen nicht kommerzialisiert werden."
+      },
+      "4": {
+        "selection": "b",
+        "context": "",
+        "statement": "Digitale Medien durchziehen den Unterrichtsalltag von Schüler:innen, sind aber auch in Schulen in allen Bereichen präsent. Dem wollen wir gerecht werden, indem wir digitale (Medien-)Bildung in den Rahmenlehrplänen verankern und durch die entsprechende Aus- und Fortbildung von Lehrer:innen und Erzieher:innen dafür sorgen, dass kompetente Lehrkräfte zur Verfügung stehen."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir fordern, dass allen Schüler:innen alle notwendigen Lernmittel kostenfrei zur Verfügung gestellt werden. Dazu gehört auch die technische Ausstattung, die für den Unterricht erforderlich ist, sowie der Zugang zu schnellem Internet, aber z.B. ebenso die Klassenfahrt, Schulausflüge usw., die bei vielen Eltern finanzielle Schwierigkeiten verursachen, aber für den sozialen Zusammenhalt der Kinder ungemein wichtig ist. Jeder Lehrkraft muss ein professionell installiertes und gewartetes Endgerät zur Verfügung gestellt werden. An den Schulen müssen IT-Administrator:innen für die Gerätewartung zuständig sein, nicht die Lehrkräfte."
+      },
+      "6": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen mit einem Schulbudget den Schulen mehr Flexibilität ermöglichen, um selbstständig besondere Bedarfe abzudecken und auch kurzfristig auf Herausforderungen im Schulalltag reagieren zu können."
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": "Um die digitalen Kompetenzen der Lehrkräfte zu verbessern, müssen ihnen Weiterbildungen angeboten werden."
+      },
+      "8": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Für viele Menschen stellt unsere zunehmend digitalisierte Welt eine Herausforderung dar. Wir sprechen uns deshalb dafür aus, sie mit speziellen Programmen dabei zu unterstützen, die digitale Transformation zu bewältigen. Oberstes Prinzip bildet dabei für uns die Freiwilligkeit der Teilnahme an solchen Programmen. Es braucht mehr als nur das bloße Angebot, sondern auch eine mediale und sozialarbeiterische Begleitung."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die sächsische Wirtschaft ist noch zu sehr verlängerte Werkbank. Nur mit einer gezielten Förderung von Forschung und Entwicklung gerade in diesen Zukunftsbereichen können wir hier Veränderungen bewirken. Das wird auch positive Auswirkungen auf Arbeitsplätze haben: Arbeitsplätze in Forschungs- und Entwicklungsabteilungen sind meistens besser bezahlt und weniger von Verlagerung bedroht als Arbeitsplätze in der Fertigung."
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": "Im Sinne der Transformation der sächsischen Wirtschaft und dem Aufbau ihrer Zukunftsfähigkeit ist es wichtig, das Potential, das an den sehr guten Universitäten und Hochschulen in Sachsen schlummert, zu aktivieren. Insofern setzen wir uns dafür ein, dass es auch bei Anwendungen von Künstlicher Intelligenz eine verstärkte Transferförderung gibt."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen, dass die sächsischen Vergaberegelungen an die Bedürfnisse der Mehrzahl der sächsischen Unternehmen angepasst werden; diese haben in den allermeisten Fällen weniger als 5 Mitarbeiter:innen. Gleichzeitig müssen soziale und ökologische Kriterien eine stärkere Rolle spielen, um gezielt solche Unternehmen zu fördern, die auch gesamtgesellschaftlich sinnvolle Arbeit machen."
+      },
+      "13": {
+        "selection": "a",
+        "context": "",
+        "statement": "Grundsätzlich soll Wirtschaftsförderung an Kriterien sozialer und ökologischer Nachhaltigkeit geknüpft werden, d.h. Tarifbindung, Minimierung der ökologischen Auswirkungen der Produkte und Produktionsprozesse. Die bestehende Start-Up-Förderung in Sachsen muss sinnvoll ergänzt werden durch eine Förderung, die Unternehmen auch in späteren Phasen unterstützt."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Der Beschäftigungsanstieg in Sachsen ist schon jetzt alleine durch Menschen nicht deutscher Herkunft zu verdanken. Ohne sie läuft nichts in der sächsischen Wirtschaft. Gezielte Anwerbung von Fachkräften hilft dabei, den Fachkräftemangel abzufedern. Gleichzeitig sollen alle Zugewanderten gleich behandelt werden: Fast-Track-Programme im Aufenthaltsrecht und bei Berufsanerkennungen sowie Welcome Center ausschließlich für zugewanderte Fachkräfte, von denen schon hier lebende Migrant:innen nicht profitieren können, lehnen wir ab."
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": "Für den spezialisierten Computer- und Internetkriminalitätsdienst (CuIKD) finden sich zu wenige Bewerberinnen und Bewerber. Der öffentliche Dienst kann oft nicht mit der Bezahlung von IT-Spezialisten in der Wirtschaft mithalten. Entscheidend ist es deswegen, die Attraktivität dieses Einsatzbereichs durch gute Arbeitsbedingungen zu verbessern. Zum anderen müssen vorhandene Potenziale besser ausgeschöpft werden, vor allem durch verstärkte Berücksichtigung von Frauen und von Bewerberinnen und Bewerbern aus dem EU-Ausland."
+      },
+      "17": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die ZMI übernimmt eine wichtige Rolle bei der Koordination von Ermittlungsmaßnahmen, die gerade im digitalen Bereich unter Zeitdruck vorgenommen werden müssen, um Beweismittel – häufig flüchtige „Datenspuren“ – zu sichern. Daher muss die ZMI angemessen ausgestattet sein und insgesamt bekannter werden, damit sie wirksam handeln kann."
+      },
+      "18": {
+        "selection": "c",
+        "context": "",
+        "statement": "Zentrales Maß für die Leistungsfähigkeit der Polizei ist ihre Befähigung, Straftaten zu verhindern und aufzuklären. Dabei kommt es in erster Linie auf klassische kriminalistische Expertise an. Diese kann durch IT-Anwendungen durchaus gestärkt werden. Für eine flächendeckende Regel-Nutzung von KI-Anwendungen bei der Polizei Sachsen fehlen im Moment aber die Voraussetzungen. Zum einen: eine klare Rechtsgrundlage, vor allem im Hinblick auf die erforderliche Datenverarbeitung. Zum anderen: die fundierte Evaluation über Risiken und Nutzen einer jeweiligen KI-Software. Eine dahingehende Prüfung befürworten wir – den Ergebnissen vorgreifen kann man aber nicht."
+      },
+      "19": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen auch die Stärkung der Rechte der sächsischen Datenschutzbeauftragten."
+      }
+    },
+    "b90": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir setzen uns mit Nachdruck für die Beschleunigung der Verwaltungsdigitalisierung ein. Dafür ist in Sachsen dringend sowohl die notwendige regulatorische Vorkehrung zu treffen (Novellierung des E-Government-Gesetzes) als auch die notwendigen finanziellen Mittel bereitzustellen, um Schnittstellen zu schaffen und auch unsere Kommunen bei der Verwaltungsdigitalisierung zu unterstützen. Auf Bundesebene ist das OZG 2.0 mit Priorität zu verabschieden, um Vereinheitlichung voranzubringen."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir sind für die Bündelung und Koordinierung digitalpolitischer Prozesse in einem Digitalministerium. Erfahrungen anderer Bundesländer zeigen, dass nicht das Ministerium an sich relevant ist, sondern die ausreichende Ausstattung mit finanziellen Mitteln und das koordinatorische Mandat, die Querschnittsaufgabe Digitalisierung zentral zu steuern."
+      },
+      "2": {
+        "selection": "c",
+        "context": "",
+        "statement": "Bei der Stimmabgabe sind den Grundsätzen der freien, geheimen, gleichen und für alle nachvollziehbaren Wahl oberste Priorität einzuräumen. Da bisher keine technisch ausreichend sichere Lösung vorhanden ist, sehen wir die virtuelle Stimmabgabe in politischen Wahlen wie der Landtagswahl zum jetzigen Zeitpunkt kritisch. Wir legen unseren Fokus darauf, im ersten Schritt ein verlässliches und flächendeckendes Angebot von Verwaltungsdienstleistungen aufzubauen."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir setzen uns nach dem Prinzip 'Öffentliches Geld - öffentliches Gut' dafür ein, das Open Data Angebot der Landesverwaltung zu erhöhen, Daten entgeltfrei maschinenlesbar zur Verfügung zu stellen und mit Meta-Daten zu versehen, sodass sie recherchierbar sind. Erhobene Verwaltungsdaten sollen 'by Default' veröffentlicht werden. Wir wollen die Open Data Plattform des Freistaates ausbauen und im E-Government-Gesetz ein Recht auf die Bereitstellung von Verwaltungsdaten verankern (nicht sensible, nicht personenbezogene Daten)."
+      },
+      "4": {
+        "selection": "b",
+        "context": "",
+        "statement": "In Sachsen ist die informatische Bildung fest in den Lehrplänen verankert. In Klasse 5 und 6 bereitet das Fach Technik/Computer Schülerinnen und Schüler auf den Informatik-Unterricht vor, der ab Klasse 7 an allen Schularten mit einer Stunde zum Pflichtbereich gehört. Seit dem Schuljahr 2022/23 werden schrittweise neue Lehrpläne eingeführt. Mit dem Schuljahr 2023/24 kann Informatik an den M.I.T.-Schulen als Leistungskursfach belegt werden. Für uns BÜNDNISGRÜNE gehört die selbstbestimmte, reflektierte Nutzung von Medien, ihr kreativer und konstruktiver Einsatz, die Fähigkeit, Informationen kritisch zu prüfen und einzuordnen, sowie Wissen um Datenschutz fest zu einer zukunftsfähigen Bildung."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "In einer digitalisierten Welt sind Medienkompetenz und informatische Grundkompetenzen unverzichtbar. Wir BÜNDNISGRÜNE wollen, dass digitale und hybride Lernformate und -methoden immer dort zur Anwendung kommen, wo sie die Qualität schulischer Bildung verbessern. Dabei legen wir Wert darauf, dass die Pädagogik die Wahl der Instrumente bestimmt, nicht andersherum. Wichtig ist uns zudem, dass die digitale Teilhabe aller gesichert ist, gerade bei Nutzung digitaler Endgeräte im Unterricht. Wir begrüßen, dass die Nutzung eigener Geräte ermöglicht werden soll; ist kein eigenes Endgerät vorhanden, muss dieses für alle Schülerinnen und Schüler gleichberechtigt vom Schulträger gestellt werden."
+      },
+      "6": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Mittel aus dem DigitalPakt Schule wurden in Sachsen über Schulträgerbudgets ausgereicht, unter Einbeziehung des Medienbildungskonzepts der Einzelschule und des Medienentwicklungsplans des Schulträgers. Diesen Weg erachten wir BÜNDNISGRÜNE auch bei einer Neuauflage des Digitalpakts für zielführend. Wir begrüßen in diesem Zusammenhang die geplante Orientierungshilfe zur digitalen Ausstattung von Schulen. Im Bund setzen wir uns für einen DigitalPakt 2.0 ein, der neben der Ausstattung der Schulen und der Versorgung von Lehrkräften und Schüler*innen mit digitalen Endgeräten auch die IT-Administration und die Fortbildung der Lehrkräfte sowie eine Evaluation des gesamten Programms adressiert."
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir setzen uns dafür ein, ein breites Angebot an Fort- und Weiterbildungsmaßnahmen zu sichern und Fortbildungen zu zentralen bildungspolitischen Fragen wie Medienkompetenz und Digitalisierung verpflichtend zu machen. Eine systematische Fortbildungsplanung unter Berücksichtigung analoger und digitaler Fortbildungsangebote (E-Campus) inkl. verpflichtender Fortbildungsmodule sind auch im Zuge der Umsetzung der Strategie 'Bildungsland Sachsen 2030' vorgesehen. Daneben sind weiterhin Mittel für schulinterne Fortbildungen bereitzustellen sowie Optionen zur berufsbegleitenden (universitären) Weiterbildung im Fach Informatik vorzuhalten."
+      },
+      "8": {
+        "selection": "a",
+        "context": "",
+        "statement": "Das Heben von digitalen Kompetenzen, sowohl bei Studierenden als auch bei Lehrenden, ist sehr wichtig. Wir begrüßen die Aufnahme von Pflichtmodulen zu Digitalkompetenzen. Allerdings ist diese Forderung nicht politisch steuerbar, da die Hochschulen ihre Studiengänge und die dazugehörigen Modulbeschreibungen und abzulegenden Prüfungen autonom und weisungsfrei in eigener Verantwortung gestalten. Gleichermaßen sollte das Angebot und die regelmäßige hochschuldidaktische Qualifizierung von Lehrenden, unter Einbezug digitaler Lehrformate, bedarfsdeckend vorhanden sein."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Gesellschaftliche und wirtschaftliche Teilhabe erfordert zunehmend Digitalkompetenzen unserer Bürgerinnen und Bürger. Unterstützung für Bildungsprojekte und zivilgesellschaftliches Engagement im Bereich der Digitalisierung werden wir daher ausbauen."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Um einer wachsenden geopolitischen Abhängigkeit der EU entgegenzuwirken, ist es sinnvoll, die Lieferketten in Schlüsselindustrien in Europa abdecken zu können. Um entsprechendes technologisches Know-How hier zu entwickeln und zu halten, ist die Forschung und Entwicklung parallel zu industriellen Kapazitäten aufzubauen. Auch mit Blick auf die Fachkräfteversorgung sind Investitionen in Forschungs- und Hochschulkapazitäten im Bereich der Mikroelektronik von hoher Bedeutung. EU-finanzierte EFRE-Förderinstrumente stärken die forschungspolitische Wertschöpfungsketten und den Transfer. Forschungskooperationen mit ansässigen Unternehmen begrüßen wir. Die Innovationsstrategie werden wir fortschreiben."
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Entwicklung und der Transfer im Bereich KI ist für die Zukunftsfähigkeit des Freistaats von großer Bedeutung. Wir setzen auf Kooperation zwischen Forschung, Wirtschaft und Zivilgesellschaft. Forschungsinfrastruktur, wie KI-fähige Infrastruktur, ist dabei eine wichtige Schnittstelle, die wir stärken wollen. Wir setzen uns weiterhin für eine aufgabengerechte Hochschulfinanzierung ein, um den Hochschulstandort und die Entwicklungschancen des Freistaats zu stärken. Wir wollen die Hochschulinnovationsstrategie umsetzen. Diese sieht vor, bestehende Transferhemmnisse zu identifizieren und darauf aufbauend Maßnahmen zu ihrer Beseitigung abzuleiten."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen ein Vergabegesetz, das strategische Beschaffung und strategische Auftragsvergabe ermöglicht. Nur die BÜNDNISGRÜNEN haben in dieser Legislatur zu innovativer Vergabe Inhalte auf den Tisch gelegt, darunter die bevorzugte Vergabe an Jungunternehmen oder den stärkeren Einsatz von innovativen Hebeln, wie sie oberhalb des EU-Schwellenwertes angewendet werden können."
+      },
+      "13": {
+        "selection": "b",
+        "context": "",
+        "statement": "Mit dem Technologiegründungsfonds bietet der Freistaat ein attraktives Angebot, insbesondere der Frühphasenfinanzierung. Dies ergänzt Angebote der Bundesförderung mit stärkerer Fokussierung auf die Wachstumsphase (z.B. Deep Tech & Climate Fonds, DTCF oder KfW Capital) mit Losgrößen im zweistelligen Millionenbereich. Für die strategische Ausweitung des Angebotes bedarf es der Prüfung des zusätzlichen landesspezifischen Bedarfs eines Angebotes analog zum bayerischen Scale-Up Fonds. Zu prüfen sind außerdem Abschreibemöglichkeiten für Venture-Capital-Investitionen mit nachhaltiger Wirkung."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir setzen uns auf allen Ebenen, sowohl regulativ als auch durch Förderangebote, für den Zuzug von Fach- und Arbeitskräften ein. Unser Ziel ist, dass Menschen mit Migrationshintergrund schnell in ihren erlernten Berufen arbeiten können. Wir unterstützen die Etablierung von Welcome-Centern in allen Landkreisen und kreisfreien Städten. Verfahren zur Anerkennung von Berufsabschlüssen sind zu vereinfachen und zu beschleunigen. Wir unterstützen Kommunen, die Ausländerbehörden zu 'Ermöglichungsbehörden' auszubauen. Über das benötigte Sprachniveau haben Unternehmen bei der Einstellung frei zu entscheiden. Angebote zur berufsbezogenen Sprachförderung sind bedarfsgerecht auszubauen."
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Digitale Bauverwaltung wird derzeit umgesetzt. Den zügigen Aufbau der notwendigen Infrastruktur für die flächendeckende Einführung unterstützen wir. Im Zuge der Umsetzung der E-Akte lässt sich auch die Kommunikation mit unterschiedlichen Behörden serviceorientiert bündeln."
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Verfolgung von hochtechnischer Kriminalität im virtuellen Raum erfordert hochspezialisierte Beamtinnen und Beamte. Um die erforderlichen Stellen zu besetzen, arbeiten wir BÜNDNISGRÜNE für eine Verstärkung der entsprechenden Fortbildung von Polizistinnen und Polizisten zur Bekämpfung von Cybercrime."
+      },
+      "17": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir BÜNDNISGRÜNE sehen den Kampf gegen Hatespeech als zentrale gesellschaftliche Aufgabe zur Stärkung der Demokratie. Dazu gehört die Stärkung der Zentralen Meldestelle für Hasskriminalität im Internet (ZMI) sowie gesellschaftliche Präventionsarbeit, Beratung und Stärkung der digitalen Kompetenz im Umgang mit sozialen Medien. Das grün geführte Justizministerium hat erstmals überhaupt Maßnahmen ergriffen, um das gezielt anzugehen."
+      },
+      "18": {
+        "selection": "c",
+        "context": "",
+        "statement": "Der Einsatz von KI in Sicherheitsbehörden ist ein sehr sensibles Thema. Bisherige Erfahrungen (beispielsweise in Gerichtsprozessen in den USA) haben gezeigt, dass diskriminierende Stereotypen durch die KI reproduziert werden. In der Abwägung von Erkenntniszugewinn und Diskriminierungsgefahr ist den Freiheitsrechten der Bürgerinnen und Bürger Vorrang zu gewährleisten."
+      },
+      "19": {
+        "selection": "c",
+        "context": "",
+        "statement": "An die Sächsische Datenschutzaufsichtsbehörde wenden sich pro Jahr über 1000 sächsische Bürgerinnen und Bürger aufgrund von Datenschutzverstößen sowie die Staatsregierung, die Legislative, Kommunen, Unternehmen oder Vereine mit Beratungsanfragen. Datenschutzrechtliche Kontrollen vor Ort durchzuführen oder Beratungsanfragen zur konkreten Umsetzung von Maßnahmen der Exekutive kann eine zentrale, deutschlandweite Aufsichtsbehörde nicht leisten. Ihr fehlte der Bezug zum Landesrecht und den zu kontrollierenden Stellen. Die einheitliche Anwendung der DSGVO wird durch das Kooperationsverfahren gewährleistet, das europäische und deutsche Datenschutzaufsichtsbehörden zur Zusammenarbeit verpflichtet."
+      }
+    },
+    "spd": {
+      "0": {
+        "selection": "b",
+        "context": "",
+        "statement": "Alle Behördengänge bis zum Jahr 2027 vollständig online verfügbar zu haben, ist ein sehr ehrgeiziges Ziel. Grundsätzlich stimmt die SPD diesem Ziel zu. Momentan liegt die Umsetzung des Onlinezugangsgesetzes (OZG) in Sachsen bei 36 Prozent, das ist im Bundesvergleich leicht überdurchschnittlich. Aber selbst die besten Bundesländer liegen derzeit bei 41 Prozent. Deshalb braucht es nicht nur große Anstrengungen und deutliche Investitionen für die Digitalisierung, sondern auch etwas Skepsis, ob die Umsetzung bis 2027 wirklich ausnahmslos gelingt."
+      },
+      "1": {
+        "selection": "c",
+        "context": "",
+        "statement": "Digitalisierung ist ein Querschnittsthema. Jedes Ressort hat hier seine Fachkompetenzen entsprechend seiner Zuständigkeiten. Ein separates Digitalministerium würde aus unserer Sicht einen höheren Koordinierungsaufwand bedeuten, für den es Personalzuwachs bräuchte. Die 2022 beschlossene Digitalstrategie für den Freistaat Sachsen bringt mittlerweile mehr Effizienz und ein besseres Monitoring der Maßnahmen der Ressorts mit sich. Der 8. Platz des Freistaats beim Bitkom-Länderranking bestätigt das. Entscheidend für eine Beschleunigung von Digitalisierungsmaßnahmen sind vor allem ausreichende Investitionen in IT-Infrastruktur und -Lösungen."
+      },
+      "2": {
+        "selection": "c",
+        "context": "",
+        "statement": "Es kann bisher technisch nicht garantiert werden, dass die Stimmabgabe auch den verfassungsrechtlich erforderlichen Erfolgswert hat (siehe entsprechende Rechtsprechung des Bundesverfassungsgerichts). Diskussionswürdig wäre aus Sicht der SPD eher eine andere Erleichterung: Während der Corona-Pandemie erhielten bei einigen kommunalen Wahlen alle Wählerinnen und Wähler unangefordert ihre Briefwahlunterlagen. Dies hat nachweislich zu einer Erhöhung der Wahlbeteiligung beigetragen (vgl. Studie der Universität Bayreuth)."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "c",
+        "context": "",
+        "statement": "Informatik wird bereits heute ab Klassenstufe 7 als Pflichtfach mit einem festen wöchentlichen Stundenkontingent in den sächsischen Schulen unterrichtet. Dem geht ein Unterricht im Fach „Technik/Computer“ in den Klassenstufen 5 und 6 voraus. Wichtig ist aus Sicht der SPD, dass informatische Bildung und Medienbildung darüber hinaus in der Unterrichtspraxis aller anderen Fächer einen wichtigen Stellenwert einnehmen."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "6": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "c",
+        "context": "",
+        "statement": "In vielen Studiengängen ist die Arbeit mit digitalen Endgeräten und Anwendungen bereits heute Standard und essentieller Bestandteil vieler fachwissenschaftlicher Module. Ein gesondertes Modul zu Digitalkompetenzen mag in manchen Studiengängen sinnvoll sein, in anderen dagegen nicht. Die Hochschulen sollten das im Hochschulgesetz verankerte Ausbildungsziel Digitalkompetenzen deshalb auch künftig eigenständig umsetzen können. Wesentlicher ist aus unserer Sicht der gesicherte Erwerb von Digitalkompetenzen in der Schule."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Bereits heute gibt es mit futureSAX, dem Akzeleratorenprogramm, dem Gründerpreis oder auch dem Mikro-Darlehnsprogramm eine Vielzahl von Fördermöglichkeiten für Startups. Mit einer Novellierung des Vergabegesetzes könnten auch Kriterien oder Boni eingeführt werden, welche Startups den Zugang zu öffentlichen Aufträgen erleichtern."
+      },
+      "13": {
+        "selection": "a",
+        "context": "",
+        "statement": "Eine solche Maßnahme hält die SPD für sehr wünschenswert, sie setzt aber – wie auch wirkungsvolle Investitionen in die technische und digitale Infrastruktur – entsprechende finanzielle Mittel voraus. Deshalb setzt sich die SPD für die Einrichtung eines Sondervermögens („Sachsenfonds“) ein, mit dem die Transformation der Wirtschaft im Freistaat kraftvoll unterstützt werden kann."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Bei der „Schaffung“ einer gesellschaftlichen Kultur (Willkommenskultur) kann der Staat Vorbild sein und Impulse geben. Gebraucht werden dafür aber alle – die Beschäftigten in den Unternehmen und ihre Familien genauso wie Arbeitgeberinnen und Arbeitgeber."
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "17": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "18": {
+        "selection": "b",
+        "context": "",
+        "statement": "Der Einsatz von KI bei der Polizei ist in vielen Bereichen möglich und auch sinnvoll, um große Datenmengen zu bewältigen. Dies gilt bei der Massenauswertung von Daten ebenso wie bei der Verwaltung von Asservaten. Bei Einsatzbereichen, welche potentiell im Konflikt mit datenschutzrelevanten Aspekten stehen (z.B. predictive policing), ist eine Abwägung im Einzelfall erforderlich."
+      },
+      "19": {
+        "selection": "b",
+        "context": "",
+        "statement": "Die Datenschutzbeauftragten des Bundes und der Länder haben in den letzten Jahren große Schritte hin zur Einheitlichkeit beim Auslegen, Anwenden sowie Weiterentwickeln des Datenschutzes unternommen. Eine gemeinsame Datenschutzaufsicht für alle Länder und den Bund hätte daher nur geringe Auswirkungen, da in den Bundesländern trotzdem regionale Strukturen und Ressourcen vorgehalten werden müssten."
+      }
+    },
+    "linke": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die gesetzliche Verpflichtung besteht bereits seit dem 31.12.2022\n (OZG-Umsetzung). Wir fordern eine deutliche Beschleunigung und \nBereitstellung der dafür erforderlichen Sach- und Personalmittel. Allerdings darf dies nicht dazu führen, dass Bürger:innenrechte und Sicherheitsaspekte der IT-Infrastruktur dem untergeordnet werden."
+      },
+      "1": {
+        "selection": "a",
+        "context": "",
+        "statement": "Digitalisierung ist zwar eine Querschnittsaufgabe für den Staat, aber ein \nzentrales Planungs- und Steuerungsressort kann durchaus \nEffizienzsteigerungen ermöglichen. Rollenkonflikte, bspw. zwischen CDO und CIO können so vermieden werden. Es kommt jedoch auf die konkrete Ausgestaltung und den Kompetenzen des zu schaffenenden Ministeriums an."
+      },
+      "2": {
+        "selection": "c",
+        "context": "",
+        "statement": "Online-Wahlen stellen eine zu große Gefahr dar, im Vergleich zum potentiell möglichen Nutzen. Weil aktuell noch nicht einmal eine sichere BundID existiert, ist ein sicheres System, das über die Verteilung staatlicher Macht entscheidet, zum aktuellen Zeitpunkt nicht vorstellbar."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "Grundsätzlich befürworten wir einen freien Zugang zu Daten für die Öffentlichkeit. Datenschutz sollte dabei oberste Priorität haben. Öffentliche Daten dürfen nicht kommerzialisiert werden."
+      },
+      "4": {
+        "selection": "b",
+        "context": "",
+        "statement": "Digitale Medien durchziehen den Unterrichtsalltag von Schüler:innen, sind aber auch in Schulen in allen Bereichen präsent. Dem wollen wir gerecht werden, indem wir digitale (Medien-)Bildung in den Rahmenlehrplänen verankern und durch die entsprechende Aus- und Fortbildung von Lehrer:innen und Erzieher:innen dafür sorgen, dass kompetente Lehrkräfte zur Verfügung stehen."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir fordern, dass allen Schüler:innen alle notwendigen Lernmittel kostenfrei zur Verfügung gestellt werden. Dazu gehört auch die technische Ausstattung, die für den Unterricht erforderlich ist, sowie der Zugang zu schnellem Internet, aber z.B. ebenso die Klassenfahrt, Schulausflüge usw., die bei vielen Eltern finanzielle Schwierigkeiten verursachen, aber für den sozialen Zusammenhalt der Kinder ungemein wichtig ist. Jeder Lehrkraft muss ein professionell installiertes und gewartetes Endgerät zur Verfügung gestellt werden. An den Schulen müssen IT-Administrator:innen für die Gerätewartung zuständig sein, nicht die Lehrkräfte."
+      },
+      "6": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen mit einem Schulbudget den Schulen mehr Flexibilität ermöglichen, um selbstständig besondere Bedarfe abzudecken und auch kurzfristig auf Herausforderungen im Schulalltag reagieren zu können."
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": "Um die digitalen Kompetenzen der Lehrkräfte zu verbessern, müssen ihnen Weiterbildungen angeboten werden."
+      },
+      "8": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Für viele Menschen stellt unsere zunehmend digitalisierte Welt eine Herausforderung dar. Wir sprechen uns deshalb dafür aus, sie mit speziellen Programmen dabei zu unterstützen, die digitale Transformation zu bewältigen. Oberstes Prinzip bildet dabei für uns die Freiwilligkeit der Teilnahme an solchen Programmen. Es braucht mehr als nur das bloße Angebot, sondern auch eine mediale und sozialarbeiterische Begleitung."
+      },
+      "10": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die sächsische Wirtschaft ist noch zu sehr verlängerte Werkbank. Nur mit einer gezielten Förderung von Forschung und Entwicklung gerade in diesen Zukunftsbereichen können wir hier Veränderungen bewirken. Das wird auch positive Auswirkungen auf Arbeitsplätze haben: Arbeitsplätze in Forschungs- und Entwicklungsabteilungen sind meistens besser bezahlt und weniger von Verlagerung bedroht als Arbeitsplätze in der Fertigung."
+      },
+      "11": {
+        "selection": "a",
+        "context": "",
+        "statement": "Im Sinne der Transformation der sächsischen Wirtschaft und dem Aufbau ihrer Zukunftsfähigkeit ist es wichtig, das Potential, das an den sehr guten Universitäten und Hochschulen in Sachsen schlummert, zu aktivieren. Insofern setzen wir uns dafür ein, dass es auch bei Anwendungen von Künstlicher Intelligenz eine verstärkte Transferförderung gibt."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen, dass die sächsischen Vergaberegelungen an die Bedürfnisse der Mehrzahl der sächsischen Unternehmen angepasst werden; diese haben in den allermeisten Fällen weniger als 5 Mitarbeiter:innen. Gleichzeitig müssen soziale und ökologische Kriterien eine stärkere Rolle spielen, um gezielt solche Unternehmen zu fördern, die auch gesamtgesellschaftlich sinnvolle Arbeit machen."
+      },
+      "13": {
+        "selection": "a",
+        "context": "",
+        "statement": "Grundsätzlich soll Wirtschaftsförderung an Kriterien sozialer und ökologischer Nachhaltigkeit geknüpft werden, d.h. Tarifbindung, Minimierung der ökologischen Auswirkungen der Produkte und Produktionsprozesse. Die bestehende Start-Up-Förderung in Sachsen muss sinnvoll ergänzt werden durch eine Förderung, die Unternehmen auch in späteren Phasen unterstützt."
+      },
+      "14": {
+        "selection": "a",
+        "context": "",
+        "statement": "Der Beschäftigungsanstieg in Sachsen ist schon jetzt alleine durch Menschen nicht deutscher Herkunft zu verdanken. Ohne sie läuft nichts in der sächsischen Wirtschaft. Gezielte Anwerbung von Fachkräften hilft dabei, den Fachkräftemangel abzufedern. Gleichzeitig sollen alle Zugewanderten gleich behandelt werden: Fast-Track-Programme im Aufenthaltsrecht und bei Berufsanerkennungen sowie Welcome Center ausschließlich für zugewanderte Fachkräfte, von denen schon hier lebende Migrant:innen nicht profitieren können, lehnen wir ab."
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": "Für den spezialisierten Computer- und Internetkriminalitätsdienst (CuIKD) finden sich zu wenige Bewerberinnen und Bewerber. Der öffentliche Dienst kann oft nicht mit der Bezahlung von IT-Spezialisten in der Wirtschaft mithalten. Entscheidend ist es deswegen, die Attraktivität dieses Einsatzbereichs durch gute Arbeitsbedingungen zu verbessern. Zum anderen müssen vorhandene Potenziale besser ausgeschöpft werden, vor allem durch verstärkte Berücksichtigung von Frauen und von Bewerberinnen und Bewerbern aus dem EU-Ausland."
+      },
+      "17": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die ZMI übernimmt eine wichtige Rolle bei der Koordination von Ermittlungsmaßnahmen, die gerade im digitalen Bereich unter Zeitdruck vorgenommen werden müssen, um Beweismittel – häufig flüchtige „Datenspuren“ – zu sichern. Daher muss die ZMI angemessen ausgestattet sein und insgesamt bekannter werden, damit sie wirksam handeln kann."
+      },
+      "18": {
+        "selection": "c",
+        "context": "",
+        "statement": "Zentrales Maß für die Leistungsfähigkeit der Polizei ist ihre Befähigung, Straftaten zu verhindern und aufzuklären. Dabei kommt es in erster Linie auf klassische kriminalistische Expertise an. Diese kann durch IT-Anwendungen durchaus gestärkt werden. Für eine flächendeckende Regel-Nutzung von KI-Anwendungen bei der Polizei Sachsen fehlen im Moment aber die Voraussetzungen. Zum einen: eine klare Rechtsgrundlage, vor allem im Hinblick auf die erforderliche Datenverarbeitung. Zum anderen: die fundierte Evaluation über Risiken und Nutzen einer jeweiligen KI-Software. Eine dahingehende Prüfung befürworten wir – den Ergebnissen vorgreifen kann man aber nicht."
+      },
+      "19": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir wollen auch die Stärkung der Rechte der sächsischen Datenschutzbeauftragten."
+      }
+    },
+    "bsw": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir sind dafür, dass alle Behördengänge digital möglich sind. Es muss allerdings auch gesichert sein, dass alle Behördengänge auch von Mensch zu Mensch möglich sind. Insbesondere ältere Menschen sind auf die Interaktion mit realen Menschen angewiesen. Zudem müssen diese Behördengänge auch mehrsprachig, barrierearm, in Blindenschrift und leicht verständlich sein."
+      },
+      "1": {
+        "selection": "c",
+        "context": "",
+        "statement": "Das Thema sollte einem bestehenden Ministerium zugeordnet sein. Um die Bedeutung hervorzuheben, sind wir dafür einen zuständigen Staatssekretär mit dieser Aufgabe zu betrauen."
+      },
+      "2": {
+        "selection": "a",
+        "context": "",
+        "statement": "Was in anderen Staaten bereits möglich ist, sollte auch bei uns möglich sein. Dabei muss natürlich die Sicherheit der Abstimmung gewährleistet werden. Natürlich sind auch Wahlen wie bisher anfällig für Manipulation. Dennoch ist die Auswirkung eines Angriffs auf eine digitale Wahl ungleich größer. Dennoch: Wahlen und perspektivisch genauso Volksentscheide und Bürgerentscheide (auf kommunaler Ebene) müssen digital möglich sein. Wir erhoffen uns davon auch eine Steigerung der Wahlbeteiligung."
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir sind für eine transparente Verwaltung. Wir gehen davon aus, dass dies auch ein Schritt zur Zurückgewinnung von Vertrauen in Verwaltungsabläufe ist."
+      },
+      "4": {
+        "selection": "c",
+        "context": "",
+        "statement": "Wir wollen, dass Informatik ab der 6. Klasse gelehrt wird. Dabei soll es neben der Nutzung von digitalen Endgeräten auch um einen sicheren Umgang mit Social Media, Erkennen von Falschnachrichten etc gehen."
+      },
+      "5": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wir sind für den Einsatz von digitalen Endgeräten in Schulen, allerdings erst ab der 6. Klasse. Die Grundschule soll grundsätzlich frei von digitalen Endgeräten sein, da wir hier die analogen Fähigkeiten deutlich besser als bisher vermitteln wollen. Lesen, Schreiben, Rechnen lernen sind für uns nach wie vor Basiswissen, auf was wir auch in Zukunft nicht verzichten wollen."
+      },
+      "6": {
+        "selection": "b",
+        "context": "",
+        "statement": "Jede Oberschule und jedes Gymnasium, sowie Berufsschulen, Grundschulen nicht. Mit einem Sonderprogramm für alle Sekundarschulen wollen wir den Mangel an digitalen Endgeräten endlich angehen und Medienkompetenz stärken. Aber: Mit uns gibt es in den Grundschulen eine Rückbesinnung auf das Erlernen der Kernkompetenzen Lesen, Schreiben und Rechnen. Handys und Tablets, die den Wissenserwerb nachweislich erschweren, werden wir mindestens bis zum Ende der Grundschule aus den Klassenzimmern verbannen."
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": "Eine Weiterbildung von Lehrkräften im Hinblick auf digitale Kompetenzen, unterstützen wir."
+      },
+      "8": {
+        "selection": "a",
+        "context": "",
+        "statement": "Auch diese Forderung wird von uns unterstützt."
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": "Jede Maßnahme, die dazu beiträgt, ältere Menschen (insbesondere im ländlichen Raum) an Gesellschaft, Kultur, Demokratie, Bildung etc zu beteiligen, wird von uns ausdrücklich unterstützt."
+      },
+      "10": {
+        "selection": "b",
+        "context": "",
+        "statement": "Zu diesem Thema treffen wir keine allgemeingültige Aussage. Wir verschließen uns dem nicht, wollen aber eine konzeptionelle Prüfung."
+      },
+      "11": {
+        "selection": "b",
+        "context": "",
+        "statement": "Auch hier steht die Frage des konkreten Fördergegenstands."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": "Die Vergabe öffentlicher Aufträge sollte denjenigen Unternehmen erleichtert werden, die bestimmte Kriterien erfüllen. Diese Kriterien sollten sein: Regionalität, Soziale Verantwortung bspw. faire Entlohnung und ggfls. auch die Einhaltung ökologischer Standards. Deutschland – und damit auch Sachsen – ist momentan kein guter Standort für erfolgreiche Start-ups. Uns fehlt es jedoch nicht an kreativen und talentierten Gründern, sondern es besteht auch hier die Hürde der strangulierenden Bürokratie. Wir streben für Gründer zeitlich begrenzte Befreiungen von unnötigen Regulierungen an und unterstützen bei der Vernetzung mit potenziellen Kapitalgebern und Forschungseinrichtungen. Eine Anlaufstelle kann dabei helfen. Start-ups können einen relevanten Beitrag dazu leisten, den Status Sachsens als Standort für „verlängerte Werkbänke“ zu überwinden."
+      },
+      "13": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "b",
+        "context": "",
+        "statement": "Zuwanderung von Fachkräften kann bei echten Engpässen hilfreich sein. Voraussetzung dafür ist: Migration braucht gelingende Integration, um Akzeptanz in der Bevölkerung zu finden."
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": "Wird unterstützt."
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": "Grundsätzlich wollen wir die Internetkriminalität stärker eindämmen, als dies bisher der Fall ist."
+      },
+      "17": {
+        "selection": "a",
+        "context": "",
+        "statement": "Hate Speech ist ein großes Thema, auch aus unserer Sicht. Eine Meldestelle kann ein Instrument zur Bekämpfung sein. Wir sehen allerdings auch, dass auch im analogen Raum die Form der Auseinandersetzung immer rauer geworden ist. Wir empfinden es als sinnvoll schon in der Schule eine vernünftige Diskussionskultur zu erlernen, die in Zuhören, Argumentieren und Perspektivwechsel besteht. Zudem muss die Verbreitung von Hass gesellschaftlich geächtet werden, nur dadurch wird es einen signifikanten Rückgang geben."
+      },
+      "18": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wir sehen die Möglichkeiten, die die Nutzung von KI mit sich bringt. Dennoch bestehen auch hier Gefahren für individuelle Freiheiten der Bürgerinnen und Bürger. Wir wollen keinen Überwachungsstaat, der über jedes Instrument verfügen kann, welches sich anbietet. Ein Modellversuch „Polizei und KI“ kann sinnvoll sein, wenn dieser umfassend und wissenschaftlich ausgewertet wird, natürlich auch unter Beteiligung von Menschen, die sich mit Gefahren von KI für die Freiheit auseinandersetzen. Wir stehen für eine vernünftige Balance zwischen Sicherheit und Freiheit. Einen übergriffigen Staat lehnen wir ab, weshalb immer die Verhältnismäßigkeit der Mittel und die universelle Unschuldsvermutung gelten müssen. Jedermann soll sich in der Öffentlichkeit frei entfalten können, ohne Angst vor Beobachtung und Überwachung."
+      },
+      "19": {
+        "selection": "a",
+        "context": "",
+        "statement": "Ja, eine Vereinheitlichung des Datenschutz ist wichtig. Das Ziel von Datenschutz muss vor allem, der Schutz der Bürgerinnen und Bürger vor der Sammelwut von Tech-Konzernen und Unternehmen mit kommerziellen Absichten sein. Zudem besteht die Aufgabe auch im Schutz der bürgerlichen Freiheiten."
+      }
+    }
   }
 }

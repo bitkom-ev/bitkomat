@@ -3,10 +3,10 @@
     "cdu": {
       "name": "CDU",
       "name_x": "CDU Landesverband Sachsen",
-      "img": "<img src='img/cdu.png' alt='CDU Landesverband Sachsen' />"
+      "img": "<img src='img/cdu.jpg' alt='CDU Landesverband Sachsen' />"
     },
     "linke": {
-      "name": "die Linke",
+      "name": "Die Linke",
       "name_x": "Die Linke Sachsen",
       "img": "<img src='img/linke.png' alt='Die Linke Sachsen' />"
     },

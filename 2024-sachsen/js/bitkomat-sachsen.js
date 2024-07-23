@@ -52,6 +52,10 @@ var T = /*#__PURE__*/ (function () {
         this.pdf_print_keywords = "Bitkomat Sachsen, Wahlomat, Landtagswahl, Wahl, Partei, Parteiencheck, digitalpolitisch, Position, digitale Themen, digitales Thema, These, Thesen";
         this.text_no_statement = '<i>Die Partei hat ihrer Antwort auf dieses Thema keine Erläuterung hinzugefügt.</i>';
         this.error_loading_config_file = '<b>Fehler</b> Die Konfigurationsdatei <a href="config/data.json"><code>config/data.json</code></a> konnte nicht geladen werden. Existiert sie und enthält keine Syntaxfehler?';
+        this.show_statement = 'Erläuterung anzeigen';
+        this.no_statement = 'ohne Erläuterung';
+        this.your_choice = 'Ihre Wahl';
+
     }
 
     _createClass(T, [
@@ -237,39 +241,44 @@ function hideModal(id) {
     $(id).modal('hide');
 }
 
+
+/**
+ *
+ * @param status
+ * @param real
+ * @param currentThesis
+ */
 function recreatePagination(status, real, currentThesis) {
     let thesen = Object.keys(data.theses).length;
 
     if (status == 0) {
-        return $('#pagination').empty();
+        $('#pagination').empty();
+        return;
     } else {
         $('#pagination').empty();
 
-        for (var i = 0; i < thesen; i++) {
+        for (let i = 0; i < thesen; i++) {
             let current = "";
             let title = data.theses[i].s;
             let thema = data.theses[i].t;
             let currentGroup = '';
 
-            if (currentThesis >= 0 && currentThesis <= 3 && i >= 0 && i < 4) {
+            if (currentThesis >= 0 && currentThesis <= 3 && i >= 0 && i <= 3) {
                 currentGroup = 'focused';
-            }
-            if (currentThesis >= 4 && currentThesis <= 8 && i >= 4 && i < 9) {
+            } else if (currentThesis >= 4 && currentThesis <= 9 && i >= 4 && i <= 9) {
                 currentGroup = 'focused';
-            }
-            if (currentThesis >= 9 && currentThesis <= 13 && i >= 9 && i < 14) {
+            } else if (currentThesis >= 10 && currentThesis <= 15 && i >= 10 && i <= 15) {
                 currentGroup = 'focused';
-            }
-            if (currentThesis >= 14 && currentThesis <= (thesen - 1) && i >= 14 && i < thesen) {
+            } else if (currentThesis >= 16 && currentThesis <= 19 && i >= 16 && i <= 19) {
                 currentGroup = 'focused';
             }
 
-            if (i == 0 || i == 4 || i == 9 || i == 14) {
+            if (i === 0 || i === 4 || i === 10 || i === 16) {
                 var listid = i;
                 $('#pagination').append('<div class="pagination-group active ' + currentGroup + '" id="pagination-group-' + i + '">');
                 currentGroup = '';
-                $('#pagination-group-' + i).append('   <span>' + thema + '</span>');
-                $('#pagination-group-' + i).append('   <ul class="pagination " id="pagination-list-' + i + '">');
+                $('#pagination-group-' + i).append('<span>' + thema + '</span>');
+                $('#pagination-group-' + i).append('<ul class="pagination" id="pagination-list-' + i + '">');
             }
 
             $('#pagination-list-' + listid).append(
@@ -290,12 +299,12 @@ function recreatePagination(status, real, currentThesis) {
                 i +
                 ')">' +
                 (i + 1) +
-                "</button>" +
-                "</li>"
+                '</button>' +
+                '</li>'
             );
 
-            if (i == 0 || i == 4 || i == 9 || i == 14) {
-                $('#pagination-group-' + i).append('</ul>');
+            if (i === 0 || i === 4 || i === 10 || i === 16) {
+                $('#pagination-group-' + listid).append('</ul>');
                 $('#pagination').append('</div>');
             }
         }
@@ -600,7 +609,7 @@ function updateResultDetailPlaceholders(type = 'weight') {
         }
         let mychoice = '';
         if (type === 'result') {
-            mychoice = '<span class=\"mychoice\">Ihre Wahl</span>';
+            mychoice = '<span class=\"mychoice\">' + t.your_choice + '</span>';
         }
         $('#placeholder-your-choice-' + i).replaceWith(getSelectionMarker(mychoice, answers[i]), type);
     }
@@ -732,28 +741,23 @@ function initResultDetails(type = 'weight') {
     }
     $('#' + type + '-detail').empty();
 
-    for (var thesis_id in data.theses) {
-        var thesisNumber = parseInt(thesis_id) + 1;
-        let thesisGroupNumber = thesisNumber;
-        if (thesisGroupNumber > 16) {
-            thesisGroupNumber = 16;
-        }
+    Object.keys(data.theses).forEach((thesis_id) => {
+        const thesisNumber = parseInt(thesis_id) + 1;
+        let thesisGroupNumber = thesisNumber > 19 ? 19 : thesisNumber;
 
-        let thesisGroup = data.theses[thesis_id].t;
+        const thesisGroup = data.theses[thesis_id].t;
         let group = "";
-        let i = thesis_id;
+        const i = thesis_id;
 
-        if (i == 0 || i == 4 || i == 9 || i == 14) {
-            group = `<div class="card-group-name">
-            ${thesisGroup}
-            </div>`;
+        if (i == 0 || i == 4 || i == 10 || i == 16) {
+            group = `<div class="card-group-name">${thesisGroup}</div>`;
         }
 
-        let myAnswer = answers[thesis_id];
+        const myAnswer = answers[thesis_id];
         let gewichtung = "";
         let gewichten = "Thema doppelt gewichten?";
 
-        if (myAnswer === 'e' || myAnswer === 'f' || myAnswer === 'g' || myAnswer === 'h') {
+        if (['e', 'f', 'g', 'h'].includes(myAnswer)) {
             gewichtung = "double";
             gewichten = "Doppelt gewichtet";
         }
@@ -763,55 +767,72 @@ function initResultDetails(type = 'weight') {
             weight = ` tip" data-toggle="tooltip" data-text="${gewichten}" onclick="doDouble(${thesis_id})"`;
         }
 
-        var text = `<div class="border-bottom card ${type}-detail-card-${thesis_id} text-left">
-${group}
-        
-        <div class="card-header ${type}-detail-header position-relative">`;
+        let text = `
+            <div class="border-bottom card ${type}-detail-card-${thesis_id} text-left">
+                ${group}
+                <div class="card-header ${type}-detail-header position-relative">
+        `;
 
         if (type === 'weight') {
-            text += `<span class="text-center answer-${myAnswer} ${gewichtung} ${weight} title=""><i class="fa fa-check-double"></i></span>`;
-            text += getSelectionMarker('', myAnswer, 'me');
+            text += `
+                <span class="text-center answer-${myAnswer} ${gewichtung}${weight}">
+                    <i class="fa fa-check-double"></i>
+                </span>
+                ${getSelectionMarker('', myAnswer, 'me')}
+            `;
         }
-        text += `   
-            <span class="text-center answer-${myAnswer} ${gewichtung}${weight} title="${gewichten}"><i class="fa fa-check-double"></i></span>
-            <span class="text-center thesis-number thesis-number-${thesisNumber}">${thesisNumber}</span>
-            <span class="card-text tip" data-text="Erläuterung anzeigen." >${data.theses[thesis_id].s}</span>
-`;
 
         text += `
-            <span class="float-right closed"><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
-            <span class="float-right opened"><i class="fa fal fa-times" aria-hidden="true"></i></span>
+            <span class="text-center answer-${myAnswer} ${gewichtung}${weight}" title="${gewichten}">
+                <i class="fa fa-check-double"></i>
+            </span>
+            <span class="text-center thesis-number thesis-number-${thesisNumber}">${thesisNumber}</span>
+            <span class="card-text tip" data-text="${t.show_statement}">
+                ${data.theses[thesis_id].s}
+            </span>
+            <span class="float-right closed">
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+            <span class="float-right opened">
+                <i class="fa fal fa-times" aria-hidden="true"></i>
+            </span>
         </div>
-
-    <div class="${type}-details text-left">
-        <div class="card-body">
-            <p class="card-text ">${data.theses[thesis_id].l}</p>
-        </div>
-        <ul class="list-group list-group-flush">`;
+        <div class="${type}-details text-left">
+            <div class="card-body">
+                <p class="card-text">${data.theses[thesis_id].l}</p>
+            </div>
+            <ul class="list-group list-group-flush">
+        `;
 
         if (type === 'result') {
             text += `
-        <li class="border-bottom list-group-item">
-            <span class="badge badge-secondary" id="placeholder-your-choice-${thesis_id}">
-            ${getSelectionMarker('<span class=\"mychoice\">Ihre Wahl</span>', answers[i], type)}
-             <span class="list-item-two">&nbsp;</span>
-        </li>`;
+                <li class="border-bottom list-group-item">
+                    <span class="badge badge-secondary" id="placeholder-your-choice-${thesis_id}">
+                        ${getSelectionMarker('<span class="mychoice">' + t.your_choice + '</span>', answers[i], type)}
+                        <span class="list-item-two">&nbsp;</span>
+                    </span>
+                </li>
+            `;
 
-            for (var list_id in data.lists) {
+            Object.keys(data.lists).forEach((list_id) => {
                 text += `
-            <li class="border-bottom list-group-item">
-               ${getSelectionMarker(data.lists[list_id].img, data.answers[list_id][thesis_id].selection, 'party')} 
-               <span class="list-item-two">${statementOrDefault(data.answers[list_id][thesis_id].statement)}</span>
-        </li>`;
-            }
+                    <li class="border-bottom list-group-item">
+                        ${getSelectionMarker(data.lists[list_id].img, data.answers[list_id][thesis_id].selection, 'party')}
+                        <span class="list-item-two">
+                            ${statementOrDefault(data.answers[list_id][thesis_id].statement) || t.no_statement}
+                        </span>
+                    </li>
+                `;
+            });
         }
+
         text += `
-        </ul>
-    </div>
-</div>`;
+            </ul>
+        </div>
+    </div>`;
 
         $('#' + type + '-detail').append(text);
-    }
+    });
 
     setResultDetailCallbacks(type);
     $('.' + type + '-details').toggle();
@@ -821,8 +842,7 @@ ${group}
         $("#text-result-edit").show(200).css("display", "inline-block");
         $("#btn-bitkomat-sachsen-show-weight").show(200).css("display", "inline-block");
         $("#btn-bitkomat-sachsen-show-results").hide();
-    }
-    if (type === 'weight') {
+    } else if (type === 'weight') {
         $("#text-result-edit").show(200).css("display", "inline-block");
         $("#btn-bitkomat-sachsen-show-results").show(200).css("display", "inline-block");
         $("#btn-bitkomat-sachsen-show-weight").hide();
@@ -832,7 +852,7 @@ ${group}
 
 function statementOrDefault(statement) {
     if (statement === "") {
-        return t.default_text_no_statement;
+        return t.no_statement;
     } else {
         return statement;
     }
