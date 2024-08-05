@@ -15,6 +15,6 @@ _paq.push(['enableLinkTracking']);
     g.async = true;
     g.src = u + 'matomo.js';
     s.parentNode.insertBefore(g, s);
-    console.log('matomo active.')
+//   console.log('matomo active.')
 })();
 // mtm_consent_removed value:
