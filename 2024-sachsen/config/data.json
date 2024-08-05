@@ -125,7 +125,12 @@
     "cdu": {
       "name": "CDU",
       "name_x": "CDU Landesverband Sachsen",
-      "img": "<img src='img/cdu.jpg' alt='CDU Landesverband Sachsen' />"
+      "img": "<img src='img/cdu.png' alt='CDU Landesverband Sachsen' />"
+    },
+    "afd": {
+      "name": "AfD",
+      "name_x": "Alternative für Deutschland",
+      "img": "<img src='img/afd.png' alt='Alternative für Deutschland' />"
     },
     "linke": {
       "name": "Die Linke",
@@ -148,6 +153,8 @@
       "img": "<img src='img/bsw.png' alt='Bündnis Sahra Wagenknecht' />"
     }
   },
+
+
   "answers": {
     "cdu": {
       "0": {
@@ -249,6 +256,108 @@
         "selection": "a",
         "context": "",
         "statement": "Aufgrund des Föderalismus in der Bundesrepublik Deutschland erscheint eine Vereinheitlichung des Datenschutzes eine inhaltlich große Herausforderung. Die Interessen gehen anlässlich der unterschiedlich geführten Landesregierungen diametral auseinander, sodass eine Vereinheitlichung wünschenswert, aber gesetzlich nicht durchsetzbar ist, obwohl dies als Facette zum Bürokratieabbau einen wichtigen Beitrag leisten würde.\n"
+      }
+    },
+    "afd": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "1": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "2": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "5": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "6": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wir setzen uns für eine unabhängige und technologieoffene Forschung ein. Forschungs- und Entwicklungskapazitäten hinsichtlich spezieller Produkte obliegen in erster Linie dem freien Wettbewerb."
+      },
+      "11": {
+        "selection": "b",
+        "context": "",
+        "statement": "Dazu müssen aber auch entsprechende rechtliche Rahmenbedingungen zum Umgang, Einsatz und Datenschutz geschaffen werden."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "b",
+        "context": "",
+        "statement": "Personalgewinnung ist vornehmlich eine unternehmerische Aufgabe."
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "17": {
+        "selection": "b",
+        "context": "",
+        "statement": "Es gibt viele andere Bereiche, die personell eher gestärkt werden müssen, z. B. zum Schutz des Kindeswohls."
+      },
+      "18": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "19": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
       }
     },
     "linke": {

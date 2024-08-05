@@ -5,6 +5,11 @@
       "name_x": "CDU Landesverband Sachsen",
       "img": "<img src='img/cdu.jpg' alt='CDU Landesverband Sachsen' />"
     },
+  "afd": {
+    "name": "AfD",
+    "name_x": "Alternative für Deutschland",
+    "img": "<img src='img/afd.png' alt='Alternative für Deutschland' />"
+  },
     "linke": {
       "name": "Die Linke",
       "name_x": "Die Linke Sachsen",

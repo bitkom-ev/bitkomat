@@ -102,6 +102,108 @@
         "statement": "Aufgrund des Föderalismus in der Bundesrepublik Deutschland erscheint eine Vereinheitlichung des Datenschutzes eine inhaltlich große Herausforderung. Die Interessen gehen anlässlich der unterschiedlich geführten Landesregierungen diametral auseinander, sodass eine Vereinheitlichung wünschenswert, aber gesetzlich nicht durchsetzbar ist, obwohl dies als Facette zum Bürokratieabbau einen wichtigen Beitrag leisten würde.\n"
       }
     },
+    "afd": {
+      "0": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "1": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "2": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "3": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "4": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "5": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "6": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "7": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "8": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "9": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "10": {
+        "selection": "b",
+        "context": "",
+        "statement": "Wir setzen uns für eine unabhängige und technologieoffene Forschung ein. Forschungs- und Entwicklungskapazitäten hinsichtlich spezieller Produkte obliegen in erster Linie dem freien Wettbewerb."
+      },
+      "11": {
+        "selection": "",
+        "context": "",
+        "statement": "Dazu müssen aber auch entsprechende rechtliche Rahmenbedingungen zum Umgang, Einsatz und Datenschutz geschaffen werden."
+      },
+      "12": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "13": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "14": {
+        "selection": "b",
+        "context": "",
+        "statement": "Personalgewinnung ist vornehmlich eine unternehmerische Aufgabe."
+      },
+      "15": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "16": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      },
+      "17": {
+        "selection": "b",
+        "context": "",
+        "statement": "Es gibt viele andere Bereiche, die personell eher gestärkt werden müssen, z. B. zum Schutz des Kindeswohls."
+      },
+      "18": {
+        "selection": "b",
+        "context": "",
+        "statement": ""
+      },
+      "19": {
+        "selection": "a",
+        "context": "",
+        "statement": ""
+      }
+    },
     "linke": {
       "0": {
         "selection": "a",
@@ -577,7 +679,7 @@
         "statement": "Die Vergabe öffentlicher Aufträge sollte denjenigen Unternehmen erleichtert werden, die bestimmte Kriterien erfüllen. Diese Kriterien sollten sein: Regionalität, Soziale Verantwortung bspw. faire Entlohnung und ggfls. auch die Einhaltung ökologischer Standards. Deutschland – und damit auch Sachsen – ist momentan kein guter Standort für erfolgreiche Start-ups. Uns fehlt es jedoch nicht an kreativen und talentierten Gründern, sondern es besteht auch hier die Hürde der strangulierenden Bürokratie. Wir streben für Gründer zeitlich begrenzte Befreiungen von unnötigen Regulierungen an und unterstützen bei der Vernetzung mit potenziellen Kapitalgebern und Forschungseinrichtungen. Eine Anlaufstelle kann dabei helfen. Start-ups können einen relevanten Beitrag dazu leisten, den Status Sachsens als Standort für „verlängerte Werkbänke“ zu überwinden."
       },
       "13": {
-        "selection": "",
+        "selection": "b",
         "context": "",
         "statement": ""
       },
@@ -613,4 +715,3 @@
       }
     }
   }
-}
