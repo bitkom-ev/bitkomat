@@ -891,13 +891,14 @@ function showBitkomatFirstThesis() {
     currentThesis = 0;
     showBitkomat('edit');
     recreatePagination(1, 1, currentThesis);
-    if (_paq) {
+    if (typeof _paq !== 'undefined' && _paq) {
         _paq.push(['trackEvent', 'result', 'edit']);
     }
     $("#text-result-edit").hide();
     $("#btn-bitkomat-sachsen-show-weight").show(200).css("display", "inline-block");
     $("#btn-bitkomat-sachsen-show-results").show(200).css("display", "inline-block");
 }
+
 
 function showBitkomat(status) {
     $("#start, #intro, #weight, #result, #header-body").hide();

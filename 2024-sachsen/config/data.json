@@ -315,7 +315,7 @@
         "statement": "Wir setzen uns für eine unabhängige und technologieoffene Forschung ein. Forschungs- und Entwicklungskapazitäten hinsichtlich spezieller Produkte obliegen in erster Linie dem freien Wettbewerb."
       },
       "11": {
-        "selection": "b",
+        "selection": "a",
         "context": "",
         "statement": "Dazu müssen aber auch entsprechende rechtliche Rahmenbedingungen zum Umgang, Einsatz und Datenschutz geschaffen werden."
       },
@@ -358,108 +358,6 @@
         "selection": "a",
         "context": "",
         "statement": ""
-      }
-    },
-    "linke": {
-      "0": {
-        "selection": "a",
-        "context": "",
-        "statement": "Die gesetzliche Verpflichtung besteht bereits seit dem 31.12.2022\n (OZG-Umsetzung). Wir fordern eine deutliche Beschleunigung und \nBereitstellung der dafür erforderlichen Sach- und Personalmittel. Allerdings darf dies nicht dazu führen, dass Bürger:innenrechte und Sicherheitsaspekte der IT-Infrastruktur dem untergeordnet werden."
-      },
-      "1": {
-        "selection": "a",
-        "context": "",
-        "statement": "Digitalisierung ist zwar eine Querschnittsaufgabe für den Staat, aber ein \nzentrales Planungs- und Steuerungsressort kann durchaus \nEffizienzsteigerungen ermöglichen. Rollenkonflikte, bspw. zwischen CDO und CIO können so vermieden werden. Es kommt jedoch auf die konkrete Ausgestaltung und den Kompetenzen des zu schaffenenden Ministeriums an."
-      },
-      "2": {
-        "selection": "c",
-        "context": "",
-        "statement": "Online-Wahlen stellen eine zu große Gefahr dar, im Vergleich zum potentiell möglichen Nutzen. Weil aktuell noch nicht einmal eine sichere BundID existiert, ist ein sicheres System, das über die Verteilung staatlicher Macht entscheidet, zum aktuellen Zeitpunkt nicht vorstellbar."
-      },
-      "3": {
-        "selection": "a",
-        "context": "",
-        "statement": "Grundsätzlich befürworten wir einen freien Zugang zu Daten für die Öffentlichkeit. Datenschutz sollte dabei oberste Priorität haben. Öffentliche Daten dürfen nicht kommerzialisiert werden."
-      },
-      "4": {
-        "selection": "b",
-        "context": "",
-        "statement": "Digitale Medien durchziehen den Unterrichtsalltag von Schüler:innen, sind aber auch in Schulen in allen Bereichen präsent. Dem wollen wir gerecht werden, indem wir digitale (Medien-)Bildung in den Rahmenlehrplänen verankern und durch die entsprechende Aus- und Fortbildung von Lehrer:innen und Erzieher:innen dafür sorgen, dass kompetente Lehrkräfte zur Verfügung stehen."
-      },
-      "5": {
-        "selection": "a",
-        "context": "",
-        "statement": "Wir fordern, dass allen Schüler:innen alle notwendigen Lernmittel kostenfrei zur Verfügung gestellt werden. Dazu gehört auch die technische Ausstattung, die für den Unterricht erforderlich ist, sowie der Zugang zu schnellem Internet, aber z.B. ebenso die Klassenfahrt, Schulausflüge usw., die bei vielen Eltern finanzielle Schwierigkeiten verursachen, aber für den sozialen Zusammenhalt der Kinder ungemein wichtig ist. Jeder Lehrkraft muss ein professionell installiertes und gewartetes Endgerät zur Verfügung gestellt werden. An den Schulen müssen IT-Administrator:innen für die Gerätewartung zuständig sein, nicht die Lehrkräfte."
-      },
-      "6": {
-        "selection": "a",
-        "context": "",
-        "statement": "Wir wollen mit einem Schulbudget den Schulen mehr Flexibilität ermöglichen, um selbstständig besondere Bedarfe abzudecken und auch kurzfristig auf Herausforderungen im Schulalltag reagieren zu können."
-      },
-      "7": {
-        "selection": "a",
-        "context": "",
-        "statement": "Um die digitalen Kompetenzen der Lehrkräfte zu verbessern, müssen ihnen Weiterbildungen angeboten werden."
-      },
-      "8": {
-        "selection": "b",
-        "context": "",
-        "statement": ""
-      },
-      "9": {
-        "selection": "a",
-        "context": "",
-        "statement": "Für viele Menschen stellt unsere zunehmend digitalisierte Welt eine Herausforderung dar. Wir sprechen uns deshalb dafür aus, sie mit speziellen Programmen dabei zu unterstützen, die digitale Transformation zu bewältigen. Oberstes Prinzip bildet dabei für uns die Freiwilligkeit der Teilnahme an solchen Programmen. Es braucht mehr als nur das bloße Angebot, sondern auch eine mediale und sozialarbeiterische Begleitung."
-      },
-      "10": {
-        "selection": "a",
-        "context": "",
-        "statement": "Die sächsische Wirtschaft ist noch zu sehr verlängerte Werkbank. Nur mit einer gezielten Förderung von Forschung und Entwicklung gerade in diesen Zukunftsbereichen können wir hier Veränderungen bewirken. Das wird auch positive Auswirkungen auf Arbeitsplätze haben: Arbeitsplätze in Forschungs- und Entwicklungsabteilungen sind meistens besser bezahlt und weniger von Verlagerung bedroht als Arbeitsplätze in der Fertigung."
-      },
-      "11": {
-        "selection": "a",
-        "context": "",
-        "statement": "Im Sinne der Transformation der sächsischen Wirtschaft und dem Aufbau ihrer Zukunftsfähigkeit ist es wichtig, das Potential, das an den sehr guten Universitäten und Hochschulen in Sachsen schlummert, zu aktivieren. Insofern setzen wir uns dafür ein, dass es auch bei Anwendungen von Künstlicher Intelligenz eine verstärkte Transferförderung gibt."
-      },
-      "12": {
-        "selection": "a",
-        "context": "",
-        "statement": "Wir wollen, dass die sächsischen Vergaberegelungen an die Bedürfnisse der Mehrzahl der sächsischen Unternehmen angepasst werden; diese haben in den allermeisten Fällen weniger als 5 Mitarbeiter:innen. Gleichzeitig müssen soziale und ökologische Kriterien eine stärkere Rolle spielen, um gezielt solche Unternehmen zu fördern, die auch gesamtgesellschaftlich sinnvolle Arbeit machen."
-      },
-      "13": {
-        "selection": "a",
-        "context": "",
-        "statement": "Grundsätzlich soll Wirtschaftsförderung an Kriterien sozialer und ökologischer Nachhaltigkeit geknüpft werden, d.h. Tarifbindung, Minimierung der ökologischen Auswirkungen der Produkte und Produktionsprozesse. Die bestehende Start-Up-Förderung in Sachsen muss sinnvoll ergänzt werden durch eine Förderung, die Unternehmen auch in späteren Phasen unterstützt."
-      },
-      "14": {
-        "selection": "a",
-        "context": "",
-        "statement": "Der Beschäftigungsanstieg in Sachsen ist schon jetzt alleine durch Menschen nicht deutscher Herkunft zu verdanken. Ohne sie läuft nichts in der sächsischen Wirtschaft. Gezielte Anwerbung von Fachkräften hilft dabei, den Fachkräftemangel abzufedern. Gleichzeitig sollen alle Zugewanderten gleich behandelt werden: Fast-Track-Programme im Aufenthaltsrecht und bei Berufsanerkennungen sowie Welcome Center ausschließlich für zugewanderte Fachkräfte, von denen schon hier lebende Migrant:innen nicht profitieren können, lehnen wir ab."
-      },
-      "15": {
-        "selection": "a",
-        "context": "",
-        "statement": ""
-      },
-      "16": {
-        "selection": "a",
-        "context": "",
-        "statement": "Für den spezialisierten Computer- und Internetkriminalitätsdienst (CuIKD) finden sich zu wenige Bewerberinnen und Bewerber. Der öffentliche Dienst kann oft nicht mit der Bezahlung von IT-Spezialisten in der Wirtschaft mithalten. Entscheidend ist es deswegen, die Attraktivität dieses Einsatzbereichs durch gute Arbeitsbedingungen zu verbessern. Zum anderen müssen vorhandene Potenziale besser ausgeschöpft werden, vor allem durch verstärkte Berücksichtigung von Frauen und von Bewerberinnen und Bewerbern aus dem EU-Ausland."
-      },
-      "17": {
-        "selection": "a",
-        "context": "",
-        "statement": "Die ZMI übernimmt eine wichtige Rolle bei der Koordination von Ermittlungsmaßnahmen, die gerade im digitalen Bereich unter Zeitdruck vorgenommen werden müssen, um Beweismittel – häufig flüchtige „Datenspuren“ – zu sichern. Daher muss die ZMI angemessen ausgestattet sein und insgesamt bekannter werden, damit sie wirksam handeln kann."
-      },
-      "18": {
-        "selection": "c",
-        "context": "",
-        "statement": "Zentrales Maß für die Leistungsfähigkeit der Polizei ist ihre Befähigung, Straftaten zu verhindern und aufzuklären. Dabei kommt es in erster Linie auf klassische kriminalistische Expertise an. Diese kann durch IT-Anwendungen durchaus gestärkt werden. Für eine flächendeckende Regel-Nutzung von KI-Anwendungen bei der Polizei Sachsen fehlen im Moment aber die Voraussetzungen. Zum einen: eine klare Rechtsgrundlage, vor allem im Hinblick auf die erforderliche Datenverarbeitung. Zum anderen: die fundierte Evaluation über Risiken und Nutzen einer jeweiligen KI-Software. Eine dahingehende Prüfung befürworten wir – den Ergebnissen vorgreifen kann man aber nicht."
-      },
-      "19": {
-        "selection": "a",
-        "context": "",
-        "statement": "Wir wollen auch die Stärkung der Rechte der sächsischen Datenschutzbeauftragten."
       }
     },
     "b90": {

@@ -1,9 +1,9 @@
 # Authentication
 # removed 20.07.2021:
-AuthType Basic
-AuthName "Password required"
-AuthUserFile "/var/www/digitalnavi/.htpasswd"
-Require valid-user
+# AuthType Basic
+# AuthName "Password required"
+# AuthUserFile "/var/www/digitalnavi/.htpasswd"
+# Require valid-user
 
 # redirct all 404 not found to home index
 DirectoryIndex index.html
